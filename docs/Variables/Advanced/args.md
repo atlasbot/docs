@@ -3,6 +3,7 @@
 Gets the arguments provided when executing the command.
 
 ## Example
+
 !!! note
     For this example, let's assume the command name was `command` and it was run like this
     ```
