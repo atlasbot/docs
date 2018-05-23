@@ -1,0 +1,5 @@
+site_name: Atlas Docs
+theme:
+  name: 'material'
+markdown_extensions:
+  - admonition
