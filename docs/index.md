@@ -19,6 +19,8 @@ If you're new to using Atlas, you will probably want to check out the [quick sta
 
 ## Support Server
 
-If you need more help, please join our support server below.
+If you're still puzzled and want help, please join our support server below.
+
+Keep in mind that unfortunately, we're still humans and won't be able to get to you instantly - that said, we'll try our best.
 
 [<img src="https://discordapp.com/api/guilds/345177567541723137/embed.png?style=banner3">](https://get-atlas.xyz/support)
