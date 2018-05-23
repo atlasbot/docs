@@ -21,48 +21,8 @@
             "title": "Support Server"
         },
         {
-            "location": "/custom_commands/",
-            "text": "Custom Commands\n\n\nCustom commands are a powerful feature that Atlas has allowing you to create your own commands. You can create custom commands to explain things to users without having to type multiple paragraphs every time someone asks or copy/paste the response. You could also use them in many other creative ways, like force users to agree to a TOS by using the {addrole} variable which gives them a role with more permissions, then restrict access to only the agree channel when they join.\n\n\nCreating Commands\n\n\nBefore creating your own commands, you'll have to go to your servers dashboard. Go \nhere\n and sign in, then select your server from the dropdown at the top right. Go to the Custom Commands module on your right. This is where you can control commands by creating, modifying, deleting or disabling them.\n\n\nAfter that, you can click the \nNew Command\n button which will bring up a modal showing you options for your new command. Commands must have a name and response, everything else is optional. Command names cannot have spaces, so keep that in mind.\n\n\nVariables\n\n\nYou can create dynamic custom commands using variables. Variables are like placeholders for data that Atlas will fill in, though that isn't all they can do.\n\n\nYou can see most variables on your left under \"Variables\".",
-            "title": "Custom Commands"
-        },
-        {
-            "location": "/custom_commands/#custom-commands",
-            "text": "Custom commands are a powerful feature that Atlas has allowing you to create your own commands. You can create custom commands to explain things to users without having to type multiple paragraphs every time someone asks or copy/paste the response. You could also use them in many other creative ways, like force users to agree to a TOS by using the {addrole} variable which gives them a role with more permissions, then restrict access to only the agree channel when they join.",
-            "title": "Custom Commands"
-        },
-        {
-            "location": "/custom_commands/#creating-commands",
-            "text": "Before creating your own commands, you'll have to go to your servers dashboard. Go  here  and sign in, then select your server from the dropdown at the top right. Go to the Custom Commands module on your right. This is where you can control commands by creating, modifying, deleting or disabling them.  After that, you can click the  New Command  button which will bring up a modal showing you options for your new command. Commands must have a name and response, everything else is optional. Command names cannot have spaces, so keep that in mind.",
-            "title": "Creating Commands"
-        },
-        {
-            "location": "/custom_commands/#variables",
-            "text": "You can create dynamic custom commands using variables. Variables are like placeholders for data that Atlas will fill in, though that isn't all they can do.  You can see most variables on your left under \"Variables\".",
-            "title": "Variables"
-        },
-        {
-            "location": "/join_leave_messages/",
-            "text": "Join and Leave Messages\n\n\nThese are messages that are sent when a user joins or leaves the server. You can customise them to your liking via the \ndashboard\n.",
-            "title": "Join and Leave Messages"
-        },
-        {
-            "location": "/join_leave_messages/#join-and-leave-messages",
-            "text": "These are messages that are sent when a user joins or leaves the server. You can customise them to your liking via the  dashboard .",
-            "title": "Join and Leave Messages"
-        },
-        {
-            "location": "/levels/",
-            "text": "Levels\n\n\nWith this module, server members are able to gain levels and rewards by interacting with the server. When a user levels up, they'll get a small customisable announcement that supports variables.",
-            "title": "Levels"
-        },
-        {
-            "location": "/levels/#levels",
-            "text": "With this module, server members are able to gain levels and rewards by interacting with the server. When a user levels up, they'll get a small customisable announcement that supports variables.",
-            "title": "Levels"
-        },
-        {
             "location": "/quick_start/",
-            "text": "Quick Start\n\n\nGet Atlas up and running in a few super simple steps.\n\n\nInviting Atlas\n\n\nBefore you can use Atlas, it must be invited to your server. Click \nhere\n to go to Discord's authentication page. Select your server from the dropdown, then click Authorize. Atlas should show up as a member in your server, meaning you've successfully invited Atlas.\n\n\n\n\nNote\n\n\nIf your server doesn't show up in the dropdown, ensure you have administrator permissions in the server you want Atlas in.\n\n\n\n\nRunning Commands\n\n\nAtlas is controlled primarily by commands. To run a command, do \na!<command name>\n. For example, to list all commands, type a message that says \na!help\n and Atlas will direct-message you a list of commands.",
+            "text": "Quick Start\n\n\nGet Atlas up and running in a few super simple steps.\n\n\nInviting Atlas\n\n\nBefore you can use Atlas, it must be invited to your server. Click \nhere\n to go to Discord's authentication page. Select your server from the dropdown, then click Authorize. Atlas should show up as a member in your server, meaning you've successfully invited Atlas.\n\n\n\n\nNote\n\n\nIf your server doesn't show up in the dropdown, ensure you have administrator permissions in the server you want Atlas in.\n\n\n\n\nRunning Commands\n\n\nAtlas is controlled primarily by commands. To run a command, do \na!<command name>\n. For example, to list all commands, type a message that says \na!help\n and Atlas will direct-message you a list of commands.\n\n\nConfiguring Atlas\n\n\nTo configure Atlas, you'll probably want to use the dashboard. It's super simple and easy to use, and far better than commands.\n\n\n\n\nGo \nhere\n\n\nLogin to your Discord account if needed and click \nAuthorize\n\n\nDon't worry, Atlas won't be able to modify your account or use it in any way, this just allows us to verify who you are and see what guilds you share with Atlas.\n\n\n\n\n\n\nOnce logged in, go to the top right and click \"Servers\", select your server from the list.\n\n\n\n\nThat's it! Once you're there, you can go into various modules and modify them however you'd like.",
             "title": "Quick Start"
         },
         {
@@ -79,6 +39,71 @@
             "location": "/quick_start/#running-commands",
             "text": "Atlas is controlled primarily by commands. To run a command, do  a!<command name> . For example, to list all commands, type a message that says  a!help  and Atlas will direct-message you a list of commands.",
             "title": "Running Commands"
+        },
+        {
+            "location": "/quick_start/#configuring-atlas",
+            "text": "To configure Atlas, you'll probably want to use the dashboard. It's super simple and easy to use, and far better than commands.   Go  here  Login to your Discord account if needed and click  Authorize  Don't worry, Atlas won't be able to modify your account or use it in any way, this just allows us to verify who you are and see what guilds you share with Atlas.    Once logged in, go to the top right and click \"Servers\", select your server from the list.   That's it! Once you're there, you can go into various modules and modify them however you'd like.",
+            "title": "Configuring Atlas"
+        },
+        {
+            "location": "/Modules/custom_commands/",
+            "text": "Custom Commands\n\n\nCustom commands are a powerful feature that Atlas has allowing you to create your own commands. You can create custom commands to explain things to users without having to type multiple paragraphs every time someone asks or copy/paste the response. You could also use them in many other creative ways, like force users to agree to a TOS by using the {addrole} variable which gives them a role with more permissions, then restrict access to only the agree channel when they join.\n\n\nCreating Commands\n\n\nBefore creating your own commands, you'll have to go to your servers dashboard. Go \nhere\n and sign in, then select your server from the dropdown at the top right. Go to the Custom Commands module on your right. This is where you can control commands by creating, modifying, deleting or disabling them.\n\n\nAfter that, you can click the \nNew Command\n button which will bring up a modal showing you options for your new command. Commands must have a name and response, everything else is optional. Command names cannot have spaces, so keep that in mind.\n\n\nVariables\n\n\nYou can create dynamic custom commands using variables. Variables are like placeholders for data that Atlas will fill in, though that isn't all they can do.\n\n\nYou can see most variables on your left under \"Variables\".",
+            "title": "Custom Commands"
+        },
+        {
+            "location": "/Modules/custom_commands/#custom-commands",
+            "text": "Custom commands are a powerful feature that Atlas has allowing you to create your own commands. You can create custom commands to explain things to users without having to type multiple paragraphs every time someone asks or copy/paste the response. You could also use them in many other creative ways, like force users to agree to a TOS by using the {addrole} variable which gives them a role with more permissions, then restrict access to only the agree channel when they join.",
+            "title": "Custom Commands"
+        },
+        {
+            "location": "/Modules/custom_commands/#creating-commands",
+            "text": "Before creating your own commands, you'll have to go to your servers dashboard. Go  here  and sign in, then select your server from the dropdown at the top right. Go to the Custom Commands module on your right. This is where you can control commands by creating, modifying, deleting or disabling them.  After that, you can click the  New Command  button which will bring up a modal showing you options for your new command. Commands must have a name and response, everything else is optional. Command names cannot have spaces, so keep that in mind.",
+            "title": "Creating Commands"
+        },
+        {
+            "location": "/Modules/custom_commands/#variables",
+            "text": "You can create dynamic custom commands using variables. Variables are like placeholders for data that Atlas will fill in, though that isn't all they can do.  You can see most variables on your left under \"Variables\".",
+            "title": "Variables"
+        },
+        {
+            "location": "/Modules/join_leave_messages/",
+            "text": "Join and Leave Messages\n\n\nThese are messages that are sent when a user joins or leaves the server. You can customise them to your liking via the \ndashboard\n.",
+            "title": "Join and Leave Messages"
+        },
+        {
+            "location": "/Modules/join_leave_messages/#join-and-leave-messages",
+            "text": "These are messages that are sent when a user joins or leaves the server. You can customise them to your liking via the  dashboard .",
+            "title": "Join and Leave Messages"
+        },
+        {
+            "location": "/Modules/levels/",
+            "text": "Levels\n\n\nWith this module, server members are able to gain levels and rewards by interacting with the server. When a user levels up, they'll get a small customisable announcement that supports variables.",
+            "title": "Levels"
+        },
+        {
+            "location": "/Modules/levels/#levels",
+            "text": "With this module, server members are able to gain levels and rewards by interacting with the server. When a user levels up, they'll get a small customisable announcement that supports variables.",
+            "title": "Levels"
+        },
+        {
+            "location": "/Variables/Advanced/args/",
+            "text": "args [index, range]\n\n\nGets the arguments provided when executing the command.\n\n\nExample\n\n\n\n\nNote\n\n\nFor this example, let's assume the command name was \ncommand\n and it was run like this\n\na!command this is definitely not a test\n\n\n\n\nInput\n\n\n{args}\n{args;2}\n{args;2;2}\n\n\n\n\nOutput\n\n\nthis is definitely not a test\nis\nis definitely\n\n\n\n\nSupports\n\n\n\n\nCustom commands",
+            "title": "args [index, range]"
+        },
+        {
+            "location": "/Variables/Advanced/args/#args-index-range",
+            "text": "Gets the arguments provided when executing the command.",
+            "title": "args [index, range]"
+        },
+        {
+            "location": "/Variables/Advanced/args/#example",
+            "text": "Note  For this example, let's assume the command name was  command  and it was run like this a!command this is definitely not a test   Input  {args}\n{args;2}\n{args;2;2}  Output  this is definitely not a test\nis\nis definitely",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Advanced/args/#supports",
+            "text": "Custom commands",
+            "title": "Supports"
         },
         {
             "location": "/Variables/Advanced/choose/",
@@ -218,6 +243,26 @@
         {
             "location": "/Variables/Advanced/removerole/#supports",
             "text": "Custom commands  Join messages  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Advanced/replace/",
+            "text": "replace [string, phrase, replacement]\n\n\nReplaces occurences of \nphrase\n in \nstring\n with \nreplacement\n.\n\n\nExample\n\n\nInput\n\n\n{replace;Kittens are adorable;Kittens;Puppies}\n\n\n\n\nOutput\n\n\nPuppies are adorable\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "replace [string, phrase, replacement]"
+        },
+        {
+            "location": "/Variables/Advanced/replace/#replace-string-phrase-replacement",
+            "text": "Replaces occurences of  phrase  in  string  with  replacement .",
+            "title": "replace [string, phrase, replacement]"
+        },
+        {
+            "location": "/Variables/Advanced/replace/#example",
+            "text": "Input  {replace;Kittens are adorable;Kittens;Puppies}  Output  Puppies are adorable",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Advanced/replace/#supports",
+            "text": "Custom commands  Join and leave messages  Level-up messages",
             "title": "Supports"
         },
         {
@@ -397,6 +442,86 @@
         },
         {
             "location": "/Variables/Guild/guild.shard/#supports",
+            "text": "Custom commands  Join and leave messages  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Mention/mention.channel/",
+            "text": "mention.channel [channel]\n\n\nMentions a channel. Uses fuzzy matching to find it based on what you input.\n\n\n\n\nNote\n\n\nAtlas will try and pick up regular user, channel and role mentions, so you shouldn't ever have to use this variable. Just tag whatever you're after regularly, for example \n#channelname\n and Atlas will convert it to a channel mention.\n\n\n\n\nExample\n\n\nInput\n\n\n{mention.channel;general}\n\n\n\n\nOutput\n\n\n#general\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "mention.channel [channel]"
+        },
+        {
+            "location": "/Variables/Mention/mention.channel/#mentionchannel-channel",
+            "text": "Mentions a channel. Uses fuzzy matching to find it based on what you input.   Note  Atlas will try and pick up regular user, channel and role mentions, so you shouldn't ever have to use this variable. Just tag whatever you're after regularly, for example  #channelname  and Atlas will convert it to a channel mention.",
+            "title": "mention.channel [channel]"
+        },
+        {
+            "location": "/Variables/Mention/mention.channel/#example",
+            "text": "Input  {mention.channel;general}  Output  #general",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Mention/mention.channel/#supports",
+            "text": "Custom commands  Join and leave messages  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Mention/mention.role/",
+            "text": "mention.role [role]\n\n\nMentions a role. Uses fuzzy matching to find it based on what you input.\n\n\n\n\nNote\n\n\nAtlas will try and pick up regular user, channel and role mentions, so you shouldn't ever have to use this variable. Just tag whatever you're after regularly, for example \n#channelname\n and Atlas will convert it to a channel mention.\n\n\n\n\nExample\n\n\nInput\n\n\n{mention.role;Regulars}\n\n\n\n\nOutput\n\n\n@Regulars\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "mention.role [role]"
+        },
+        {
+            "location": "/Variables/Mention/mention.role/#mentionrole-role",
+            "text": "Mentions a role. Uses fuzzy matching to find it based on what you input.   Note  Atlas will try and pick up regular user, channel and role mentions, so you shouldn't ever have to use this variable. Just tag whatever you're after regularly, for example  #channelname  and Atlas will convert it to a channel mention.",
+            "title": "mention.role [role]"
+        },
+        {
+            "location": "/Variables/Mention/mention.role/#example",
+            "text": "Input  {mention.role;Regulars}  Output  @Regulars",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Mention/mention.role/#supports",
+            "text": "Custom commands  Join and leave messages  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Mention/mention.user/",
+            "text": "mention.user [user]\n\n\nMentions a user. \nuser\n can be a id, nickname or username. This searches for members in the guild, so for leave messages this won't be a great idea.\n\n\nIf no user is provided, it will fall back to whoever called the command, levelled up or joined.\n\n\n\n\nNote\n\n\nAtlas will try and pick up regular user, channel and role mentions, so you shouldn't ever have to use this variable. Just tag whatever you're after regularly, for example \n#channelname\n and Atlas will convert it to a channel mention.\n\n\n\n\nExample\n\n\nInput\n\n\n{mention.user;Sylver}\n\n\n\n\nOutput\n\n\n@Sylver#1058\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "mention.user [user]"
+        },
+        {
+            "location": "/Variables/Mention/mention.user/#mentionuser-user",
+            "text": "Mentions a user.  user  can be a id, nickname or username. This searches for members in the guild, so for leave messages this won't be a great idea.  If no user is provided, it will fall back to whoever called the command, levelled up or joined.   Note  Atlas will try and pick up regular user, channel and role mentions, so you shouldn't ever have to use this variable. Just tag whatever you're after regularly, for example  #channelname  and Atlas will convert it to a channel mention.",
+            "title": "mention.user [user]"
+        },
+        {
+            "location": "/Variables/Mention/mention.user/#example",
+            "text": "Input  {mention.user;Sylver}  Output  @Sylver#1058",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Mention/mention.user/#supports",
+            "text": "Custom commands  Join and leave messages  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Simple/capitalise/",
+            "text": "capitalise [string]\n\n\nMakes the first letter in the string uppercase.\n\n\nExample\n\n\nInput\n\n\n{capitalise;puppy}\n\n\n\n\nOutput\n\n\nPuppy\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "capitalise [string]"
+        },
+        {
+            "location": "/Variables/Simple/capitalise/#capitalise-string",
+            "text": "Makes the first letter in the string uppercase.",
+            "title": "capitalise [string]"
+        },
+        {
+            "location": "/Variables/Simple/capitalise/#example",
+            "text": "Input  {capitalise;puppy}  Output  Puppy",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Simple/capitalise/#supports",
             "text": "Custom commands  Join and leave messages  Level-up messages",
             "title": "Supports"
         },
