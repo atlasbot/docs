@@ -15,6 +15,6 @@ You can grab the guilds notification level here: <some really long url>
 
 ## Supports
 
-* [Custom commands](/custom_commands/)
-* [Join and leave messages](/join_leave_messages/)
-* [Level-up messages](/levels/)
+* [Custom commands](/Modules/custom_commands/)
+* [Join and leave messages](/Modules/join_leave_messages/)
+* [Level-up messages](/Modules/levels/)

@@ -17,6 +17,6 @@ Hello definitely_not_sylver!
 
 ## Supports
 
-* [Custom commands](/custom_commands/)
-* [Join messages](/join_leave_messages/)
-* [Level-up messages](/levels/)
+* [Custom commands](/Modules/Modules/custom_commands/)
+* [Join messages](/Modules/join_leave_messages/)
+* [Level-up messages](/Modules/levels/)

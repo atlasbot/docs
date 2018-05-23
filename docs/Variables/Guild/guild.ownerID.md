@@ -17,6 +17,6 @@ The owner of this server is @Sylver
     `<@111372124383428608>` would mention a user (in that case, `Sylver#1058`), so `<@{guild.ownerID}>` will mention the guild owner.
 ## Supports
 
-* [Custom commands](/custom_commands/)
-* [Join and leave messages](/join_leave_messages/)
-* [Level-up messages](/levels/)
+* [Custom commands](/Modules/custom_commands/)
+* [Join and leave messages](/Modules/join_leave_messages/)
+* [Level-up messages](/Modules/levels/)

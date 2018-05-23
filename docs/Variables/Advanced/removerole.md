@@ -17,6 +17,6 @@ You've been removed from the Humans role
 
 ## Supports
 
-* [Custom commands](/custom_commands/)
-* [Join messages](/join_leave_messages/)
-* [Level-up messages](/levels/)
+* [Custom commands](/Modules/custom_commands/)
+* [Join messages](/Modules/join_leave_messages/)
+* [Level-up messages](/Modules/levels/)

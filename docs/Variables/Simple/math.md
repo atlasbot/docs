@@ -15,6 +15,6 @@ Evaluates math. Yup, not very interesting.
 
 ## Supports
 
-* [Custom commands](/custom_commands/)
-* [Join and leave messages](/join_leave_messages/)
-* [Level-up messages](/levels/)
+* [Custom commands](/Modules/custom_commands/)
+* [Join and leave messages](/Modules/join_leave_messages/)
+* [Level-up messages](/Modules/levels/)

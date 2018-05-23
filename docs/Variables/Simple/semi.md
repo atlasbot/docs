@@ -15,6 +15,6 @@ Returns a semicolon, useful if the compiler keeps eating them up or you want one
 
 ## Supports
 
-* [Custom commands](/custom_commands/)
-* [Join and leave messages](/join_leave_messages/)
-* [Level-up messages](/levels/)
+* [Custom commands](/Modules/custom_commands/)
+* [Join and leave messages](/Modules/join_leave_messages/)
+* [Level-up messages](/Modules/levels/)

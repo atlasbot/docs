@@ -17,5 +17,5 @@ Delete the original message that caused the... "thing". For custom commands, thi
 
 ## Supports
 
-* [Custom commands](/custom_commands/)
-* [Level-up messages](/levels/)
+* [Custom commands](/Modules/custom_commands/)
+* [Level-up messages](/Modules/levels/)

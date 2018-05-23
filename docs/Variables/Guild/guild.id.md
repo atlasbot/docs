@@ -15,6 +15,6 @@ The guild's ID is 345177567541723137
 
 ## Supports
 
-* [Custom commands](/custom_commands/)
-* [Join and leave messages](/join_leave_messages/)
-* [Level-up messages](/levels/)
+* [Custom commands](/Modules/custom_commands/)
+* [Join and leave messages](/Modules/join_leave_messages/)
+* [Level-up messages](/Modules/levels/)

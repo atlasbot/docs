@@ -15,4 +15,4 @@ Congratulations! You've leveled up to level 1!
 
 ## Supports
 
-* [Level-up messages](/levels/)
+* [Level-up messages](/Modules/levels/)
