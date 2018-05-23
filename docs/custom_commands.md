@@ -4,7 +4,9 @@ Custom commands are a powerful feature that Atlas has allowing you to create you
 
 ## Creating Commands
 
-To create your own commands, you'll have to go to your servers dashboard. Go [here](https://get-atlas.xyz) and sign in, then select your server from the dropdown at the top right. Go to the Custom Commands module on your right. This is where you can control commands by creating, modifying, deleting or disabling them.
+Before creating your own commands, you'll have to go to your servers dashboard. Go [here](https://get-atlas.xyz) and sign in, then select your server from the dropdown at the top right. Go to the Custom Commands module on your right. This is where you can control commands by creating, modifying, deleting or disabling them.
+
+After that, you can click the `New Command` button which will bring up a modal showing you options for your new command. Commands must have a name and response, everything else is optional. Command names cannot have spaces, so keep that in mind.
 
 ## Variables
 

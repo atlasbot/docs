@@ -2,6 +2,8 @@
 
 Welcome to Atlas' Documentation. The aim here is to help you learn how to use Atlas, give you tips and make everything super simple for you to follow.
 
+If you're new to using Atlas, you will probably want to check out the [quick start](/quick_start/) guide.
+
 !!! note
     These docs are still a work in progress, please excuse the mess!
 

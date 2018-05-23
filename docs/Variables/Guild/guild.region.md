@@ -1,16 +1,16 @@
-# guild.name
+# guild.region
 
-Returns the name of the guild.
+Returns the guilds region, e.g `sydney` or `us-west`.
 
 ## Example
 
 *Input*
 ```
-You are currently in {guild.name}
+This server is currently hosted in {guild.region}.
 ```
 *Output*
 ```
-You are currently in Atlas Development
+This server is currently hosted in sydney.
 ```
 
 ## Supports

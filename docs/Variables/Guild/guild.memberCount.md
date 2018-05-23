@@ -1,16 +1,16 @@
-# guild.name
+# guild.memberCount
 
-Returns the name of the guild.
+Returns the guilds member count.
 
 ## Example
 
 *Input*
 ```
-You are currently in {guild.name}
+The server currently has {guild.memberCount} members!
 ```
 *Output*
 ```
-You are currently in Atlas Development
+The server currently has 522 members!
 ```
 
 ## Supports

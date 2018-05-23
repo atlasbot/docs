@@ -1,16 +1,16 @@
-# guild.name
+# guild.shard
 
-Returns the name of the guild.
+Returns the ID of the guilds shard, using zero-based indexing.
 
 ## Example
 
 *Input*
 ```
-You are currently in {guild.name}
+This guild is on shard {guild.shard.id}.
 ```
 *Output*
 ```
-You are currently in Atlas Development
+This guild is on shard 0.
 ```
 
 ## Supports

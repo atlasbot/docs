@@ -1,16 +1,16 @@
-# guild.name
+# guild.id
 
-Returns the name of the guild.
+Returns the guild's ID, e.g `345177567541723137`
 
 ## Example
 
 *Input*
 ```
-You are currently in {guild.name}
+The guild's ID is {guild.id}
 ```
 *Output*
 ```
-You are currently in Atlas Development
+The guild's ID is 345177567541723137
 ```
 
 ## Supports
