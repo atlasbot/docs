@@ -1,0 +1,244 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Home\n\n\nWelcome to Atlas' Documentation. The aim here is to help you learn how to use Atlas, give you tips and make everything super simple for you to follow.\n\n\nIf you're new to using Atlas, you will probably want to check out the \nquick start\n guide.\n\n\n\n\nNote\n\n\nThese docs are still a work in progress, please excuse the mess!\n\n\n\n\nFeatures\n\n\n\n\n99% Uptime 24/7\n\n\nModeration commands\n\n\nClear music\n\n\nFast support\n\n\nLevels\n\n\nWelcome and Leave messages\n\n\nCustom commands\n\n\n\n\nSupport Server\n\n\nIf you need more help, please join our support server below.",
+            "title": "Home"
+        },
+        {
+            "location": "/#home",
+            "text": "Welcome to Atlas' Documentation. The aim here is to help you learn how to use Atlas, give you tips and make everything super simple for you to follow.  If you're new to using Atlas, you will probably want to check out the  quick start  guide.   Note  These docs are still a work in progress, please excuse the mess!",
+            "title": "Home"
+        },
+        {
+            "location": "/#features",
+            "text": "99% Uptime 24/7  Moderation commands  Clear music  Fast support  Levels  Welcome and Leave messages  Custom commands",
+            "title": "Features"
+        },
+        {
+            "location": "/#support-server",
+            "text": "If you need more help, please join our support server below.",
+            "title": "Support Server"
+        },
+        {
+            "location": "/custom_commands/",
+            "text": "Custom Commands\n\n\nCustom commands are a powerful feature that Atlas has allowing you to create your own commands. You can create custom commands to explain things to users without having to type multiple paragraphs every time someone asks or copy/paste the response. You could also use them in many other creative ways, like force users to agree to a TOS by using the {addrole} variable which gives them a role with more permissions, then restrict access to only the agree channel when they join.\n\n\nCreating Commands\n\n\nBefore creating your own commands, you'll have to go to your servers dashboard. Go \nhere\n and sign in, then select your server from the dropdown at the top right. Go to the Custom Commands module on your right. This is where you can control commands by creating, modifying, deleting or disabling them.\n\n\nAfter that, you can click the \nNew Command\n button which will bring up a modal showing you options for your new command. Commands must have a name and response, everything else is optional. Command names cannot have spaces, so keep that in mind.\n\n\nVariables\n\n\nYou can create dynamic custom commands using variables. Variables are like placeholders for data that Atlas will fill in, though that isn't all they can do.\n\n\nYou can see most variables on your left under \"Variables\".",
+            "title": "Custom Commands"
+        },
+        {
+            "location": "/custom_commands/#custom-commands",
+            "text": "Custom commands are a powerful feature that Atlas has allowing you to create your own commands. You can create custom commands to explain things to users without having to type multiple paragraphs every time someone asks or copy/paste the response. You could also use them in many other creative ways, like force users to agree to a TOS by using the {addrole} variable which gives them a role with more permissions, then restrict access to only the agree channel when they join.",
+            "title": "Custom Commands"
+        },
+        {
+            "location": "/custom_commands/#creating-commands",
+            "text": "Before creating your own commands, you'll have to go to your servers dashboard. Go  here  and sign in, then select your server from the dropdown at the top right. Go to the Custom Commands module on your right. This is where you can control commands by creating, modifying, deleting or disabling them.  After that, you can click the  New Command  button which will bring up a modal showing you options for your new command. Commands must have a name and response, everything else is optional. Command names cannot have spaces, so keep that in mind.",
+            "title": "Creating Commands"
+        },
+        {
+            "location": "/custom_commands/#variables",
+            "text": "You can create dynamic custom commands using variables. Variables are like placeholders for data that Atlas will fill in, though that isn't all they can do.  You can see most variables on your left under \"Variables\".",
+            "title": "Variables"
+        },
+        {
+            "location": "/join_leave_messages/",
+            "text": "Join and Leave Messages\n\n\nThese are messages that are sent when a user joins or leaves the server. You can customise them to your liking via the \ndashboard\n.",
+            "title": "Join and Leave Messages"
+        },
+        {
+            "location": "/join_leave_messages/#join-and-leave-messages",
+            "text": "These are messages that are sent when a user joins or leaves the server. You can customise them to your liking via the  dashboard .",
+            "title": "Join and Leave Messages"
+        },
+        {
+            "location": "/levels/",
+            "text": "Levels\n\n\nWith this module, server members are able to gain levels and rewards by interacting with the server. When a user levels up, they'll get a small customisable announcement that supports variables.",
+            "title": "Levels"
+        },
+        {
+            "location": "/levels/#levels",
+            "text": "With this module, server members are able to gain levels and rewards by interacting with the server. When a user levels up, they'll get a small customisable announcement that supports variables.",
+            "title": "Levels"
+        },
+        {
+            "location": "/quick_start/",
+            "text": "Quick Start\n\n\nGet Atlas up and running in a few super simple steps.\n\n\nInviting Atlas\n\n\nBefore you can use Atlas, it must be invited to your server. Click \nhere\n to go to Discord's authentication page. Select your server from the dropdown, then click Authorize. Atlas should show up as a member in your server, meaning you've successfully invited Atlas.\n\n\n\n\nNote\n\n\nIf your server doesn't show up in the dropdown, ensure you have administrator permissions in the server you want Atlas in.\n\n\n\n\nRunning Commands\n\n\nAtlas is controlled primarily by commands. To run a command, do \na!<command name>\n. For example, to list all commands, type a message that says \na!help\n and Atlas will direct-message you a list of commands.",
+            "title": "Quick Start"
+        },
+        {
+            "location": "/quick_start/#quick-start",
+            "text": "Get Atlas up and running in a few super simple steps.",
+            "title": "Quick Start"
+        },
+        {
+            "location": "/quick_start/#inviting-atlas",
+            "text": "Before you can use Atlas, it must be invited to your server. Click  here  to go to Discord's authentication page. Select your server from the dropdown, then click Authorize. Atlas should show up as a member in your server, meaning you've successfully invited Atlas.   Note  If your server doesn't show up in the dropdown, ensure you have administrator permissions in the server you want Atlas in.",
+            "title": "Inviting Atlas"
+        },
+        {
+            "location": "/quick_start/#running-commands",
+            "text": "Atlas is controlled primarily by commands. To run a command, do  a!<command name> . For example, to list all commands, type a message that says  a!help  and Atlas will direct-message you a list of commands.",
+            "title": "Running Commands"
+        },
+        {
+            "location": "/Variables/Guild/guild.defaultNotifications/",
+            "text": "guild.defaultNotifications\n\n\nReturns the servers default notification settings, e.g \nAll Messages\n or \nOnly @mentions\n\n\nExample\n\n\nInput\n\n\nThe servers current notification settings are {guild.defaultNotifications}\n\n\n\n\nOutput\n\n\nThe servers current notification settings are All Messages\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "guild.defaultNotifications"
+        },
+        {
+            "location": "/Variables/Guild/guild.defaultNotifications/#guilddefaultnotifications",
+            "text": "Returns the servers default notification settings, e.g  All Messages  or  Only @mentions",
+            "title": "guild.defaultNotifications"
+        },
+        {
+            "location": "/Variables/Guild/guild.defaultNotifications/#example",
+            "text": "Input  The servers current notification settings are {guild.defaultNotifications}  Output  The servers current notification settings are All Messages",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Guild/guild.defaultNotifications/#supports",
+            "text": "Custom commands  Join and leave messages  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Guild/guild.iconURL/",
+            "text": "guild.iconURL\n\n\nReturns the guild's icon URL if one is set.\n\n\nExample\n\n\nInput\n\n\nYou can grab the guilds notification level here: {guild.iconURL}\n\n\n\n\nOutput\n\n\nYou can grab the guilds notification level here: <some really long url>\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "guild.iconURL"
+        },
+        {
+            "location": "/Variables/Guild/guild.iconURL/#guildiconurl",
+            "text": "Returns the guild's icon URL if one is set.",
+            "title": "guild.iconURL"
+        },
+        {
+            "location": "/Variables/Guild/guild.iconURL/#example",
+            "text": "Input  You can grab the guilds notification level here: {guild.iconURL}  Output  You can grab the guilds notification level here: <some really long url>",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Guild/guild.iconURL/#supports",
+            "text": "Custom commands  Join and leave messages  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Guild/guild.id/",
+            "text": "guild.id\n\n\nReturns the guild's ID, e.g \n345177567541723137\n\n\nExample\n\n\nInput\n\n\nThe guild's ID is {guild.id}\n\n\n\n\nOutput\n\n\nThe guild's ID is 345177567541723137\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "guild.id"
+        },
+        {
+            "location": "/Variables/Guild/guild.id/#guildid",
+            "text": "Returns the guild's ID, e.g  345177567541723137",
+            "title": "guild.id"
+        },
+        {
+            "location": "/Variables/Guild/guild.id/#example",
+            "text": "Input  The guild's ID is {guild.id}  Output  The guild's ID is 345177567541723137",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Guild/guild.id/#supports",
+            "text": "Custom commands  Join and leave messages  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Guild/guild.memberCount/",
+            "text": "guild.memberCount\n\n\nReturns the guilds member count.\n\n\nExample\n\n\nInput\n\n\nThe server currently has {guild.memberCount} members!\n\n\n\n\nOutput\n\n\nThe server currently has 522 members!\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "guild.memberCount"
+        },
+        {
+            "location": "/Variables/Guild/guild.memberCount/#guildmembercount",
+            "text": "Returns the guilds member count.",
+            "title": "guild.memberCount"
+        },
+        {
+            "location": "/Variables/Guild/guild.memberCount/#example",
+            "text": "Input  The server currently has {guild.memberCount} members!  Output  The server currently has 522 members!",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Guild/guild.memberCount/#supports",
+            "text": "Custom commands  Join and leave messages  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Guild/guild.name/",
+            "text": "guild.name\n\n\nReturns the name of the guild.\n\n\nExample\n\n\nInput\n\n\nYou are currently in {guild.name}\n\n\n\n\nOutput\n\n\nYou are currently in Atlas Development\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "guild.name"
+        },
+        {
+            "location": "/Variables/Guild/guild.name/#guildname",
+            "text": "Returns the name of the guild.",
+            "title": "guild.name"
+        },
+        {
+            "location": "/Variables/Guild/guild.name/#example",
+            "text": "Input  You are currently in {guild.name}  Output  You are currently in Atlas Development",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Guild/guild.name/#supports",
+            "text": "Custom commands  Join and leave messages  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Guild/guild.ownerID/",
+            "text": "guild.ownerID\n\n\nReturns the guild's owner's ID, which looks something like \n111372124383428608\n\n\nExample\n\n\nInput\n\n\nThe owner of this server is <@{guild.ownerID}>\n\n\n\n\nOutput\n\n\nThe owner of this server is @Sylver\n\n\n\n\n\n\nNote\n\n\n<@111372124383428608>\n would mention a user (in that case, \nSylver#1058\n), so \n<@{guild.ownerID}>\n will mention the guild owner.\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "guild.ownerID"
+        },
+        {
+            "location": "/Variables/Guild/guild.ownerID/#guildownerid",
+            "text": "Returns the guild's owner's ID, which looks something like  111372124383428608",
+            "title": "guild.ownerID"
+        },
+        {
+            "location": "/Variables/Guild/guild.ownerID/#example",
+            "text": "Input  The owner of this server is <@{guild.ownerID}>  Output  The owner of this server is @Sylver   Note  <@111372124383428608>  would mention a user (in that case,  Sylver#1058 ), so  <@{guild.ownerID}>  will mention the guild owner.",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Guild/guild.ownerID/#supports",
+            "text": "Custom commands  Join and leave messages  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Guild/guild.region/",
+            "text": "guild.region\n\n\nReturns the guilds region, e.g \nsydney\n or \nus-west\n.\n\n\nExample\n\n\nInput\n\n\nThis server is currently hosted in {guild.region}.\n\n\n\n\nOutput\n\n\nThis server is currently hosted in sydney.\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "guild.region"
+        },
+        {
+            "location": "/Variables/Guild/guild.region/#guildregion",
+            "text": "Returns the guilds region, e.g  sydney  or  us-west .",
+            "title": "guild.region"
+        },
+        {
+            "location": "/Variables/Guild/guild.region/#example",
+            "text": "Input  This server is currently hosted in {guild.region}.  Output  This server is currently hosted in sydney.",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Guild/guild.region/#supports",
+            "text": "Custom commands  Join and leave messages  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Guild/guild.shard/",
+            "text": "guild.shard\n\n\nReturns the ID of the guilds shard, using zero-based indexing.\n\n\nExample\n\n\nInput\n\n\nThis guild is on shard {guild.shard.id}.\n\n\n\n\nOutput\n\n\nThis guild is on shard 0.\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "guild.shard"
+        },
+        {
+            "location": "/Variables/Guild/guild.shard/#guildshard",
+            "text": "Returns the ID of the guilds shard, using zero-based indexing.",
+            "title": "guild.shard"
+        },
+        {
+            "location": "/Variables/Guild/guild.shard/#example",
+            "text": "Input  This guild is on shard {guild.shard.id}.  Output  This guild is on shard 0.",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Guild/guild.shard/#supports",
+            "text": "Custom commands  Join and leave messages  Level-up messages",
+            "title": "Supports"
+        }
+    ]
+}
