@@ -92,17 +92,17 @@
         },
         {
             "location": "/Variables/running_commands/",
-            "text": "Running Commands\n\n\nEach command has it's own variable. To run any command, do \n{a!<command name}\n as a variable. For example, to run \nhelp\n as a variable, you would enter \n{a!help}\n.\n\n\nExample\n\n\nInput\n\n\n{a!ping}\n\n\n\n\nOutput\n\n\nidk how to show the output but it would return nothing and run the \"ping\" command as though the user did it\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin messages\n\n\nLevel-up messages",
+            "text": "Running Commands\n\n\nEach command has it's own variable. To run any command, do \n{a!<command name}\n as a variable. For example, to run \nhelp\n as a variable, you would enter \n{a!help}\n.\n\n\nArguments must be seperated via \n;\n, for example \n{a!command;arg1;arg2}\n, which would be the same as running \na!command arg1 arg2\n\n\nExample\n\n\nInput\n\n\n{a!play;song;name}\n\n\n\n\nOutput\n\n\nidk how to show the output but it would return nothing and run the \"ping\" command as though the user did it\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin messages\n\n\nLevel-up messages",
             "title": "Running Commands"
         },
         {
             "location": "/Variables/running_commands/#running-commands",
-            "text": "Each command has it's own variable. To run any command, do  {a!<command name}  as a variable. For example, to run  help  as a variable, you would enter  {a!help} .",
+            "text": "Each command has it's own variable. To run any command, do  {a!<command name}  as a variable. For example, to run  help  as a variable, you would enter  {a!help} .  Arguments must be seperated via  ; , for example  {a!command;arg1;arg2} , which would be the same as running  a!command arg1 arg2",
             "title": "Running Commands"
         },
         {
             "location": "/Variables/running_commands/#example",
-            "text": "Input  {a!ping}  Output  idk how to show the output but it would return nothing and run the \"ping\" command as though the user did it",
+            "text": "Input  {a!play;song;name}  Output  idk how to show the output but it would return nothing and run the \"ping\" command as though the user did it",
             "title": "Example"
         },
         {
