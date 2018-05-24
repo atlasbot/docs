@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/",
-            "text": "Home\n\n\nWelcome to Atlas' Documentation. The aim here is to help you learn how to use Atlas, give you tips and make everything super simple for you to follow.\n\n\nIf you're new to using Atlas, you will probably want to check out the \nquick start\n guide.\n\n\n\n\nNote\n\n\nThese docs are still a work in progress, please excuse the mess!\n\n\n\n\nFeatures\n\n\n\n\n99% Uptime 24/7\n\n\nModeration commands\n\n\nClear music\n\n\nFast support\n\n\nLevels\n\n\nWelcome and Leave messages\n\n\nCustom commands\n\n\n\n\nSupport Server\n\n\nIf you're still puzzled and want help, please join our support server below.\n\n\nKeep in mind that unfortunately, we're still humans and won't be able to get to you instantly - that said, we'll try our best.",
+            "text": "Home\n\n\nWelcome to Atlas' Documentation. The aim here is to help you learn how to use Atlas, give you tips and make everything super simple for you to follow.\n\n\nIf you're new to using Atlas, you will probably want to check out the \nquick start\n guide.\n\n\n\n\nNote\n\n\nThese docs are still a work in progress, please excuse the mess!\n\n\n\n\nFeatures\n\n\n\n\n99% Uptime 24/7\n\n\nModeration commands\n\n\nClear music\n\n\nFast support\n\n\nLevels\n\n\nWelcome and Leave messages\n\n\nCustom commands\n\n\n\n\nOpen Source\n\n\nThis documentation is open source. Noticed a typo? Something unclear? \nImprove this page on github\n\n\nSupport Server\n\n\nIf you're still puzzled and want help, please join our support server below.\n\n\nKeep in mind that unfortunately, we're still humans and won't be able to get to you instantly - that said, we'll try our best.",
             "title": "Home"
         },
         {
@@ -14,6 +14,11 @@
             "location": "/#features",
             "text": "99% Uptime 24/7  Moderation commands  Clear music  Fast support  Levels  Welcome and Leave messages  Custom commands",
             "title": "Features"
+        },
+        {
+            "location": "/#open-source",
+            "text": "This documentation is open source. Noticed a typo? Something unclear?  Improve this page on github",
+            "title": "Open Source"
         },
         {
             "location": "/#support-server",
