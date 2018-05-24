@@ -2,11 +2,13 @@
 
 Each command has it's own variable. To run any command, do `{a!<command name}` as a variable. For example, to run `help` as a variable, you would enter `{a!help}`.
 
+Arguments must be seperated via `;`, for example `{a!command;arg1;arg2}`, which would be the same as running `a!command arg1 arg2`
+
 ## Example
 
 *Input*
 ```
-{a!ping}
+{a!play;song;name}
 ```
 *Output*
 
