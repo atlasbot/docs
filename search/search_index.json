@@ -86,6 +86,26 @@
             "title": "Levels"
         },
         {
+            "location": "/Variables/running_commands/",
+            "text": "Running Commands\n\n\nEach command has it's own variable. To run any command, do \n{a!<command name}\n as a variable. For example, to run \nhelp\n as a variable, you would enter \n{a!help}\n.\n\n\nExample\n\n\nInput\n\n\n{a!ping}\n\n\n\n\nOutput\n\n\nidk how to show the output but it would return nothing and run the \"ping\" command as though the user did it\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin messages\n\n\nLevel-up messages",
+            "title": "Running Commands"
+        },
+        {
+            "location": "/Variables/running_commands/#running-commands",
+            "text": "Each command has it's own variable. To run any command, do  {a!<command name}  as a variable. For example, to run  help  as a variable, you would enter  {a!help} .",
+            "title": "Running Commands"
+        },
+        {
+            "location": "/Variables/running_commands/#example",
+            "text": "Input  {a!ping}  Output  idk how to show the output but it would return nothing and run the \"ping\" command as though the user did it",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/running_commands/#supports",
+            "text": "Custom commands  Join messages  Level-up messages",
+            "title": "Supports"
+        },
+        {
             "location": "/Variables/Advanced/args/",
             "text": "args [index, range]\n\n\nGets the arguments provided when executing the command.\n\n\nExample\n\n\n\n\nNote\n\n\nFor this example, let's assume the command name was \ncommand\n and it was run like this\n\na!command this is definitely not a test\n\n\n\n\nInput\n\n\n{args}\n{args;2}\n{args;2;2}\n\n\n\n\nOutput\n\n\nthis is definitely not a test\nis\nis definitely\n\n\n\n\nSupports\n\n\n\n\nCustom commands",
             "title": "args [index, range]"
