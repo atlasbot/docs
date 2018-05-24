@@ -17,6 +17,10 @@ If you're new to using Atlas, you will probably want to check out the [quick sta
 * Welcome and Leave messages
 * Custom commands
 
+# Open Source
+
+This documentation is open source. Noticed a typo? Something unclear? [Improve this page on github](https://github.com/get-atlas/docs)
+
 ## Support Server
 
 If you're still puzzled and want help, please join our support server below.
