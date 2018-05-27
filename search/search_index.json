@@ -311,6 +311,66 @@
             "title": "Supports"
         },
         {
+            "location": "/Variables/Channel/channel.id/",
+            "text": "channel.id\n\n\nReturns the current channel's ID.\n\n\nExample\n\n\nInput\n\n\nThis channel's ID is {channel.id}\n\n\n\n\nOutput\n\n\nThis channel's ID is 396843177509650454\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nLevel-up messages",
+            "title": "channel.id"
+        },
+        {
+            "location": "/Variables/Channel/channel.id/#channelid",
+            "text": "Returns the current channel's ID.",
+            "title": "channel.id"
+        },
+        {
+            "location": "/Variables/Channel/channel.id/#example",
+            "text": "Input  This channel's ID is {channel.id}  Output  This channel's ID is 396843177509650454",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Channel/channel.id/#supports",
+            "text": "Custom commands  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Channel/channel.mention/",
+            "text": "channel.mention\n\n\nReturns the mention for the channel. You probably shouldn't use this.\n\n\nExample\n\n\nInput\n\n\nYou're in {channel.mention}\n\n\n\n\nOutput\n\n\nYou're in #general\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nLevel-up messages",
+            "title": "channel.mention"
+        },
+        {
+            "location": "/Variables/Channel/channel.mention/#channelmention",
+            "text": "Returns the mention for the channel. You probably shouldn't use this.",
+            "title": "channel.mention"
+        },
+        {
+            "location": "/Variables/Channel/channel.mention/#example",
+            "text": "Input  You're in {channel.mention}  Output  You're in #general",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Channel/channel.mention/#supports",
+            "text": "Custom commands  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Channel/channel.name/",
+            "text": "channel.name\n\n\nReturns the name of the current channel.\n\n\nExample\n\n\nInput\n\n\nYou're in {channel.name}\n\n\n\n\nOutput\n\n\nYou're in general\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nLevel-up messages",
+            "title": "channel.name"
+        },
+        {
+            "location": "/Variables/Channel/channel.name/#channelname",
+            "text": "Returns the name of the current channel.",
+            "title": "channel.name"
+        },
+        {
+            "location": "/Variables/Channel/channel.name/#example",
+            "text": "Input  You're in {channel.name}  Output  You're in general",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Channel/channel.name/#supports",
+            "text": "Custom commands  Level-up messages",
+            "title": "Supports"
+        },
+        {
             "location": "/Variables/Guild/guild.defaultNotifications/",
             "text": "guild.defaultNotifications\n\n\nReturns the servers default notification settings, e.g \nAll Messages\n or \nOnly @mentions\n\n\nExample\n\n\nInput\n\n\nThe servers current notification settings are {guild.defaultNotifications}\n\n\n\n\nOutput\n\n\nThe servers current notification settings are All Messages\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "guild.defaultNotifications"
@@ -531,6 +591,66 @@
             "title": "Supports"
         },
         {
+            "location": "/Variables/Message/message.content/",
+            "text": "message.content\n\n\nReturns the messages content, not just the arguments. E.g, if the user did \na!yourcommand awd\n, it would return \na!yourcommand awd\n.\n\n\nExample\n\n\nInput\n\n\nYour message content is `{message.content}`\n\n\n\n\nOutput\n\n\nYour message content is `ecksdee`\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nLevel-up messages",
+            "title": "message.content"
+        },
+        {
+            "location": "/Variables/Message/message.content/#messagecontent",
+            "text": "Returns the messages content, not just the arguments. E.g, if the user did  a!yourcommand awd , it would return  a!yourcommand awd .",
+            "title": "message.content"
+        },
+        {
+            "location": "/Variables/Message/message.content/#example",
+            "text": "Input  Your message content is `{message.content}`  Output  Your message content is `ecksdee`",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Message/message.content/#supports",
+            "text": "Custom commands  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Message/message.id/",
+            "text": "message.id\n\n\nReturns the ID of the current message.\n\n\nExample\n\n\nInput\n\n\nYour message has the ID of {message.id}\n\n\n\n\nOutput\n\n\nYour message has the ID of 450264827210891264\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nLevel-up messages",
+            "title": "message.id"
+        },
+        {
+            "location": "/Variables/Message/message.id/#messageid",
+            "text": "Returns the ID of the current message.",
+            "title": "message.id"
+        },
+        {
+            "location": "/Variables/Message/message.id/#example",
+            "text": "Input  Your message has the ID of {message.id}  Output  Your message has the ID of 450264827210891264",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Message/message.id/#supports",
+            "text": "Custom commands  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Responder/responder.send/",
+            "text": "responder.send [channel] [message]\n\n\nSends a message to a certain channel.\n\n\n\n\nNote\n\n\nAtlas uses the fuzzy matcher to search for the channel, so be careful. If the target channel was deleted, Atlas will try and find the second best channel that matches. Using an ID here is strongly suggested, then if a channel is deleted Atlas won't find the channel and won't send anything, just incase.\n\n\n\n\nExample\n\n\nInput in channel 'test'\n\n\n{responder.send;general;lol}\n\n\n\n\nOutput in channel 'general'\n\n\nlol\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "responder.send [channel] [message]"
+        },
+        {
+            "location": "/Variables/Responder/responder.send/#respondersend-channel-message",
+            "text": "Sends a message to a certain channel.   Note  Atlas uses the fuzzy matcher to search for the channel, so be careful. If the target channel was deleted, Atlas will try and find the second best channel that matches. Using an ID here is strongly suggested, then if a channel is deleted Atlas won't find the channel and won't send anything, just incase.",
+            "title": "responder.send [channel] [message]"
+        },
+        {
+            "location": "/Variables/Responder/responder.send/#example",
+            "text": "Input in channel 'test'  {responder.send;general;lol}  Output in channel 'general'  lol",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Responder/responder.send/#supports",
+            "text": "Custom commands  Join and leave messages  Level-up messages",
+            "title": "Supports"
+        },
+        {
             "location": "/Variables/Simple/capitalise/",
             "text": "capitalise [string]\n\n\nMakes the first letter in the string uppercase.\n\n\nExample\n\n\nInput\n\n\n{capitalise;puppy}\n\n\n\n\nOutput\n\n\nPuppy\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "capitalise [string]"
@@ -547,6 +667,46 @@
         },
         {
             "location": "/Variables/Simple/capitalise/#supports",
+            "text": "Custom commands  Join and leave messages  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Simple/date/",
+            "text": "date [timezone]\n\n\nGets the date, timezone is not necessary. If you do choose to include a timezone, you must follow the \ntz time zone format\n.\n\n\n\n\nNote\n\n\nIf you don't include a timezone, Atlas will use it's own timezone.\n\n\n\n\nExample\n\n\nInput\n\n\n{date}\n{date;America/Los_Angeles}\n\n\n\n\nOutput\n\n\nMay 27th 2018\nMay 27th 2018\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "date [timezone]"
+        },
+        {
+            "location": "/Variables/Simple/date/#date-timezone",
+            "text": "Gets the date, timezone is not necessary. If you do choose to include a timezone, you must follow the  tz time zone format .   Note  If you don't include a timezone, Atlas will use it's own timezone.",
+            "title": "date [timezone]"
+        },
+        {
+            "location": "/Variables/Simple/date/#example",
+            "text": "Input  {date}\n{date;America/Los_Angeles}  Output  May 27th 2018\nMay 27th 2018",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Simple/date/#supports",
+            "text": "Custom commands  Join and leave messages  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Simple/datetime/",
+            "text": "datetime [timezone]\n\n\nGets the date and time, timezone is not necessary. If you do choose to include a timezone, you must follow the \ntz time zone format\n.\n\n\n\n\nNote\n\n\nIf you don't include a timezone, Atlas will use it's own timezone.\n\n\n\n\nExample\n\n\nInput\n\n\n{datetime}\n{datetime;America/Los_Angeles}\n\n\n\n\nOutput\n\n\nMay 27th 2018, 7:45:24 pm\nMay 27th 2018, 4:45:24 am\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "datetime [timezone]"
+        },
+        {
+            "location": "/Variables/Simple/datetime/#datetime-timezone",
+            "text": "Gets the date and time, timezone is not necessary. If you do choose to include a timezone, you must follow the  tz time zone format .   Note  If you don't include a timezone, Atlas will use it's own timezone.",
+            "title": "datetime [timezone]"
+        },
+        {
+            "location": "/Variables/Simple/datetime/#example",
+            "text": "Input  {datetime}\n{datetime;America/Los_Angeles}  Output  May 27th 2018, 7:45:24 pm\nMay 27th 2018, 4:45:24 am",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Simple/datetime/#supports",
             "text": "Custom commands  Join and leave messages  Level-up messages",
             "title": "Supports"
         },
@@ -687,6 +847,26 @@
         },
         {
             "location": "/Variables/Simple/semi/#supports",
+            "text": "Custom commands  Join and leave messages  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Simple/time/",
+            "text": "time [timezone]\n\n\nGets the time, timezone is not necessary. If you do choose to include a timezone, you must follow the \ntz time zone format\n.\n\n\n\n\nNote\n\n\nIf you don't include a timezone, Atlas will use it's own timezone.\n\n\n\n\nExample\n\n\nInput\n\n\n{time}\n{time;America/Los_Angeles}\n\n\n\n\nOutput\n\n\n7:46:00 pm\n4:46:00 am\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "time [timezone]"
+        },
+        {
+            "location": "/Variables/Simple/time/#time-timezone",
+            "text": "Gets the time, timezone is not necessary. If you do choose to include a timezone, you must follow the  tz time zone format .   Note  If you don't include a timezone, Atlas will use it's own timezone.",
+            "title": "time [timezone]"
+        },
+        {
+            "location": "/Variables/Simple/time/#example",
+            "text": "Input  {time}\n{time;America/Los_Angeles}  Output  7:46:00 pm\n4:46:00 am",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Simple/time/#supports",
             "text": "Custom commands  Join and leave messages  Level-up messages",
             "title": "Supports"
         },
