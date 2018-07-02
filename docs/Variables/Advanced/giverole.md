@@ -1,6 +1,6 @@
-# giverole [role]
+# giverole [role] <user>
 
-Give a user a role from the server. **Be careful with this variable** as it utilizes Atlas' famously terrible fuzzy searching, meaning if you enter a role name that is then deleted, Atlas will try and find another role that matches it. E.g, **if you have a role named "Ad"** which for whatever reason you want to give to a user, and it is deleted, **then you have another role with administrator permissions called "Administrator"**, **when that "Ad" is deleted Atlas will find the closest match, which would be Administrator**. It's a worst case scenario and may be changed in the future, but for now just be really, really careful.
+Give a user a role from the server, pretty self explanatory. `[role]` can be a role name or ID, `<user>` is optional and can be a username, user id, nickname or mention. If `<user>` is not provided, it will use the user in context (for example, the person who ran the command that the variable is apart of).
 
 ## Example
 
