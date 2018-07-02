@@ -172,13 +172,13 @@
         },
         {
             "location": "/Variables/Advanced/giverole/",
-            "text": "giverole [role] \n\n\nGive a user a role from the server, pretty self explanatory. \n[role]\n can be a role name or ID, \n<user>\n is optional and can be a username, user id, nickname or mention. If \n<user>\n is not provided, it will use the user in context (for example, the person who ran the command that the variable is apart of).\n\n\nExample\n\n\nInput\n\n\n{giverole;Humans} You've been added to the Humans role.\n\n\n\n\nOutput\n\n\nYou've been added to the Humans role.\n\n\n\n\n\n\nNote\n\n\nThis would give the user the \"Humans\" role, then return nothing and say the sentence.\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin messages\n\n\nLevel-up messages",
-            "title": "giverole [role] <user>"
+            "text": "giverole [role] [user]\n\n\nGive a user a role from the server, pretty self explanatory. \n[role]\n can be a role name or ID, \n<user>\n is optional and can be a username, user id, nickname or mention. If \n<user>\n is not provided, it will use the user in context (for example, the person who ran the command that the variable is apart of).\n\n\nExample\n\n\nInput\n\n\n{giverole;Humans} You've been added to the Humans role.\n\n\n\n\nOutput\n\n\nYou've been added to the Humans role.\n\n\n\n\n\n\nNote\n\n\nThis would give the user the \"Humans\" role, then return nothing and say the sentence.\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin messages\n\n\nLevel-up messages",
+            "title": "giverole [role] [user]"
         },
         {
-            "location": "/Variables/Advanced/giverole/#giverole-role",
+            "location": "/Variables/Advanced/giverole/#giverole-role-user",
             "text": "Give a user a role from the server, pretty self explanatory.  [role]  can be a role name or ID,  <user>  is optional and can be a username, user id, nickname or mention. If  <user>  is not provided, it will use the user in context (for example, the person who ran the command that the variable is apart of).",
-            "title": "giverole [role] "
+            "title": "giverole [role] [user]"
         },
         {
             "location": "/Variables/Advanced/giverole/#example",
