@@ -32,11 +32,11 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-0.17.4, mkdocs-material-2.9.1">
+      <meta name="generator" content="mkdocs-0.17.4, mkdocs-material-2.9.2">
     
     
       
-        <title>giverole [role] - Atlas Docs</title>
+        <title>giverole [role] <user> - Atlas Docs</title>
       
     
     
@@ -97,7 +97,7 @@
                 Atlas Docs
               </span>
               <span class="md-header-nav__topic">
-                giverole [role]
+                giverole [role] <user>
               </span>
             
           
@@ -351,11 +351,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        giverole [role]
+        giverole [role] <user>
       </label>
     
-    <a href="./" title="giverole [role]" class="md-nav__link md-nav__link--active">
-      giverole [role]
+    <a href="./" title="giverole [role] <user>" class="md-nav__link md-nav__link--active">
+      giverole [role] <user>
     </a>
     
       
@@ -1186,8 +1186,8 @@
               
                 
                 
-                <h1 id="giverole-role">giverole [role]</h1>
-<p>Give a user a role from the server. <strong>Be careful with this variable</strong> as it utilizes Atlas' famously terrible fuzzy searching, meaning if you enter a role name that is then deleted, Atlas will try and find another role that matches it. E.g, <strong>if you have a role named "Ad"</strong> which for whatever reason you want to give to a user, and it is deleted, <strong>then you have another role with administrator permissions called "Administrator"</strong>, <strong>when that "Ad" is deleted Atlas will find the closest match, which would be Administrator</strong>. It's a worst case scenario and may be changed in the future, but for now just be really, really careful.</p>
+                <h1 id="giverole-role">giverole [role] <user></h1>
+<p>Give a user a role from the server, pretty self explanatory. <code>[role]</code> can be a role name or ID, <code>&lt;user&gt;</code> is optional and can be a username, user id, nickname or mention. If <code>&lt;user&gt;</code> is not provided, it will use the user in context (for example, the person who ran the command that the variable is apart of).</p>
 <h2 id="example">Example</h2>
 <p><em>Input</em></p>
 <pre><code>{giverole;Humans} You've been added to the Humans role.
