@@ -4,12 +4,15 @@ Returns the guild's ID, e.g `345177567541723137`
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 The guild's ID is {guild.id}
 ```
-*Output*
-```
+
+### Output
+
+```json
 The guild's ID is 345177567541723137
 ```
 

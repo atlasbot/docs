@@ -4,12 +4,15 @@ Returns the servers default notification settings, e.g `All Messages` or `Only @
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 The servers current notification settings are {guild.defaultNotifications}
 ```
-*Output*
-```
+
+### Output
+
+```json
 The servers current notification settings are All Messages
 ```
 

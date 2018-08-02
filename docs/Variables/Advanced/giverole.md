@@ -4,14 +4,18 @@ Give a user a role from the server, pretty self explanatory. `[role]` can be a r
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 {giverole;Humans} You've been added to the Humans role.
 ```
-*Output*
-```
+
+### Output
+
+```json
 You've been added to the Humans role.
 ```
+
 !!! note
     This would give the user the "Humans" role, then return nothing and say the sentence.
 

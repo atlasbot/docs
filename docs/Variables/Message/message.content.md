@@ -4,12 +4,15 @@ Returns the messages content, not just the arguments. E.g, if the user did `a!yo
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 Your message content is `{message.content}`
 ```
-*Output*
-```
+
+### Output
+
+```json
 Your message content is `ecksdee`
 ```
 

@@ -4,12 +4,15 @@ Returns the tickets internal ID which Atlas uses for keeping track of tickets ar
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 Your ticket ID is {ticket.id}
 ```
-*Output*
-```
+
+### Output
+
+```json
 Your ticket ID is ajn90f
 ```
 

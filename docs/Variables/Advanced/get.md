@@ -4,13 +4,16 @@ Gets a variable from storage. You may also be interested in [set](/Variables/Adv
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 {set;x;oof}
 {get;x}
 ```
-*Output*
-```
+
+### Output
+
+```json
 oof
 ```
 

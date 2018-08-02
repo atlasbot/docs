@@ -7,12 +7,15 @@ Mentions a channel. Uses fuzzy matching to find it based on what you input.
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 {mention.channel;general}
 ```
-*Output*
-```
+
+### Output
+
+```json
 #general
 ```
 

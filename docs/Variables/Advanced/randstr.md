@@ -4,14 +4,18 @@ Returns a random string of characters.
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 {randstr;qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM_-.;{range;55;60}}
 ```
-*Output*
-```
+
+### Output
+
+```json
 Je-ACKgLOFxfZ.GaOLSvGygUCdbaIhOthbOHNNgmna-mr-MdPAiprXasLpyEqxGlPpj-VcKYHyeDFeVltVLz
 ```
+
 !!! note
     This will return a random string of characters using the words as the possible characters and the length as the length of the randomised string. `{range;55;60}` will return a value between 55 and 60.
 

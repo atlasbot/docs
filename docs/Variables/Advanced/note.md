@@ -4,12 +4,15 @@ Returns absolutely nothing, great for leaving comments in your code.
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 {note;Pst, don't tell anyone but you're awesome} Oh hai
 ```
-*Output*
-```
+
+### Output
+
+```json
 Oh hai
 ```
 

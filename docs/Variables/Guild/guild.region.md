@@ -4,12 +4,15 @@ Returns the guilds region, e.g `sydney` or `us-west`.
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 This server is currently hosted in {guild.region}.
 ```
-*Output*
-```
+
+### Output
+
+```json
 This server is currently hosted in sydney.
 ```
 

@@ -4,14 +4,18 @@ Remove a users role. This uses a fuzzy matching algorithm, so be careful not to 
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 {removerole;Humans} You've been removed from the Humans role.
 ```
-*Output*
-```
+
+### Output
+
+```json
 You've been removed from the Humans role
 ```
+
 !!! note
     This would remove the "Humans" role from the user, then return nothing and say the sentence.
 

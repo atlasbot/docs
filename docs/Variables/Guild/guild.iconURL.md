@@ -4,12 +4,15 @@ Returns the guild's icon URL if one is set.
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 You can grab the guilds notification level here: {guild.iconURL}
 ```
-*Output*
-```
+
+### Output
+
+```json
 You can grab the guilds notification level here: <some really long url>
 ```
 

@@ -4,12 +4,15 @@ Returns a number between your two numbers.
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 {range;5;10}
 ```
-*Output*
-```
+
+### Output
+
+```json
 6
 ```
 

@@ -4,12 +4,15 @@ Returns the users discriminator. The discriminator is that number after your nam
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 Hello {user.username}#{user.discriminator}!
 ```
-*Output*
-```
+
+### Output
+
+```json
 Hello Sylver#1058!
 ```
 

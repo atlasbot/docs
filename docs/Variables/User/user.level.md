@@ -4,12 +4,15 @@ Returns the users level. Currently only available in level-up messages.
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 Congratulations! You've leveled up to level {user.level}!
 ```
-*Output*
-```
+
+### Output
+
+```json
 Congratulations! You've leveled up to level 1!
 ```
 

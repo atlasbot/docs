@@ -4,12 +4,15 @@ Returns the users tag, their username and discriminator combined with a hashtag,
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 Hello {user.tag}!
 ```
-*Output*
-```
+
+### Output
+
+```json
 Hello Sylver#1058!
 ```
 

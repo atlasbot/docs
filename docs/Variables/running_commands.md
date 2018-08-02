@@ -4,15 +4,18 @@ Each command has it's own variable. To run any command, do `{a!<command name}` a
 
 Arguments must be seperated via `;`, for example `{a!command;arg1;arg2}`, which would be the same as running `a!command arg1 arg2`
 
-## Example
+!!! warning
+    Command variables do not support aliases as of 03/08/2017.
 
-*Input*
-```
-{a!play;song;name}
-```
-*Output*
+### Input
 
-*idk how to show the output but it would return nothing and run the "ping" command as though the user did it*
+```json
+{a!say;woohoo!;it;works.}
+```
+
+### Output
+
+![Output](/img/grNin51F.png)
 
 ## Supports
 

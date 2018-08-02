@@ -4,12 +4,15 @@ Returns the ID of the user who opened the ticket.
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 This ticket was created by {mention.user;{ticket.createdBy}}
 ```
-*Output*
-```
+
+### Output
+
+```json
 This ticket was created by @Sylver#1058
 ```
 

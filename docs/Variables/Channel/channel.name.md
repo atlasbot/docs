@@ -4,12 +4,15 @@ Returns the name of the current channel.
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 You're in {channel.name}
 ```
-*Output*
-```
+
+### Output
+
+```json
 You're in general
 ```
 

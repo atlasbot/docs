@@ -4,12 +4,15 @@ Replaces occurences of `phrase` in `string` with `replacement`.
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 {replace;Kittens are adorable;Kittens;Puppies}
 ```
-*Output*
-```
+
+### Output
+
+```json
 Puppies are adorable
 ```
 

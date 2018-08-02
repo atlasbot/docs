@@ -4,12 +4,15 @@ Returns the username of the user.
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 Hello {user.username}!
 ```
-*Output*
-```
+
+### Output
+
+```json
 Hello Sylver!
 ```
 

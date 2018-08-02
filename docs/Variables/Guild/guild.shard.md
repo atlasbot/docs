@@ -4,12 +4,15 @@ Returns the ID of the guilds shard, using zero-based indexing.
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 This guild is on shard {guild.shard.id}.
 ```
-*Output*
-```
+
+### Output
+
+```json
 This guild is on shard 0.
 ```
 

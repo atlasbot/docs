@@ -4,12 +4,15 @@ Returns the ticket's channel ID, the snowflake for the actual ticket channel.
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 Your ticket is {mention.channel;{ticket.channelID}}
 ```
-*Output*
-```
+
+### Output
+
+```json
 Your ticket is #sylver-1058
 ```
 

@@ -4,12 +4,15 @@ Returns the current channel's ID.
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 This channel's ID is {channel.id}
 ```
-*Output*
-```
+
+### Output
+
+```json
 This channel's ID is 396843177509650454
 ```
 

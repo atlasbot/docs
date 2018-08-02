@@ -6,13 +6,16 @@ You may also be interested in [get](/Variables/Advanced/get/)
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 {set;x;oof}
 {get;x}
 ```
-*Output*
-```
+
+### Output
+
+```json
 oof
 ```
 

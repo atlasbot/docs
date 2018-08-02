@@ -4,12 +4,15 @@ Returns the name of the guild.
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 You are currently in {guild.name}
 ```
-*Output*
-```
+
+### Output
+
+```json
 You are currently in Atlas Development
 ```
 

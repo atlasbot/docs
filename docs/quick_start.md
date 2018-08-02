@@ -2,24 +2,29 @@
 
 Get Atlas up and running in a few super simple steps.
 
+!!! note
+    Atlas is not a silver bullet, and getting Atlas won't magically solve all your problems. Filters work great, but are far from perfect. Fancy systems to keep track of who does what are always good, but you'll need someone to check them. If you want Atlas to solve all your problems, you've got the wrong bot.
+
 ## Inviting Atlas
 
-Before you can use Atlas, it must be invited to your server. Click [here](https://get-atlas.xyz/get) to go to Discord's authentication page. Select your server from the dropdown, then click Authorize. Atlas should show up as a member in your server, meaning you've successfully invited Atlas.
+Before you can use Atlas, it must be invited to your server. Click [here](https://get-atlas.xyz/get), thhen select your server from the dropdown and click Authorize. Once Discord has done it's magic, Atlas will show up as a member in your server, meaning you've successfully invited Atlas.
 
-!!! note
-    If your server doesn't show up in the dropdown, ensure you have administrator permissions in the server you want Atlas in.
+!!! tip
+    You have to have administrator permissions in the target server to add Atlas, otherwise the server will not show up in the server list.
 
 ## Running Commands
 
 Atlas is controlled primarily by commands. To run a command, do `a!<command name>`. For example, to list all commands, type a message that says `a!help` and Atlas will direct-message you a list of commands.
 
-# Configuring Atlas  
+## Configuring Atlas  
 
-To configure Atlas, you'll probably want to use the dashboard. It's super simple and easy to use, and far better than commands.
+To configure Atlas, you'll want to use the dashboard which you can access for free, assuming you have administrator permissions in the server you wish to modify.
 
-* Go [here](https://get-atlas.xyz/dashboard/auth)
-* Login to your Discord account if needed and click `Authorize`
-    * Don't worry, Atlas won't be able to modify your account or use it in any way, this just allows us to verify who you are and see what guilds you share with Atlas.
+* Go [here](https://get-atlas.xyz)
+* Sign in by clicking "Sign In" at the top right, you'll be redirected where you might have to sign into your Discord account, then click "Authorise".
 * Once logged in, go to the top right and click "Servers", select your server from the list.
 
 That's it! Once you're there, you can go into various modules and modify them however you'd like.
+
+!!! note
+    Worried about your account? Don't worry. Atlas will only get basic read-only information about your account. Atlas will not be able to modify your account, send messages on your behalf or do anything harmful.

@@ -4,14 +4,18 @@ Returns the user's nickname, if they don't have one it will fall back to their u
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 Hello {user.nickname}!
 ```
-*Output*
-```
+
+### Output
+
+```json
 Hello definitely_not_sylver!
 ```
+
 !!! note
     This assumes the user has a nickname in the guild that is `definitely_not_sylver` while their real username is `Sylver`
 

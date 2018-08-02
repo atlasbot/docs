@@ -1,5 +1,11 @@
-site_name: Atlas Docs
+site_name: Atlas Documenatation
+site_url: 'https://docs.get-atlas.xyz'
+site_author: 'Sylver'
+edit_uri: edit/master/docs/
+
+
 theme:
   name: 'material'
 markdown_extensions:
   - admonition
+  - codehilite

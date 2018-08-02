@@ -5,26 +5,14 @@ Welcome to Atlas' Documentation. The aim here is to help you learn how to use At
 If you're new to using Atlas, you will probably want to check out the [quick start](/quick_start/) guide.
 
 !!! note
-    These docs are still a work in progress, please excuse the mess!
+    Atlas 8.0.0 is slowly being worked on, when it's released some variables may be changed or removed. It's advised that if you're using variables that you join our support server so you get notified when 8.0.0 is released and you can change your variables accordingly.
 
-## Features
-
-* 99% Uptime 24/7
-* Moderation commands
-* Clear music
-* Fast support
-* Levels
-* Welcome and Leave messages
-* Custom commands
-
-# Open Source
+## Open Source
 
 This documentation is open source. Noticed a typo? Something unclear? [Improve this page on github](https://github.com/get-atlas/docs)
 
-## Support Server
+## Get Help
 
-If you're still puzzled and want help, please join our support server below.
+If you've checked the documentation and still need help, please join our support server below. Keep in mind that unfortunately, we're still humans and won't be able to get to you instantly - that said, we'll try our best.
 
-Keep in mind that unfortunately, we're still humans and won't be able to get to you instantly - that said, we'll try our best.
-
-[<img src="https://discordapp.com/api/guilds/345177567541723137/embed.png?style=banner3">](https://get-atlas.xyz/support)
+[<img src="https://discordapp.com/api/guilds/345177567541723137/embed.png?style=banner2">](https://get-atlas.xyz/support)

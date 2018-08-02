@@ -4,12 +4,15 @@ Chooses something from all your provided arguments.
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 {choose;Puppies;Kittens}
 ```
-*Output*
-```
+
+### Output
+
+```json
 Kittens
 ```
 

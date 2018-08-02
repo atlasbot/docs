@@ -4,12 +4,15 @@ Returns the guilds member count.
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 The server currently has {guild.memberCount} members!
 ```
-*Output*
-```
+
+### Output
+
+```json
 The server currently has 522 members!
 ```
 

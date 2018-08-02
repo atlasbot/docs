@@ -4,12 +4,15 @@ Returns the mention for the channel. You probably shouldn't use this.
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 You're in {channel.mention}
 ```
-*Output*
-```
+
+### Output
+
+```json
 You're in #general
 ```
 

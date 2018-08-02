@@ -7,12 +7,15 @@ Sends a message to a certain channel.
 
 ## Example
 
-*Input in channel 'test'*
-```
+### Input in channel 'test'
+
+```json
 {responder.send;general;lol}
 ```
-*Output in channel 'general'*
-```
+
+### Output in channel 'general'
+
+```json
 lol
 ```
 

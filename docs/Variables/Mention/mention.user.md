@@ -9,12 +9,15 @@ If no user is provided, it will fall back to whoever called the command, levelle
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 {mention.user;Sylver}
 ```
-*Output*
-```
+
+### Output
+
+```json
 @Sylver#1058
 ```
 

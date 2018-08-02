@@ -4,12 +4,15 @@ Returns the users avatar URL.
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 Your avatar is {user.avatarURL}!
 ```
-*Output*
-```
+
+### Output
+
+```json
 Your avatar is <really long url>!
 ```
 

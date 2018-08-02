@@ -4,12 +4,15 @@ Returns a mention for the user. This is not fully supported for leave messages y
 
 ## Example
 
-*Input*
-```
+### Input
+
+```json
 Hello {user.mention}!
 ```
-*Output*
-```
+
+### Output
+
+```json
 Hello @Sylver!
 ```
 
