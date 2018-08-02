@@ -2,18 +2,13 @@
     "docs": [
         {
             "location": "/",
-            "text": "Home\n\n\nWelcome to Atlas' Documentation. The aim here is to help you learn how to use Atlas, give you tips and make everything super simple for you to follow.\n\n\nIf you're new to using Atlas, you will probably want to check out the \nquick start\n guide.\n\n\n\n\nNote\n\n\nThese docs are still a work in progress, please excuse the mess!\n\n\n\n\nFeatures\n\n\n\n\n99% Uptime 24/7\n\n\nModeration commands\n\n\nClear music\n\n\nFast support\n\n\nLevels\n\n\nWelcome and Leave messages\n\n\nCustom commands\n\n\n\n\nOpen Source\n\n\nThis documentation is open source. Noticed a typo? Something unclear? \nImprove this page on github\n\n\nSupport Server\n\n\nIf you're still puzzled and want help, please join our support server below.\n\n\nKeep in mind that unfortunately, we're still humans and won't be able to get to you instantly - that said, we'll try our best.",
+            "text": "Home\n\n\nWelcome to Atlas' Documentation. The aim here is to help you learn how to use Atlas, give you tips and make everything super simple for you to follow.\n\n\nIf you're new to using Atlas, you will probably want to check out the \nquick start\n guide.\n\n\n\n\nNote\n\n\nAtlas 8.0.0 is slowly being worked on, when it's released some variables may be changed or removed. It's advised that if you're using variables that you join our support server so you get notified when 8.0.0 is released and you can change your variables accordingly.\n\n\n\n\nOpen Source\n\n\nThis documentation is open source. Noticed a typo? Something unclear? \nImprove this page on github\n\n\nGet Help\n\n\nIf you've checked the documentation and still need help, please join our support server below. Keep in mind that unfortunately, we're still humans and won't be able to get to you instantly - that said, we'll try our best.",
             "title": "Home"
         },
         {
             "location": "/#home",
-            "text": "Welcome to Atlas' Documentation. The aim here is to help you learn how to use Atlas, give you tips and make everything super simple for you to follow.  If you're new to using Atlas, you will probably want to check out the  quick start  guide.   Note  These docs are still a work in progress, please excuse the mess!",
+            "text": "Welcome to Atlas' Documentation. The aim here is to help you learn how to use Atlas, give you tips and make everything super simple for you to follow.  If you're new to using Atlas, you will probably want to check out the  quick start  guide.   Note  Atlas 8.0.0 is slowly being worked on, when it's released some variables may be changed or removed. It's advised that if you're using variables that you join our support server so you get notified when 8.0.0 is released and you can change your variables accordingly.",
             "title": "Home"
-        },
-        {
-            "location": "/#features",
-            "text": "99% Uptime 24/7  Moderation commands  Clear music  Fast support  Levels  Welcome and Leave messages  Custom commands",
-            "title": "Features"
         },
         {
             "location": "/#open-source",
@@ -21,23 +16,23 @@
             "title": "Open Source"
         },
         {
-            "location": "/#support-server",
-            "text": "If you're still puzzled and want help, please join our support server below.  Keep in mind that unfortunately, we're still humans and won't be able to get to you instantly - that said, we'll try our best.",
-            "title": "Support Server"
+            "location": "/#get-help",
+            "text": "If you've checked the documentation and still need help, please join our support server below. Keep in mind that unfortunately, we're still humans and won't be able to get to you instantly - that said, we'll try our best.",
+            "title": "Get Help"
         },
         {
             "location": "/quick_start/",
-            "text": "Quick Start\n\n\nGet Atlas up and running in a few super simple steps.\n\n\nInviting Atlas\n\n\nBefore you can use Atlas, it must be invited to your server. Click \nhere\n to go to Discord's authentication page. Select your server from the dropdown, then click Authorize. Atlas should show up as a member in your server, meaning you've successfully invited Atlas.\n\n\n\n\nNote\n\n\nIf your server doesn't show up in the dropdown, ensure you have administrator permissions in the server you want Atlas in.\n\n\n\n\nRunning Commands\n\n\nAtlas is controlled primarily by commands. To run a command, do \na!<command name>\n. For example, to list all commands, type a message that says \na!help\n and Atlas will direct-message you a list of commands.\n\n\nConfiguring Atlas\n\n\nTo configure Atlas, you'll probably want to use the dashboard. It's super simple and easy to use, and far better than commands.\n\n\n\n\nGo \nhere\n\n\nLogin to your Discord account if needed and click \nAuthorize\n\n\nDon't worry, Atlas won't be able to modify your account or use it in any way, this just allows us to verify who you are and see what guilds you share with Atlas.\n\n\n\n\n\n\nOnce logged in, go to the top right and click \"Servers\", select your server from the list.\n\n\n\n\nThat's it! Once you're there, you can go into various modules and modify them however you'd like.",
+            "text": "Quick Start\n\n\nGet Atlas up and running in a few super simple steps.\n\n\n\n\nNote\n\n\nAtlas is not a silver bullet, and getting Atlas won't magically solve all your problems. Filters work great, but are far from perfect. Fancy systems to keep track of who does what are always good, but you'll need someone to check them. If you want Atlas to solve all your problems, you've got the wrong bot.\n\n\n\n\nInviting Atlas\n\n\nBefore you can use Atlas, it must be invited to your server. Click \nhere\n, thhen select your server from the dropdown and click Authorize. Once Discord has done it's magic, Atlas will show up as a member in your server, meaning you've successfully invited Atlas.\n\n\n\n\nTip\n\n\nYou have to have administrator permissions in the target server to add Atlas, otherwise the server will not show up in the server list.\n\n\n\n\nRunning Commands\n\n\nAtlas is controlled primarily by commands. To run a command, do \na!<command name>\n. For example, to list all commands, type a message that says \na!help\n and Atlas will direct-message you a list of commands.\n\n\nConfiguring Atlas\n\n\nTo configure Atlas, you'll want to use the dashboard which you can access for free, assuming you have administrator permissions in the server you wish to modify.\n\n\n\n\nGo \nhere\n\n\nSign in by clicking \"Sign In\" at the top right, you'll be redirected where you might have to sign into your Discord account, then click \"Authorise\".\n\n\nOnce logged in, go to the top right and click \"Servers\", select your server from the list.\n\n\n\n\nThat's it! Once you're there, you can go into various modules and modify them however you'd like.\n\n\n\n\nNote\n\n\nWorried about your account? Don't worry. Atlas will only get basic read-only information about your account. Atlas will not be able to modify your account, send messages on your behalf or do anything harmful.",
             "title": "Quick Start"
         },
         {
             "location": "/quick_start/#quick-start",
-            "text": "Get Atlas up and running in a few super simple steps.",
+            "text": "Get Atlas up and running in a few super simple steps.   Note  Atlas is not a silver bullet, and getting Atlas won't magically solve all your problems. Filters work great, but are far from perfect. Fancy systems to keep track of who does what are always good, but you'll need someone to check them. If you want Atlas to solve all your problems, you've got the wrong bot.",
             "title": "Quick Start"
         },
         {
             "location": "/quick_start/#inviting-atlas",
-            "text": "Before you can use Atlas, it must be invited to your server. Click  here  to go to Discord's authentication page. Select your server from the dropdown, then click Authorize. Atlas should show up as a member in your server, meaning you've successfully invited Atlas.   Note  If your server doesn't show up in the dropdown, ensure you have administrator permissions in the server you want Atlas in.",
+            "text": "Before you can use Atlas, it must be invited to your server. Click  here , thhen select your server from the dropdown and click Authorize. Once Discord has done it's magic, Atlas will show up as a member in your server, meaning you've successfully invited Atlas.   Tip  You have to have administrator permissions in the target server to add Atlas, otherwise the server will not show up in the server list.",
             "title": "Inviting Atlas"
         },
         {
@@ -47,7 +42,7 @@
         },
         {
             "location": "/quick_start/#configuring-atlas",
-            "text": "To configure Atlas, you'll probably want to use the dashboard. It's super simple and easy to use, and far better than commands.   Go  here  Login to your Discord account if needed and click  Authorize  Don't worry, Atlas won't be able to modify your account or use it in any way, this just allows us to verify who you are and see what guilds you share with Atlas.    Once logged in, go to the top right and click \"Servers\", select your server from the list.   That's it! Once you're there, you can go into various modules and modify them however you'd like.",
+            "text": "To configure Atlas, you'll want to use the dashboard which you can access for free, assuming you have administrator permissions in the server you wish to modify.   Go  here  Sign in by clicking \"Sign In\" at the top right, you'll be redirected where you might have to sign into your Discord account, then click \"Authorise\".  Once logged in, go to the top right and click \"Servers\", select your server from the list.   That's it! Once you're there, you can go into various modules and modify them however you'd like.   Note  Worried about your account? Don't worry. Atlas will only get basic read-only information about your account. Atlas will not be able to modify your account, send messages on your behalf or do anything harmful.",
             "title": "Configuring Atlas"
         },
         {
@@ -92,18 +87,23 @@
         },
         {
             "location": "/Variables/running_commands/",
-            "text": "Running Commands\n\n\nEach command has it's own variable. To run any command, do \n{a!<command name}\n as a variable. For example, to run \nhelp\n as a variable, you would enter \n{a!help}\n.\n\n\nArguments must be seperated via \n;\n, for example \n{a!command;arg1;arg2}\n, which would be the same as running \na!command arg1 arg2\n\n\nExample\n\n\nInput\n\n\n{a!play;song;name}\n\n\n\n\nOutput\n\n\nidk how to show the output but it would return nothing and run the \"ping\" command as though the user did it\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin messages\n\n\nLevel-up messages",
+            "text": "Running Commands\n\n\nEach command has it's own variable. To run any command, do \n{a!<command name}\n as a variable. For example, to run \nhelp\n as a variable, you would enter \n{a!help}\n.\n\n\nArguments must be seperated via \n;\n, for example \n{a!command;arg1;arg2}\n, which would be the same as running \na!command arg1 arg2\n\n\n\n\nWarning\n\n\nCommand variables do not support aliases as of 03/08/2017.\n\n\n\n\nInput\n\n\n{\na!say;woohoo!;it;works.\n}\n\n\n\n\n\n\nOutput\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin messages\n\n\nLevel-up messages",
             "title": "Running Commands"
         },
         {
             "location": "/Variables/running_commands/#running-commands",
-            "text": "Each command has it's own variable. To run any command, do  {a!<command name}  as a variable. For example, to run  help  as a variable, you would enter  {a!help} .  Arguments must be seperated via  ; , for example  {a!command;arg1;arg2} , which would be the same as running  a!command arg1 arg2",
+            "text": "Each command has it's own variable. To run any command, do  {a!<command name}  as a variable. For example, to run  help  as a variable, you would enter  {a!help} .  Arguments must be seperated via  ; , for example  {a!command;arg1;arg2} , which would be the same as running  a!command arg1 arg2   Warning  Command variables do not support aliases as of 03/08/2017.",
             "title": "Running Commands"
         },
         {
-            "location": "/Variables/running_commands/#example",
-            "text": "Input  {a!play;song;name}  Output  idk how to show the output but it would return nothing and run the \"ping\" command as though the user did it",
-            "title": "Example"
+            "location": "/Variables/running_commands/#input",
+            "text": "{ a!say;woohoo!;it;works. }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/running_commands/#output",
+            "text": "",
+            "title": "Output"
         },
         {
             "location": "/Variables/running_commands/#supports",
@@ -111,8 +111,48 @@
             "title": "Supports"
         },
         {
+            "location": "/Variables/sending_embeds/",
+            "text": "Sending Embeds\n\n\nBasic Usage\n\n\nCurrently the standard way to send embeds is to execute the \nembed\n or \nadvancedembed\n command through a variable. \n\n\nInput\n\n\n{\na!embed;wew,\n \nembeds\n \nare\n \nfun\n}\n\n\n\n\n\n\nOutput\n\n\n\n\nPossible uses for this could be custom join/leave messages by using a non-embedded message and using the \n{a!embed}\n variable to send your own embed, or having your own super fancy custom commands.\n\n\nAdvanced Usage\n\n\nYou can do a lot more than just a simple embed. You can view all the possible options by doing \na!help advancedembed\n in your server, but there are tons of options available. For example, if you wanted to embed level up messages, you could do:\n\n\nInput\n\n\n{\na!advancedembed;--title=\n\"Level Up!\"\n;--description=\n\"Congratulations {mention.user}, you have levelled up to level {user.level}!\"\n;--thumbnail=\n\"{user.avatarURL}\"\n}\n\n\n\n\n\n\nOutput\n\n\n\n\nYou can take this a lot further, for example you could add \n--color=\"#3AAFA9\"\n to make the bar on the left of the embed a different color, where \n#3AAFA9\n can be any hex code, or a color name like \nblue\n. You could add more fields, add an image or URL, and a lot more. The syntax for \nadvancedembed\n isn't the best at the moment, but it gets the job done.",
+            "title": "Sending Embeds"
+        },
+        {
+            "location": "/Variables/sending_embeds/#sending-embeds",
+            "text": "",
+            "title": "Sending Embeds"
+        },
+        {
+            "location": "/Variables/sending_embeds/#basic-usage",
+            "text": "Currently the standard way to send embeds is to execute the  embed  or  advancedembed  command through a variable.",
+            "title": "Basic Usage"
+        },
+        {
+            "location": "/Variables/sending_embeds/#input",
+            "text": "{ a!embed;wew,   embeds   are   fun }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/sending_embeds/#output",
+            "text": "Possible uses for this could be custom join/leave messages by using a non-embedded message and using the  {a!embed}  variable to send your own embed, or having your own super fancy custom commands.",
+            "title": "Output"
+        },
+        {
+            "location": "/Variables/sending_embeds/#advanced-usage",
+            "text": "You can do a lot more than just a simple embed. You can view all the possible options by doing  a!help advancedembed  in your server, but there are tons of options available. For example, if you wanted to embed level up messages, you could do:",
+            "title": "Advanced Usage"
+        },
+        {
+            "location": "/Variables/sending_embeds/#input_1",
+            "text": "{ a!advancedembed;--title= \"Level Up!\" ;--description= \"Congratulations {mention.user}, you have levelled up to level {user.level}!\" ;--thumbnail= \"{user.avatarURL}\" }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/sending_embeds/#output_1",
+            "text": "You can take this a lot further, for example you could add  --color=\"#3AAFA9\"  to make the bar on the left of the embed a different color, where  #3AAFA9  can be any hex code, or a color name like  blue . You could add more fields, add an image or URL, and a lot more. The syntax for  advancedembed  isn't the best at the moment, but it gets the job done.",
+            "title": "Output"
+        },
+        {
             "location": "/Variables/Advanced/args/",
-            "text": "args [index, range]\n\n\nGets the arguments provided when executing the command.\n\n\nExample\n\n\n\n\nNote\n\n\nFor this example, let's assume the command name was \ncommand\n and it was run like this\n\na!command this is definitely not a test\n\n\n\n\nInput\n\n\n{args}\n{args;2}\n{args;2;2}\n\n\n\n\nOutput\n\n\nthis is definitely not a test\nis\nis definitely\n\n\n\n\nSupports\n\n\n\n\nCustom commands",
+            "text": "args [index, range]\n\n\nGets the arguments provided when executing the command.\n\n\nExample\n\n\n\n\nNote\n\n\nFor this example, let's assume the command name was \ncommand\n and it executed like this\n\n\na!command this is definitely not a test\n\n\n\n\nInput\n\n\n{\nargs\n}\n\n\n{\nargs;2\n}\n\n\n{\nargs;2;2\n}\n\n\n\n\n\n\nOutput\n\n\nthis\n \nis\n \ndefinitely\n \nnot\n \na\n \ntest\n\n\nis\n\n\nis\n \ndefinitely\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands",
             "title": "args [index, range]"
         },
         {
@@ -122,8 +162,18 @@
         },
         {
             "location": "/Variables/Advanced/args/#example",
-            "text": "Note  For this example, let's assume the command name was  command  and it was run like this a!command this is definitely not a test   Input  {args}\n{args;2}\n{args;2;2}  Output  this is definitely not a test\nis\nis definitely",
+            "text": "Note  For this example, let's assume the command name was  command  and it executed like this  a!command this is definitely not a test",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Advanced/args/#input",
+            "text": "{ args }  { args;2 }  { args;2;2 }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Advanced/args/#output",
+            "text": "this   is   definitely   not   a   test  is  is   definitely",
+            "title": "Output"
         },
         {
             "location": "/Variables/Advanced/args/#supports",
@@ -132,7 +182,7 @@
         },
         {
             "location": "/Variables/Advanced/choose/",
-            "text": "choose [opt0, opt1, ..., optN]\n\n\nChooses something from all your provided arguments.\n\n\nExample\n\n\nInput\n\n\n{choose;Puppies;Kittens}\n\n\n\n\nOutput\n\n\nKittens\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "choose [opt0, opt1, ..., optN]\n\n\nChooses something from all your provided arguments.\n\n\nExample\n\n\nInput\n\n\n{\nchoose;Puppies;Kittens\n}\n\n\n\n\n\n\nOutput\n\n\nKittens\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "choose [opt0, opt1, ..., optN]"
         },
         {
@@ -142,8 +192,18 @@
         },
         {
             "location": "/Variables/Advanced/choose/#example",
-            "text": "Input  {choose;Puppies;Kittens}  Output  Kittens",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Advanced/choose/#input",
+            "text": "{ choose;Puppies;Kittens }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Advanced/choose/#output",
+            "text": "Kittens",
+            "title": "Output"
         },
         {
             "location": "/Variables/Advanced/choose/#supports",
@@ -152,7 +212,7 @@
         },
         {
             "location": "/Variables/Advanced/get/",
-            "text": "get [key]\n\n\nGets a variable from storage. You may also be interested in \nset\n.\n\n\nExample\n\n\nInput\n\n\n{set;x;oof}\n{get;x}\n\n\n\n\nOutput\n\n\noof\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "get [key]\n\n\nGets a variable from storage. You may also be interested in \nset\n.\n\n\nExample\n\n\nInput\n\n\n{\nset;x;oof\n}\n\n\n{\nget;x\n}\n\n\n\n\n\n\nOutput\n\n\noof\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "get [key]"
         },
         {
@@ -162,8 +222,18 @@
         },
         {
             "location": "/Variables/Advanced/get/#example",
-            "text": "Input  {set;x;oof}\n{get;x}  Output  oof",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Advanced/get/#input",
+            "text": "{ set;x;oof }  { get;x }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Advanced/get/#output",
+            "text": "oof",
+            "title": "Output"
         },
         {
             "location": "/Variables/Advanced/get/#supports",
@@ -172,7 +242,7 @@
         },
         {
             "location": "/Variables/Advanced/giverole/",
-            "text": "giverole [role] [user]\n\n\nGive a user a role from the server, pretty self explanatory. \n[role]\n can be a role name or ID, \n<user>\n is optional and can be a username, user id, nickname or mention. If \n<user>\n is not provided, it will use the user in context (for example, the person who ran the command that the variable is apart of).\n\n\nExample\n\n\nInput\n\n\n{giverole;Humans} You've been added to the Humans role.\n\n\n\n\nOutput\n\n\nYou've been added to the Humans role.\n\n\n\n\n\n\nNote\n\n\nThis would give the user the \"Humans\" role, then return nothing and say the sentence.\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin messages\n\n\nLevel-up messages",
+            "text": "giverole [role] [user]\n\n\nGive a user a role from the server, pretty self explanatory. \n[role]\n can be a role name or ID, \n<user>\n is optional and can be a username, user id, nickname or mention. If \n<user>\n is not provided, it will use the user in context (for example, the person who ran the command that the variable is apart of).\n\n\nExample\n\n\nInput\n\n\n{\ngiverole;Humans\n}\n \nYou've\n \nbeen\n \nadded\n \nto\n \nthe\n \nHumans\n \nrole.\n\n\n\n\n\n\nOutput\n\n\nYou've\n \nbeen\n \nadded\n \nto\n \nthe\n \nHumans\n \nrole.\n\n\n\n\n\n\n\n\nNote\n\n\nThis would give the user the \"Humans\" role, then return nothing and say the sentence.\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin messages\n\n\nLevel-up messages",
             "title": "giverole [role] [user]"
         },
         {
@@ -182,8 +252,18 @@
         },
         {
             "location": "/Variables/Advanced/giverole/#example",
-            "text": "Input  {giverole;Humans} You've been added to the Humans role.  Output  You've been added to the Humans role.   Note  This would give the user the \"Humans\" role, then return nothing and say the sentence.",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Advanced/giverole/#input",
+            "text": "{ giverole;Humans }   You've   been   added   to   the   Humans   role.",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Advanced/giverole/#output",
+            "text": "You've   been   added   to   the   Humans   role.    Note  This would give the user the \"Humans\" role, then return nothing and say the sentence.",
+            "title": "Output"
         },
         {
             "location": "/Variables/Advanced/giverole/#supports",
@@ -192,7 +272,7 @@
         },
         {
             "location": "/Variables/Advanced/note/",
-            "text": "note [str]\n\n\nReturns absolutely nothing, great for leaving comments in your code.\n\n\nExample\n\n\nInput\n\n\n{note;Pst, don't tell anyone but you're awesome} Oh hai\n\n\n\n\nOutput\n\n\nOh hai\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "note [str]\n\n\nReturns absolutely nothing, great for leaving comments in your code.\n\n\nExample\n\n\nInput\n\n\n{\nnote;Pst,\n \ndon't\n \ntell\n \nanyone\n \nbut\n \nyou're\n \nawesome\n}\n \nOh\n \nhai\n\n\n\n\n\n\nOutput\n\n\nOh\n \nhai\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "note [str]"
         },
         {
@@ -202,8 +282,18 @@
         },
         {
             "location": "/Variables/Advanced/note/#example",
-            "text": "Input  {note;Pst, don't tell anyone but you're awesome} Oh hai  Output  Oh hai",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Advanced/note/#input",
+            "text": "{ note;Pst,   don't   tell   anyone   but   you're   awesome }   Oh   hai",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Advanced/note/#output",
+            "text": "Oh   hai",
+            "title": "Output"
         },
         {
             "location": "/Variables/Advanced/note/#supports",
@@ -212,7 +302,7 @@
         },
         {
             "location": "/Variables/Advanced/randstr/",
-            "text": "randstr [chars, length]\n\n\nReturns a random string of characters.\n\n\nExample\n\n\nInput\n\n\n{randstr;qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM_-.;{range;55;60}}\n\n\n\n\nOutput\n\n\nJe-ACKgLOFxfZ.GaOLSvGygUCdbaIhOthbOHNNgmna-mr-MdPAiprXasLpyEqxGlPpj-VcKYHyeDFeVltVLz\n\n\n\n\n\n\nNote\n\n\nThis will return a random string of characters using the words as the possible characters and the length as the length of the randomised string. \n{range;55;60}\n will return a value between 55 and 60.\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "randstr [chars, length]\n\n\nReturns a random string of characters.\n\n\nExample\n\n\nInput\n\n\n{\nrandstr;qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM_-.;{range;55;60\n}\n}\n\n\n\n\n\n\nOutput\n\n\nJe-ACKgLOFxfZ.GaOLSvGygUCdbaIhOthbOHNNgmna-mr-MdPAiprXasLpyEqxGlPpj-VcKYHyeDFeVltVLz\n\n\n\n\n\n\n\n\nNote\n\n\nThis will return a random string of characters using the words as the possible characters and the length as the length of the randomised string. \n{range;55;60}\n will return a value between 55 and 60.\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "randstr [chars, length]"
         },
         {
@@ -222,8 +312,18 @@
         },
         {
             "location": "/Variables/Advanced/randstr/#example",
-            "text": "Input  {randstr;qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM_-.;{range;55;60}}  Output  Je-ACKgLOFxfZ.GaOLSvGygUCdbaIhOthbOHNNgmna-mr-MdPAiprXasLpyEqxGlPpj-VcKYHyeDFeVltVLz   Note  This will return a random string of characters using the words as the possible characters and the length as the length of the randomised string.  {range;55;60}  will return a value between 55 and 60.",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Advanced/randstr/#input",
+            "text": "{ randstr;qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM_-.;{range;55;60 } }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Advanced/randstr/#output",
+            "text": "Je-ACKgLOFxfZ.GaOLSvGygUCdbaIhOthbOHNNgmna-mr-MdPAiprXasLpyEqxGlPpj-VcKYHyeDFeVltVLz    Note  This will return a random string of characters using the words as the possible characters and the length as the length of the randomised string.  {range;55;60}  will return a value between 55 and 60.",
+            "title": "Output"
         },
         {
             "location": "/Variables/Advanced/randstr/#supports",
@@ -232,7 +332,7 @@
         },
         {
             "location": "/Variables/Advanced/range/",
-            "text": "range [start, end]\n\n\nReturns a number between your two numbers.\n\n\nExample\n\n\nInput\n\n\n{range;5;10}\n\n\n\n\nOutput\n\n\n6\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "range [start, end]\n\n\nReturns a number between your two numbers.\n\n\nExample\n\n\nInput\n\n\n{\nrange;5;10\n}\n\n\n\n\n\n\nOutput\n\n\n6\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "range [start, end]"
         },
         {
@@ -242,8 +342,18 @@
         },
         {
             "location": "/Variables/Advanced/range/#example",
-            "text": "Input  {range;5;10}  Output  6",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Advanced/range/#input",
+            "text": "{ range;5;10 }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Advanced/range/#output",
+            "text": "6",
+            "title": "Output"
         },
         {
             "location": "/Variables/Advanced/range/#supports",
@@ -252,7 +362,7 @@
         },
         {
             "location": "/Variables/Advanced/removerole/",
-            "text": "removerole [role]\n\n\nRemove a users role. This uses a fuzzy matching algorithm, so be careful not to remove roles you don't want by deleting the target role.\n\n\nExample\n\n\nInput\n\n\n{removerole;Humans} You've been removed from the Humans role.\n\n\n\n\nOutput\n\n\nYou've been removed from the Humans role\n\n\n\n\n\n\nNote\n\n\nThis would remove the \"Humans\" role from the user, then return nothing and say the sentence.\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin messages\n\n\nLevel-up messages",
+            "text": "removerole [role]\n\n\nRemove a users role. This uses a fuzzy matching algorithm, so be careful not to remove roles you don't want by deleting the target role.\n\n\nExample\n\n\nInput\n\n\n{\nremoverole;Humans\n}\n \nYou've\n \nbeen\n \nremoved\n \nfrom\n \nthe\n \nHumans\n \nrole.\n\n\n\n\n\n\nOutput\n\n\nYou've\n \nbeen\n \nremoved\n \nfrom\n \nthe\n \nHumans\n \nrole\n\n\n\n\n\n\n\n\nNote\n\n\nThis would remove the \"Humans\" role from the user, then return nothing and say the sentence.\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin messages\n\n\nLevel-up messages",
             "title": "removerole [role]"
         },
         {
@@ -262,8 +372,18 @@
         },
         {
             "location": "/Variables/Advanced/removerole/#example",
-            "text": "Input  {removerole;Humans} You've been removed from the Humans role.  Output  You've been removed from the Humans role   Note  This would remove the \"Humans\" role from the user, then return nothing and say the sentence.",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Advanced/removerole/#input",
+            "text": "{ removerole;Humans }   You've   been   removed   from   the   Humans   role.",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Advanced/removerole/#output",
+            "text": "You've   been   removed   from   the   Humans   role    Note  This would remove the \"Humans\" role from the user, then return nothing and say the sentence.",
+            "title": "Output"
         },
         {
             "location": "/Variables/Advanced/removerole/#supports",
@@ -272,7 +392,7 @@
         },
         {
             "location": "/Variables/Advanced/replace/",
-            "text": "replace [string, phrase, replacement]\n\n\nReplaces occurences of \nphrase\n in \nstring\n with \nreplacement\n.\n\n\nExample\n\n\nInput\n\n\n{replace;Kittens are adorable;Kittens;Puppies}\n\n\n\n\nOutput\n\n\nPuppies are adorable\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "replace [string, phrase, replacement]\n\n\nReplaces occurences of \nphrase\n in \nstring\n with \nreplacement\n.\n\n\nExample\n\n\nInput\n\n\n{\nreplace;Kittens\n \nare\n \nadorable;Kittens;Puppies\n}\n\n\n\n\n\n\nOutput\n\n\nPuppies\n \nare\n \nadorable\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "replace [string, phrase, replacement]"
         },
         {
@@ -282,8 +402,18 @@
         },
         {
             "location": "/Variables/Advanced/replace/#example",
-            "text": "Input  {replace;Kittens are adorable;Kittens;Puppies}  Output  Puppies are adorable",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Advanced/replace/#input",
+            "text": "{ replace;Kittens   are   adorable;Kittens;Puppies }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Advanced/replace/#output",
+            "text": "Puppies   are   adorable",
+            "title": "Output"
         },
         {
             "location": "/Variables/Advanced/replace/#supports",
@@ -292,7 +422,7 @@
         },
         {
             "location": "/Variables/Advanced/set/",
-            "text": "set [key] [value]\n\n\nSet a variable to be used later. This is not persistent \nyet\n, so if you run a command that sets X to something, and another that gets X, the second one won't know what you're talking about.\n\n\nYou may also be interested in \nget\n\n\nExample\n\n\nInput\n\n\n{set;x;oof}\n{get;x}\n\n\n\n\nOutput\n\n\noof\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "set [key] [value]\n\n\nSet a variable to be used later. This is not persistent \nyet\n, so if you run a command that sets X to something, and another that gets X, the second one won't know what you're talking about.\n\n\nYou may also be interested in \nget\n\n\nExample\n\n\nInput\n\n\n{\nset;x;oof\n}\n\n\n{\nget;x\n}\n\n\n\n\n\n\nOutput\n\n\noof\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "set [key] [value]"
         },
         {
@@ -302,8 +432,18 @@
         },
         {
             "location": "/Variables/Advanced/set/#example",
-            "text": "Input  {set;x;oof}\n{get;x}  Output  oof",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Advanced/set/#input",
+            "text": "{ set;x;oof }  { get;x }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Advanced/set/#output",
+            "text": "oof",
+            "title": "Output"
         },
         {
             "location": "/Variables/Advanced/set/#supports",
@@ -311,8 +451,368 @@
             "title": "Supports"
         },
         {
+            "location": "/Variables/Basic/capitalise/",
+            "text": "capitalise [string]\n\n\nMakes the first letter in the string uppercase.\n\n\nExample\n\n\nInput\n\n\n{\ncapitalise;puppy\n}\n\n\n\n\n\n\nOutput\n\n\nPuppy\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "capitalise [string]"
+        },
+        {
+            "location": "/Variables/Basic/capitalise/#capitalise-string",
+            "text": "Makes the first letter in the string uppercase.",
+            "title": "capitalise [string]"
+        },
+        {
+            "location": "/Variables/Basic/capitalise/#example",
+            "text": "",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Basic/capitalise/#input",
+            "text": "{ capitalise;puppy }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Basic/capitalise/#output",
+            "text": "Puppy",
+            "title": "Output"
+        },
+        {
+            "location": "/Variables/Basic/capitalise/#supports",
+            "text": "Custom commands  Join and leave messages  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Basic/date/",
+            "text": "date [timezone]\n\n\nGets the date, timezone is not necessary. If you do choose to include a timezone, you must follow the \ntz time zone format\n.\n\n\n\n\nNote\n\n\nIf you don't include a timezone, Atlas will use it's own timezone.\n\n\n\n\nExample\n\n\nInput\n\n\n{\ndate\n}\n\n\n{\ndate;America/Los_Angeles\n}\n\n\n\n\n\n\nOutput\n\n\nMay\n \n27\nth\n \n2018\n\n\nMay\n \n27\nth\n \n2018\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "date [timezone]"
+        },
+        {
+            "location": "/Variables/Basic/date/#date-timezone",
+            "text": "Gets the date, timezone is not necessary. If you do choose to include a timezone, you must follow the  tz time zone format .   Note  If you don't include a timezone, Atlas will use it's own timezone.",
+            "title": "date [timezone]"
+        },
+        {
+            "location": "/Variables/Basic/date/#example",
+            "text": "",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Basic/date/#input",
+            "text": "{ date }  { date;America/Los_Angeles }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Basic/date/#output",
+            "text": "May   27 th   2018  May   27 th   2018",
+            "title": "Output"
+        },
+        {
+            "location": "/Variables/Basic/date/#supports",
+            "text": "Custom commands  Join and leave messages  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Basic/datetime/",
+            "text": "datetime [timezone]\n\n\nGets the date and time, timezone is not necessary. If you do choose to include a timezone, you must follow the \ntz time zone format\n.\n\n\n\n\nNote\n\n\nIf you don't include a timezone, Atlas will use it's own timezone.\n\n\n\n\nExample\n\n\nInput\n\n\n{\ndatetime\n}\n\n\n{\ndatetime;America/Los_Angeles\n}\n\n\n\n\n\n\nOutput\n\n\nMay\n \n27\nth\n \n2018\n,\n \n7\n:\n45\n:\n24\n \npm\n\n\nMay\n \n27\nth\n \n2018\n,\n \n4\n:\n45\n:\n24\n \nam\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "datetime [timezone]"
+        },
+        {
+            "location": "/Variables/Basic/datetime/#datetime-timezone",
+            "text": "Gets the date and time, timezone is not necessary. If you do choose to include a timezone, you must follow the  tz time zone format .   Note  If you don't include a timezone, Atlas will use it's own timezone.",
+            "title": "datetime [timezone]"
+        },
+        {
+            "location": "/Variables/Basic/datetime/#example",
+            "text": "",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Basic/datetime/#input",
+            "text": "{ datetime }  { datetime;America/Los_Angeles }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Basic/datetime/#output",
+            "text": "May   27 th   2018 ,   7 : 45 : 24   pm  May   27 th   2018 ,   4 : 45 : 24   am",
+            "title": "Output"
+        },
+        {
+            "location": "/Variables/Basic/datetime/#supports",
+            "text": "Custom commands  Join and leave messages  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Basic/delete/",
+            "text": "delete\n\n\nDelete the original message that caused the... \"thing\". For custom commands, this deletes the invocation message, for level up messages it deletes the message that caused the level-up.\n\n\nExample\n\n\nInput\n\n\n{\ndelete\n}\n \n*boop*\n\n\n\n\n\n\nOutput\n\n\n*boop*\n\n\n\n\n\n\n\n\nNote\n\n\nThis would have deleted the message that called it, but of course you can't see that here.\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nLevel-up messages",
+            "title": "delete"
+        },
+        {
+            "location": "/Variables/Basic/delete/#delete",
+            "text": "Delete the original message that caused the... \"thing\". For custom commands, this deletes the invocation message, for level up messages it deletes the message that caused the level-up.",
+            "title": "delete"
+        },
+        {
+            "location": "/Variables/Basic/delete/#example",
+            "text": "",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Basic/delete/#input",
+            "text": "{ delete }   *boop*",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Basic/delete/#output",
+            "text": "*boop*    Note  This would have deleted the message that called it, but of course you can't see that here.",
+            "title": "Output"
+        },
+        {
+            "location": "/Variables/Basic/delete/#supports",
+            "text": "Custom commands  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Basic/l/",
+            "text": "l\n\n\nReturns a left bracket \n{\n, useful if the compiler keeps eating them up.\n\n\nExample\n\n\nInput\n\n\n{\nl\n}\n\n\n\n\n\n\nOutput\n\n\n{\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "l"
+        },
+        {
+            "location": "/Variables/Basic/l/#l",
+            "text": "Returns a left bracket  { , useful if the compiler keeps eating them up.",
+            "title": "l"
+        },
+        {
+            "location": "/Variables/Basic/l/#example",
+            "text": "",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Basic/l/#input",
+            "text": "{ l }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Basic/l/#output",
+            "text": "{",
+            "title": "Output"
+        },
+        {
+            "location": "/Variables/Basic/l/#supports",
+            "text": "Custom commands  Join and leave messages  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Basic/length/",
+            "text": "length [str]\n\n\nReturns the length of whatever is provided.\n\n\nExample\n\n\nInput\n\n\n{\nlength;awd\n}\n\n\n\n\n\n\nOutput\n\n\n3\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "length [str]"
+        },
+        {
+            "location": "/Variables/Basic/length/#length-str",
+            "text": "Returns the length of whatever is provided.",
+            "title": "length [str]"
+        },
+        {
+            "location": "/Variables/Basic/length/#example",
+            "text": "",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Basic/length/#input",
+            "text": "{ length;awd }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Basic/length/#output",
+            "text": "3",
+            "title": "Output"
+        },
+        {
+            "location": "/Variables/Basic/length/#supports",
+            "text": "Custom commands  Join and leave messages  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Basic/lower/",
+            "text": "lower [str]\n\n\nConverts a string to lowercase.\n\n\nExample\n\n\nInput\n\n\n{\nlower;WHY\n \nHELLO\n \nTHERE\n}\n\n\n\n\n\n\nOutput\n\n\nwhy\n \nhello\n \nthere\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "lower [str]"
+        },
+        {
+            "location": "/Variables/Basic/lower/#lower-str",
+            "text": "Converts a string to lowercase.",
+            "title": "lower [str]"
+        },
+        {
+            "location": "/Variables/Basic/lower/#example",
+            "text": "",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Basic/lower/#input",
+            "text": "{ lower;WHY   HELLO   THERE }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Basic/lower/#output",
+            "text": "why   hello   there",
+            "title": "Output"
+        },
+        {
+            "location": "/Variables/Basic/lower/#supports",
+            "text": "Custom commands  Join and leave messages  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Basic/math/",
+            "text": "math [equation]\n\n\nEvaluates math. Yup, not very interesting.\n\n\nExample\n\n\nInput\n\n\n{\nmath;1+1\n}\n\n\n\n\n\n\nOutput\n\n\n2\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "math [equation]"
+        },
+        {
+            "location": "/Variables/Basic/math/#math-equation",
+            "text": "Evaluates math. Yup, not very interesting.",
+            "title": "math [equation]"
+        },
+        {
+            "location": "/Variables/Basic/math/#example",
+            "text": "",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Basic/math/#input",
+            "text": "{ math;1+1 }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Basic/math/#output",
+            "text": "2",
+            "title": "Output"
+        },
+        {
+            "location": "/Variables/Basic/math/#supports",
+            "text": "Custom commands  Join and leave messages  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Basic/r/",
+            "text": "r\n\n\nReturns a right bracket \n}\n, useful if the compiler keeps eating them up.\n\n\nExample\n\n\nInput\n\n\n{\nr\n}\n\n\n\n\n\n\nOutput\n\n\n}\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "r"
+        },
+        {
+            "location": "/Variables/Basic/r/#r",
+            "text": "Returns a right bracket  } , useful if the compiler keeps eating them up.",
+            "title": "r"
+        },
+        {
+            "location": "/Variables/Basic/r/#example",
+            "text": "",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Basic/r/#input",
+            "text": "{ r }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Basic/r/#output",
+            "text": "}",
+            "title": "Output"
+        },
+        {
+            "location": "/Variables/Basic/r/#supports",
+            "text": "Custom commands  Join and leave messages  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Basic/semi/",
+            "text": "semi\n\n\nReturns a semicolon, useful if the compiler keeps eating them up or you want one in the middle of a variable.\n\n\nExample\n\n\nInput\n\n\n{\nsemi\n}\n\n\n\n\n\n\nOutput\n\n\n;\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "semi"
+        },
+        {
+            "location": "/Variables/Basic/semi/#semi",
+            "text": "Returns a semicolon, useful if the compiler keeps eating them up or you want one in the middle of a variable.",
+            "title": "semi"
+        },
+        {
+            "location": "/Variables/Basic/semi/#example",
+            "text": "",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Basic/semi/#input",
+            "text": "{ semi }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Basic/semi/#output",
+            "text": ";",
+            "title": "Output"
+        },
+        {
+            "location": "/Variables/Basic/semi/#supports",
+            "text": "Custom commands  Join and leave messages  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Basic/time/",
+            "text": "time [timezone]\n\n\nGets the time, timezone is not necessary. If you do choose to include a timezone, you must follow the \ntz time zone format\n.\n\n\n\n\nNote\n\n\nIf you don't include a timezone, Atlas will use it's own timezone.\n\n\n\n\nExample\n\n\nInput\n\n\n{\ntime\n}\n\n\n{\ntime;America/Los_Angeles\n}\n\n\n\n\n\n\nOutput\n\n\n7\n:\n46\n:\n00\n \npm\n\n\n4\n:\n46\n:\n00\n \nam\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "time [timezone]"
+        },
+        {
+            "location": "/Variables/Basic/time/#time-timezone",
+            "text": "Gets the time, timezone is not necessary. If you do choose to include a timezone, you must follow the  tz time zone format .   Note  If you don't include a timezone, Atlas will use it's own timezone.",
+            "title": "time [timezone]"
+        },
+        {
+            "location": "/Variables/Basic/time/#example",
+            "text": "",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Basic/time/#input",
+            "text": "{ time }  { time;America/Los_Angeles }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Basic/time/#output",
+            "text": "7 : 46 : 00   pm  4 : 46 : 00   am",
+            "title": "Output"
+        },
+        {
+            "location": "/Variables/Basic/time/#supports",
+            "text": "Custom commands  Join and leave messages  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Basic/upper/",
+            "text": "upper [str]\n\n\nConverts a string to uppercase.\n\n\nExample\n\n\nInput\n\n\n{\nupper;Why\n \nhello\n \nthere\n}\n\n\n\n\n\n\nOutput\n\n\nWHY\n \nHELLO\n \nTHERE\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "upper [str]"
+        },
+        {
+            "location": "/Variables/Basic/upper/#upper-str",
+            "text": "Converts a string to uppercase.",
+            "title": "upper [str]"
+        },
+        {
+            "location": "/Variables/Basic/upper/#example",
+            "text": "",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Basic/upper/#input",
+            "text": "{ upper;Why   hello   there }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Basic/upper/#output",
+            "text": "WHY   HELLO   THERE",
+            "title": "Output"
+        },
+        {
+            "location": "/Variables/Basic/upper/#supports",
+            "text": "Custom commands  Join and leave messages  Level-up messages",
+            "title": "Supports"
+        },
+        {
             "location": "/Variables/Channel/channel.id/",
-            "text": "channel.id\n\n\nReturns the current channel's ID.\n\n\nExample\n\n\nInput\n\n\nThis channel's ID is {channel.id}\n\n\n\n\nOutput\n\n\nThis channel's ID is 396843177509650454\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nLevel-up messages",
+            "text": "channel.id\n\n\nReturns the current channel's ID.\n\n\nExample\n\n\nInput\n\n\nThis\n \nchannel's\n \nID\n \nis\n \n{\nchannel.id\n}\n\n\n\n\n\n\nOutput\n\n\nThis\n \nchannel's\n \nID\n \nis\n \n396843177509650454\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nLevel-up messages",
             "title": "channel.id"
         },
         {
@@ -322,8 +822,18 @@
         },
         {
             "location": "/Variables/Channel/channel.id/#example",
-            "text": "Input  This channel's ID is {channel.id}  Output  This channel's ID is 396843177509650454",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Channel/channel.id/#input",
+            "text": "This   channel's   ID   is   { channel.id }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Channel/channel.id/#output",
+            "text": "This   channel's   ID   is   396843177509650454",
+            "title": "Output"
         },
         {
             "location": "/Variables/Channel/channel.id/#supports",
@@ -332,7 +842,7 @@
         },
         {
             "location": "/Variables/Channel/channel.mention/",
-            "text": "channel.mention\n\n\nReturns the mention for the channel. You probably shouldn't use this.\n\n\nExample\n\n\nInput\n\n\nYou're in {channel.mention}\n\n\n\n\nOutput\n\n\nYou're in #general\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nLevel-up messages",
+            "text": "channel.mention\n\n\nReturns the mention for the channel. You probably shouldn't use this.\n\n\nExample\n\n\nInput\n\n\nYou're\n \nin\n \n{\nchannel.mention\n}\n\n\n\n\n\n\nOutput\n\n\nYou're\n \nin\n \n#general\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nLevel-up messages",
             "title": "channel.mention"
         },
         {
@@ -342,8 +852,18 @@
         },
         {
             "location": "/Variables/Channel/channel.mention/#example",
-            "text": "Input  You're in {channel.mention}  Output  You're in #general",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Channel/channel.mention/#input",
+            "text": "You're   in   { channel.mention }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Channel/channel.mention/#output",
+            "text": "You're   in   #general",
+            "title": "Output"
         },
         {
             "location": "/Variables/Channel/channel.mention/#supports",
@@ -352,7 +872,7 @@
         },
         {
             "location": "/Variables/Channel/channel.name/",
-            "text": "channel.name\n\n\nReturns the name of the current channel.\n\n\nExample\n\n\nInput\n\n\nYou're in {channel.name}\n\n\n\n\nOutput\n\n\nYou're in general\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nLevel-up messages",
+            "text": "channel.name\n\n\nReturns the name of the current channel.\n\n\nExample\n\n\nInput\n\n\nYou're\n \nin\n \n{\nchannel.name\n}\n\n\n\n\n\n\nOutput\n\n\nYou're\n \nin\n \ngeneral\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nLevel-up messages",
             "title": "channel.name"
         },
         {
@@ -362,8 +882,18 @@
         },
         {
             "location": "/Variables/Channel/channel.name/#example",
-            "text": "Input  You're in {channel.name}  Output  You're in general",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Channel/channel.name/#input",
+            "text": "You're   in   { channel.name }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Channel/channel.name/#output",
+            "text": "You're   in   general",
+            "title": "Output"
         },
         {
             "location": "/Variables/Channel/channel.name/#supports",
@@ -372,7 +902,7 @@
         },
         {
             "location": "/Variables/Guild/guild.defaultNotifications/",
-            "text": "guild.defaultNotifications\n\n\nReturns the servers default notification settings, e.g \nAll Messages\n or \nOnly @mentions\n\n\nExample\n\n\nInput\n\n\nThe servers current notification settings are {guild.defaultNotifications}\n\n\n\n\nOutput\n\n\nThe servers current notification settings are All Messages\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "guild.defaultNotifications\n\n\nReturns the servers default notification settings, e.g \nAll Messages\n or \nOnly @mentions\n\n\nExample\n\n\nInput\n\n\nThe\n \nservers\n \ncurrent\n \nnotification\n \nsettings\n \nare\n \n{\nguild.defaultNotifications\n}\n\n\n\n\n\n\nOutput\n\n\nThe\n \nservers\n \ncurrent\n \nnotification\n \nsettings\n \nare\n \nAll\n \nMessages\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "guild.defaultNotifications"
         },
         {
@@ -382,8 +912,18 @@
         },
         {
             "location": "/Variables/Guild/guild.defaultNotifications/#example",
-            "text": "Input  The servers current notification settings are {guild.defaultNotifications}  Output  The servers current notification settings are All Messages",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Guild/guild.defaultNotifications/#input",
+            "text": "The   servers   current   notification   settings   are   { guild.defaultNotifications }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Guild/guild.defaultNotifications/#output",
+            "text": "The   servers   current   notification   settings   are   All   Messages",
+            "title": "Output"
         },
         {
             "location": "/Variables/Guild/guild.defaultNotifications/#supports",
@@ -392,7 +932,7 @@
         },
         {
             "location": "/Variables/Guild/guild.iconURL/",
-            "text": "guild.iconURL\n\n\nReturns the guild's icon URL if one is set.\n\n\nExample\n\n\nInput\n\n\nYou can grab the guilds notification level here: {guild.iconURL}\n\n\n\n\nOutput\n\n\nYou can grab the guilds notification level here: <some really long url>\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "guild.iconURL\n\n\nReturns the guild's icon URL if one is set.\n\n\nExample\n\n\nInput\n\n\nYou\n \ncan\n \ngrab\n \nthe\n \nguilds\n \nnotification\n \nlevel\n \nhere:\n \n{\nguild.iconURL\n}\n\n\n\n\n\n\nOutput\n\n\nYou\n \ncan\n \ngrab\n \nthe\n \nguilds\n \nnotification\n \nlevel\n \nhere:\n \n<some\n \nreally\n \nlong\n \nurl>\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "guild.iconURL"
         },
         {
@@ -402,8 +942,18 @@
         },
         {
             "location": "/Variables/Guild/guild.iconURL/#example",
-            "text": "Input  You can grab the guilds notification level here: {guild.iconURL}  Output  You can grab the guilds notification level here: <some really long url>",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Guild/guild.iconURL/#input",
+            "text": "You   can   grab   the   guilds   notification   level   here:   { guild.iconURL }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Guild/guild.iconURL/#output",
+            "text": "You   can   grab   the   guilds   notification   level   here:   <some   really   long   url>",
+            "title": "Output"
         },
         {
             "location": "/Variables/Guild/guild.iconURL/#supports",
@@ -412,7 +962,7 @@
         },
         {
             "location": "/Variables/Guild/guild.id/",
-            "text": "guild.id\n\n\nReturns the guild's ID, e.g \n345177567541723137\n\n\nExample\n\n\nInput\n\n\nThe guild's ID is {guild.id}\n\n\n\n\nOutput\n\n\nThe guild's ID is 345177567541723137\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "guild.id\n\n\nReturns the guild's ID, e.g \n345177567541723137\n\n\nExample\n\n\nInput\n\n\nThe\n \nguild's\n \nID\n \nis\n \n{\nguild.id\n}\n\n\n\n\n\n\nOutput\n\n\nThe\n \nguild's\n \nID\n \nis\n \n345177567541723137\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "guild.id"
         },
         {
@@ -422,8 +972,18 @@
         },
         {
             "location": "/Variables/Guild/guild.id/#example",
-            "text": "Input  The guild's ID is {guild.id}  Output  The guild's ID is 345177567541723137",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Guild/guild.id/#input",
+            "text": "The   guild's   ID   is   { guild.id }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Guild/guild.id/#output",
+            "text": "The   guild's   ID   is   345177567541723137",
+            "title": "Output"
         },
         {
             "location": "/Variables/Guild/guild.id/#supports",
@@ -432,7 +992,7 @@
         },
         {
             "location": "/Variables/Guild/guild.memberCount/",
-            "text": "guild.memberCount\n\n\nReturns the guilds member count.\n\n\nExample\n\n\nInput\n\n\nThe server currently has {guild.memberCount} members!\n\n\n\n\nOutput\n\n\nThe server currently has 522 members!\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "guild.memberCount\n\n\nReturns the guilds member count.\n\n\nExample\n\n\nInput\n\n\nThe\n \nserver\n \ncurrently\n \nhas\n \n{\nguild.memberCount\n}\n \nmembers!\n\n\n\n\n\n\nOutput\n\n\nThe\n \nserver\n \ncurrently\n \nhas\n \n522\n \nmembers!\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "guild.memberCount"
         },
         {
@@ -442,8 +1002,18 @@
         },
         {
             "location": "/Variables/Guild/guild.memberCount/#example",
-            "text": "Input  The server currently has {guild.memberCount} members!  Output  The server currently has 522 members!",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Guild/guild.memberCount/#input",
+            "text": "The   server   currently   has   { guild.memberCount }   members!",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Guild/guild.memberCount/#output",
+            "text": "The   server   currently   has   522   members!",
+            "title": "Output"
         },
         {
             "location": "/Variables/Guild/guild.memberCount/#supports",
@@ -452,7 +1022,7 @@
         },
         {
             "location": "/Variables/Guild/guild.name/",
-            "text": "guild.name\n\n\nReturns the name of the guild.\n\n\nExample\n\n\nInput\n\n\nYou are currently in {guild.name}\n\n\n\n\nOutput\n\n\nYou are currently in Atlas Development\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "guild.name\n\n\nReturns the name of the guild.\n\n\nExample\n\n\nInput\n\n\nYou\n \nare\n \ncurrently\n \nin\n \n{\nguild.name\n}\n\n\n\n\n\n\nOutput\n\n\nYou\n \nare\n \ncurrently\n \nin\n \nAtlas\n \nDevelopment\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "guild.name"
         },
         {
@@ -462,8 +1032,18 @@
         },
         {
             "location": "/Variables/Guild/guild.name/#example",
-            "text": "Input  You are currently in {guild.name}  Output  You are currently in Atlas Development",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Guild/guild.name/#input",
+            "text": "You   are   currently   in   { guild.name }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Guild/guild.name/#output",
+            "text": "You   are   currently   in   Atlas   Development",
+            "title": "Output"
         },
         {
             "location": "/Variables/Guild/guild.name/#supports",
@@ -472,7 +1052,7 @@
         },
         {
             "location": "/Variables/Guild/guild.ownerID/",
-            "text": "guild.ownerID\n\n\nReturns the guild's owner's ID, which looks something like \n111372124383428608\n\n\nExample\n\n\nInput\n\n\nThe owner of this server is <@{guild.ownerID}>\n\n\n\n\nOutput\n\n\nThe owner of this server is @Sylver\n\n\n\n\n\n\nNote\n\n\n<@111372124383428608>\n would mention a user (in that case, \nSylver#1058\n), so \n<@{guild.ownerID}>\n will mention the guild owner.\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "guild.ownerID\n\n\nReturns the guild's owner's ID, which looks something like \n111372124383428608\n\n\nExample\n\n\nInput\n\n\nThe\n \nowner\n \nof\n \nthis\n \nserver\n \nis\n \n<@\n{\nguild.ownerID\n}\n>\n\n\n\n\n\n\nOutput\n\n\nThe\n \nowner\n \nof\n \nthis\n \nserver\n \nis\n \n@Sylver\n\n\n\n\n\n\n\n\nNote\n\n\n<@111372124383428608>\n would mention a user (in that case, \nSylver#1058\n), so \n<@{guild.ownerID}>\n will mention the guild owner.\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "guild.ownerID"
         },
         {
@@ -482,8 +1062,18 @@
         },
         {
             "location": "/Variables/Guild/guild.ownerID/#example",
-            "text": "Input  The owner of this server is <@{guild.ownerID}>  Output  The owner of this server is @Sylver   Note  <@111372124383428608>  would mention a user (in that case,  Sylver#1058 ), so  <@{guild.ownerID}>  will mention the guild owner.",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Guild/guild.ownerID/#input",
+            "text": "The   owner   of   this   server   is   <@ { guild.ownerID } >",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Guild/guild.ownerID/#output",
+            "text": "The   owner   of   this   server   is   @Sylver    Note  <@111372124383428608>  would mention a user (in that case,  Sylver#1058 ), so  <@{guild.ownerID}>  will mention the guild owner.",
+            "title": "Output"
         },
         {
             "location": "/Variables/Guild/guild.ownerID/#supports",
@@ -492,7 +1082,7 @@
         },
         {
             "location": "/Variables/Guild/guild.region/",
-            "text": "guild.region\n\n\nReturns the guilds region, e.g \nsydney\n or \nus-west\n.\n\n\nExample\n\n\nInput\n\n\nThis server is currently hosted in {guild.region}.\n\n\n\n\nOutput\n\n\nThis server is currently hosted in sydney.\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "guild.region\n\n\nReturns the guilds region, e.g \nsydney\n or \nus-west\n.\n\n\nExample\n\n\nInput\n\n\nThis\n \nserver\n \nis\n \ncurrently\n \nhosted\n \nin\n \n{\nguild.region\n}\n.\n\n\n\n\n\n\nOutput\n\n\nThis\n \nserver\n \nis\n \ncurrently\n \nhosted\n \nin\n \nsydney.\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "guild.region"
         },
         {
@@ -502,8 +1092,18 @@
         },
         {
             "location": "/Variables/Guild/guild.region/#example",
-            "text": "Input  This server is currently hosted in {guild.region}.  Output  This server is currently hosted in sydney.",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Guild/guild.region/#input",
+            "text": "This   server   is   currently   hosted   in   { guild.region } .",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Guild/guild.region/#output",
+            "text": "This   server   is   currently   hosted   in   sydney.",
+            "title": "Output"
         },
         {
             "location": "/Variables/Guild/guild.region/#supports",
@@ -512,7 +1112,7 @@
         },
         {
             "location": "/Variables/Guild/guild.shard/",
-            "text": "guild.shard\n\n\nReturns the ID of the guilds shard, using zero-based indexing.\n\n\nExample\n\n\nInput\n\n\nThis guild is on shard {guild.shard.id}.\n\n\n\n\nOutput\n\n\nThis guild is on shard 0.\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "guild.shard\n\n\nReturns the ID of the guilds shard, using zero-based indexing.\n\n\nExample\n\n\nInput\n\n\nThis\n \nguild\n \nis\n \non\n \nshard\n \n{\nguild.shard.id\n}\n.\n\n\n\n\n\n\nOutput\n\n\nThis\n \nguild\n \nis\n \non\n \nshard\n \n0\n.\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "guild.shard"
         },
         {
@@ -522,8 +1122,18 @@
         },
         {
             "location": "/Variables/Guild/guild.shard/#example",
-            "text": "Input  This guild is on shard {guild.shard.id}.  Output  This guild is on shard 0.",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Guild/guild.shard/#input",
+            "text": "This   guild   is   on   shard   { guild.shard.id } .",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Guild/guild.shard/#output",
+            "text": "This   guild   is   on   shard   0 .",
+            "title": "Output"
         },
         {
             "location": "/Variables/Guild/guild.shard/#supports",
@@ -532,7 +1142,7 @@
         },
         {
             "location": "/Variables/Mention/mention.channel/",
-            "text": "mention.channel [channel]\n\n\nMentions a channel. Uses fuzzy matching to find it based on what you input.\n\n\n\n\nNote\n\n\nAtlas will try and pick up regular user, channel and role mentions, so you shouldn't ever have to use this variable. Just tag whatever you're after regularly, for example \n#channelname\n and Atlas will convert it to a channel mention.\n\n\n\n\nExample\n\n\nInput\n\n\n{mention.channel;general}\n\n\n\n\nOutput\n\n\n#general\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "mention.channel [channel]\n\n\nMentions a channel. Uses fuzzy matching to find it based on what you input.\n\n\n\n\nNote\n\n\nAtlas will try and pick up regular user, channel and role mentions, so you shouldn't ever have to use this variable. Just tag whatever you're after regularly, for example \n#channelname\n and Atlas will convert it to a channel mention.\n\n\n\n\nExample\n\n\nInput\n\n\n{\nmention.channel;general\n}\n\n\n\n\n\n\nOutput\n\n\n#general\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "mention.channel [channel]"
         },
         {
@@ -542,8 +1152,18 @@
         },
         {
             "location": "/Variables/Mention/mention.channel/#example",
-            "text": "Input  {mention.channel;general}  Output  #general",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Mention/mention.channel/#input",
+            "text": "{ mention.channel;general }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Mention/mention.channel/#output",
+            "text": "#general",
+            "title": "Output"
         },
         {
             "location": "/Variables/Mention/mention.channel/#supports",
@@ -552,7 +1172,7 @@
         },
         {
             "location": "/Variables/Mention/mention.role/",
-            "text": "mention.role [role]\n\n\nMentions a role. Uses fuzzy matching to find it based on what you input.\n\n\n\n\nNote\n\n\nAtlas will try and pick up regular user, channel and role mentions, so you shouldn't ever have to use this variable. Just tag whatever you're after regularly, for example \n#channelname\n and Atlas will convert it to a channel mention.\n\n\n\n\nExample\n\n\nInput\n\n\n{mention.role;Regulars}\n\n\n\n\nOutput\n\n\n@Regulars\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "mention.role [role]\n\n\nMentions a role. Uses fuzzy matching to find it based on what you input.\n\n\n\n\nNote\n\n\nAtlas will try and pick up regular user, channel and role mentions, so you shouldn't ever have to use this variable. Just tag whatever you're after regularly, for example \n#channelname\n and Atlas will convert it to a channel mention.\n\n\n\n\nExample\n\n\nInput\n\n\n{\nmention.role;Regulars\n}\n\n\n\n\n\n\nOutput\n\n\n@Regulars\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "mention.role [role]"
         },
         {
@@ -562,8 +1182,18 @@
         },
         {
             "location": "/Variables/Mention/mention.role/#example",
-            "text": "Input  {mention.role;Regulars}  Output  @Regulars",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Mention/mention.role/#input",
+            "text": "{ mention.role;Regulars }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Mention/mention.role/#output",
+            "text": "@Regulars",
+            "title": "Output"
         },
         {
             "location": "/Variables/Mention/mention.role/#supports",
@@ -572,7 +1202,7 @@
         },
         {
             "location": "/Variables/Mention/mention.user/",
-            "text": "mention.user [user]\n\n\nMentions a user. \nuser\n can be a id, nickname or username. This searches for members in the guild, so for leave messages this won't be a great idea.\n\n\nIf no user is provided, it will fall back to whoever called the command, levelled up or joined.\n\n\n\n\nNote\n\n\nAtlas will try and pick up regular user, channel and role mentions, so you shouldn't ever have to use this variable. Just tag whatever you're after regularly, for example \n#channelname\n and Atlas will convert it to a channel mention.\n\n\n\n\nExample\n\n\nInput\n\n\n{mention.user;Sylver}\n\n\n\n\nOutput\n\n\n@Sylver#1058\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "mention.user [user]\n\n\nMentions a user. \nuser\n can be a id, nickname or username. This searches for members in the guild, so for leave messages this won't be a great idea.\n\n\nIf no user is provided, it will fall back to whoever called the command, levelled up or joined.\n\n\n\n\nNote\n\n\nAtlas will try and pick up regular user, channel and role mentions, so you shouldn't ever have to use this variable. Just tag whatever you're after regularly, for example \n#channelname\n and Atlas will convert it to a channel mention.\n\n\n\n\nExample\n\n\nInput\n\n\n{\nmention.user;Sylver\n}\n\n\n\n\n\n\nOutput\n\n\n@Sylver#\n1058\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "mention.user [user]"
         },
         {
@@ -582,8 +1212,18 @@
         },
         {
             "location": "/Variables/Mention/mention.user/#example",
-            "text": "Input  {mention.user;Sylver}  Output  @Sylver#1058",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Mention/mention.user/#input",
+            "text": "{ mention.user;Sylver }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Mention/mention.user/#output",
+            "text": "@Sylver# 1058",
+            "title": "Output"
         },
         {
             "location": "/Variables/Mention/mention.user/#supports",
@@ -592,7 +1232,7 @@
         },
         {
             "location": "/Variables/Message/message.content/",
-            "text": "message.content\n\n\nReturns the messages content, not just the arguments. E.g, if the user did \na!yourcommand awd\n, it would return \na!yourcommand awd\n.\n\n\nExample\n\n\nInput\n\n\nYour message content is `{message.content}`\n\n\n\n\nOutput\n\n\nYour message content is `ecksdee`\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nLevel-up messages",
+            "text": "message.content\n\n\nReturns the messages content, not just the arguments. E.g, if the user did \na!yourcommand awd\n, it would return \na!yourcommand awd\n.\n\n\nExample\n\n\nInput\n\n\nYour\n \nmessage\n \ncontent\n \nis\n \n`\n{\nmessage.content\n}\n`\n\n\n\n\n\n\nOutput\n\n\nYour\n \nmessage\n \ncontent\n \nis\n \n`ecksdee`\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nLevel-up messages",
             "title": "message.content"
         },
         {
@@ -602,8 +1242,18 @@
         },
         {
             "location": "/Variables/Message/message.content/#example",
-            "text": "Input  Your message content is `{message.content}`  Output  Your message content is `ecksdee`",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Message/message.content/#input",
+            "text": "Your   message   content   is   ` { message.content } `",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Message/message.content/#output",
+            "text": "Your   message   content   is   `ecksdee`",
+            "title": "Output"
         },
         {
             "location": "/Variables/Message/message.content/#supports",
@@ -612,7 +1262,7 @@
         },
         {
             "location": "/Variables/Message/message.id/",
-            "text": "message.id\n\n\nReturns the ID of the current message.\n\n\nExample\n\n\nInput\n\n\nYour message has the ID of {message.id}\n\n\n\n\nOutput\n\n\nYour message has the ID of 450264827210891264\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nLevel-up messages",
+            "text": "message.id\n\n\nReturns the ID of the current message.\n\n\nExample\n\n\nInput\n\n\nYour\n \nmessage\n \nhas\n \nthe\n \nID\n \nof\n \n{\nmessage.id\n}\n\n\n\n\n\n\nOutput\n\n\nYour\n \nmessage\n \nhas\n \nthe\n \nID\n \nof\n \n450264827210891264\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nLevel-up messages",
             "title": "message.id"
         },
         {
@@ -622,8 +1272,18 @@
         },
         {
             "location": "/Variables/Message/message.id/#example",
-            "text": "Input  Your message has the ID of {message.id}  Output  Your message has the ID of 450264827210891264",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Message/message.id/#input",
+            "text": "Your   message   has   the   ID   of   { message.id }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Message/message.id/#output",
+            "text": "Your   message   has   the   ID   of   450264827210891264",
+            "title": "Output"
         },
         {
             "location": "/Variables/Message/message.id/#supports",
@@ -632,7 +1292,7 @@
         },
         {
             "location": "/Variables/Responder/responder.send/",
-            "text": "responder.send [channel] [message]\n\n\nSends a message to a certain channel.\n\n\n\n\nNote\n\n\nAtlas uses the fuzzy matcher to search for the channel, so be careful. If the target channel was deleted, Atlas will try and find the second best channel that matches. Using an ID here is strongly suggested, then if a channel is deleted Atlas won't find the channel and won't send anything, just incase.\n\n\n\n\nExample\n\n\nInput in channel 'test'\n\n\n{responder.send;general;lol}\n\n\n\n\nOutput in channel 'general'\n\n\nlol\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "responder.send [channel] [message]\n\n\nSends a message to a certain channel.\n\n\n\n\nNote\n\n\nAtlas uses the fuzzy matcher to search for the channel, so be careful. If the target channel was deleted, Atlas will try and find the second best channel that matches. Using an ID here is strongly suggested, then if a channel is deleted Atlas won't find the channel and won't send anything, just incase.\n\n\n\n\nExample\n\n\nInput in channel 'test'\n\n\n{\nresponder.send;general;lol\n}\n\n\n\n\n\n\nOutput in channel 'general'\n\n\nlol\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "responder.send [channel] [message]"
         },
         {
@@ -642,8 +1302,18 @@
         },
         {
             "location": "/Variables/Responder/responder.send/#example",
-            "text": "Input in channel 'test'  {responder.send;general;lol}  Output in channel 'general'  lol",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Responder/responder.send/#input-in-channel-test",
+            "text": "{ responder.send;general;lol }",
+            "title": "Input in channel 'test'"
+        },
+        {
+            "location": "/Variables/Responder/responder.send/#output-in-channel-general",
+            "text": "lol",
+            "title": "Output in channel 'general'"
         },
         {
             "location": "/Variables/Responder/responder.send/#supports",
@@ -652,7 +1322,7 @@
         },
         {
             "location": "/Variables/Simple/capitalise/",
-            "text": "capitalise [string]\n\n\nMakes the first letter in the string uppercase.\n\n\nExample\n\n\nInput\n\n\n{capitalise;puppy}\n\n\n\n\nOutput\n\n\nPuppy\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "capitalise [string]\n\n\nMakes the first letter in the string uppercase.\n\n\nExample\n\n\nInput\n\n\n{\ncapitalise;puppy\n}\n\n\n\n\n\n\nOutput\n\n\nPuppy\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "capitalise [string]"
         },
         {
@@ -662,8 +1332,18 @@
         },
         {
             "location": "/Variables/Simple/capitalise/#example",
-            "text": "Input  {capitalise;puppy}  Output  Puppy",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Simple/capitalise/#input",
+            "text": "{ capitalise;puppy }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Simple/capitalise/#output",
+            "text": "Puppy",
+            "title": "Output"
         },
         {
             "location": "/Variables/Simple/capitalise/#supports",
@@ -672,7 +1352,7 @@
         },
         {
             "location": "/Variables/Simple/date/",
-            "text": "date [timezone]\n\n\nGets the date, timezone is not necessary. If you do choose to include a timezone, you must follow the \ntz time zone format\n.\n\n\n\n\nNote\n\n\nIf you don't include a timezone, Atlas will use it's own timezone.\n\n\n\n\nExample\n\n\nInput\n\n\n{date}\n{date;America/Los_Angeles}\n\n\n\n\nOutput\n\n\nMay 27th 2018\nMay 27th 2018\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "date [timezone]\n\n\nGets the date, timezone is not necessary. If you do choose to include a timezone, you must follow the \ntz time zone format\n.\n\n\n\n\nNote\n\n\nIf you don't include a timezone, Atlas will use it's own timezone.\n\n\n\n\nExample\n\n\nInput\n\n\n{\ndate\n}\n\n\n{\ndate;America/Los_Angeles\n}\n\n\n\n\n\n\nOutput\n\n\nMay\n \n27\nth\n \n2018\n\n\nMay\n \n27\nth\n \n2018\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "date [timezone]"
         },
         {
@@ -682,8 +1362,18 @@
         },
         {
             "location": "/Variables/Simple/date/#example",
-            "text": "Input  {date}\n{date;America/Los_Angeles}  Output  May 27th 2018\nMay 27th 2018",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Simple/date/#input",
+            "text": "{ date }  { date;America/Los_Angeles }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Simple/date/#output",
+            "text": "May   27 th   2018  May   27 th   2018",
+            "title": "Output"
         },
         {
             "location": "/Variables/Simple/date/#supports",
@@ -692,7 +1382,7 @@
         },
         {
             "location": "/Variables/Simple/datetime/",
-            "text": "datetime [timezone]\n\n\nGets the date and time, timezone is not necessary. If you do choose to include a timezone, you must follow the \ntz time zone format\n.\n\n\n\n\nNote\n\n\nIf you don't include a timezone, Atlas will use it's own timezone.\n\n\n\n\nExample\n\n\nInput\n\n\n{datetime}\n{datetime;America/Los_Angeles}\n\n\n\n\nOutput\n\n\nMay 27th 2018, 7:45:24 pm\nMay 27th 2018, 4:45:24 am\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "datetime [timezone]\n\n\nGets the date and time, timezone is not necessary. If you do choose to include a timezone, you must follow the \ntz time zone format\n.\n\n\n\n\nNote\n\n\nIf you don't include a timezone, Atlas will use it's own timezone.\n\n\n\n\nExample\n\n\nInput\n\n\n{\ndatetime\n}\n\n\n{\ndatetime;America/Los_Angeles\n}\n\n\n\n\n\n\nOutput\n\n\nMay\n \n27\nth\n \n2018\n,\n \n7\n:\n45\n:\n24\n \npm\n\n\nMay\n \n27\nth\n \n2018\n,\n \n4\n:\n45\n:\n24\n \nam\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "datetime [timezone]"
         },
         {
@@ -702,8 +1392,18 @@
         },
         {
             "location": "/Variables/Simple/datetime/#example",
-            "text": "Input  {datetime}\n{datetime;America/Los_Angeles}  Output  May 27th 2018, 7:45:24 pm\nMay 27th 2018, 4:45:24 am",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Simple/datetime/#input",
+            "text": "{ datetime }  { datetime;America/Los_Angeles }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Simple/datetime/#output",
+            "text": "May   27 th   2018 ,   7 : 45 : 24   pm  May   27 th   2018 ,   4 : 45 : 24   am",
+            "title": "Output"
         },
         {
             "location": "/Variables/Simple/datetime/#supports",
@@ -712,7 +1412,7 @@
         },
         {
             "location": "/Variables/Simple/delete/",
-            "text": "delete\n\n\nDelete the original message that caused the... \"thing\". For custom commands, this deletes the invocation message, for level up messages it deletes the message that caused the level-up.\n\n\nExample\n\n\nInput\n\n\n{delete} *boop*\n\n\n\n\nOutput\n\n\n*boop*\n\n\n\n\n\n\nNote\n\n\nThis would have deleted the message that called it, but of course you can't see that here.\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nLevel-up messages",
+            "text": "delete\n\n\nDelete the original message that caused the... \"thing\". For custom commands, this deletes the invocation message, for level up messages it deletes the message that caused the level-up.\n\n\nExample\n\n\nInput\n\n\n{\ndelete\n}\n \n*boop*\n\n\n\n\n\n\nOutput\n\n\n*boop*\n\n\n\n\n\n\n\n\nNote\n\n\nThis would have deleted the message that called it, but of course you can't see that here.\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nLevel-up messages",
             "title": "delete"
         },
         {
@@ -722,8 +1422,18 @@
         },
         {
             "location": "/Variables/Simple/delete/#example",
-            "text": "Input  {delete} *boop*  Output  *boop*   Note  This would have deleted the message that called it, but of course you can't see that here.",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Simple/delete/#input",
+            "text": "{ delete }   *boop*",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Simple/delete/#output",
+            "text": "*boop*    Note  This would have deleted the message that called it, but of course you can't see that here.",
+            "title": "Output"
         },
         {
             "location": "/Variables/Simple/delete/#supports",
@@ -732,7 +1442,7 @@
         },
         {
             "location": "/Variables/Simple/l/",
-            "text": "l\n\n\nReturns a left bracket \n{\n, useful if the compiler keeps eating them up.\n\n\nExample\n\n\nInput\n\n\n{l}\n\n\n\n\nOutput\n\n\n{\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "l\n\n\nReturns a left bracket \n{\n, useful if the compiler keeps eating them up.\n\n\nExample\n\n\nInput\n\n\n{\nl\n}\n\n\n\n\n\n\nOutput\n\n\n{\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "l"
         },
         {
@@ -742,8 +1452,18 @@
         },
         {
             "location": "/Variables/Simple/l/#example",
-            "text": "Input  {l}  Output  {",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Simple/l/#input",
+            "text": "{ l }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Simple/l/#output",
+            "text": "{",
+            "title": "Output"
         },
         {
             "location": "/Variables/Simple/l/#supports",
@@ -752,7 +1472,7 @@
         },
         {
             "location": "/Variables/Simple/length/",
-            "text": "length [str]\n\n\nReturns the length of whatever is provided.\n\n\nExample\n\n\nInput\n\n\n{length;awd}\n\n\n\n\nOutput\n\n\n3\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "length [str]\n\n\nReturns the length of whatever is provided.\n\n\nExample\n\n\nInput\n\n\n{\nlength;awd\n}\n\n\n\n\n\n\nOutput\n\n\n3\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "length [str]"
         },
         {
@@ -762,8 +1482,18 @@
         },
         {
             "location": "/Variables/Simple/length/#example",
-            "text": "Input  {length;awd}  Output  3",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Simple/length/#input",
+            "text": "{ length;awd }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Simple/length/#output",
+            "text": "3",
+            "title": "Output"
         },
         {
             "location": "/Variables/Simple/length/#supports",
@@ -772,7 +1502,7 @@
         },
         {
             "location": "/Variables/Simple/lower/",
-            "text": "lower [str]\n\n\nConverts a string to lowercase.\n\n\nExample\n\n\nInput\n\n\n{lower;WHY HELLO THERE}\n\n\n\n\nOutput\n\n\nwhy hello there\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "lower [str]\n\n\nConverts a string to lowercase.\n\n\nExample\n\n\nInput\n\n\n{\nlower;WHY\n \nHELLO\n \nTHERE\n}\n\n\n\n\n\n\nOutput\n\n\nwhy\n \nhello\n \nthere\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "lower [str]"
         },
         {
@@ -782,8 +1512,18 @@
         },
         {
             "location": "/Variables/Simple/lower/#example",
-            "text": "Input  {lower;WHY HELLO THERE}  Output  why hello there",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Simple/lower/#input",
+            "text": "{ lower;WHY   HELLO   THERE }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Simple/lower/#output",
+            "text": "why   hello   there",
+            "title": "Output"
         },
         {
             "location": "/Variables/Simple/lower/#supports",
@@ -792,7 +1532,7 @@
         },
         {
             "location": "/Variables/Simple/math/",
-            "text": "math [equation]\n\n\nEvaluates math. Yup, not very interesting.\n\n\nExample\n\n\nInput\n\n\n{math;1+1}\n\n\n\n\nOutput\n\n\n2\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "math [equation]\n\n\nEvaluates math. Yup, not very interesting.\n\n\nExample\n\n\nInput\n\n\n{\nmath;1+1\n}\n\n\n\n\n\n\nOutput\n\n\n2\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "math [equation]"
         },
         {
@@ -802,8 +1542,18 @@
         },
         {
             "location": "/Variables/Simple/math/#example",
-            "text": "Input  {math;1+1}  Output  2",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Simple/math/#input",
+            "text": "{ math;1+1 }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Simple/math/#output",
+            "text": "2",
+            "title": "Output"
         },
         {
             "location": "/Variables/Simple/math/#supports",
@@ -812,7 +1562,7 @@
         },
         {
             "location": "/Variables/Simple/r/",
-            "text": "r\n\n\nReturns a right bracket \n}\n, useful if the compiler keeps eating them up.\n\n\nExample\n\n\nInput\n\n\n{r}\n\n\n\n\nOutput\n\n\n}\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "r\n\n\nReturns a right bracket \n}\n, useful if the compiler keeps eating them up.\n\n\nExample\n\n\nInput\n\n\n{\nr\n}\n\n\n\n\n\n\nOutput\n\n\n}\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "r"
         },
         {
@@ -822,8 +1572,18 @@
         },
         {
             "location": "/Variables/Simple/r/#example",
-            "text": "Input  {r}  Output  }",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Simple/r/#input",
+            "text": "{ r }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Simple/r/#output",
+            "text": "}",
+            "title": "Output"
         },
         {
             "location": "/Variables/Simple/r/#supports",
@@ -832,7 +1592,7 @@
         },
         {
             "location": "/Variables/Simple/semi/",
-            "text": "semi\n\n\nReturns a semicolon, useful if the compiler keeps eating them up or you want one in the middle of a variable.\n\n\nExample\n\n\nInput\n\n\n{semi}\n\n\n\n\nOutput\n\n\n;\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "semi\n\n\nReturns a semicolon, useful if the compiler keeps eating them up or you want one in the middle of a variable.\n\n\nExample\n\n\nInput\n\n\n{\nsemi\n}\n\n\n\n\n\n\nOutput\n\n\n;\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "semi"
         },
         {
@@ -842,8 +1602,18 @@
         },
         {
             "location": "/Variables/Simple/semi/#example",
-            "text": "Input  {semi}  Output  ;",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Simple/semi/#input",
+            "text": "{ semi }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Simple/semi/#output",
+            "text": ";",
+            "title": "Output"
         },
         {
             "location": "/Variables/Simple/semi/#supports",
@@ -852,7 +1622,7 @@
         },
         {
             "location": "/Variables/Simple/time/",
-            "text": "time [timezone]\n\n\nGets the time, timezone is not necessary. If you do choose to include a timezone, you must follow the \ntz time zone format\n.\n\n\n\n\nNote\n\n\nIf you don't include a timezone, Atlas will use it's own timezone.\n\n\n\n\nExample\n\n\nInput\n\n\n{time}\n{time;America/Los_Angeles}\n\n\n\n\nOutput\n\n\n7:46:00 pm\n4:46:00 am\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "time [timezone]\n\n\nGets the time, timezone is not necessary. If you do choose to include a timezone, you must follow the \ntz time zone format\n.\n\n\n\n\nNote\n\n\nIf you don't include a timezone, Atlas will use it's own timezone.\n\n\n\n\nExample\n\n\nInput\n\n\n{\ntime\n}\n\n\n{\ntime;America/Los_Angeles\n}\n\n\n\n\n\n\nOutput\n\n\n7\n:\n46\n:\n00\n \npm\n\n\n4\n:\n46\n:\n00\n \nam\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "time [timezone]"
         },
         {
@@ -862,8 +1632,18 @@
         },
         {
             "location": "/Variables/Simple/time/#example",
-            "text": "Input  {time}\n{time;America/Los_Angeles}  Output  7:46:00 pm\n4:46:00 am",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Simple/time/#input",
+            "text": "{ time }  { time;America/Los_Angeles }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Simple/time/#output",
+            "text": "7 : 46 : 00   pm  4 : 46 : 00   am",
+            "title": "Output"
         },
         {
             "location": "/Variables/Simple/time/#supports",
@@ -872,7 +1652,7 @@
         },
         {
             "location": "/Variables/Simple/upper/",
-            "text": "upper [str]\n\n\nConverts a string to uppercase.\n\n\nExample\n\n\nInput\n\n\n{upper;Why hello there}\n\n\n\n\nOutput\n\n\nWHY HELLO THERE\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "upper [str]\n\n\nConverts a string to uppercase.\n\n\nExample\n\n\nInput\n\n\n{\nupper;Why\n \nhello\n \nthere\n}\n\n\n\n\n\n\nOutput\n\n\nWHY\n \nHELLO\n \nTHERE\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "upper [str]"
         },
         {
@@ -882,8 +1662,18 @@
         },
         {
             "location": "/Variables/Simple/upper/#example",
-            "text": "Input  {upper;Why hello there}  Output  WHY HELLO THERE",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Simple/upper/#input",
+            "text": "{ upper;Why   hello   there }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Simple/upper/#output",
+            "text": "WHY   HELLO   THERE",
+            "title": "Output"
         },
         {
             "location": "/Variables/Simple/upper/#supports",
@@ -892,7 +1682,7 @@
         },
         {
             "location": "/Variables/Tickets/ticket.channelID/",
-            "text": "ticket.channelID\n\n\nReturns the ticket's channel ID, the snowflake for the actual ticket channel.\n\n\nExample\n\n\nInput\n\n\nYour ticket is {mention.channel;{ticket.channelID}}\n\n\n\n\nOutput\n\n\nYour ticket is #sylver-1058\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nLevel-up messages\n \nwhy?\n\n\nTicket descriptions",
+            "text": "ticket.channelID\n\n\nReturns the ticket's channel ID, the snowflake for the actual ticket channel.\n\n\nExample\n\n\nInput\n\n\nYour\n \nticket\n \nis\n \n{\nmention.channel;{ticket.channelID\n}\n}\n\n\n\n\n\n\nOutput\n\n\nYour\n \nticket\n \nis\n \n#sylver\n-1058\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nLevel-up messages\n \nwhy?\n\n\nTicket descriptions",
             "title": "ticket.channelID"
         },
         {
@@ -902,8 +1692,18 @@
         },
         {
             "location": "/Variables/Tickets/ticket.channelID/#example",
-            "text": "Input  Your ticket is {mention.channel;{ticket.channelID}}  Output  Your ticket is #sylver-1058",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Tickets/ticket.channelID/#input",
+            "text": "Your   ticket   is   { mention.channel;{ticket.channelID } }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Tickets/ticket.channelID/#output",
+            "text": "Your   ticket   is   #sylver -1058",
+            "title": "Output"
         },
         {
             "location": "/Variables/Tickets/ticket.channelID/#supports",
@@ -912,7 +1712,7 @@
         },
         {
             "location": "/Variables/Tickets/ticket.createdBy/",
-            "text": "ticket.createdBy\n\n\nReturns the ID of the user who opened the ticket.\n\n\nExample\n\n\nInput\n\n\nThis ticket was created by {mention.user;{ticket.createdBy}}\n\n\n\n\nOutput\n\n\nThis ticket was created by @Sylver#1058\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nLevel-up messages\n \nwhy?\n\n\nTicket descriptions",
+            "text": "ticket.createdBy\n\n\nReturns the ID of the user who opened the ticket.\n\n\nExample\n\n\nInput\n\n\nThis\n \nticket\n \nwas\n \ncreated\n \nby\n \n{\nmention.user;{ticket.createdBy\n}\n}\n\n\n\n\n\n\nOutput\n\n\nThis\n \nticket\n \nwas\n \ncreated\n \nby\n \n@Sylver#\n1058\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nLevel-up messages\n \nwhy?\n\n\nTicket descriptions",
             "title": "ticket.createdBy"
         },
         {
@@ -922,8 +1722,18 @@
         },
         {
             "location": "/Variables/Tickets/ticket.createdBy/#example",
-            "text": "Input  This ticket was created by {mention.user;{ticket.createdBy}}  Output  This ticket was created by @Sylver#1058",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Tickets/ticket.createdBy/#input",
+            "text": "This   ticket   was   created   by   { mention.user;{ticket.createdBy } }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Tickets/ticket.createdBy/#output",
+            "text": "This   ticket   was   created   by   @Sylver# 1058",
+            "title": "Output"
         },
         {
             "location": "/Variables/Tickets/ticket.createdBy/#supports",
@@ -932,7 +1742,7 @@
         },
         {
             "location": "/Variables/Tickets/ticket.id/",
-            "text": "ticket.id\n\n\nReturns the tickets internal ID which Atlas uses for keeping track of tickets are internally.\n\n\nExample\n\n\nInput\n\n\nYour ticket ID is {ticket.id}\n\n\n\n\nOutput\n\n\nYour ticket ID is ajn90f\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nLevel-up messages\n \nwhy?\n\n\nTicket descriptions",
+            "text": "ticket.id\n\n\nReturns the tickets internal ID which Atlas uses for keeping track of tickets are internally.\n\n\nExample\n\n\nInput\n\n\nYour\n \nticket\n \nID\n \nis\n \n{\nticket.id\n}\n\n\n\n\n\n\nOutput\n\n\nYour\n \nticket\n \nID\n \nis\n \najn\n90\nf\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nLevel-up messages\n \nwhy?\n\n\nTicket descriptions",
             "title": "ticket.id"
         },
         {
@@ -942,8 +1752,18 @@
         },
         {
             "location": "/Variables/Tickets/ticket.id/#example",
-            "text": "Input  Your ticket ID is {ticket.id}  Output  Your ticket ID is ajn90f",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/Tickets/ticket.id/#input",
+            "text": "Your   ticket   ID   is   { ticket.id }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Tickets/ticket.id/#output",
+            "text": "Your   ticket   ID   is   ajn 90 f",
+            "title": "Output"
         },
         {
             "location": "/Variables/Tickets/ticket.id/#supports",
@@ -952,7 +1772,7 @@
         },
         {
             "location": "/Variables/User/user.avatarURL/",
-            "text": "user.avatarURL\n\n\nReturns the users avatar URL.\n\n\nExample\n\n\nInput\n\n\nYour avatar is {user.avatarURL}!\n\n\n\n\nOutput\n\n\nYour avatar is <really long url>!\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin messages\n\n\nLevel-up messages",
+            "text": "user.avatarURL\n\n\nReturns the users avatar URL.\n\n\nExample\n\n\nInput\n\n\nYour\n \navatar\n \nis\n \n{\nuser.avatarURL\n}\n!\n\n\n\n\n\n\nOutput\n\n\nYour\n \navatar\n \nis\n \n<really\n \nlong\n \nurl>!\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin messages\n\n\nLevel-up messages",
             "title": "user.avatarURL"
         },
         {
@@ -962,8 +1782,18 @@
         },
         {
             "location": "/Variables/User/user.avatarURL/#example",
-            "text": "Input  Your avatar is {user.avatarURL}!  Output  Your avatar is <really long url>!",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/User/user.avatarURL/#input",
+            "text": "Your   avatar   is   { user.avatarURL } !",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/User/user.avatarURL/#output",
+            "text": "Your   avatar   is   <really   long   url>!",
+            "title": "Output"
         },
         {
             "location": "/Variables/User/user.avatarURL/#supports",
@@ -972,7 +1802,7 @@
         },
         {
             "location": "/Variables/User/user.discriminator/",
-            "text": "user.discriminator\n\n\nReturns the users discriminator. The discriminator is that number after your name, for example if your full tag was \nSylver#1058\n, your discriminator is \n1058\n.\n\n\nExample\n\n\nInput\n\n\nHello {user.username}#{user.discriminator}!\n\n\n\n\nOutput\n\n\nHello Sylver#1058!\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin messages\n\n\nLevel-up messages",
+            "text": "user.discriminator\n\n\nReturns the users discriminator. The discriminator is that number after your name, for example if your full tag was \nSylver#1058\n, your discriminator is \n1058\n.\n\n\nExample\n\n\nInput\n\n\nHello\n \n{\nuser.username\n}\n#\n{\nuser.discriminator\n}\n!\n\n\n\n\n\n\nOutput\n\n\nHello\n \nSylver#\n1058\n!\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin messages\n\n\nLevel-up messages",
             "title": "user.discriminator"
         },
         {
@@ -982,8 +1812,18 @@
         },
         {
             "location": "/Variables/User/user.discriminator/#example",
-            "text": "Input  Hello {user.username}#{user.discriminator}!  Output  Hello Sylver#1058!",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/User/user.discriminator/#input",
+            "text": "Hello   { user.username } # { user.discriminator } !",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/User/user.discriminator/#output",
+            "text": "Hello   Sylver# 1058 !",
+            "title": "Output"
         },
         {
             "location": "/Variables/User/user.discriminator/#supports",
@@ -992,7 +1832,7 @@
         },
         {
             "location": "/Variables/User/user.level/",
-            "text": "user.level\n\n\nReturns the users level. Currently only available in level-up messages.\n\n\nExample\n\n\nInput\n\n\nCongratulations! You've leveled up to level {user.level}!\n\n\n\n\nOutput\n\n\nCongratulations! You've leveled up to level 1!\n\n\n\n\nSupports\n\n\n\n\nLevel-up messages",
+            "text": "user.level\n\n\nReturns the users level. Currently only available in level-up messages.\n\n\nExample\n\n\nInput\n\n\nCongratulations!\n \nYou've\n \nleveled\n \nup\n \nto\n \nlevel\n \n{\nuser.level\n}\n!\n\n\n\n\n\n\nOutput\n\n\nCongratulations!\n \nYou've\n \nleveled\n \nup\n \nto\n \nlevel\n \n1\n!\n\n\n\n\n\n\nSupports\n\n\n\n\nLevel-up messages",
             "title": "user.level"
         },
         {
@@ -1002,8 +1842,18 @@
         },
         {
             "location": "/Variables/User/user.level/#example",
-            "text": "Input  Congratulations! You've leveled up to level {user.level}!  Output  Congratulations! You've leveled up to level 1!",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/User/user.level/#input",
+            "text": "Congratulations!   You've   leveled   up   to   level   { user.level } !",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/User/user.level/#output",
+            "text": "Congratulations!   You've   leveled   up   to   level   1 !",
+            "title": "Output"
         },
         {
             "location": "/Variables/User/user.level/#supports",
@@ -1012,7 +1862,7 @@
         },
         {
             "location": "/Variables/User/user.mention/",
-            "text": "user.mention\n\n\nReturns a mention for the user. This is not fully supported for leave messages yet, though it should work most of the time.\n\n\nExample\n\n\nInput\n\n\nHello {user.mention}!\n\n\n\n\nOutput\n\n\nHello @Sylver!\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin messages\n\n\nLevel-up messages",
+            "text": "user.mention\n\n\nReturns a mention for the user. This is not fully supported for leave messages yet, though it should work most of the time.\n\n\nExample\n\n\nInput\n\n\nHello\n \n{\nuser.mention\n}\n!\n\n\n\n\n\n\nOutput\n\n\nHello\n \n@Sylver!\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin messages\n\n\nLevel-up messages",
             "title": "user.mention"
         },
         {
@@ -1022,8 +1872,18 @@
         },
         {
             "location": "/Variables/User/user.mention/#example",
-            "text": "Input  Hello {user.mention}!  Output  Hello @Sylver!",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/User/user.mention/#input",
+            "text": "Hello   { user.mention } !",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/User/user.mention/#output",
+            "text": "Hello   @Sylver!",
+            "title": "Output"
         },
         {
             "location": "/Variables/User/user.mention/#supports",
@@ -1032,7 +1892,7 @@
         },
         {
             "location": "/Variables/User/user.nickname/",
-            "text": "user.nickname\n\n\nReturns the user's nickname, if they don't have one it will fall back to their username.\n\n\nExample\n\n\nInput\n\n\nHello {user.nickname}!\n\n\n\n\nOutput\n\n\nHello definitely_not_sylver!\n\n\n\n\n\n\nNote\n\n\nThis assumes the user has a nickname in the guild that is \ndefinitely_not_sylver\n while their real username is \nSylver\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin messages\n\n\nLevel-up messages",
+            "text": "user.nickname\n\n\nReturns the user's nickname, if they don't have one it will fall back to their username.\n\n\nExample\n\n\nInput\n\n\nHello\n \n{\nuser.nickname\n}\n!\n\n\n\n\n\n\nOutput\n\n\nHello\n \ndefinitely_not_sylver!\n\n\n\n\n\n\n\n\nNote\n\n\nThis assumes the user has a nickname in the guild that is \ndefinitely_not_sylver\n while their real username is \nSylver\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin messages\n\n\nLevel-up messages",
             "title": "user.nickname"
         },
         {
@@ -1042,8 +1902,18 @@
         },
         {
             "location": "/Variables/User/user.nickname/#example",
-            "text": "Input  Hello {user.nickname}!  Output  Hello definitely_not_sylver!   Note  This assumes the user has a nickname in the guild that is  definitely_not_sylver  while their real username is  Sylver",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/User/user.nickname/#input",
+            "text": "Hello   { user.nickname } !",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/User/user.nickname/#output",
+            "text": "Hello   definitely_not_sylver!    Note  This assumes the user has a nickname in the guild that is  definitely_not_sylver  while their real username is  Sylver",
+            "title": "Output"
         },
         {
             "location": "/Variables/User/user.nickname/#supports",
@@ -1052,7 +1922,7 @@
         },
         {
             "location": "/Variables/User/user.tag/",
-            "text": "user.tag\n\n\nReturns the users tag, their username and discriminator combined with a hashtag, for example \nSylver#1058\n.\n\n\nExample\n\n\nInput\n\n\nHello {user.tag}!\n\n\n\n\nOutput\n\n\nHello Sylver#1058!\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin messages\n\n\nLevel-up messages",
+            "text": "user.tag\n\n\nReturns the users tag, their username and discriminator combined with a hashtag, for example \nSylver#1058\n.\n\n\nExample\n\n\nInput\n\n\nHello\n \n{\nuser.tag\n}\n!\n\n\n\n\n\n\nOutput\n\n\nHello\n \nSylver#\n1058\n!\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin messages\n\n\nLevel-up messages",
             "title": "user.tag"
         },
         {
@@ -1062,8 +1932,18 @@
         },
         {
             "location": "/Variables/User/user.tag/#example",
-            "text": "Input  Hello {user.tag}!  Output  Hello Sylver#1058!",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/User/user.tag/#input",
+            "text": "Hello   { user.tag } !",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/User/user.tag/#output",
+            "text": "Hello   Sylver# 1058 !",
+            "title": "Output"
         },
         {
             "location": "/Variables/User/user.tag/#supports",
@@ -1072,7 +1952,7 @@
         },
         {
             "location": "/Variables/User/user.username/",
-            "text": "user.username\n\n\nReturns the username of the user.\n\n\nExample\n\n\nInput\n\n\nHello {user.username}!\n\n\n\n\nOutput\n\n\nHello Sylver!\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "user.username\n\n\nReturns the username of the user.\n\n\nExample\n\n\nInput\n\n\nHello\n \n{\nuser.username\n}\n!\n\n\n\n\n\n\nOutput\n\n\nHello\n \nSylver!\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "user.username"
         },
         {
@@ -1082,8 +1962,18 @@
         },
         {
             "location": "/Variables/User/user.username/#example",
-            "text": "Input  Hello {user.username}!  Output  Hello Sylver!",
+            "text": "",
             "title": "Example"
+        },
+        {
+            "location": "/Variables/User/user.username/#input",
+            "text": "Hello   { user.username } !",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/User/user.username/#output",
+            "text": "Hello   Sylver!",
+            "title": "Output"
         },
         {
             "location": "/Variables/User/user.username/#supports",

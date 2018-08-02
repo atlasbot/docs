@@ -1,278 +1,343 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-     <loc>/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/quick_start/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/quick_start/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Modules/custom_commands/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Modules/custom_commands/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Modules/join_leave_messages/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Modules/join_leave_messages/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Modules/levels/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Modules/levels/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/running_commands/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/running_commands/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Advanced/args/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/sending_embeds/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Advanced/choose/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Advanced/args/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Advanced/get/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Advanced/choose/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Advanced/giverole/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Advanced/get/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Advanced/note/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Advanced/giverole/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Advanced/randstr/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Advanced/note/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Advanced/range/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Advanced/randstr/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Advanced/removerole/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Advanced/range/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Advanced/replace/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Advanced/removerole/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Advanced/set/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Advanced/replace/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Channel/channel.id/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Advanced/set/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Channel/channel.mention/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Basic/capitalise/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Channel/channel.name/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Basic/date/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Guild/guild.defaultNotifications/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Basic/datetime/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Guild/guild.iconURL/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Basic/delete/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Guild/guild.id/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Basic/l/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Guild/guild.memberCount/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Basic/length/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Guild/guild.name/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Basic/lower/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Guild/guild.ownerID/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Basic/math/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Guild/guild.region/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Basic/r/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Guild/guild.shard/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Basic/semi/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Mention/mention.channel/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Basic/time/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Mention/mention.role/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Basic/upper/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Mention/mention.user/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Channel/channel.id/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Message/message.content/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Channel/channel.mention/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Message/message.id/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Channel/channel.name/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Responder/responder.send/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Guild/guild.defaultNotifications/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Simple/capitalise/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Guild/guild.iconURL/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Simple/date/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Guild/guild.id/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Simple/datetime/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Guild/guild.memberCount/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Simple/delete/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Guild/guild.name/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Simple/l/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Guild/guild.ownerID/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Simple/length/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Guild/guild.region/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Simple/lower/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Guild/guild.shard/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Simple/math/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Mention/mention.channel/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Simple/r/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Mention/mention.role/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Simple/semi/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Mention/mention.user/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Simple/time/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Message/message.content/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Simple/upper/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Message/message.id/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Tickets/ticket.channelID/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Responder/responder.send/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Tickets/ticket.createdBy/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Simple/capitalise/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/Tickets/ticket.id/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Simple/date/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/User/user.avatarURL/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Simple/datetime/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/User/user.discriminator/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Simple/delete/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/User/user.level/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Simple/l/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/User/user.mention/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Simple/length/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/User/user.nickname/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Simple/lower/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/User/user.tag/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Simple/math/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/Variables/User/user.username/</loc>
-     <lastmod>2018-07-02</lastmod>
+     <loc>https://docs.get-atlas.xyz/Variables/Simple/r/</loc>
+     <lastmod>2018-08-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.get-atlas.xyz/Variables/Simple/semi/</loc>
+     <lastmod>2018-08-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.get-atlas.xyz/Variables/Simple/time/</loc>
+     <lastmod>2018-08-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.get-atlas.xyz/Variables/Simple/upper/</loc>
+     <lastmod>2018-08-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.get-atlas.xyz/Variables/Tickets/ticket.channelID/</loc>
+     <lastmod>2018-08-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.get-atlas.xyz/Variables/Tickets/ticket.createdBy/</loc>
+     <lastmod>2018-08-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.get-atlas.xyz/Variables/Tickets/ticket.id/</loc>
+     <lastmod>2018-08-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.get-atlas.xyz/Variables/User/user.avatarURL/</loc>
+     <lastmod>2018-08-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.get-atlas.xyz/Variables/User/user.discriminator/</loc>
+     <lastmod>2018-08-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.get-atlas.xyz/Variables/User/user.level/</loc>
+     <lastmod>2018-08-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.get-atlas.xyz/Variables/User/user.mention/</loc>
+     <lastmod>2018-08-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.get-atlas.xyz/Variables/User/user.nickname/</loc>
+     <lastmod>2018-08-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.get-atlas.xyz/Variables/User/user.tag/</loc>
+     <lastmod>2018-08-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.get-atlas.xyz/Variables/User/user.username/</loc>
+     <lastmod>2018-08-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
