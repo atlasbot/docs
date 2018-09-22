@@ -1,4 +1,4 @@
-# choose [opt0, opt1, ..., optN]
+# choose [opt0] [opt1] [...optN]
 
 Chooses something from all your provided arguments.
 

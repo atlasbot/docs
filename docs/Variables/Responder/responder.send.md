@@ -3,7 +3,7 @@
 Sends a message to a certain channel.
 
 !!! note
-    Atlas uses the fuzzy matcher to search for the channel, so be careful. If the target channel was deleted, Atlas will try and find the second best channel that matches. Using an ID here is strongly suggested, then if a channel is deleted Atlas won't find the channel and won't send anything, just incase.
+    This does not currently support forwarding commands to other channels. If you'd like that, feel free to come into our [https://get-atlas.xyz/support](support server) and ask in the suggestions channel.
 
 ## Example
 

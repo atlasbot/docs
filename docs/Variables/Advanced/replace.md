@@ -1,4 +1,4 @@
-# replace [string, phrase, replacement]
+# replace <string> <phrase> <replacement>
 
 Replaces occurences of `phrase` in `string` with `replacement`.
 

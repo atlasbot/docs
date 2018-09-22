@@ -1,4 +1,4 @@
-# capitalise [string]
+# capitalise <string>
 
 Makes the first letter in the string uppercase.
 

@@ -1,4 +1,4 @@
-# mention.channel [channel]
+# mention.channel <channel mention/id/name>
 
 Mentions a channel. Uses fuzzy matching to find it based on what you input.
 

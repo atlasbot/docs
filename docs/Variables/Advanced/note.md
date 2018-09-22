@@ -1,4 +1,4 @@
-# note [str]
+# note <str>
 
 Returns absolutely nothing, great for leaving comments in your code.
 

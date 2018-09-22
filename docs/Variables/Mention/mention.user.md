@@ -1,4 +1,4 @@
-# mention.user [user]
+# mention.user <user mention/id/username/nickname/tag>
 
 Mentions a user. `user` can be a id, nickname or username. This searches for members in the guild, so for leave messages this won't be a great idea.
 

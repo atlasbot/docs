@@ -1,4 +1,4 @@
-# args [index, range]
+# args [index] [range]
 
 Gets the arguments provided when executing the command.
 

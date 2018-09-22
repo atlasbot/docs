@@ -1,4 +1,4 @@
-# mention.role [role]
+# mention.channel <role mention/id/name>
 
 Mentions a role. Uses fuzzy matching to find it based on what you input.
 

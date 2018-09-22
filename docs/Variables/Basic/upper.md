@@ -1,4 +1,4 @@
-# upper [str]
+# upper <string>
 
 Converts a string to uppercase.
 

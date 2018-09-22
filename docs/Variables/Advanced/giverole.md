@@ -1,4 +1,4 @@
-# giverole [role] [user]
+# giverole <role> [user]
 
 Give a user a role from the server, pretty self explanatory. `[role]` can be a role name or ID, `<user>` is optional and can be a username, user id, nickname or mention. If `<user>` is not provided, it will use the user in context (for example, the person who ran the command that the variable is apart of).
 

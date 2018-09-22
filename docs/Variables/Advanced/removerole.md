@@ -1,4 +1,4 @@
-# removerole [role]
+# removerole <role> [user]
 
 Remove a users role. This uses a fuzzy matching algorithm, so be careful not to remove roles you don't want by deleting the target role.
 

@@ -1,6 +1,6 @@
 # delete
 
-Delete the original message that caused the... "thing". For custom commands, this deletes the invocation message, for level up messages it deletes the message that caused the level-up.
+Delete the original message that invoked the tag. For custom commands, this deletes the invocation message, for level up messages it deletes the message that caused the level-up.
 
 ## Example
 
