@@ -1,4 +1,4 @@
-# randstr <chars> <length>
+# randstr <chars\> <length\>
 
 Returns a random string of characters.
 

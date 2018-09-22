@@ -1,4 +1,4 @@
-# range <start> <end>
+# range <start\> <end\>
 
 Returns a number between your two numbers.
 

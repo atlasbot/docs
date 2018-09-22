@@ -1,4 +1,4 @@
-# length <str>
+# length <str\>
 
 Returns the length of whatever is provided.
 

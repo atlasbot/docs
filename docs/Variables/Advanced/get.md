@@ -1,4 +1,4 @@
-# get <key>
+# get <key\>
 
 Gets a variable from storage. You may also be interested in [set](/Variables/Advanced/set/).
 

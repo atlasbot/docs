@@ -1,4 +1,4 @@
-# lower <str>
+# lower <str\>
 
 Converts a string to lowercase.
 
