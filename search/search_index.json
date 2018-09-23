@@ -152,13 +152,13 @@
         },
         {
             "location": "/Variables/Advanced/args/",
-            "text": "args [index] [range]\n\n\nGets the arguments provided when executing the command.\n\n\nExample\n\n\n\n\nNote\n\n\nFor this example, let's assume the command name was \ncommand\n and it executed like this\n\n\na!command this is definitely not a test\n\n\n\n\nInput\n\n\n{\nargs\n}\n\n\n{\nargs;2\n}\n\n\n{\nargs;2;2\n}\n\n\n\n\n\n\nOutput\n\n\nthis\n \nis\n \ndefinitely\n \nnot\n \na\n \ntest\n\n\nis\n\n\nis\n \ndefinitely\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands",
-            "title": "args [index] [range]"
+            "text": "args <index> <range>\n\n\nGets the arguments provided when executing the command.\n\n\nExample\n\n\n\n\nNote\n\n\nFor this example, let's assume the command name was \ncommand\n and it executed like this\n\n\na!command this is definitely not a test\n\n\n\n\nInput\n\n\n{\nargs\n}\n\n\n{\nargs;2\n}\n\n\n{\nargs;2;2\n}\n\n\n\n\n\n\nOutput\n\n\nthis\n \nis\n \ndefinitely\n \nnot\n \na\n \ntest\n\n\nis\n\n\nis\n \ndefinitely\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands",
+            "title": "args <index\\> <range\\>"
         },
         {
-            "location": "/Variables/Advanced/args/#args-index-range",
+            "location": "/Variables/Advanced/args/#args-index62-range62",
             "text": "Gets the arguments provided when executing the command.",
-            "title": "args [index] [range]"
+            "title": "args &lt;index> &lt;range>"
         },
         {
             "location": "/Variables/Advanced/args/#example",
@@ -212,13 +212,13 @@
         },
         {
             "location": "/Variables/Advanced/get/",
-            "text": "get <key>\n\n\nGets a variable from storage. You may also be interested in \nset\n.\n\n\nExample\n\n\nInput\n\n\n{\nset;x;oof\n}\n\n\n{\nget;x\n}\n\n\n\n\n\n\nOutput\n\n\noof\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
-            "title": "get <key\\>"
+            "text": "get [key]\n\n\nGets a variable from storage. You may also be interested in \nset\n.\n\n\nExample\n\n\nInput\n\n\n{\nset;x;oof\n}\n\n\n{\nget;x\n}\n\n\n\n\n\n\nOutput\n\n\noof\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "get [key\\]"
         },
         {
-            "location": "/Variables/Advanced/get/#get-key62",
+            "location": "/Variables/Advanced/get/#get-key93",
             "text": "Gets a variable from storage. You may also be interested in  set .",
-            "title": "get &lt;key>"
+            "title": "get [key]"
         },
         {
             "location": "/Variables/Advanced/get/#example",
@@ -242,13 +242,13 @@
         },
         {
             "location": "/Variables/Advanced/giverole/",
-            "text": "giverole <role> [user]\n\n\nGive a user a role from the server, pretty self explanatory. \n[role]\n can be a role name or ID, \n<user\\>\n is optional and can be a username, user id, nickname or mention. If \n<user\\>\n is not provided, it will use the user in context (for example, the person who ran the command that the variable is apart of).\n\n\nExample\n\n\nInput\n\n\n{\ngiverole;Humans\n}\n \nYou've\n \nbeen\n \nadded\n \nto\n \nthe\n \nHumans\n \nrole.\n\n\n\n\n\n\nOutput\n\n\nYou've\n \nbeen\n \nadded\n \nto\n \nthe\n \nHumans\n \nrole.\n\n\n\n\n\n\n\n\nNote\n\n\nThis would give the user the \"Humans\" role, then return nothing and say the sentence.\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin messages\n\n\nLevel-up messages",
-            "title": "giverole <role\\> [user]"
+            "text": "giverole [role] <user>\n\n\nGive a user a role from the server, pretty self explanatory. \n[role]\n can be a role name or ID, \n(user\\>\n is optional and can be a username, user id, nickname or mention. If \n<user\\)\n is not provided, it will use the user in context (for example, the person who ran the command that the variable is apart of).\n\n\nExample\n\n\nInput\n\n\n{\ngiverole;Humans\n}\n \nYou've\n \nbeen\n \nadded\n \nto\n \nthe\n \nHumans\n \nrole.\n\n\n\n\n\n\nOutput\n\n\nYou've\n \nbeen\n \nadded\n \nto\n \nthe\n \nHumans\n \nrole.\n\n\n\n\n\n\n\n\nNote\n\n\nThis would give the user the \"Humans\" role, then return nothing and say the sentence.\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin messages\n\n\nLevel-up messages",
+            "title": "giverole [role\\] <user\\>"
         },
         {
-            "location": "/Variables/Advanced/giverole/#giverole-role62-user",
-            "text": "Give a user a role from the server, pretty self explanatory.  [role]  can be a role name or ID,  <user\\>  is optional and can be a username, user id, nickname or mention. If  <user\\>  is not provided, it will use the user in context (for example, the person who ran the command that the variable is apart of).",
-            "title": "giverole &lt;role> [user]"
+            "location": "/Variables/Advanced/giverole/#giverole-role93-user62",
+            "text": "Give a user a role from the server, pretty self explanatory.  [role]  can be a role name or ID,  (user\\>  is optional and can be a username, user id, nickname or mention. If  <user\\)  is not provided, it will use the user in context (for example, the person who ran the command that the variable is apart of).",
+            "title": "giverole [role] &lt;user>"
         },
         {
             "location": "/Variables/Advanced/giverole/#example",
@@ -272,13 +272,13 @@
         },
         {
             "location": "/Variables/Advanced/note/",
-            "text": "note <str>\n\n\nReturns absolutely nothing, great for leaving comments in your code.\n\n\nExample\n\n\nInput\n\n\n{\nnote;Pst,\n \ndon't\n \ntell\n \nanyone\n \nbut\n \nyou're\n \nawesome\n}\n \nOh\n \nhai\n\n\n\n\n\n\nOutput\n\n\nOh\n \nhai\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
-            "title": "note <str\\>"
+            "text": "note [str]\n\n\nReturns absolutely nothing, great for leaving comments in your code.\n\n\nExample\n\n\nInput\n\n\n{\nnote;Pst,\n \ndon't\n \ntell\n \nanyone\n \nbut\n \nyou're\n \nawesome\n}\n \nOh\n \nhai\n\n\n\n\n\n\nOutput\n\n\nOh\n \nhai\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "note [str\\]"
         },
         {
-            "location": "/Variables/Advanced/note/#note-str62",
+            "location": "/Variables/Advanced/note/#note-str93",
             "text": "Returns absolutely nothing, great for leaving comments in your code.",
-            "title": "note &lt;str>"
+            "title": "note [str]"
         },
         {
             "location": "/Variables/Advanced/note/#example",
@@ -302,13 +302,13 @@
         },
         {
             "location": "/Variables/Advanced/randstr/",
-            "text": "randstr <chars> <length>\n\n\nReturns a random string of characters.\n\n\nExample\n\n\nInput\n\n\n{\nrandstr;qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM_-.;{range;55;60\n}\n}\n\n\n\n\n\n\nOutput\n\n\nJe-ACKgLOFxfZ.GaOLSvGygUCdbaIhOthbOHNNgmna-mr-MdPAiprXasLpyEqxGlPpj-VcKYHyeDFeVltVLz\n\n\n\n\n\n\n\n\nNote\n\n\nThis will return a random string of characters using the words as the possible characters and the length as the length of the randomised string. \n{range;55;60}\n will return a value between 55 and 60.\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
-            "title": "randstr <chars\\> <length\\>"
+            "text": "randstr (chars> <length)\n\n\nReturns a random string of characters.\n\n\nExample\n\n\nInput\n\n\n{\nrandstr;qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM_-.;{range;55;60\n}\n}\n\n\n\n\n\n\nOutput\n\n\nJe-ACKgLOFxfZ.GaOLSvGygUCdbaIhOthbOHNNgmna-mr-MdPAiprXasLpyEqxGlPpj-VcKYHyeDFeVltVLz\n\n\n\n\n\n\n\n\nNote\n\n\nThis will return a random string of characters using the words as the possible characters and the length as the length of the randomised string. \n{range;55;60}\n will return a value between 55 and 60.\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "randstr (chars\\> <length\\)"
         },
         {
-            "location": "/Variables/Advanced/randstr/#randstr-chars62-length62",
+            "location": "/Variables/Advanced/randstr/#randstr-chars62-length41",
             "text": "Returns a random string of characters.",
-            "title": "randstr &lt;chars> &lt;length>"
+            "title": "randstr (chars> &lt;length)"
         },
         {
             "location": "/Variables/Advanced/randstr/#example",
@@ -332,13 +332,13 @@
         },
         {
             "location": "/Variables/Advanced/range/",
-            "text": "range <start> <end>\n\n\nReturns a number between your two numbers.\n\n\nExample\n\n\nInput\n\n\n{\nrange;5;10\n}\n\n\n\n\n\n\nOutput\n\n\n6\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
-            "title": "range <start\\> <end\\>"
+            "text": "range (start> <end)\n\n\nReturns a number between your two numbers.\n\n\nExample\n\n\nInput\n\n\n{\nrange;5;10\n}\n\n\n\n\n\n\nOutput\n\n\n6\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "range (start\\> <end\\)"
         },
         {
-            "location": "/Variables/Advanced/range/#range-start62-end62",
+            "location": "/Variables/Advanced/range/#range-start62-end41",
             "text": "Returns a number between your two numbers.",
-            "title": "range &lt;start> &lt;end>"
+            "title": "range (start> &lt;end)"
         },
         {
             "location": "/Variables/Advanced/range/#example",
@@ -362,13 +362,13 @@
         },
         {
             "location": "/Variables/Advanced/removerole/",
-            "text": "removerole <role> [user]\n\n\nRemove a users role. This uses a fuzzy matching algorithm, so be careful not to remove roles you don't want by deleting the target role.\n\n\nExample\n\n\nInput\n\n\n{\nremoverole;Humans\n}\n \nYou've\n \nbeen\n \nremoved\n \nfrom\n \nthe\n \nHumans\n \nrole.\n\n\n\n\n\n\nOutput\n\n\nYou've\n \nbeen\n \nremoved\n \nfrom\n \nthe\n \nHumans\n \nrole\n\n\n\n\n\n\n\n\nNote\n\n\nThis would remove the \"Humans\" role from the user, then return nothing and say the sentence.\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin messages\n\n\nLevel-up messages",
-            "title": "removerole <role\\> [user]"
+            "text": "removerole [role] <user>\n\n\nRemove a users role. This uses a fuzzy matching algorithm, so be careful not to remove roles you don't want by deleting the target role.\n\n\nExample\n\n\nInput\n\n\n{\nremoverole;Humans\n}\n \nYou've\n \nbeen\n \nremoved\n \nfrom\n \nthe\n \nHumans\n \nrole.\n\n\n\n\n\n\nOutput\n\n\nYou've\n \nbeen\n \nremoved\n \nfrom\n \nthe\n \nHumans\n \nrole\n\n\n\n\n\n\n\n\nNote\n\n\nThis would remove the \"Humans\" role from the user, then return nothing and say the sentence.\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin messages\n\n\nLevel-up messages",
+            "title": "removerole [role\\] <user\\>"
         },
         {
-            "location": "/Variables/Advanced/removerole/#removerole-role62-user",
+            "location": "/Variables/Advanced/removerole/#removerole-role93-user62",
             "text": "Remove a users role. This uses a fuzzy matching algorithm, so be careful not to remove roles you don't want by deleting the target role.",
-            "title": "removerole &lt;role> [user]"
+            "title": "removerole [role] &lt;user>"
         },
         {
             "location": "/Variables/Advanced/removerole/#example",
@@ -392,13 +392,13 @@
         },
         {
             "location": "/Variables/Advanced/replace/",
-            "text": "replace <string> <phrase> <replacement>\n\n\nReplaces occurences of \nphrase\n in \nstring\n with \nreplacement\n.\n\n\nExample\n\n\nInput\n\n\n{\nreplace;Kittens\n \nare\n \nadorable;Kittens;Puppies\n}\n\n\n\n\n\n\nOutput\n\n\nPuppies\n \nare\n \nadorable\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
-            "title": "replace <string\\> <phrase\\> <replacement\\>"
+            "text": "replace (string> <phrase> <replacement)\n\n\nReplaces occurences of \nphrase\n in \nstring\n with \nreplacement\n.\n\n\nExample\n\n\nInput\n\n\n{\nreplace;Kittens\n \nare\n \nadorable;Kittens;Puppies\n}\n\n\n\n\n\n\nOutput\n\n\nPuppies\n \nare\n \nadorable\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "replace (string\\> <phrase\\> <replacement\\)"
         },
         {
-            "location": "/Variables/Advanced/replace/#replace-string62-phrase62-replacement62",
+            "location": "/Variables/Advanced/replace/#replace-string62-phrase62-replacement41",
             "text": "Replaces occurences of  phrase  in  string  with  replacement .",
-            "title": "replace &lt;string> &lt;phrase> &lt;replacement>"
+            "title": "replace (string> &lt;phrase> &lt;replacement)"
         },
         {
             "location": "/Variables/Advanced/replace/#example",
@@ -422,13 +422,13 @@
         },
         {
             "location": "/Variables/Advanced/set/",
-            "text": "set <key> <value>\n\n\nSet a variable to be used later. This is not persistent \nyet\n, so if you run a command that sets X to something, and another that gets X, the second one won't know what you're talking about.\n\n\nYou may also be interested in \nget\n\n\nExample\n\n\nInput\n\n\n{\nset;x;oof\n}\n\n\n{\nget;x\n}\n\n\n\n\n\n\nOutput\n\n\noof\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
-            "title": "set <key\\> <value\\>"
+            "text": "set (key> <value>\n\n\nSet a variable to be used later. This is not persistent \nyet\n, so if you run a command that sets X to something, and another that gets X, the second one won't know what you're talking about.\n\n\nYou may also be interested in \nget\n\n\nExample\n\n\nInput\n\n\n{\nset;x;oof\n}\n\n\n{\nget;x\n}\n\n\n\n\n\n\nOutput\n\n\noof\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "set (key\\> <value\\>"
         },
         {
             "location": "/Variables/Advanced/set/#set-key62-value62",
             "text": "Set a variable to be used later. This is not persistent  yet , so if you run a command that sets X to something, and another that gets X, the second one won't know what you're talking about.  You may also be interested in  get",
-            "title": "set &lt;key> &lt;value>"
+            "title": "set (key> &lt;value>"
         },
         {
             "location": "/Variables/Advanced/set/#example",
@@ -452,13 +452,13 @@
         },
         {
             "location": "/Variables/Basic/capitalise/",
-            "text": "capitalise <string>\n\n\nMakes the first letter in the string uppercase.\n\n\nExample\n\n\nInput\n\n\n{\ncapitalise;puppy\n}\n\n\n\n\n\n\nOutput\n\n\nPuppy\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
-            "title": "capitalise <string\\>"
+            "text": "capitalise [string]\n\n\nMakes the first letter in the string uppercase.\n\n\nExample\n\n\nInput\n\n\n{\ncapitalise;puppy\n}\n\n\n\n\n\n\nOutput\n\n\nPuppy\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "capitalise [string\\]"
         },
         {
-            "location": "/Variables/Basic/capitalise/#capitalise-string62",
+            "location": "/Variables/Basic/capitalise/#capitalise-string93",
             "text": "Makes the first letter in the string uppercase.",
-            "title": "capitalise &lt;string>"
+            "title": "capitalise [string]"
         },
         {
             "location": "/Variables/Basic/capitalise/#example",
@@ -482,13 +482,13 @@
         },
         {
             "location": "/Variables/Basic/date/",
-            "text": "date [timezone]\n\n\nGets the date, timezone is not necessary. If you do choose to include a timezone, you must follow the \ntz time zone format\n.\n\n\n\n\nNote\n\n\nIf you don't include a timezone, Atlas will use it's own timezone.\n\n\n\n\nExample\n\n\nInput\n\n\n{\ndate\n}\n\n\n{\ndate;America/Los_Angeles\n}\n\n\n\n\n\n\nOutput\n\n\nMay\n \n27\nth\n \n2018\n\n\nMay\n \n27\nth\n \n2018\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
-            "title": "date [timezone]"
+            "text": "date <timezone>\n\n\nGets the date, timezone is not necessary. If you do choose to include a timezone, you must follow the \ntz time zone format\n.\n\n\n\n\nNote\n\n\nIf you don't include a timezone, Atlas will use it's own timezone.\n\n\n\n\nExample\n\n\nInput\n\n\n{\ndate\n}\n\n\n{\ndate;America/Los_Angeles\n}\n\n\n\n\n\n\nOutput\n\n\nMay\n \n27\nth\n \n2018\n\n\nMay\n \n27\nth\n \n2018\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "date <timezone\\>"
         },
         {
-            "location": "/Variables/Basic/date/#date-timezone",
+            "location": "/Variables/Basic/date/#date-timezone62",
             "text": "Gets the date, timezone is not necessary. If you do choose to include a timezone, you must follow the  tz time zone format .   Note  If you don't include a timezone, Atlas will use it's own timezone.",
-            "title": "date [timezone]"
+            "title": "date &lt;timezone>"
         },
         {
             "location": "/Variables/Basic/date/#example",
@@ -512,13 +512,13 @@
         },
         {
             "location": "/Variables/Basic/datetime/",
-            "text": "datetime [timezone]\n\n\nGets the date and time, timezone is not necessary. If you do choose to include a timezone, you must follow the \ntz time zone format\n.\n\n\n\n\nNote\n\n\nIf you don't include a timezone, Atlas will use it's own timezone.\n\n\n\n\nExample\n\n\nInput\n\n\n{\ndatetime\n}\n\n\n{\ndatetime;America/Los_Angeles\n}\n\n\n\n\n\n\nOutput\n\n\nMay\n \n27\nth\n \n2018\n,\n \n7\n:\n45\n:\n24\n \npm\n\n\nMay\n \n27\nth\n \n2018\n,\n \n4\n:\n45\n:\n24\n \nam\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
-            "title": "datetime [timezone]"
+            "text": "datetime <timezone>\n\n\nGets the date and time, timezone is not necessary. If you do choose to include a timezone, you must follow the \ntz time zone format\n.\n\n\n\n\nNote\n\n\nIf you don't include a timezone, Atlas will use it's own timezone.\n\n\n\n\nExample\n\n\nInput\n\n\n{\ndatetime\n}\n\n\n{\ndatetime;America/Los_Angeles\n}\n\n\n\n\n\n\nOutput\n\n\nMay\n \n27\nth\n \n2018\n,\n \n7\n:\n45\n:\n24\n \npm\n\n\nMay\n \n27\nth\n \n2018\n,\n \n4\n:\n45\n:\n24\n \nam\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "datetime <timezone\\>"
         },
         {
-            "location": "/Variables/Basic/datetime/#datetime-timezone",
+            "location": "/Variables/Basic/datetime/#datetime-timezone62",
             "text": "Gets the date and time, timezone is not necessary. If you do choose to include a timezone, you must follow the  tz time zone format .   Note  If you don't include a timezone, Atlas will use it's own timezone.",
-            "title": "datetime [timezone]"
+            "title": "datetime &lt;timezone>"
         },
         {
             "location": "/Variables/Basic/datetime/#example",
@@ -602,13 +602,13 @@
         },
         {
             "location": "/Variables/Basic/length/",
-            "text": "length <str>\n\n\nReturns the length of whatever is provided.\n\n\nExample\n\n\nInput\n\n\n{\nlength;awd\n}\n\n\n\n\n\n\nOutput\n\n\n3\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
-            "title": "length <str\\>"
+            "text": "length [str]\n\n\nReturns the length of whatever is provided.\n\n\nExample\n\n\nInput\n\n\n{\nlength;awd\n}\n\n\n\n\n\n\nOutput\n\n\n3\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "length [str\\]"
         },
         {
-            "location": "/Variables/Basic/length/#length-str62",
+            "location": "/Variables/Basic/length/#length-str93",
             "text": "Returns the length of whatever is provided.",
-            "title": "length &lt;str>"
+            "title": "length [str]"
         },
         {
             "location": "/Variables/Basic/length/#example",
@@ -632,13 +632,13 @@
         },
         {
             "location": "/Variables/Basic/lower/",
-            "text": "lower <str>\n\n\nConverts a string to lowercase.\n\n\nExample\n\n\nInput\n\n\n{\nlower;WHY\n \nHELLO\n \nTHERE\n}\n\n\n\n\n\n\nOutput\n\n\nwhy\n \nhello\n \nthere\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
-            "title": "lower <str\\>"
+            "text": "lower [str]\n\n\nConverts a string to lowercase.\n\n\nExample\n\n\nInput\n\n\n{\nlower;WHY\n \nHELLO\n \nTHERE\n}\n\n\n\n\n\n\nOutput\n\n\nwhy\n \nhello\n \nthere\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "lower [str\\]"
         },
         {
-            "location": "/Variables/Basic/lower/#lower-str62",
+            "location": "/Variables/Basic/lower/#lower-str93",
             "text": "Converts a string to lowercase.",
-            "title": "lower &lt;str>"
+            "title": "lower [str]"
         },
         {
             "location": "/Variables/Basic/lower/#example",
@@ -662,13 +662,13 @@
         },
         {
             "location": "/Variables/Basic/math/",
-            "text": "math <equation>\n\n\nEvaluates math. Yup, not very interesting.\n\n\nExample\n\n\nInput\n\n\n{\nmath;1+1\n}\n\n\n\n\n\n\nOutput\n\n\n2\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
-            "title": "math <equation\\>"
+            "text": "math [equation]\n\n\nEvaluates math. Yup, not very interesting.\n\n\nExample\n\n\nInput\n\n\n{\nmath;1+1\n}\n\n\n\n\n\n\nOutput\n\n\n2\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "math [equation\\]"
         },
         {
-            "location": "/Variables/Basic/math/#math-equation62",
+            "location": "/Variables/Basic/math/#math-equation93",
             "text": "Evaluates math. Yup, not very interesting.",
-            "title": "math &lt;equation>"
+            "title": "math [equation]"
         },
         {
             "location": "/Variables/Basic/math/#example",
@@ -752,13 +752,13 @@
         },
         {
             "location": "/Variables/Basic/time/",
-            "text": "time [timezone]\n\n\nGets the time, timezone is not necessary. If you do choose to include a timezone, you must follow the \ntz time zone format\n.\n\n\n\n\nNote\n\n\nIf you don't include a timezone, Atlas will use it's own timezone.\n\n\n\n\nExample\n\n\nInput\n\n\n{\ntime\n}\n\n\n{\ntime;America/Los_Angeles\n}\n\n\n\n\n\n\nOutput\n\n\n7\n:\n46\n:\n00\n \npm\n\n\n4\n:\n46\n:\n00\n \nam\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
-            "title": "time [timezone]"
+            "text": "time <timezone>\n\n\nGets the time, timezone is not necessary. If you do choose to include a timezone, you must follow the \ntz time zone format\n.\n\n\n\n\nNote\n\n\nIf you don't include a timezone, Atlas will use it's own timezone.\n\n\n\n\nExample\n\n\nInput\n\n\n{\ntime\n}\n\n\n{\ntime;America/Los_Angeles\n}\n\n\n\n\n\n\nOutput\n\n\n7\n:\n46\n:\n00\n \npm\n\n\n4\n:\n46\n:\n00\n \nam\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "time <timezone\\>"
         },
         {
-            "location": "/Variables/Basic/time/#time-timezone",
+            "location": "/Variables/Basic/time/#time-timezone62",
             "text": "Gets the time, timezone is not necessary. If you do choose to include a timezone, you must follow the  tz time zone format .   Note  If you don't include a timezone, Atlas will use it's own timezone.",
-            "title": "time [timezone]"
+            "title": "time &lt;timezone>"
         },
         {
             "location": "/Variables/Basic/time/#example",
@@ -782,13 +782,13 @@
         },
         {
             "location": "/Variables/Basic/upper/",
-            "text": "upper <string>\n\n\nConverts a string to uppercase.\n\n\nExample\n\n\nInput\n\n\n{\nupper;Why\n \nhello\n \nthere\n}\n\n\n\n\n\n\nOutput\n\n\nWHY\n \nHELLO\n \nTHERE\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
-            "title": "upper <string\\>"
+            "text": "upper [string]\n\n\nConverts a string to uppercase.\n\n\nExample\n\n\nInput\n\n\n{\nupper;Why\n \nhello\n \nthere\n}\n\n\n\n\n\n\nOutput\n\n\nWHY\n \nHELLO\n \nTHERE\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "upper [string\\]"
         },
         {
-            "location": "/Variables/Basic/upper/#upper-string62",
+            "location": "/Variables/Basic/upper/#upper-string93",
             "text": "Converts a string to uppercase.",
-            "title": "upper &lt;string>"
+            "title": "upper [string]"
         },
         {
             "location": "/Variables/Basic/upper/#example",
@@ -1292,12 +1292,12 @@
         },
         {
             "location": "/Variables/Responder/responder.send/",
-            "text": "responder.send [channel] [message]\n\n\nSends a message to a certain channel.\n\n\n\n\nNote\n\n\nThis does not currently support forwarding commands to other channels. If you'd like that, feel free to come into our \nhttps://get-atlas.xyz/support\n and ask in the suggestions channel.\n\n\n\n\nExample\n\n\nInput in channel 'test'\n\n\n{\nresponder.send;general;lol\n}\n\n\n\n\n\n\nOutput in channel 'general'\n\n\nlol\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "responder.send [channel] [message]\n\n\nSends a message to a certain channel.\n\n\n\n\nNote\n\n\nThis does not currently support forwarding commands to other channels. If you'd like that, feel free to come into our \nsupport server\n and ask in the suggestions channel.\n\n\n\n\nExample\n\n\nInput in channel 'test'\n\n\n{\nresponder.send;general;lol\n}\n\n\n\n\n\n\nOutput in channel 'general'\n\n\nlol\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "responder.send [channel] [message]"
         },
         {
             "location": "/Variables/Responder/responder.send/#respondersend-channel-message",
-            "text": "Sends a message to a certain channel.   Note  This does not currently support forwarding commands to other channels. If you'd like that, feel free to come into our  https://get-atlas.xyz/support  and ask in the suggestions channel.",
+            "text": "Sends a message to a certain channel.   Note  This does not currently support forwarding commands to other channels. If you'd like that, feel free to come into our  support server  and ask in the suggestions channel.",
             "title": "responder.send [channel] [message]"
         },
         {
