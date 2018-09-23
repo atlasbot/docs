@@ -1,4 +1,4 @@
-# date [timezone]
+# date <timezone\>
 
 Gets the date, timezone is not necessary. If you do choose to include a timezone, you must follow the [tz time zone format](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).
 

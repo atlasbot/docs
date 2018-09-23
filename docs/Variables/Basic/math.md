@@ -1,4 +1,4 @@
-# math <equation\>
+# math [equation\]
 
 Evaluates math. Yup, not very interesting.
 
