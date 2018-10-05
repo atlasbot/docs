@@ -447,8 +447,44 @@
 
 
   <li class="md-nav__item">
+    <a href="../if/" title="if" class="md-nav__link">
+      if
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../note/" title="note [str\]" class="md-nav__link">
       note [str\]
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../perget/" title="perget [key\]" class="md-nav__link">
+      perget [key\]
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../perset/" title="perset [key\] [value]" class="md-nav__link">
+      perset [key\] [value]
     </a>
   </li>
 
@@ -1322,8 +1358,12 @@
                 
                 
                 <h1 id="set-key62-value62">set (key> &lt;value></h1>
-<p>Set a variable to be used later. This is not persistent <em>yet</em>, so if you run a command that sets X to something, and another that gets X, the second one won't know what you're talking about.</p>
+<p>Set a variable to be used later. This is not persistent, so if you run a command that sets X to something, and another that gets X, the second one won't know what you're talking about.</p>
 <p>You may also be interested in <a href="../../../Variables/Advanced/get/">get</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This variable is <strong>not persistent</strong>. That means, once a command has been run, any data saved will be lost. You can use <a href="../../../Variables/Advanced/perset/">perset</a> and <a href="../../../Variables/Advanced/perget/">perget</a> if you want persistent data.</p>
+</div>
 <h2 id="example">Example</h2>
 <h3 id="input">Input</h3>
 <div class="codehilite"><pre><span></span><span class="p">{</span><span class="err">set;x;oof</span><span class="p">}</span>

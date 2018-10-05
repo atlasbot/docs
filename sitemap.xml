@@ -61,7 +61,22 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://docs.get-atlas.xyz/Variables/Advanced/if/</loc>
+     <lastmod>2018-10-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://docs.get-atlas.xyz/Variables/Advanced/note/</loc>
+     <lastmod>2018-10-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.get-atlas.xyz/Variables/Advanced/perget/</loc>
+     <lastmod>2018-10-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.get-atlas.xyz/Variables/Advanced/perset/</loc>
      <lastmod>2018-10-05</lastmod>
      <changefreq>daily</changefreq>
     </url>

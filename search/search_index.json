@@ -92,7 +92,7 @@
         },
         {
             "location": "/Variables/running_commands/",
-            "text": "Running Commands\n\n\nEach command has it's own variable. To run any command, do \n{a!<command name}\n as a variable. For example, to run \nhelp\n as a variable, you would enter \n{a!help}\n.\n\n\nArguments must be seperated via \n;\n, for example \n{a!command;arg1;arg2}\n, which would be the same as running \na!command arg1 arg2\n\n\n\n\nWarning\n\n\nCommand variables do not support custom prefixes or aliases.\n\n\n\n\nInput\n\n\n{\na!say;woohoo!;it;works.\n}\n\n\n\n\n\n\nOutput\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin messages\n\n\nLevel-up messages",
+            "text": "Running Commands\n\n\nEach command has it's own variable. To run any command, do \n{a!<command name}\n as a variable. For example, to run \nhelp\n as a variable, you would enter \n{a!help}\n.\n\n\nArguments must be seperated via \n;\n, for example \n{a!command;arg1;arg2}\n, which would be the same as running \na!command arg1 arg2\n\n\n\n\nWarning\n\n\nCommand variables do not support custom prefixes or aliases.\n\n\n\n\nInput\n\n\n{\na!say;woohoo!;it;works.\n}\n\n\n\n\n\n\nOutput\n\n\n\n\nSupports\n\n\n\n\nCustom commands",
             "title": "Running Commands"
         },
         {
@@ -112,7 +112,7 @@
         },
         {
             "location": "/Variables/running_commands/#supports",
-            "text": "Custom commands  Join messages  Level-up messages",
+            "text": "Custom commands",
             "title": "Supports"
         },
         {
@@ -217,12 +217,12 @@
         },
         {
             "location": "/Variables/Advanced/get/",
-            "text": "get [key]\n\n\nGets a variable from storage. You may also be interested in \nset\n.\n\n\nExample\n\n\nInput\n\n\n{\nset;x;oof\n}\n\n\n{\nget;x\n}\n\n\n\n\n\n\nOutput\n\n\noof\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "get [key]\n\n\nGets a variable from storage. You may also be interested in \nset\n.\n\n\n\n\nNote\n\n\nThis variable is \nnot persistent\n. That means, once a command has been run, any data saved will be lost. You can use \nperset\n and \nperget\n if you want persistent data.\n\n\n\n\nExample\n\n\nInput\n\n\n{\nset;x;oof\n}\n\n\n{\nget;x\n}\n\n\n\n\n\n\nOutput\n\n\noof\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "get [key\\]"
         },
         {
             "location": "/Variables/Advanced/get/#get-key93",
-            "text": "Gets a variable from storage. You may also be interested in  set .",
+            "text": "Gets a variable from storage. You may also be interested in  set .   Note  This variable is  not persistent . That means, once a command has been run, any data saved will be lost. You can use  perset  and  perget  if you want persistent data.",
             "title": "get [key]"
         },
         {
@@ -276,6 +276,86 @@
             "title": "Supports"
         },
         {
+            "location": "/Variables/Advanced/if/",
+            "text": "if\n\n\nThis is one of the most complicated variables, and it can have multiple arguments taht mean different things. Your best bet is to play around with it and test things out for yourself.\n\n\nExample\n\n\nExample One\n\n\nInput\n\n\n{\nif;1;>;2;yay;nay\n}\n\n\n\n\n\n\nOutput\n\n\nnay\n\n\n\n\n\n\nExample Two\n\n\nInput\n\n\n{\nif;nay\n}\n\n\n\n\n\n\nOutput\n\n\ntrue\n\n\n\n\n\n\nExample Three\n\n\nInput\n\n\n{\nif;;it\n \nexists;it\n \ndoesnt\n}\n\n\n\n\n\n\nOutput\n\n\nit\n \ndoesnt\n\n\n\n\n\n\nExample Four\n\n\nInput\n\n\n{\nif;str;includes;s;\n\"str\"\n \nincludes\n \n\"s\"\n;\n\"str\"\n \ndoes\n \nnot\n \ninclude\n \n\"s\"\n}\n\n\n\n\n\n\nOutput\n\n\n\"str\"\n \nincludes\n \n\"s\"\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands",
+            "title": "if"
+        },
+        {
+            "location": "/Variables/Advanced/if/#if",
+            "text": "This is one of the most complicated variables, and it can have multiple arguments taht mean different things. Your best bet is to play around with it and test things out for yourself.",
+            "title": "if"
+        },
+        {
+            "location": "/Variables/Advanced/if/#example",
+            "text": "",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Advanced/if/#example-one",
+            "text": "",
+            "title": "Example One"
+        },
+        {
+            "location": "/Variables/Advanced/if/#input",
+            "text": "{ if;1;>;2;yay;nay }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Advanced/if/#output",
+            "text": "nay",
+            "title": "Output"
+        },
+        {
+            "location": "/Variables/Advanced/if/#example-two",
+            "text": "",
+            "title": "Example Two"
+        },
+        {
+            "location": "/Variables/Advanced/if/#input_1",
+            "text": "{ if;nay }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Advanced/if/#output_1",
+            "text": "true",
+            "title": "Output"
+        },
+        {
+            "location": "/Variables/Advanced/if/#example-three",
+            "text": "",
+            "title": "Example Three"
+        },
+        {
+            "location": "/Variables/Advanced/if/#input_2",
+            "text": "{ if;;it   exists;it   doesnt }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Advanced/if/#output_2",
+            "text": "it   doesnt",
+            "title": "Output"
+        },
+        {
+            "location": "/Variables/Advanced/if/#example-four",
+            "text": "",
+            "title": "Example Four"
+        },
+        {
+            "location": "/Variables/Advanced/if/#input_3",
+            "text": "{ if;str;includes;s; \"str\"   includes   \"s\" ; \"str\"   does   not   include   \"s\" }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Advanced/if/#output_3",
+            "text": "\"str\"   includes   \"s\"",
+            "title": "Output"
+        },
+        {
+            "location": "/Variables/Advanced/if/#supports",
+            "text": "Custom commands",
+            "title": "Supports"
+        },
+        {
             "location": "/Variables/Advanced/note/",
             "text": "note [str]\n\n\nReturns absolutely nothing, great for leaving comments in your code.\n\n\nExample\n\n\nInput\n\n\n{\nnote;Pst,\n \ndon't\n \ntell\n \nanyone\n \nbut\n \nyou're\n \nawesome\n}\n \nOh\n \nhai\n\n\n\n\n\n\nOutput\n\n\nOh\n \nhai\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "note [str\\]"
@@ -302,6 +382,66 @@
         },
         {
             "location": "/Variables/Advanced/note/#supports",
+            "text": "Custom commands  Join and leave messages  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Advanced/perget/",
+            "text": "perget [key]\n\n\nGets a persistent value from a key. Essentially the same as \"get\" but it can get persistent values from the persistent map.\n\n\n\n\nNote\n\n\nEach guild gets one map that everything is thrown into. The map is only saved at the end of each command for performance reasons.\n\n\n\n\nExample\n\n\nInput\n\n\n{\nperset;test;wew\n}\n \n{\nperget;test\n}\n\n\n\n\n\n\nOutput\n\n\nwew\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "perget [key\\]"
+        },
+        {
+            "location": "/Variables/Advanced/perget/#perget-key93",
+            "text": "Gets a persistent value from a key. Essentially the same as \"get\" but it can get persistent values from the persistent map.   Note  Each guild gets one map that everything is thrown into. The map is only saved at the end of each command for performance reasons.",
+            "title": "perget [key]"
+        },
+        {
+            "location": "/Variables/Advanced/perget/#example",
+            "text": "",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Advanced/perget/#input",
+            "text": "{ perset;test;wew }   { perget;test }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Advanced/perget/#output",
+            "text": "wew",
+            "title": "Output"
+        },
+        {
+            "location": "/Variables/Advanced/perget/#supports",
+            "text": "Custom commands  Join and leave messages  Level-up messages",
+            "title": "Supports"
+        },
+        {
+            "location": "/Variables/Advanced/perset/",
+            "text": "perset [key] [value]\n\n\nSets a persistent key to a value. Essentially the same as \"set\" but it's persistent between commands.\n\n\n\n\nNote\n\n\nEach guild gets one map that everything is thrown into. The map is only saved at the end of each command for performance reasons.\n\n\n\n\nExample\n\n\nInput\n\n\n{\nperset;test;wew\n}\n \n{\nperget;test\n}\n\n\n\n\n\n\nOutput\n\n\nwew\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "title": "perset [key\\] [value]"
+        },
+        {
+            "location": "/Variables/Advanced/perset/#perset-key93-value",
+            "text": "Sets a persistent key to a value. Essentially the same as \"set\" but it's persistent between commands.   Note  Each guild gets one map that everything is thrown into. The map is only saved at the end of each command for performance reasons.",
+            "title": "perset [key] [value]"
+        },
+        {
+            "location": "/Variables/Advanced/perset/#example",
+            "text": "",
+            "title": "Example"
+        },
+        {
+            "location": "/Variables/Advanced/perset/#input",
+            "text": "{ perset;test;wew }   { perget;test }",
+            "title": "Input"
+        },
+        {
+            "location": "/Variables/Advanced/perset/#output",
+            "text": "wew",
+            "title": "Output"
+        },
+        {
+            "location": "/Variables/Advanced/perset/#supports",
             "text": "Custom commands  Join and leave messages  Level-up messages",
             "title": "Supports"
         },
@@ -427,12 +567,12 @@
         },
         {
             "location": "/Variables/Advanced/set/",
-            "text": "set (key> <value>\n\n\nSet a variable to be used later. This is not persistent \nyet\n, so if you run a command that sets X to something, and another that gets X, the second one won't know what you're talking about.\n\n\nYou may also be interested in \nget\n\n\nExample\n\n\nInput\n\n\n{\nset;x;oof\n}\n\n\n{\nget;x\n}\n\n\n\n\n\n\nOutput\n\n\noof\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "set (key> <value>\n\n\nSet a variable to be used later. This is not persistent, so if you run a command that sets X to something, and another that gets X, the second one won't know what you're talking about.\n\n\nYou may also be interested in \nget\n\n\n\n\nNote\n\n\nThis variable is \nnot persistent\n. That means, once a command has been run, any data saved will be lost. You can use \nperset\n and \nperget\n if you want persistent data.\n\n\n\n\nExample\n\n\nInput\n\n\n{\nset;x;oof\n}\n\n\n{\nget;x\n}\n\n\n\n\n\n\nOutput\n\n\noof\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "set (key\\> <value\\>"
         },
         {
             "location": "/Variables/Advanced/set/#set-key62-value62",
-            "text": "Set a variable to be used later. This is not persistent  yet , so if you run a command that sets X to something, and another that gets X, the second one won't know what you're talking about.  You may also be interested in  get",
+            "text": "Set a variable to be used later. This is not persistent, so if you run a command that sets X to something, and another that gets X, the second one won't know what you're talking about.  You may also be interested in  get   Note  This variable is  not persistent . That means, once a command has been run, any data saved will be lost. You can use  perset  and  perget  if you want persistent data.",
             "title": "set (key> &lt;value>"
         },
         {
