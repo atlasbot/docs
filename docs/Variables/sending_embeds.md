@@ -15,7 +15,7 @@ Currently the standard way to send embeds is to execute the `embed` or `advanced
 
 ### Output
 
-![Output](/img/Lw0nzx9h.png)
+![Output](../img/Lw0nzx9h.png)
 
 Possible uses for this could be custom join/leave messages by using a non-embedded message and using the `{a!embed}` variable to send your own embed, or having your own super fancy custom commands.
 
