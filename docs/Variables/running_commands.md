@@ -5,9 +5,9 @@ Each command has it's own variable. To run any command, do `{a!<command name}` a
 Arguments must be seperated via `;`, for example `{a!command;arg1;arg2}`, which would be the same as running `a!command arg1 arg2`
 
 !!! warning
-    Command variables do not support aliases as of 03/08/2017.
+    Command variables do not support custom prefixes or aliases.
 
-### Input
+## Input
 
 ```json
 {a!say;woohoo!;it;works.}
