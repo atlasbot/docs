@@ -2,6 +2,8 @@ Byte-compiled / optimized / DLL files
 __pycache__/
 *$py.class
 
+node_modules
+
 # C extensions
 *.so
 
