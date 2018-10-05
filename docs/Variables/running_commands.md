@@ -20,5 +20,3 @@ Arguments must be seperated via `;`, for example `{a!command;arg1;arg2}`, which 
 ## Supports
 
 * [Custom commands](/Modules/Modules/custom_commands/)
-* [Join messages](/Modules/join_leave_messages/)
-* [Level-up messages](/Modules/levels/)
