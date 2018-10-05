@@ -2,8 +2,7 @@
 
 Mentions a channel. Uses fuzzy matching to find it based on what you input.
 
-!!! note
-    Atlas will try and pick up regular user, channel and role mentions, so you shouldn't ever have to use this variable. Just tag whatever you're after regularly, for example `#channelname` and Atlas will convert it to a channel mention.
+ℹ️ Note: Atlas will try and pick up regular user, channel and role mentions, so you shouldn't ever have to use this variable. Just tag whatever you're after regularly, for example `#channelname` and Atlas will convert it to a channel mention.
 
 ## Example
 
