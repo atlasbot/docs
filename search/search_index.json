@@ -87,12 +87,12 @@
         },
         {
             "location": "/Variables/running_commands/",
-            "text": "Running Commands\n\n\nEach command has it's own variable. To run any command, do \n{a!<command name}\n as a variable. For example, to run \nhelp\n as a variable, you would enter \n{a!help}\n.\n\n\nArguments must be seperated via \n;\n, for example \n{a!command;arg1;arg2}\n, which would be the same as running \na!command arg1 arg2\n\n\n\n\nWarning\n\n\nCommand variables do not support aliases as of 03/08/2017.\n\n\n\n\nInput\n\n\n{\na!say;woohoo!;it;works.\n}\n\n\n\n\n\n\nOutput\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin messages\n\n\nLevel-up messages",
+            "text": "Running Commands\n\n\nEach command has it's own variable. To run any command, do \n{a!<command name}\n as a variable. For example, to run \nhelp\n as a variable, you would enter \n{a!help}\n.\n\n\nArguments must be seperated via \n;\n, for example \n{a!command;arg1;arg2}\n, which would be the same as running \na!command arg1 arg2\n\n\n\n\nWarning\n\n\nCommand variables do not support custom prefixes or aliases.\n\n\n\n\nInput\n\n\n{\na!say;woohoo!;it;works.\n}\n\n\n\n\n\n\nOutput\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin messages\n\n\nLevel-up messages",
             "title": "Running Commands"
         },
         {
             "location": "/Variables/running_commands/#running-commands",
-            "text": "Each command has it's own variable. To run any command, do  {a!<command name}  as a variable. For example, to run  help  as a variable, you would enter  {a!help} .  Arguments must be seperated via  ; , for example  {a!command;arg1;arg2} , which would be the same as running  a!command arg1 arg2   Warning  Command variables do not support aliases as of 03/08/2017.",
+            "text": "Each command has it's own variable. To run any command, do  {a!<command name}  as a variable. For example, to run  help  as a variable, you would enter  {a!help} .  Arguments must be seperated via  ; , for example  {a!command;arg1;arg2} , which would be the same as running  a!command arg1 arg2   Warning  Command variables do not support custom prefixes or aliases.",
             "title": "Running Commands"
         },
         {
@@ -112,7 +112,7 @@
         },
         {
             "location": "/Variables/sending_embeds/",
-            "text": "Sending Embeds\n\n\nBasic Usage\n\n\nCurrently the standard way to send embeds is to execute the \nembed\n or \nadvancedembed\n command through a variable. \n\n\nInput\n\n\n{\na!embed;wew,\n \nembeds\n \nare\n \nfun\n}\n\n\n\n\n\n\nOutput\n\n\n\n\nPossible uses for this could be custom join/leave messages by using a non-embedded message and using the \n{a!embed}\n variable to send your own embed, or having your own super fancy custom commands.\n\n\nAdvanced Usage\n\n\nYou can do a lot more than just a simple embed. You can view all the possible options by doing \na!help advancedembed\n in your server, but there are tons of options available. For example, if you wanted to embed level up messages, you could do:\n\n\nInput\n\n\n{\na!advancedembed;--title=\n\"Level Up!\"\n;--description=\n\"Congratulations {mention.user}, you have levelled up to level {user.level}!\"\n;--thumbnail=\n\"{user.avatarURL}\"\n}\n\n\n\n\n\n\nOutput\n\n\n\n\nYou can take this a lot further, for example you could add \n--color=\"#3AAFA9\"\n to make the bar on the left of the embed a different color, where \n#3AAFA9\n can be any hex code, or a color name like \nblue\n. You could add more fields, add an image or URL, and a lot more. The syntax for \nadvancedembed\n isn't the best at the moment, but it gets the job done.",
+            "text": "Sending Embeds\n\n\nBasic Usage\n\n\nCurrently the standard way to send embeds is to execute the \nembed\n or \nadvancedembed\n command through a variable.\n\n\nInput\n\n\n{\na!embed;wew,\n \nembeds\n \nare\n \nfun\n}\n\n\n\n\n\n\n\n\nWarning\n\n\nDo not use your server's prefix. Command variables \ndo not\n support custom prefixes. They will only with with \na!\n.\n\n\n\n\nOutput\n\n\n\n\nPossible uses for this could be custom join/leave messages by using a non-embedded message and using the \n{a!embed}\n variable to send your own embed, or having your own super fancy custom commands.\n\n\nAdvanced Usage\n\n\nYou can do a lot more than just a simple embed. You can view all the possible options by doing \na!help advancedembed\n in your server, but there are tons of options available. For example, if you wanted to embed level up messages, you could do:\n\n\nInput\n\n\n{\na!advancedembed;--title=\n\"Level Up!\"\n;--description=\n\"Congratulations {mention.user}, you have levelled up to level {user.level}!\"\n;--thumbnail=\n\"{user.avatarURL}\"\n}\n\n\n\n\n\n\nOutput\n\n\n\n\nYou can take this a lot further, for example you could add \n--color=\"#3AAFA9\"\n to make the bar on the left of the embed a different color, where \n#3AAFA9\n can be any hex code, or a color name like \nblue\n. You could add more fields, add an image or URL, and a lot more. The syntax for \nadvancedembed\n isn't the best at the moment, but it gets the job done.",
             "title": "Sending Embeds"
         },
         {
@@ -127,7 +127,7 @@
         },
         {
             "location": "/Variables/sending_embeds/#input",
-            "text": "{ a!embed;wew,   embeds   are   fun }",
+            "text": "{ a!embed;wew,   embeds   are   fun }    Warning  Do not use your server's prefix. Command variables  do not  support custom prefixes. They will only with with  a! .",
             "title": "Input"
         },
         {
