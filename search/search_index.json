@@ -21,6 +21,11 @@
             "title": "Get Help"
         },
         {
+            "location": "/commands/",
+            "text": "Loading commands...",
+            "title": "Commands"
+        },
+        {
             "location": "/quick_start/",
             "text": "Quick Start\n\n\nGet Atlas up and running in a few super simple steps.\n\n\n\n\nNote\n\n\nAtlas is not a silver bullet, and getting Atlas won't magically solve all your problems. Filters work great, but are far from perfect. Fancy systems to keep track of who does what are always good, but you'll need someone to check them. If you want Atlas to solve all your problems, you've got the wrong bot.\n\n\n\n\nInviting Atlas\n\n\nBefore you can use Atlas, it must be invited to your server. Click \nhere\n, thhen select your server from the dropdown and click Authorize. Once Discord has done it's magic, Atlas will show up as a member in your server, meaning you've successfully invited Atlas.\n\n\n\n\nTip\n\n\nYou have to have administrator permissions in the target server to add Atlas, otherwise the server will not show up in the server list.\n\n\n\n\nRunning Commands\n\n\nAtlas is controlled primarily by commands. To run a command, do \na!<command name>\n. For example, to list all commands, type a message that says \na!help\n and Atlas will direct-message you a list of commands.\n\n\nConfiguring Atlas\n\n\nTo configure Atlas, you'll want to use the dashboard which you can access for free, assuming you have administrator permissions in the server you wish to modify.\n\n\n\n\nGo \nhere\n\n\nSign in by clicking \"Sign In\" at the top right, you'll be redirected where you might have to sign into your Discord account, then click \"Authorise\".\n\n\nOnce logged in, go to the top right and click \"Servers\", select your server from the list.\n\n\n\n\nThat's it! Once you're there, you can go into various modules and modify them however you'd like.\n\n\n\n\nNote\n\n\nWorried about your account? Don't worry. Atlas will only get basic read-only information about your account. Atlas will not be able to modify your account, send messages on your behalf or do anything harmful.",
             "title": "Quick Start"
