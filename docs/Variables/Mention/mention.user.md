@@ -4,8 +4,7 @@ Mentions a user. `user` can be a id, nickname or username. This searches for mem
 
 If no user is provided, it will fall back to whoever called the command, levelled up or joined.
 
-!!! note
-    Atlas will try and pick up regular user, channel and role mentions, so you shouldn't ever have to use this variable. Just tag whatever you're after regularly, for example `#channelname` and Atlas will convert it to a channel mention.
+ℹ️ Note: Atlas will try and pick up regular user, channel and role mentions, so you shouldn't ever have to use this variable. Just tag whatever you're after regularly, for example `#channelname` and Atlas will convert it to a channel mention.
 
 ## Example
 
