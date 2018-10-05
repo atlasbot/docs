@@ -10,8 +10,7 @@ Currently the standard way to send embeds is to execute the `embed` or `advanced
 {a!embed;wew, embeds are fun}
 ```
 
-!!! warning
-    Do not use your server's prefix. Command variables **do not** support custom prefixes. They will only with with `a!`.
+⚠️ Warning: Do not use your server's prefix. Command variables **do not** support custom prefixes. They will only with with `a!`. ⚠️
 
 ### Output
 
@@ -31,6 +30,6 @@ You can do a lot more than just a simple embed. You can view all the possible op
 
 ### Output
 
-![Output](/img/wN9XUU8r.png)
+![Output](../img/wN9XUU8r.png)
 
 You can take this a lot further, for example you could add `--color="#3AAFA9"` to make the bar on the left of the embed a different color, where `#3AAFA9` can be any hex code, or a color name like `blue`. You could add more fields, add an image or URL, and a lot more. The syntax for `advancedembed` isn't the best at the moment, but it gets the job done.
