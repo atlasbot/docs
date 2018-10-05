@@ -10,7 +10,7 @@ Currently the standard way to send embeds is to execute the `embed` or `advanced
 {a!embed;wew, embeds are fun}
 ```
 
-⚠️ Warning: Do not use your server's prefix. Command variables **do not** support custom prefixes. They will only with with `a!`. ⚠️
+⚠️ Warning: Do not use your server's prefix. Command variables **do not** support custom prefixes. They will only with with `a!`.
 
 ### Output
 
