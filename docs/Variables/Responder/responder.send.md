@@ -2,8 +2,7 @@
 
 Sends a message to a certain channel.
 
-!!! note
-    This does not currently support forwarding commands to other channels. If you'd like that, feel free to come into our [support server](https://get-atlas.xyz/support) and ask in the suggestions channel.
+ℹ️ Note: This does not currently support forwarding commands to other channels. If you'd like that, feel free to come into our [support server](https://get-atlas.xyz/support) and ask in the suggestions channel.
 
 ## Example
 
