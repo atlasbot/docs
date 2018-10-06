@@ -11,7 +11,7 @@ Currently the standard way to send embeds is to execute the `embed` or `advanced
 ```
 
 !!! warning
-    Do not use your server's prefix. Command variables **do not** support custom prefixes. They will only with with `a!`.
+    Do not use your server's prefix. Command variables **do not** support custom prefixes. They will only work with `a!`.
 
 ### Output
 
