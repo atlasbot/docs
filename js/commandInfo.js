@@ -18,7 +18,7 @@ if (el) {
 
 			console.log(`Fetched ${commands.length} commands.`);
 
-			el.innerHTML = `Subcommands are not shown. Do <code>ctrl + f</code> pr <code>cmd + f</code> to search.
+			el.innerHTML = `Subcommands are not shown. Do <code>ctrl + f</code> or <code>cmd + f</code> to search.
 			<div class="md-typeset__table" style="padding: 0;"><table>
 <thead>
 <tr>

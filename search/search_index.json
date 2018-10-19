@@ -117,7 +117,7 @@
         },
         {
             "location": "/Variables/sending_embeds/",
-            "text": "Sending Embeds\n\n\nBasic Usage\n\n\nCurrently the standard way to send embeds is to execute the \nembed\n or \nadvancedembed\n command through a variable.\n\n\nInput\n\n\n{\na!embed;wew,\n \nembeds\n \nare\n \nfun\n}\n\n\n\n\n\n\n\n\nWarning\n\n\nDo not use your server's prefix. Command variables \ndo not\n support custom prefixes. They will only with with \na!\n.\n\n\n\n\nOutput\n\n\n\n\nPossible uses for this could be custom join/leave messages by using a non-embedded message and using the \n{a!embed}\n variable to send your own embed, or having your own super fancy custom commands.\n\n\nAdvanced Usage\n\n\nYou can do a lot more than just a simple embed. You can view all the possible options by doing \na!help advancedembed\n in your server, but there are tons of options available. For example, if you wanted to embed level up messages, you could do:\n\n\nInput\n\n\n{\na!advancedembed;--title=\n\"Level Up!\"\n;--description=\n\"Congratulations {mention.user}, you have levelled up to level {user.level}!\"\n;--thumbnail=\n\"{user.avatarURL}\"\n}\n\n\n\n\n\n\nOutput\n\n\n\n\nYou can take this a lot further, for example you could add \n--color=\"#3AAFA9\"\n to make the bar on the left of the embed a different color, where \n#3AAFA9\n can be any hex code, or a color name like \nblue\n. You could add more fields, add an image or URL, and a lot more. The syntax for \nadvancedembed\n isn't the best at the moment, but it gets the job done.",
+            "text": "Sending Embeds\n\n\nBasic Usage\n\n\nCurrently the standard way to send embeds is to execute the \nembed\n or \nadvancedembed\n command through a variable.\n\n\nInput\n\n\n{\na!embed;wew,\n \nembeds\n \nare\n \nfun\n}\n\n\n\n\n\n\n\n\nWarning\n\n\nDo not use your server's prefix. Command variables \ndo not\n support custom prefixes. They will only work with \na!\n.\n\n\n\n\nOutput\n\n\n\n\nPossible uses for this could be custom join/leave messages by using a non-embedded message and using the \n{a!embed}\n variable to send your own embed, or having your own super fancy custom commands.\n\n\nAdvanced Usage\n\n\nYou can do a lot more than just a simple embed. You can view all the possible options by doing \na!help advancedembed\n in your server, but there are tons of options available. For example, if you wanted to embed level up messages, you could do:\n\n\nInput\n\n\n{\na!advancedembed;--title=\n\"Level Up!\"\n;--description=\n\"Congratulations {mention.user}, you have levelled up to level {user.level}!\"\n;--thumbnail=\n\"{user.avatarURL}\"\n}\n\n\n\n\n\n\nOutput\n\n\n\n\nYou can take this a lot further, for example you could add \n--color=\"#3AAFA9\"\n to make the bar on the left of the embed a different color, where \n#3AAFA9\n can be any hex code, or a color name like \nblue\n. You could add more fields, add an image or URL, and a lot more. The syntax for \nadvancedembed\n isn't the best at the moment, but it gets the job done.",
             "title": "Sending Embeds"
         },
         {
@@ -132,7 +132,7 @@
         },
         {
             "location": "/Variables/sending_embeds/#input",
-            "text": "{ a!embed;wew,   embeds   are   fun }    Warning  Do not use your server's prefix. Command variables  do not  support custom prefixes. They will only with with  a! .",
+            "text": "{ a!embed;wew,   embeds   are   fun }    Warning  Do not use your server's prefix. Command variables  do not  support custom prefixes. They will only work with  a! .",
             "title": "Input"
         },
         {
@@ -307,12 +307,12 @@
         },
         {
             "location": "/Variables/Advanced/perget/",
-            "text": "perget [key]\n\n\nGets a persistent value from a key. Essentially the same as \"get\" but it can get persistent values from the persistent map.\n\n\n\n\nNote\n\n\nEach guild gets one map that everything is thrown into. The map is only saved at the end of each command for performance reasons.\n\n\n\n\nExample\n\n\nInput\n\n\n{\nperset;test;wew\n}\n \n{\nperget;test\n}\n\n\n\n\n\n\nOutput\n\n\nwew\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "perget [key]\n\n\nGets a persistent value from a key. Essentially the same as \"get\" but it can get persistent values from the persistent map. You may also be interested in \nperset\n.\n\n\n\n\nNote\n\n\nEach guild gets one map that everything is thrown into. The map is only saved at the end of each command for performance reasons.\n\n\n\n\nExample\n\n\nInput\n\n\n{\nperset;test;wew\n}\n \n{\nperget;test\n}\n\n\n\n\n\n\nOutput\n\n\nwew\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "perget [key\\]"
         },
         {
             "location": "/Variables/Advanced/perget/#perget-key93",
-            "text": "Gets a persistent value from a key. Essentially the same as \"get\" but it can get persistent values from the persistent map.   Note  Each guild gets one map that everything is thrown into. The map is only saved at the end of each command for performance reasons.",
+            "text": "Gets a persistent value from a key. Essentially the same as \"get\" but it can get persistent values from the persistent map. You may also be interested in  perset .   Note  Each guild gets one map that everything is thrown into. The map is only saved at the end of each command for performance reasons.",
             "title": "perget [key]"
         },
         {
@@ -337,12 +337,12 @@
         },
         {
             "location": "/Variables/Advanced/perset/",
-            "text": "perset [key] [value]\n\n\nSets a persistent key to a value. Essentially the same as \"set\" but it's persistent between commands.\n\n\n\n\nNote\n\n\nEach guild gets one map that everything is thrown into. The map is only saved at the end of each command for performance reasons.\n\n\n\n\nExample\n\n\nInput\n\n\n{\nperset;test;wew\n}\n \n{\nperget;test\n}\n\n\n\n\n\n\nOutput\n\n\nwew\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
+            "text": "perset [key] [value]\n\n\nSets a persistent key to a value. Essentially the same as \"set\" but it's persistent between commands. You may also be interested in \nperget\n.\n\n\n\n\nNote\n\n\nEach guild gets one map that everything is thrown into. The map is only saved at the end of each command for performance reasons.\n\n\n\n\nExample\n\n\nInput\n\n\n{\nperset;test;wew\n}\n \n{\nperget;test\n}\n\n\n\n\n\n\nOutput\n\n\nwew\n\n\n\n\n\n\nSupports\n\n\n\n\nCustom commands\n\n\nJoin and leave messages\n\n\nLevel-up messages",
             "title": "perset [key\\] [value]"
         },
         {
             "location": "/Variables/Advanced/perset/#perset-key93-value",
-            "text": "Sets a persistent key to a value. Essentially the same as \"set\" but it's persistent between commands.   Note  Each guild gets one map that everything is thrown into. The map is only saved at the end of each command for performance reasons.",
+            "text": "Sets a persistent key to a value. Essentially the same as \"set\" but it's persistent between commands. You may also be interested in  perget .   Note  Each guild gets one map that everything is thrown into. The map is only saved at the end of each command for performance reasons.",
             "title": "perset [key] [value]"
         },
         {
