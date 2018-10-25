@@ -12,7 +12,7 @@ function escapeHtml(unsafe) {
 }
 
 if (el) {
-	fetch('https://get-atlas.xyz/api/info/commands')
+	fetch('https://atlasbot.xyz/api/info/commands')
 		.then(async (res) => {
 			const { commands } = await res.json();
 
