@@ -7,7 +7,7 @@ Get Atlas up and running in a few super simple steps.
 
 ## Inviting Atlas
 
-Before you can use Atlas, it must be invited to your server. Click [here](https://get-atlas.xyz/get), thhen select your server from the dropdown and click Authorize. Once Discord has done it's magic, Atlas will show up as a member in your server, meaning you've successfully invited Atlas.
+Before you can use Atlas, it must be invited to your server. Click [here](https://atlasbot.xyz/get), thhen select your server from the dropdown and click Authorize. Once Discord has done it's magic, Atlas will show up as a member in your server, meaning you've successfully invited Atlas.
 
 !!! tip
     You have to have administrator permissions in the target server to add Atlas, otherwise the server will not show up in the server list.
@@ -20,7 +20,7 @@ Atlas is controlled primarily by commands. To run a command, do `a!<command name
 
 To configure Atlas, you'll want to use the dashboard which you can access for free, assuming you have administrator permissions in the server you wish to modify.
 
-* Go [here](https://get-atlas.xyz)
+* Go [here](https://atlasbot.xyz)
 * Sign in by clicking "Sign In" at the top right, you'll be redirected where you might have to sign into your Discord account, then click "Authorise".
 * Once logged in, go to the top right and click "Servers", select your server from the list.
 

@@ -15,4 +15,4 @@ This documentation is open source. Noticed a typo? Something unclear? [Improve t
 
 If you've checked the documentation and still need help, please join our support server below. Keep in mind that unfortunately, we're still humans and won't be able to get to you instantly - that said, we'll try our best.
 
-[<img src="https://discordapp.com/api/guilds/345177567541723137/embed.png?style=banner2">](https://get-atlas.xyz/support)
+[<img src="https://discordapp.com/api/guilds/345177567541723137/embed.png?style=banner2">](https://atlasbot.xyz/support)
