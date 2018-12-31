@@ -1,17 +1,26 @@
 {
-  "name": "docs",
-  "version": "1.0.0",
-  "description": "docs for atlas",
-  "main": "docs/js/commandInfo.js",
-  "repository": "https://github.com/get-atlas/docs.git",
-  "author": "Sylver",
-  "license": "MIT",
-  "private": false,
-  "devDependencies": {
-    "eslint": "5.5.0",
-    "eslint-config-airbnb": "17.1.0",
-    "eslint-plugin-import": "2.14.0",
-    "eslint-plugin-jsx-a11y": "6.1.1",
-    "eslint-plugin-react": "7.11.1"
-  }
+	"name": "docs",
+	"version": "1.0.0",
+	"description": "docs for atlas",
+	"main": "generator.js",
+	"repository": "https://github.com/get-atlas/docs.git",
+	"author": "Sylver",
+	"license": "MIT",
+	"scripts": {
+		"dev": "npm run build && mkdocs serve",
+		"build": "node generator.js",
+		"deploy": "npm build && mkdocs deploy"
+	},
+	"devDependencies": {
+		"eslint": "5.5.0",
+		"eslint-config-airbnb": "17.1.0",
+		"eslint-plugin-import": "2.14.0",
+		"eslint-plugin-jsx-a11y": "6.1.1",
+		"eslint-plugin-react": "7.11.1"
+	},
+	"dependencies": {
+		"atlas-bot": "https://github.com/get-atlas/bot.git",
+		"merge-dirs": "^0.2.1",
+		"rimraf": "^2.6.2"
+	}
 }

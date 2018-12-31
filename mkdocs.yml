@@ -1,18 +1,16 @@
 site_name: Atlas Documentation
-site_url: 'https://docs.atlasbot.xyz'
-site_author: 'Sylver'
-repo_url: 'https://github.com/get-atlas/bot'
-edit_uri: edit/master/docs/
+site_url: "https://docs.atlasbot.xyz"
+site_author: "Sylver"
+repo_url: "https://github.com/get-atlas/bot"
+edit_uri: https://github.com/get-atlas/docs/edit/master/docs/
 
 extra:
   social:
-    - type: 'github'
-      link: 'https://github.com/get-atlas'
-extra_javascript:
-  - 'js/commandInfo.js'
+    - type: "github"
+      link: "https://github.com/get-atlas"
 
 theme:
-  name: 'material'
+  name: "material"
 markdown_extensions:
   - admonition
   - codehilite

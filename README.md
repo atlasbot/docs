@@ -4,5 +4,16 @@ This is the documentation for Atlas, a discord bot. Served using [MkDocs](https:
 
 If you notice things that could be changed like typos, or you want to improve the documenation and make it better, feel free to contribute.
 
+## Usage
+
+1. Install [mkdocs](https://www.mkdocs.org/) and [Node.js](https://nodejs.org)
+2. `git clone` and `cd docs` this repo
+3. Run `npm install`
+4. Run `npm server`
+5. Go to [http://localhost:8000](http://localhost:8000) in your browser
+6. ???
+7. Profit
+
+**DO NOT EDIT `docs/Commands/*` OR `docs/Tags/*`** - these files are automatically generated via `generator.js`, if you want changes to these files, edit `generator.js` or submit a pull request at [get-atlas/bot](https://github.com/get-atlas/bot) for the relevant files. If you want to edit files not automatically generated, look in `templates/Tags` or `templates/Commands`.
 
 [<img src="https://discordapp.com/api/guilds/345177567541723137/embed.png?style=banner3">](https://atlasbot.xyz/support)
