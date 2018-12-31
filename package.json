@@ -8,7 +8,7 @@
 	"license": "MIT",
 	"scripts": {
 		"dev": "npm run build && mkdocs serve",
-		"build": "node generator.js && mkdocs build",
+		"build": "node generator.js",
 		"deploy": "npm build && mkdocs deploy"
 	},
 	"devDependencies": {

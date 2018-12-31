@@ -4,7 +4,7 @@ If you ever want to send a fancy embed, then there is a simple way to do just th
 
 ## Creating the embed
 
-To create an embed that is a usable tag, go to the [embed builder](https://atlasbot.xyz/embed-builder) and create your perfect ~~man~~ embed. You can do anything a regular embed can do here. Once you're done, go to `copy > {a!advancedembed} tag`. The tag for that embed is now on your clipboard.
+To create an embed that is a usable tag, go to the [embed builder](https://atlasbot.xyz/embed-builder) and create your perfect embed. You can do anything a regular embed can do here. Once you're done, go to `copy > {a!advancedembed} tag`. The tag for that embed is now on your clipboard.
 
 ## Using an embed
 

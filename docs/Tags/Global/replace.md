@@ -1,6 +1,6 @@
 # replace &lt;string&gt; &lt;search&gt; &lt;replacement&gt;
 		
-Returns a random argument, now with extra regexp flavour.
+Replaces <search> in <string> with <replacement>, now with extra regexp flavour.
 
 ### Examples
 

@@ -11,6 +11,7 @@ Purge messages from a channel.
 
 ##### Aliases
 
+* a!clean
 * a!prune
 * a!clear
 

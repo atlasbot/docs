@@ -1,4 +1,4 @@
-# channel.send &lt;channel&gt;
+# channel.send [content] &lt;channel&gt;
 		
 Sends a message to the channel.
 
