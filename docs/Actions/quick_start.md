@@ -1,6 +1,6 @@
 # Quick Start
 
-Actions are like custom commands on steroids. Actions allow you to do something every x minutes, or create a custom command, or a do a ton of other things relatively easily.
+Actions are like custom commands on steroids. Actions allow you to do something every `x` minutes, or create a custom command, or a do a ton of other things *relatively easily.*
 
 ## Triggers
 
@@ -46,4 +46,4 @@ Most triggers support role and channel restrictions. These allow you to prevent 
 
 ## Sub-actions
 
-Sub actions are what the action does when it's triggered. The content of each sub-action will be evaluated and supports the full suite of [tags](/Tags).
+Sub actions are what the action does when it's triggered. The content of each sub-action will be evaluated and supports the full suite of [tags](/Tags/quick_start/).
