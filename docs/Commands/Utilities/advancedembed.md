@@ -9,6 +9,11 @@ Embeds a message with advanced options.
 * a!advancedembed [options] --color="#593001" --title="Welcome to my server" --description="Some very long description about why my server is the best and that you should just delete all your other servers and use mine instead." --timestamp
 
 
+##### Aliases
+
+* a!ae
+
+
 ##### Plugin
 Utilities
 

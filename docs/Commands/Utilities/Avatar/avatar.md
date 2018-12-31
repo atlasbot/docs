@@ -3,6 +3,11 @@
 Gets (the servers)/(a users) avatar.
 			
 
+##### Aliases
+
+* a!icon
+
+
 ##### Plugin
 Utilities
 

@@ -3,6 +3,11 @@
 Sets where action logs are logged to. Run with no args to reset.
 			
 
+##### Aliases
+
+* a!action
+
+
 ##### Plugin
 Configuration
 

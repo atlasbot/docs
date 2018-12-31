@@ -3,6 +3,13 @@
 Evaluate tags like {user.mention}.
 			
 
+##### Aliases
+
+* a!evaluate
+* a!tagevaluate
+* a!evaltag
+
+
 ##### Plugin
 Utilities
 

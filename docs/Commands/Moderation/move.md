@@ -10,6 +10,12 @@ Moves a message to another channel.
 * a!move [channel] &lt;message ID or share link&gt; #general 490622984256618516
 
 
+##### Aliases
+
+* a!movemsg
+* a!movemessage
+
+
 ##### Plugin
 Moderation
 

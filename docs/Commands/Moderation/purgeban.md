@@ -10,6 +10,11 @@ Bans a user and purges their messages over the last 7 days.
 * a!purgeban [user] &lt;reason&gt; undefined being too cool
 
 
+##### Aliases
+
+* a!hardban
+
+
 ##### Plugin
 Moderation
 

@@ -9,6 +9,11 @@ Ship two users.
 * a!ship [user1] &lt;user2&gt; @Random
 
 
+##### Aliases
+
+* a!shipit
+
+
 ##### Plugin
 Fun
 

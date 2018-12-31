@@ -12,6 +12,13 @@ Purges messages that includes your term  Supports wild*cards.
 * a!purge includes [term] &lt;amount&gt; 10
 
 
+##### Aliases
+
+* a!matching
+* a!match
+* a!including
+
+
 ##### Plugin
 Moderation
 

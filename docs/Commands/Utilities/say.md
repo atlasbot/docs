@@ -8,5 +8,10 @@ Makes Atlas say whatever you want.
 * a!say [text] wew
 
 
+##### Aliases
+
+* a!rinfo
+
+
 ##### Plugin
 Utilities

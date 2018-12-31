@@ -9,6 +9,15 @@ Search for information about a TV Series.
 * a!show [show name] game of thrones
 
 
+##### Aliases
+
+* a!showinfo
+* a!showsearch
+* a!showdetails
+* a!tvshow
+* a!tv
+
+
 ##### Plugin
 Utilities
 

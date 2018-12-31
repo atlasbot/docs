@@ -14,6 +14,12 @@ Set reminders to get notified in the future.
 * a!remindme [time] &lt;task&gt; 2 minutes 30 seconds
 
 
+##### Aliases
+
+* a!remind
+* a!rmde
+
+
 ##### Plugin
 Utilities
 

@@ -3,5 +3,10 @@
 Gets the avatar of a user.
 			
 
+##### Aliases
+
+* a!member
+
+
 ##### Plugin
 Utilities

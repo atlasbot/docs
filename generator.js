@@ -44,7 +44,7 @@ for (const dir of ['Tags', 'Commands']) {
 }
 
 for (const tag of tags.filter(t => !['index.js', 'middleware.js'].some(x => t.includes(x)))) {
-	const dirname = capitalize(path.dirname(tag).split('\\').pop());
+	let dirname = capitalize(path.dirname(tag).split('\\').pop());
 
 	try {
 		const { info } = require(tag);
@@ -89,14 +89,16 @@ ${example.note ? `
 		// saving
 		let outputFile = path.join(__dirname, 'docs/Tags', `${info.name}.md`);
 
-		if (dirname !== 'Tags') {
-			if (!created.includes(dirname)) {
-				fs.mkdirSync(path.join(__dirname, `docs/Tags/${dirname}`));
-				created.push(dirname);
-			}
-
-			outputFile = path.join(__dirname, `docs/Tags/${dirname}`, `${info.name}.md`);
+		if (dirname === 'Tags') {
+			dirname = 'Global';
 		}
+
+		if (!created.includes(dirname)) {
+			fs.mkdirSync(path.join(__dirname, `docs/Tags/${dirname}`));
+			created.push(dirname);
+		}
+
+		outputFile = path.join(__dirname, `docs/Tags/${dirname}`, `${info.name}.md`);
 
 		fs.writeFileSync(outputFile, template.trim());
 	} catch (e) {
@@ -151,6 +153,14 @@ ${info.description}
 `);
 
 			parts.push(`${info.examples.map(e => `${'* a!'}${displayName} ${e}`).join('\n')}\n`);
+		}
+
+		if (info.aliases && info.aliases.length) {
+			parts.push(`
+##### Aliases
+`);
+
+			parts.push(`${info.aliases.map(e => `${'* a!'}${e}`).join('\n')}\n`);
 		}
 
 		parts.push(`

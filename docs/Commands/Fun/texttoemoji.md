@@ -10,5 +10,10 @@ Converts text to emoji characters.
 * a!texttoemoji [text] im sure the server admins will love this
 
 
+##### Aliases
+
+* a!tte
+
+
 ##### Plugin
 Fun

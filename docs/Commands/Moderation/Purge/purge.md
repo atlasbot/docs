@@ -9,6 +9,12 @@ Purge messages from a channel.
 * a!purge purge &lt;amount&gt; 
 
 
+##### Aliases
+
+* a!prune
+* a!clear
+
+
 ##### Plugin
 Moderation
 

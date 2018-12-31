@@ -9,6 +9,12 @@ Purges messages that are from the user specified.
 * a!purge user [user] &lt;amount&gt; @user
 
 
+##### Aliases
+
+* a!member
+* a!from
+
+
 ##### Plugin
 Moderation
 

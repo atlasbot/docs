@@ -9,5 +9,10 @@ View a users warnings.
 * a!warn view [user] &lt;page=1&gt; @sylver
 
 
+##### Aliases
+
+* a!list
+
+
 ##### Plugin
 Moderation

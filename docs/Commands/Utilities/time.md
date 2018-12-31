@@ -8,5 +8,13 @@ Gets the time for a timezone.
 * a!time [location] perth, australia
 
 
+##### Aliases
+
+* a!timein
+* a!timeat
+* a!timezone
+* a!timefor
+
+
 ##### Plugin
 Utilities

@@ -8,6 +8,11 @@ Gets information about a server role.
 * a!roleinfo [role] @role
 
 
+##### Aliases
+
+* a!rinfo
+
+
 ##### Plugin
 Utilities
 

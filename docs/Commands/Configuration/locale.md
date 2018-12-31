@@ -3,6 +3,13 @@
 Changes what language Atlas uses in your server.
 			
 
+##### Aliases
+
+* a!translate
+* a!lang
+* a!language
+
+
 ##### Plugin
 Configuration
 

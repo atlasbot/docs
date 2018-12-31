@@ -3,6 +3,13 @@
 Toggle a plugin on or off.
 			
 
+##### Aliases
+
+* a!tp
+* a!tm
+* a!togglemodule
+
+
 ##### Plugin
 Configuration
 

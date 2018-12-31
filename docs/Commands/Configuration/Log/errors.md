@@ -3,6 +3,11 @@
 Controls where certain messages are logged in your guild.
 			
 
+##### Aliases
+
+* a!error
+
+
 ##### Plugin
 Configuration
 

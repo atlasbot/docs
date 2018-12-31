@@ -11,6 +11,11 @@ Gets information about SpaceX's ships.
 * a!spacex ships &lt;ship name&gt; 
 
 
+##### Aliases
+
+* a!ship
+
+
 ##### Plugin
 Utilities
 

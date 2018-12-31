@@ -9,6 +9,11 @@ Purges messages with attachments.
 * a!purge files &lt;amount&gt; xd
 
 
+##### Aliases
+
+* a!ending
+
+
 ##### Plugin
 Moderation
 
