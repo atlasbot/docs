@@ -1,6 +1,6 @@
-# user.removerole [role id/name/mention]  &lt;exact=false&gt; &lt;user&gt;
+# user.removerole [role id/name/mention] &lt;user&gt;
 		
-Removes a role from the user. When exact is true, Atlas will be strict and only search for a role that matches the name/ID exactly. Otherwise, Atlas will use the fuzzy searcher.
+Removes a role from the user. Role is matched using a fuzzy matcher.
 
 ### Context Requirements
 

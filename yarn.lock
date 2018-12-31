@@ -404,7 +404,7 @@ asynckit@^0.4.0:
 
 "atlas-bot@https://github.com/get-atlas/bot.git":
   version "8.0.36"
-  resolved "https://github.com/get-atlas/bot.git#1f963836e371951f6dfd5c2c944d904542422788"
+  resolved "https://github.com/get-atlas/bot.git#e454dbb24dbbe42cef4569a90e6a2f5ba97e596f"
   dependencies:
     agenda "^2.0.2"
     cachegoose "^7.1.0"
