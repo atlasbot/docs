@@ -40,7 +40,7 @@
     
     
       
-        <title>user.addrole [role id/name/mention]  &lt;exact=false&gt; &lt;user&gt; - Atlas Documentation</title>
+        <title>user.addrole [role id/name/mention] &lt;user&gt; - Atlas Documentation</title>
       
     
     
@@ -94,7 +94,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#useraddrole-role-idnamemention-exactfalse-user" tabindex="1" class="md-skip">
+      <a href="#useraddrole-role-idnamemention-user" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -120,7 +120,7 @@
                 Atlas Documentation
               </span>
               <span class="md-header-nav__topic">
-                user.addrole [role id/name/mention]  &lt;exact=false&gt; &lt;user&gt;
+                user.addrole [role id/name/mention] &lt;user&gt;
               </span>
             
           
@@ -3468,11 +3468,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        user.addrole [role id/name/mention]  &lt;exact=false&gt; &lt;user&gt;
+        user.addrole [role id/name/mention] &lt;user&gt;
       </label>
     
-    <a href="./" title="user.addrole [role id/name/mention]  &lt;exact=false&gt; &lt;user&gt;" class="md-nav__link md-nav__link--active">
-      user.addrole [role id/name/mention]  &lt;exact=false&gt; &lt;user&gt;
+    <a href="./" title="user.addrole [role id/name/mention] &lt;user&gt;" class="md-nav__link md-nav__link--active">
+      user.addrole [role id/name/mention] &lt;user&gt;
     </a>
     
       
@@ -3997,8 +3997,8 @@
                   <a href="https://github.com/get-atlas/docs/edit/master/docs/Tags/User/user.addrole.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="useraddrole-role-idnamemention-exactfalse-user">user.addrole [role id/name/mention]  &lt;exact=false&gt; &lt;user&gt;</h1>
-<p>Adds a role to the user. When exact is true, Atlas will be strict and only search for a role that matches the name/ID exactly. Otherwise, ATlas will use the fuzzy searcher.</p>
+                <h1 id="useraddrole-role-idnamemention-user">user.addrole [role id/name/mention] &lt;user&gt;</h1>
+<p>Gives a user a role. Role is matched using a fuzzy matcher.</p>
 <h3 id="context-requirements">Context Requirements</h3>
 <ul>
 <li>user</li>
@@ -4008,9 +4008,19 @@
 <h5 id="input">input</h5>
 <p><code>{user.addrole;Humans}</code></p>
 <h5 id="output">output</h5>
-<p>``````</p>
+<div class="codehilite"><pre><span></span>!!! note
+        The user would have the role. Returns nothing on success.
+
+
+##### input
+```{user.addrole;Humans;Sylver}```
+
+##### output
+</pre></div>
+
+
 <div class="admonition note">
-<p class="admonition-title">Note<p>The user would have the role. Returns nothing on success.</p>
+<p class="admonition-title">Note<p>Sylver would now have the "Humans" role.</p>
 </p>
 </div>
                 

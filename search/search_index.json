@@ -5972,13 +5972,13 @@
         },
         {
             "location": "/Tags/User/user.addrole/",
-            "text": "user.addrole [role id/name/mention]  <exact=false> <user>\n\n\nAdds a role to the user. When exact is true, Atlas will be strict and only search for a role that matches the name/ID exactly. Otherwise, ATlas will use the fuzzy searcher.\n\n\nContext Requirements\n\n\n\n\nuser\n\n\nguild\n\n\n\n\nExamples\n\n\ninput\n\n\n{user.addrole;Humans}\n\n\noutput\n\n\n``````\n\n\n\n\nNote\nThe user would have the role. Returns nothing on success.",
-            "title": "user.addrole [role id/name/mention]  &lt;exact=false&gt; &lt;user&gt;"
+            "text": "user.addrole [role id/name/mention] <user>\n\n\nGives a user a role. Role is matched using a fuzzy matcher.\n\n\nContext Requirements\n\n\n\n\nuser\n\n\nguild\n\n\n\n\nExamples\n\n\ninput\n\n\n{user.addrole;Humans}\n\n\noutput\n\n\n!!! note\n        The user would have the role. Returns nothing on success.\n\n\n##### input\n```{user.addrole;Humans;Sylver}```\n\n##### output\n\n\n\n\n\n\n\nNote\nSylver would now have the \"Humans\" role.",
+            "title": "user.addrole [role id/name/mention] &lt;user&gt;"
         },
         {
-            "location": "/Tags/User/user.addrole/#useraddrole-role-idnamemention-exactfalse-user",
-            "text": "Adds a role to the user. When exact is true, Atlas will be strict and only search for a role that matches the name/ID exactly. Otherwise, ATlas will use the fuzzy searcher.",
-            "title": "user.addrole [role id/name/mention]  &lt;exact=false&gt; &lt;user&gt;"
+            "location": "/Tags/User/user.addrole/#useraddrole-role-idnamemention-user",
+            "text": "Gives a user a role. Role is matched using a fuzzy matcher.",
+            "title": "user.addrole [role id/name/mention] &lt;user&gt;"
         },
         {
             "location": "/Tags/User/user.addrole/#context-requirements",
@@ -5997,7 +5997,7 @@
         },
         {
             "location": "/Tags/User/user.addrole/#output",
-            "text": "``````   Note The user would have the role. Returns nothing on success.",
+            "text": "!!! note\n        The user would have the role. Returns nothing on success.\n\n\n##### input\n```{user.addrole;Humans;Sylver}```\n\n##### output   Note Sylver would now have the \"Humans\" role.",
             "title": "output"
         },
         {
@@ -6532,13 +6532,13 @@
         },
         {
             "location": "/Tags/User/user.removerole/",
-            "text": "user.removerole [role id/name/mention]  <exact=false> <user>\n\n\nRemoves a role from the user. When exact is true, Atlas will be strict and only search for a role that matches the name/ID exactly. Otherwise, Atlas will use the fuzzy searcher.\n\n\nContext Requirements\n\n\n\n\nuser\n\n\nguild\n\n\n\n\nExamples\n\n\ninput\n\n\n{user.removerole;Humans}\n\n\noutput\n\n\n``````\n\n\n\n\nNote\nThe user would no longer have the role. Returns nothing on success.",
-            "title": "user.removerole [role id/name/mention]  &lt;exact=false&gt; &lt;user&gt;"
+            "text": "user.removerole [role id/name/mention] <user>\n\n\nRemoves a role from the user. Role is matched using a fuzzy matcher.\n\n\nContext Requirements\n\n\n\n\nuser\n\n\nguild\n\n\n\n\nExamples\n\n\ninput\n\n\n{user.removerole;Humans}\n\n\noutput\n\n\n``````\n\n\n\n\nNote\nThe user would no longer have the role. Returns nothing on success.",
+            "title": "user.removerole [role id/name/mention] &lt;user&gt;"
         },
         {
-            "location": "/Tags/User/user.removerole/#userremoverole-role-idnamemention-exactfalse-user",
-            "text": "Removes a role from the user. When exact is true, Atlas will be strict and only search for a role that matches the name/ID exactly. Otherwise, Atlas will use the fuzzy searcher.",
-            "title": "user.removerole [role id/name/mention]  &lt;exact=false&gt; &lt;user&gt;"
+            "location": "/Tags/User/user.removerole/#userremoverole-role-idnamemention-user",
+            "text": "Removes a role from the user. Role is matched using a fuzzy matcher.",
+            "title": "user.removerole [role id/name/mention] &lt;user&gt;"
         },
         {
             "location": "/Tags/User/user.removerole/#context-requirements",
