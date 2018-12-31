@@ -4,6 +4,10 @@ This is the documentation for Atlas, a discord bot. Served using [MkDocs](https:
 
 If you notice things that could be changed like typos, or you want to improve the documenation and make it better, feel free to contribute.
 
+## Disclaimer
+
+I am not a writer. I'm bad at explaining things in a meaningful way. If you find something that can be improved, please suggest it or submit a pull request. Thanks!
+
 ## Usage
 
 1. Install [mkdocs](https://www.mkdocs.org/) and [Node.js](https://nodejs.org)

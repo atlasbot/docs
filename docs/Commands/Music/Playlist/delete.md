@@ -3,5 +3,10 @@
 Delete one of your existing playlists.
 			
 
+##### Aliases
+
+* a!gtfo
+
+
 ##### Plugin
 Music

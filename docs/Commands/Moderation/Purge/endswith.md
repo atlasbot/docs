@@ -9,6 +9,12 @@ Purges messages that end with [term]. Supports wild*cards.
 * a!purge endswith [term] &lt;amount&gt; xd
 
 
+##### Aliases
+
+* a!ending
+* a!ends
+
+
 ##### Plugin
 Moderation
 

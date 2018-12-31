@@ -10,6 +10,11 @@ Gets information on past, present and future SpaceX launches.
 * a!spacex launches &lt;launch name&gt; 
 
 
+##### Aliases
+
+* a!launch
+
+
 ##### Plugin
 Utilities
 

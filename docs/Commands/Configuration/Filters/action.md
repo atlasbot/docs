@@ -10,6 +10,11 @@ Used to enable or disable filters, and change their action.
 * a!filters action [filter] &lt;action name&gt; cursing 3
 
 
+##### Aliases
+
+* a!filter
+
+
 ##### Plugin
 Configuration
 

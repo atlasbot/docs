@@ -10,6 +10,13 @@ Tells you when the International Space Station (ISS) is going to pass over <loca
 * a!isspass [location] new york
 
 
+##### Aliases
+
+* a!isspasses
+* a!isspassover
+* a!issover
+
+
 ##### Plugin
 Utilities
 

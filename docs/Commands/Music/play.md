@@ -10,6 +10,16 @@ Plays a song in your current voice channel, now with built in playlist support!
 * a!play [song name|url] https://www.youtube.com/watch?v=W4ocPPhtglU&list=PLoXL8KeHXDAvYjd8SNhPkT7ob3LvbqTEz
 
 
+##### Aliases
+
+* a!add
+* a!p
+* a!qplaylist
+* a!qp
+* a!queueplaylist
+* a!queuep
+
+
 ##### Plugin
 Music
 

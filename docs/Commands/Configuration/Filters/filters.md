@@ -3,6 +3,11 @@
 Controls chat filters.
 			
 
+##### Aliases
+
+* a!filter
+
+
 ##### Plugin
 Configuration
 

@@ -11,6 +11,11 @@ Generate an image of Trump's twitter tweeting something.
 * a!trumpgen [text] All of the women on 'The Apprentice' flirted with me—consciously or unconsciously. That's to be expected.
 
 
+##### Aliases
+
+* a!trumpt
+
+
 ##### Plugin
 Fun
 

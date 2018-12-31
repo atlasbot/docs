@@ -3,6 +3,13 @@
 Generates a random avatar.
 			
 
+##### Aliases
+
+* a!generateavatar
+* a!randavatar
+* a!randomavatar
+
+
 ##### Plugin
 Fun
 

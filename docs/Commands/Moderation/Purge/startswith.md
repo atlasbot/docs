@@ -10,6 +10,12 @@ Purges messages that start with your term. Supports wild*cards.
 * a!purge startswith [term] &lt;amount&gt; xd
 
 
+##### Aliases
+
+* a!starting
+* a!starts
+
+
 ##### Plugin
 Moderation
 

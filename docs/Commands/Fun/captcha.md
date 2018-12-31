@@ -8,6 +8,11 @@ Are you a robot? I know I am.
 * a!captcha &lt;user&gt; @Sylver
 
 
+##### Aliases
+
+* a!captchafy
+
+
 ##### Plugin
 Fun
 

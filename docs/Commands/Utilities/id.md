@@ -11,6 +11,13 @@ Gets the ID of a channel, role, user, guild, etc...
 * a!id [channel/role/user/"guild"] @user
 
 
+##### Aliases
+
+* a!roleid
+* a!channelid
+* a!userid
+
+
 ##### Plugin
 Utilities
 

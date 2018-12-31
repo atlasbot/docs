@@ -10,6 +10,11 @@ Removes a member from the server.
 * a!kick [user] &lt;reason&gt; undefined being too cool
 
 
+##### Aliases
+
+* a!punt
+
+
 ##### Plugin
 Moderation
 

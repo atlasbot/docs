@@ -9,6 +9,11 @@ Information about SpaceX and the cool shit they have.
 * a!spacex dragons  
 
 
+##### Aliases
+
+* a!dragon
+
+
 ##### Plugin
 Utilities
 

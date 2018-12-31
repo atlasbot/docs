@@ -3,5 +3,11 @@
 Plays a playlist.
 			
 
+##### Aliases
+
+* a!queue
+* a!p
+
+
 ##### Plugin
 Music

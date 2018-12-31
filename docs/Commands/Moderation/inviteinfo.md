@@ -10,6 +10,11 @@ Gets information about an invite.
 * a!inviteinfo [invite code/link] AXXBPM7
 
 
+##### Aliases
+
+* a!codeinfo
+
+
 ##### Plugin
 Moderation
 

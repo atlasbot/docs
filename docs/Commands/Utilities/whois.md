@@ -8,6 +8,12 @@ Get information about a user.
 * a!whois &lt;user&gt; @Sylver
 
 
+##### Aliases
+
+* a!userinfo
+* a!aboutuser
+
+
 ##### Plugin
 Utilities
 

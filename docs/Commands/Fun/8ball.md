@@ -10,5 +10,11 @@ Ask the magic eight-ball a question.
 * a!8ball  is @random a good person?
 
 
+##### Aliases
+
+* a!eightball
+* a!ateball
+
+
 ##### Plugin
 Fun

@@ -10,6 +10,15 @@ Get information about a movie!
 * a!movie [movie name] justice league
 
 
+##### Aliases
+
+* a!movieinfo
+* a!moviesearch
+* a!moviedetails
+* a!imbdb
+* a!omdb
+
+
 ##### Plugin
 Utilities
 

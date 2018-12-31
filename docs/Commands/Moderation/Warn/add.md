@@ -9,6 +9,11 @@ Add a warning to a user.
 * a!warn add [user] &lt;reason&gt; @random not playing nice
 
 
+##### Aliases
+
+* a!+
+
+
 ##### Plugin
 Moderation
 

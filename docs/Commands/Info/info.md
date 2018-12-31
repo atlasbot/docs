@@ -3,6 +3,11 @@
 General information about Atlas
 			
 
+##### Aliases
+
+* a!credits
+
+
 ##### Plugin
 Info
 

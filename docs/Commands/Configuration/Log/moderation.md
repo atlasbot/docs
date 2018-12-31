@@ -3,6 +3,13 @@
 Controls where certain messages are logged in your guild.
 			
 
+##### Aliases
+
+* a!mod
+* a!mods
+* a!moderations
+
+
 ##### Plugin
 Configuration
 

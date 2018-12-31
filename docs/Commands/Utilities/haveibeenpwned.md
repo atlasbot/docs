@@ -9,5 +9,11 @@ Check if you have an account that has been compromised in a data breach. **Do no
 * a!haveibeenpwned [account] test@example.com
 
 
+##### Aliases
+
+* a!hibp
+* a!hibpwned
+
+
 ##### Plugin
 Utilities

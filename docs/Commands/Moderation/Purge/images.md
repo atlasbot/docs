@@ -9,6 +9,11 @@ Purges messages with images attached.
 * a!purge images &lt;amount&gt; 
 
 
+##### Aliases
+
+* a!img
+
+
 ##### Plugin
 Moderation
 

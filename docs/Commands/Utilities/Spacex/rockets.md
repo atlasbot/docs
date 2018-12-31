@@ -10,6 +10,11 @@ Gets information about SpaceX's rockets.
 * a!spacex rockets &lt;rocket name&gt; 
 
 
+##### Aliases
+
+* a!rocket
+
+
 ##### Plugin
 Utilities
 

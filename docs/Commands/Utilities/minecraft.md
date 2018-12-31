@@ -8,5 +8,10 @@ Checks the status of a Minecraft server.
 * a!minecraft [server ip] play.hypixel.net
 
 
+##### Aliases
+
+* a!mcserver
+
+
 ##### Plugin
 Utilities
