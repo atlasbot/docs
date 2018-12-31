@@ -11,7 +11,7 @@
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
       
-        <link rel="canonical" href="https://docs.atlasbot.xyz/Tags/Utils/utils.calcRemainingXP/">
+        <link rel="canonical" href="https://docs.atlasbot.xyz/Tags/Global/find/">
       
       
         <meta name="author" content="Sylver">
@@ -40,7 +40,7 @@
     
     
       
-        <title>utils.calcRemainingXP &lt;number&gt; - Atlas Documentation</title>
+        <title>find &lt;string&gt; &lt;search&gt; - Atlas Documentation</title>
       
     
     
@@ -94,7 +94,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#utilscalcremainingxp-number" tabindex="1" class="md-skip">
+      <a href="#find-string-search" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -120,7 +120,7 @@
                 Atlas Documentation
               </span>
               <span class="md-header-nav__topic">
-                utils.calcRemainingXP &lt;number&gt;
+                find &lt;string&gt; &lt;search&gt;
               </span>
             
           
@@ -2692,10 +2692,12 @@
           
           
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-6" type="checkbox" id="nav-6-6">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-6" type="checkbox" id="nav-6-6" checked>
     
     <label class="md-nav__link" for="nav-6-6">
       Global
@@ -2713,7 +2715,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Global/args/" title="args &lt;index&gt; &lt;range=1&gt;" class="md-nav__link">
+    <a href="../args/" title="args &lt;index&gt; &lt;range=1&gt;" class="md-nav__link">
       args &lt;index&gt; &lt;range=1&gt;
     </a>
   </li>
@@ -2725,7 +2727,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Global/catch/" title="catch [subtag(s)] [message]" class="md-nav__link">
+    <a href="../catch/" title="catch [subtag(s)] [message]" class="md-nav__link">
       catch [subtag(s)] [message]
     </a>
   </li>
@@ -2737,7 +2739,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Global/choose/" title="choose [...options]" class="md-nav__link">
+    <a href="../choose/" title="choose [...options]" class="md-nav__link">
       choose [...options]
     </a>
   </li>
@@ -2747,11 +2749,97 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../../Global/find/" title="find &lt;string&gt; &lt;search&gt;" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        find &lt;string&gt; &lt;search&gt;
+      </label>
+    
+    <a href="./" title="find &lt;string&gt; &lt;search&gt;" class="md-nav__link md-nav__link--active">
       find &lt;string&gt; &lt;search&gt;
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#examples" title="Examples" class="md-nav__link">
+    Examples
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#input" title="input" class="md-nav__link">
+    input
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#output" title="output" class="md-nav__link">
+    output
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#input_1" title="input" class="md-nav__link">
+    input
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#output_1" title="output" class="md-nav__link">
+    output
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#input_2" title="input" class="md-nav__link">
+    input
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#output_2" title="output" class="md-nav__link">
+    output
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -2761,8 +2849,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Global/get/" title="get &lt;key&gt;" class="md-nav__link">
-      get &lt;key&gt;
+    <a href="../get/" title="Get" class="md-nav__link">
+      Get
     </a>
   </li>
 
@@ -2773,8 +2861,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Global/if/" title="if" class="md-nav__link">
-      if
+    <a href="../if/" title="If" class="md-nav__link">
+      If
     </a>
   </li>
 
@@ -2785,8 +2873,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Global/l/" title="l" class="md-nav__link">
-      l
+    <a href="../l/" title="L" class="md-nav__link">
+      L
     </a>
   </li>
 
@@ -2797,8 +2885,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Global/length/" title="length &lt;string&gt;" class="md-nav__link">
-      length &lt;string&gt;
+    <a href="../length/" title="Length" class="md-nav__link">
+      Length
     </a>
   </li>
 
@@ -2809,8 +2897,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Global/lower/" title="lower &lt;string&gt;" class="md-nav__link">
-      lower &lt;string&gt;
+    <a href="../lower/" title="Lower" class="md-nav__link">
+      Lower
     </a>
   </li>
 
@@ -2821,8 +2909,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Global/math/" title="math [expression]" class="md-nav__link">
-      math [expression]
+    <a href="../math/" title="Math" class="md-nav__link">
+      Math
     </a>
   </li>
 
@@ -2833,8 +2921,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Global/or/" title="or *" class="md-nav__link">
-      or *
+    <a href="../or/" title="Or" class="md-nav__link">
+      Or
     </a>
   </li>
 
@@ -2845,8 +2933,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Global/perget/" title="perget &lt;key&gt;" class="md-nav__link">
-      perget &lt;key&gt;
+    <a href="../perget/" title="Perget" class="md-nav__link">
+      Perget
     </a>
   </li>
 
@@ -2857,8 +2945,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Global/perset/" title="perset &lt;key&gt; &lt;value&gt;" class="md-nav__link">
-      perset &lt;key&gt; &lt;value&gt;
+    <a href="../perset/" title="Perset" class="md-nav__link">
+      Perset
     </a>
   </li>
 
@@ -2869,8 +2957,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Global/r/" title="r" class="md-nav__link">
-      r
+    <a href="../r/" title="R" class="md-nav__link">
+      R
     </a>
   </li>
 
@@ -2881,8 +2969,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Global/randstr/" title="randstr" class="md-nav__link">
-      randstr
+    <a href="../randstr/" title="Randstr" class="md-nav__link">
+      Randstr
     </a>
   </li>
 
@@ -2893,8 +2981,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Global/range/" title="range [min] [max]" class="md-nav__link">
-      range [min] [max]
+    <a href="../range/" title="Range" class="md-nav__link">
+      Range
     </a>
   </li>
 
@@ -2905,8 +2993,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Global/replace/" title="replace &lt;string&gt; &lt;search&gt; &lt;replacement&gt;" class="md-nav__link">
-      replace &lt;string&gt; &lt;search&gt; &lt;replacement&gt;
+    <a href="../replace/" title="Replace" class="md-nav__link">
+      Replace
     </a>
   </li>
 
@@ -2917,8 +3005,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Global/semi/" title="semi" class="md-nav__link">
-      semi
+    <a href="../semi/" title="Semi" class="md-nav__link">
+      Semi
     </a>
   </li>
 
@@ -2929,8 +3017,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Global/set/" title="set &lt;key&gt; &lt;value&gt;" class="md-nav__link">
-      set &lt;key&gt; &lt;value&gt;
+    <a href="../set/" title="Set" class="md-nav__link">
+      Set
     </a>
   </li>
 
@@ -2941,8 +3029,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Global/sleep/" title="sleep [timeout]" class="md-nav__link">
-      sleep [timeout]
+    <a href="../sleep/" title="Sleep" class="md-nav__link">
+      Sleep
     </a>
   </li>
 
@@ -2953,8 +3041,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Global/throw/" title="throw [message]" class="md-nav__link">
-      throw [message]
+    <a href="../throw/" title="Throw" class="md-nav__link">
+      Throw
     </a>
   </li>
 
@@ -2965,8 +3053,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Global/upper/" title="upper [string]" class="md-nav__link">
-      upper [string]
+    <a href="../upper/" title="Upper" class="md-nav__link">
+      Upper
     </a>
   </li>
 
@@ -3025,8 +3113,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Guild/guild.icon/" title="guild.icon" class="md-nav__link">
-      guild.icon
+    <a href="../../Guild/guild.icon/" title="Guild.icon" class="md-nav__link">
+      Guild.icon
     </a>
   </li>
 
@@ -3049,8 +3137,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Guild/guild.id/" title="guild.id" class="md-nav__link">
-      guild.id
+    <a href="../../Guild/guild.id/" title="Guild.id" class="md-nav__link">
+      Guild.id
     </a>
   </li>
 
@@ -3073,8 +3161,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Guild/guild.name/" title="guild.name" class="md-nav__link">
-      guild.name
+    <a href="../../Guild/guild.name/" title="Guild.name" class="md-nav__link">
+      Guild.name
     </a>
   </li>
 
@@ -3097,8 +3185,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Guild/guild.prefix/" title="guild.prefix" class="md-nav__link">
-      guild.prefix
+    <a href="../../Guild/guild.prefix/" title="Guild.prefix" class="md-nav__link">
+      Guild.prefix
     </a>
   </li>
 
@@ -3109,8 +3197,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Guild/guild.region/" title="guild.region" class="md-nav__link">
-      guild.region
+    <a href="../../Guild/guild.region/" title="Guild.region" class="md-nav__link">
+      Guild.region
     </a>
   </li>
 
@@ -3133,8 +3221,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Guild/guild.shard/" title="guild.shard" class="md-nav__link">
-      guild.shard
+    <a href="../../Guild/guild.shard/" title="Guild.shard" class="md-nav__link">
+      Guild.shard
     </a>
   </li>
 
@@ -3193,8 +3281,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Message/message.content/" title="message.content" class="md-nav__link">
-      message.content
+    <a href="../../Message/message.content/" title="Message.content" class="md-nav__link">
+      Message.content
     </a>
   </li>
 
@@ -3205,8 +3293,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Message/message.delete/" title="message.delete &lt;message id&gt; &lt;message channel&gt;" class="md-nav__link">
-      message.delete &lt;message id&gt; &lt;message channel&gt;
+    <a href="../../Message/message.delete/" title="Message.delete" class="md-nav__link">
+      Message.delete
     </a>
   </li>
 
@@ -3217,8 +3305,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Message/message.hasEmbed/" title="message.hasEmbed &lt;message id&gt; &lt;message channel&gt;" class="md-nav__link">
-      message.hasEmbed &lt;message id&gt; &lt;message channel&gt;
+    <a href="../../Message/message.hasEmbed/" title="message.hasEmbed" class="md-nav__link">
+      message.hasEmbed
     </a>
   </li>
 
@@ -3229,8 +3317,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Message/message.id/" title="message.id &lt;message id&gt; &lt;message channel&gt;" class="md-nav__link">
-      message.id &lt;message id&gt; &lt;message channel&gt;
+    <a href="../../Message/message.id/" title="Message.id" class="md-nav__link">
+      Message.id
     </a>
   </li>
 
@@ -3241,8 +3329,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Message/message.label/" title="message.label &lt;message id&gt; &lt;message channel&gt;" class="md-nav__link">
-      message.label &lt;message id&gt; &lt;message channel&gt;
+    <a href="../../Message/message.label/" title="Message.label" class="md-nav__link">
+      Message.label
     </a>
   </li>
 
@@ -3253,8 +3341,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Message/message.pinned/" title="message.pinned &lt;message id&gt; &lt;message channel&gt;" class="md-nav__link">
-      message.pinned &lt;message id&gt; &lt;message channel&gt;
+    <a href="../../Message/message.pinned/" title="Message.pinned" class="md-nav__link">
+      Message.pinned
     </a>
   </li>
 
@@ -3265,8 +3353,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Message/message.react/" title="message.react [emoji] &lt;message id&gt; &lt;channel id&gt;" class="md-nav__link">
-      message.react [emoji] &lt;message id&gt; &lt;channel id&gt;
+    <a href="../../Message/message.react/" title="Message.react" class="md-nav__link">
+      Message.react
     </a>
   </li>
 
@@ -3277,8 +3365,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Message/message.tts/" title="message.tts &lt;message id&gt; &lt;message channel&gt;" class="md-nav__link">
-      message.tts &lt;message id&gt; &lt;message channel&gt;
+    <a href="../../Message/message.tts/" title="Message.tts" class="md-nav__link">
+      Message.tts
     </a>
   </li>
 
@@ -3313,8 +3401,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Role/role.color/" title="role.color &lt;hex=true&gt;" class="md-nav__link">
-      role.color &lt;hex=true&gt;
+    <a href="../../Role/role.color/" title="Role.color" class="md-nav__link">
+      Role.color
     </a>
   </li>
 
@@ -3325,8 +3413,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Role/role.createdAt/" title="role.createdAt [role] &lt;exact&gt;" class="md-nav__link">
-      role.createdAt [role] &lt;exact&gt;
+    <a href="../../Role/role.createdAt/" title="role.createdAt" class="md-nav__link">
+      role.createdAt
     </a>
   </li>
 
@@ -3337,8 +3425,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Role/role.hoist/" title="role.hoist [role]" class="md-nav__link">
-      role.hoist [role]
+    <a href="../../Role/role.hoist/" title="Role.hoist" class="md-nav__link">
+      Role.hoist
     </a>
   </li>
 
@@ -3349,8 +3437,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Role/role.id/" title="role.id [role]" class="md-nav__link">
-      role.id [role]
+    <a href="../../Role/role.id/" title="Role.id" class="md-nav__link">
+      Role.id
     </a>
   </li>
 
@@ -3361,8 +3449,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Role/role.managed/" title="role.managed [role]" class="md-nav__link">
-      role.managed [role]
+    <a href="../../Role/role.managed/" title="Role.managed" class="md-nav__link">
+      Role.managed
     </a>
   </li>
 
@@ -3373,8 +3461,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Role/role.memberCount/" title="role.memberCount [role]" class="md-nav__link">
-      role.memberCount [role]
+    <a href="../../Role/role.memberCount/" title="role.memberCount" class="md-nav__link">
+      role.memberCount
     </a>
   </li>
 
@@ -3385,8 +3473,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Role/role.mention/" title="role.mention [role]" class="md-nav__link">
-      role.mention [role]
+    <a href="../../Role/role.mention/" title="Role.mention" class="md-nav__link">
+      Role.mention
     </a>
   </li>
 
@@ -3397,8 +3485,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Role/role.mentionable/" title="role.mentionable [role]" class="md-nav__link">
-      role.mentionable [role]
+    <a href="../../Role/role.mentionable/" title="Role.mentionable" class="md-nav__link">
+      Role.mentionable
     </a>
   </li>
 
@@ -3409,8 +3497,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Role/role.name/" title="role.name [role]" class="md-nav__link">
-      role.name [role]
+    <a href="../../Role/role.name/" title="Role.name" class="md-nav__link">
+      Role.name
     </a>
   </li>
 
@@ -3421,8 +3509,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../Role/role.position/" title="role.position [role]" class="md-nav__link">
-      role.position [role]
+    <a href="../../Role/role.position/" title="Role.position" class="md-nav__link">
+      Role.position
     </a>
   </li>
 
@@ -3457,8 +3545,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../User/user.addrole/" title="user.addrole [role id/name/mention]  &lt;exact=false&gt; &lt;user&gt;" class="md-nav__link">
-      user.addrole [role id/name/mention]  &lt;exact=false&gt; &lt;user&gt;
+    <a href="../../User/user.addrole/" title="User.addrole" class="md-nav__link">
+      User.addrole
     </a>
   </li>
 
@@ -3469,8 +3557,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../User/user.avatarURL/" title="user.avatarURL &lt;user&gt;" class="md-nav__link">
-      user.avatarURL &lt;user&gt;
+    <a href="../../User/user.avatarURL/" title="user.avatarURL" class="md-nav__link">
+      user.avatarURL
     </a>
   </li>
 
@@ -3481,8 +3569,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../User/user.bot/" title="user.bot &lt;user&gt;" class="md-nav__link">
-      user.bot &lt;user&gt;
+    <a href="../../User/user.bot/" title="User.bot" class="md-nav__link">
+      User.bot
     </a>
   </li>
 
@@ -3493,8 +3581,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../User/user.color/" title="user.color &lt;hex=true&gt; &lt;user&gt;" class="md-nav__link">
-      user.color &lt;hex=true&gt; &lt;user&gt;
+    <a href="../../User/user.color/" title="User.color" class="md-nav__link">
+      User.color
     </a>
   </li>
 
@@ -3505,8 +3593,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../User/user.createdAt/" title="user.createdAt &lt;exact&gt; &lt;user&gt;" class="md-nav__link">
-      user.createdAt &lt;exact&gt; &lt;user&gt;
+    <a href="../../User/user.createdAt/" title="user.createdAt" class="md-nav__link">
+      user.createdAt
     </a>
   </li>
 
@@ -3517,8 +3605,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../User/user.discriminator/" title="user.discriminator &lt;user&gt;" class="md-nav__link">
-      user.discriminator &lt;user&gt;
+    <a href="../../User/user.discriminator/" title="User.discriminator" class="md-nav__link">
+      User.discriminator
     </a>
   </li>
 
@@ -3529,8 +3617,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../User/user.id/" title="user.id &lt;user&gt;" class="md-nav__link">
-      user.id &lt;user&gt;
+    <a href="../../User/user.id/" title="User.id" class="md-nav__link">
+      User.id
     </a>
   </li>
 
@@ -3541,8 +3629,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../User/user.joinedAt/" title="user.joinedAt &lt;exact&gt; &lt;user&gt;" class="md-nav__link">
-      user.joinedAt &lt;exact&gt; &lt;user&gt;
+    <a href="../../User/user.joinedAt/" title="user.joinedAt" class="md-nav__link">
+      user.joinedAt
     </a>
   </li>
 
@@ -3553,8 +3641,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../User/user.level/" title="user.level &lt;user&gt;" class="md-nav__link">
-      user.level &lt;user&gt;
+    <a href="../../User/user.level/" title="User.level" class="md-nav__link">
+      User.level
     </a>
   </li>
 
@@ -3565,8 +3653,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../User/user.levelXP/" title="user.levelXP &lt;user&gt;" class="md-nav__link">
-      user.levelXP &lt;user&gt;
+    <a href="../../User/user.levelXP/" title="user.levelXP" class="md-nav__link">
+      user.levelXP
     </a>
   </li>
 
@@ -3577,8 +3665,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../User/user.mention/" title="user.mention &lt;user&gt;" class="md-nav__link">
-      user.mention &lt;user&gt;
+    <a href="../../User/user.mention/" title="User.mention" class="md-nav__link">
+      User.mention
     </a>
   </li>
 
@@ -3589,8 +3677,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../User/user.nextLevel/" title="user.nextLevel &lt;user&gt;" class="md-nav__link">
-      user.nextLevel &lt;user&gt;
+    <a href="../../User/user.nextLevel/" title="user.nextLevel" class="md-nav__link">
+      user.nextLevel
     </a>
   </li>
 
@@ -3601,8 +3689,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../User/user.nextLevelXP/" title="user.nextLevelXP &lt;user&gt;" class="md-nav__link">
-      user.nextLevelXP &lt;user&gt;
+    <a href="../../User/user.nextLevelXP/" title="user.nextLevelXP" class="md-nav__link">
+      user.nextLevelXP
     </a>
   </li>
 
@@ -3613,8 +3701,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../User/user.nickname/" title="user.nickname &lt;user&gt;" class="md-nav__link">
-      user.nickname &lt;user&gt;
+    <a href="../../User/user.nickname/" title="User.nickname" class="md-nav__link">
+      User.nickname
     </a>
   </li>
 
@@ -3625,8 +3713,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../User/user.random/" title="user.random" class="md-nav__link">
-      user.random
+    <a href="../../User/user.random/" title="User.random" class="md-nav__link">
+      User.random
     </a>
   </li>
 
@@ -3637,8 +3725,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../User/user.remainingXP/" title="user.remainingXP &lt;user&gt;" class="md-nav__link">
-      user.remainingXP &lt;user&gt;
+    <a href="../../User/user.remainingXP/" title="user.remainingXP" class="md-nav__link">
+      user.remainingXP
     </a>
   </li>
 
@@ -3649,8 +3737,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../User/user.removerole/" title="user.removerole [role id/name/mention]  &lt;exact=false&gt; &lt;user&gt;" class="md-nav__link">
-      user.removerole [role id/name/mention]  &lt;exact=false&gt; &lt;user&gt;
+    <a href="../../User/user.removerole/" title="User.removerole" class="md-nav__link">
+      User.removerole
     </a>
   </li>
 
@@ -3661,8 +3749,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../User/user.send/" title="user.send [message] &lt;user&gt;" class="md-nav__link">
-      user.send [message] &lt;user&gt;
+    <a href="../../User/user.send/" title="User.send" class="md-nav__link">
+      User.send
     </a>
   </li>
 
@@ -3673,8 +3761,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../User/user.tag/" title="user.tag &lt;user&gt;" class="md-nav__link">
-      user.tag &lt;user&gt;
+    <a href="../../User/user.tag/" title="User.tag" class="md-nav__link">
+      User.tag
     </a>
   </li>
 
@@ -3685,8 +3773,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../User/user.username/" title="user.username &lt;user&gt;" class="md-nav__link">
-      user.username &lt;user&gt;
+    <a href="../../User/user.username/" title="User.username" class="md-nav__link">
+      User.username
     </a>
   </li>
 
@@ -3700,12 +3788,10 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-11" type="checkbox" id="nav-6-11" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-11" type="checkbox" id="nav-6-11">
     
     <label class="md-nav__link" for="nav-6-11">
       Utils
@@ -3723,8 +3809,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../utils.calcLevel/" title="utils.calcLevel &lt;number&gt;" class="md-nav__link">
-      utils.calcLevel &lt;number&gt;
+    <a href="../../Utils/utils.calcLevel/" title="utils.calcLevel" class="md-nav__link">
+      utils.calcLevel
     </a>
   </li>
 
@@ -3735,8 +3821,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../utils.calcLevelXP/" title="utils.calcLevelXP &lt;number&gt;" class="md-nav__link">
-      utils.calcLevelXP &lt;number&gt;
+    <a href="../../Utils/utils.calcLevelXP/" title="utils.calcLevelXP" class="md-nav__link">
+      utils.calcLevelXP
     </a>
   </li>
 
@@ -3747,8 +3833,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../utils.calcNextLevel/" title="utils.calcNextLevel &lt;number&gt;" class="md-nav__link">
-      utils.calcNextLevel &lt;number&gt;
+    <a href="../../Utils/utils.calcNextLevel/" title="utils.calcNextLevel" class="md-nav__link">
+      utils.calcNextLevel
     </a>
   </li>
 
@@ -3759,79 +3845,9 @@
 
 
   <li class="md-nav__item">
-    <a href="../utils.calcNextLevelXP/" title="utils.calcNextLevelXP &lt;number&gt;" class="md-nav__link">
-      utils.calcNextLevelXP &lt;number&gt;
+    <a href="../../Utils/utils.calcNextLevelXP/" title="utils.calcNextLevelXP" class="md-nav__link">
+      utils.calcNextLevelXP
     </a>
-  </li>
-
-        
-          
-          
-          
-
-  
-
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        utils.calcRemainingXP &lt;number&gt;
-      </label>
-    
-    <a href="./" title="utils.calcRemainingXP &lt;number&gt;" class="md-nav__link md-nav__link--active">
-      utils.calcRemainingXP &lt;number&gt;
-    </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#examples" title="Examples" class="md-nav__link">
-    Examples
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#input" title="input" class="md-nav__link">
-    input
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#output" title="output" class="md-nav__link">
-    output
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -3841,7 +3857,19 @@
 
 
   <li class="md-nav__item">
-    <a href="../utils.capitalize/" title="Utils.capitalize" class="md-nav__link">
+    <a href="../../Utils/utils.calcRemainingXP/" title="utils.calcRemainingXP" class="md-nav__link">
+      utils.calcRemainingXP
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Utils/utils.capitalize/" title="Utils.capitalize" class="md-nav__link">
       Utils.capitalize
     </a>
   </li>
@@ -3853,7 +3881,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../utils.includes/" title="Utils.includes" class="md-nav__link">
+    <a href="../../Utils/utils.includes/" title="Utils.includes" class="md-nav__link">
       Utils.includes
     </a>
   </li>
@@ -3865,7 +3893,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../utils.isSnowflake/" title="utils.isSnowflake" class="md-nav__link">
+    <a href="../../Utils/utils.isSnowflake/" title="utils.isSnowflake" class="md-nav__link">
       utils.isSnowflake
     </a>
   </li>
@@ -3877,7 +3905,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../utils.isUrl/" title="utils.isUrl" class="md-nav__link">
+    <a href="../../Utils/utils.isUrl/" title="utils.isUrl" class="md-nav__link">
       utils.isUrl
     </a>
   </li>
@@ -3889,7 +3917,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../utils.prettyMs/" title="utils.prettyMs" class="md-nav__link">
+    <a href="../../Utils/utils.prettyMs/" title="utils.prettyMs" class="md-nav__link">
       utils.prettyMs
     </a>
   </li>
@@ -3901,7 +3929,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../utils.time/" title="Utils.time" class="md-nav__link">
+    <a href="../../Utils/utils.time/" title="Utils.time" class="md-nav__link">
       Utils.time
     </a>
   </li>
@@ -3959,6 +3987,34 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#input_1" title="input" class="md-nav__link">
+    input
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#output_1" title="output" class="md-nav__link">
+    output
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#input_2" title="input" class="md-nav__link">
+    input
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#output_2" title="output" class="md-nav__link">
+    output
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -3980,16 +4036,28 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/get-atlas/docs/edit/master/docs/Tags/Utils/utils.calcRemainingXP.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/get-atlas/docs/edit/master/docs/Tags/Global/find.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="utilscalcremainingxp-number">utils.calcRemainingXP &lt;number&gt;</h1>
-<p>Calculates the remaining XP to level up, where <number> is the amount of XP the user has.</p>
+                <h1 id="find-string-search">find &lt;string&gt; &lt;search&gt;</h1>
+<p>Finds <search> in <string>, now with extra regexp flavour.</p>
 <h3 id="examples">Examples</h3>
 <h5 id="input">input</h5>
-<p><code>{utils.calcRemainingXP;1337}</code></p>
+<p><code>{find;This is a test;test}</code></p>
 <h5 id="output">output</h5>
-<p><code>462</code></p>
+<p><code>test</code></p>
+<h5 id="input_1">input</h5>
+<p><code>{find;This does not include the forbidden word;test}</code></p>
+<h5 id="output_1">output</h5>
+<p>``````</p>
+<h5 id="input_2">input</h5>
+<p><code>{find;This does not include the forbidden word;[d]+}</code></p>
+<h5 id="output_2">output</h5>
+<p><code>d d dd d</code></p>
+<div class="admonition note">
+<p class="admonition-title">Note<p>This will return all "d" characters in the string using regex.</p>
+</p>
+</div>
                 
                   
                 
@@ -4010,7 +4078,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../utils.calcNextLevelXP/" title="utils.calcNextLevelXP &lt;number&gt;" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../choose/" title="choose [...options]" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -4019,19 +4087,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                utils.calcNextLevelXP &lt;number&gt;
+                choose [...options]
               </span>
             </div>
           </a>
         
         
-          <a href="../utils.capitalize/" title="Utils.capitalize" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../get/" title="Get" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Utils.capitalize
+                Get
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

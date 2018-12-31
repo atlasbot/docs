@@ -1992,7 +1992,7 @@
         },
         {
             "location": "/Commands/Moderation/Purge/purge/",
-            "text": "purge purge <amount>\n\n\nPurge messages from a channel.\n\n\nExamples\n\n\n\n\na!purge purge <amount> 10\n\n\na!purge purge <amount> \n\n\n\n\nAliases\n\n\n\n\na!prune\n\n\na!clear\n\n\n\n\nPlugin\n\n\nModeration\n\n\nUser Permissions\n\n\nEmbed Links\n, \nManage Messages\n\n\nBot Permissions\n\n\nManage Messages",
+            "text": "purge purge <amount>\n\n\nPurge messages from a channel.\n\n\nExamples\n\n\n\n\na!purge purge <amount> 10\n\n\na!purge purge <amount> \n\n\n\n\nAliases\n\n\n\n\na!clean\n\n\na!prune\n\n\na!clear\n\n\n\n\nPlugin\n\n\nModeration\n\n\nUser Permissions\n\n\nEmbed Links\n, \nManage Messages\n\n\nBot Permissions\n\n\nManage Messages",
             "title": "purge purge &lt;amount&gt;"
         },
         {
@@ -2007,7 +2007,7 @@
         },
         {
             "location": "/Commands/Moderation/Purge/purge/#aliases",
-            "text": "a!prune  a!clear",
+            "text": "a!clean  a!prune  a!clear",
             "title": "Aliases"
         },
         {
@@ -2982,12 +2982,12 @@
         },
         {
             "location": "/Commands/Utilities/membercount/",
-            "text": "membercount\n\n\nPlugin\n\n\nUtilities\n\n\nBot Permissions\n\n\nEmbed Links",
+            "text": "membercount\n\n\nShows information about the servers member count.\n\n\nPlugin\n\n\nUtilities\n\n\nBot Permissions\n\n\nEmbed Links",
             "title": "membercount"
         },
         {
             "location": "/Commands/Utilities/membercount/#membercount",
-            "text": "",
+            "text": "Shows information about the servers member count.",
             "title": "membercount"
         },
         {
@@ -3707,7 +3707,7 @@
         },
         {
             "location": "/Tags/running_commands/",
-            "text": "Running Commands\n\n\nEach command has an auto-generated tag that comes with it to run it from a tag.\n\n\nExamples\n\n\nInput\n\n\n{a!ping}\n\n\n\n\n\nOutput\n\n\n\n\n\n\n\n\n\n\nNote\n\n\nThe command would run and output it's usual message, then return nothing once completed. With this tag, you cannot tell if the command was successful or not.\n\n\n\n\nInput\n\n\n{a!say;0w0 whats this?}\n\n\n\n\n\nOutput",
+            "text": "Running Commands\n\n\nEach command has an auto-generated tag that comes with it to run it from a tag.\n\n\nExamples\n\n\nInput\n\n\n{a!ping}\n\n\n\n\n\nOutput\n\n\n\n\n\n\n\n\n\n\nNote\n\n\nThe command would run and output it's usual message, then return nothing once completed. With this tag, you cannot tell if the command was successful or not.\n\n\n\n\nInput\n\n\n{a!say;0w0 whats this?}\n\n\n\n\n\nOutput\n\n\n\n\n\n\n\n\nGetting a command's message ID\n\n\nSometimes you may want the ID of the command's output message for future use. You can get this ID by adding an arg with \n--returnId\n as it's content.\n\n\nInput\n\n\n{a!say;hehe xd rawr;--returnId}\n\n\n\n\n\nOutput\n\n\n424678567788544002",
             "title": "Running Commands"
         },
         {
@@ -3741,8 +3741,23 @@
             "title": "Output"
         },
         {
+            "location": "/Tags/running_commands/#getting-a-commands-message-id",
+            "text": "Sometimes you may want the ID of the command's output message for future use. You can get this ID by adding an arg with  --returnId  as it's content.",
+            "title": "Getting a command's message ID"
+        },
+        {
+            "location": "/Tags/running_commands/#input_2",
+            "text": "{a!say;hehe xd rawr;--returnId}",
+            "title": "Input"
+        },
+        {
+            "location": "/Tags/running_commands/#output_2",
+            "text": "424678567788544002",
+            "title": "Output"
+        },
+        {
             "location": "/Tags/sending_embeds/",
-            "text": "Sending Embeds\n\n\nIf you ever want to send a fancy embed, then there is a simple way to do just that. Using the \nEmbed Builder\n, you can create your own embed using a graphical interface and convert it to a tag.\n\n\nCreating the embed\n\n\nTo create an embed that is a usable tag, go to the \nembed builder\n and create your perfect ~~man~~ embed. You can do anything a regular embed can do here. Once you're done, go to \ncopy > {a!advancedembed} tag\n. The tag for that embed is now on your clipboard.\n\n\nUsing an embed\n\n\nOnce you have the tag for an embed on your clipboard, it's quite easy to use it.\n\n\nExamples\n\n\nInput\n\n\n{a!advancedembed;--color=\"#ff00c4\";--title=\"My epic embed\";--description=\"0w0 whats this :D\"}\n\n\n\n\n\nOutput\n\n\n\n\n\n\n\n\n\n\nNote\nThe embed would have been sent, but because it's a command tag, it will not return any output.\n\n\n\n\n\n\nInput\n\n\n{channel.send;{a!advancedembed;--color=\"#ff00c4\";--title=\"My epic embed\";--description=\"0w0 whats this :D\"};general}\n\n\n\n\n\nOutput\n\n\n\n\n\n\n\n\n\n\nNote\nThe embed would have been sent to the \"general\" channel, but because it's a command tag, it will not return any output.",
+            "text": "Sending Embeds\n\n\nIf you ever want to send a fancy embed, then there is a simple way to do just that. Using the \nEmbed Builder\n, you can create your own embed using a graphical interface and convert it to a tag.\n\n\nCreating the embed\n\n\nTo create an embed that is a usable tag, go to the \nembed builder\n and create your perfect embed. You can do anything a regular embed can do here. Once you're done, go to \ncopy > {a!advancedembed} tag\n. The tag for that embed is now on your clipboard.\n\n\nUsing an embed\n\n\nOnce you have the tag for an embed on your clipboard, it's quite easy to use it.\n\n\nExamples\n\n\nInput\n\n\n{a!advancedembed;--color=\"#ff00c4\";--title=\"My epic embed\";--description=\"0w0 whats this :D\"}\n\n\n\n\n\nOutput\n\n\n\n\n\n\n\n\n\n\nNote\nThe embed would have been sent, but because it's a command tag, it will not return any output.\n\n\n\n\n\n\nInput\n\n\n{channel.send;{a!advancedembed;--color=\"#ff00c4\";--title=\"My epic embed\";--description=\"0w0 whats this :D\"};general}\n\n\n\n\n\nOutput\n\n\n\n\n\n\n\n\n\n\nNote\nThe embed would have been sent to the \"general\" channel, but because it's a command tag, it will not return any output.",
             "title": "Sending Embeds"
         },
         {
@@ -3752,7 +3767,7 @@
         },
         {
             "location": "/Tags/sending_embeds/#creating-the-embed",
-            "text": "To create an embed that is a usable tag, go to the  embed builder  and create your perfect ~~man~~ embed. You can do anything a regular embed can do here. Once you're done, go to  copy > {a!advancedembed} tag . The tag for that embed is now on your clipboard.",
+            "text": "To create an embed that is a usable tag, go to the  embed builder  and create your perfect embed. You can do anything a regular embed can do here. Once you're done, go to  copy > {a!advancedembed} tag . The tag for that embed is now on your clipboard.",
             "title": "Creating the embed"
         },
         {
@@ -4037,13 +4052,13 @@
         },
         {
             "location": "/Tags/Channel/channel.send/",
-            "text": "channel.send <channel>\n\n\nSends a message to the channel.\n\n\nContext Requirements\n\n\n\n\nchannel\n\n\n\n\nExamples\n\n\ninput\n\n\n{channel.send;ayyy}\n\n\noutput\n\n\nayyy\n\n\ninput\n\n\n{channel.send;ayyy;#general}\n\n\noutput\n\n\nayyy\n\n\n\n\nNote\nOutput would be sent to the #general channel, regardless of where it was called.",
-            "title": "channel.send &lt;channel&gt;"
+            "text": "channel.send [content] <channel>\n\n\nSends a message to the channel.\n\n\nContext Requirements\n\n\n\n\nchannel\n\n\n\n\nExamples\n\n\ninput\n\n\n{channel.send;ayyy}\n\n\noutput\n\n\nayyy\n\n\ninput\n\n\n{channel.send;ayyy;#general}\n\n\noutput\n\n\nayyy\n\n\n\n\nNote\nOutput would be sent to the #general channel, regardless of where it was called.",
+            "title": "channel.send [content] &lt;channel&gt;"
         },
         {
-            "location": "/Tags/Channel/channel.send/#channelsend-channel",
+            "location": "/Tags/Channel/channel.send/#channelsend-content-channel",
             "text": "Sends a message to the channel.",
-            "title": "channel.send &lt;channel&gt;"
+            "title": "channel.send [content] &lt;channel&gt;"
         },
         {
             "location": "/Tags/Channel/channel.send/#context-requirements",
@@ -4338,6 +4353,51 @@
         {
             "location": "/Tags/Global/choose/#output_2",
             "text": "Doggos are good mkay",
+            "title": "output"
+        },
+        {
+            "location": "/Tags/Global/find/",
+            "text": "find <string> <search>\n\n\nFinds \n in \n, now with extra regexp flavour.\n\n\nExamples\n\n\ninput\n\n\n{find;This is a test;test}\n\n\noutput\n\n\ntest\n\n\ninput\n\n\n{find;This does not include the forbidden word;test}\n\n\noutput\n\n\n``````\n\n\ninput\n\n\n{find;This does not include the forbidden word;[d]+}\n\n\noutput\n\n\nd d dd d\n\n\n\n\nNote\nThis will return all \"d\" characters in the string using regex.",
+            "title": "find &lt;string&gt; &lt;search&gt;"
+        },
+        {
+            "location": "/Tags/Global/find/#find-string-search",
+            "text": "Finds   in  , now with extra regexp flavour.",
+            "title": "find &lt;string&gt; &lt;search&gt;"
+        },
+        {
+            "location": "/Tags/Global/find/#examples",
+            "text": "",
+            "title": "Examples"
+        },
+        {
+            "location": "/Tags/Global/find/#input",
+            "text": "{find;This is a test;test}",
+            "title": "input"
+        },
+        {
+            "location": "/Tags/Global/find/#output",
+            "text": "test",
+            "title": "output"
+        },
+        {
+            "location": "/Tags/Global/find/#input_1",
+            "text": "{find;This does not include the forbidden word;test}",
+            "title": "input"
+        },
+        {
+            "location": "/Tags/Global/find/#output_1",
+            "text": "``````",
+            "title": "output"
+        },
+        {
+            "location": "/Tags/Global/find/#input_2",
+            "text": "{find;This does not include the forbidden word;[d]+}",
+            "title": "input"
+        },
+        {
+            "location": "/Tags/Global/find/#output_2",
+            "text": "d d dd d   Note This will return all \"d\" characters in the string using regex.",
             "title": "output"
         },
         {
@@ -4702,12 +4762,12 @@
         },
         {
             "location": "/Tags/Global/replace/",
-            "text": "replace <string> <search> <replacement>\n\n\nReturns a random argument, now with extra regexp flavour.\n\n\nExamples\n\n\ninput\n\n\n{replace;kittens are the best;kittens;puppies}\n\n\noutput\n\n\npuppies are the best\n\n\ninput\n\n\n{replace;Kittens are the best;kittens;puppies}\n\n\noutput\n\n\npuppies are the best\n\n\n\n\nNote\nNote the capitalized \"Kittens\". {replace} is case-insensitive.\n\n\n\n\n\n\ninput\n\n\n{replace;The quick brown fox jumped over the lazy fox;([A-z]+);($1)}\n\n\noutput\n\n\n(The) (quick) (brown) (fox) (jumped) (over) (the) (lazy) (fox)\n\n\n\n\nNote\nThis example uses regular expressions, essentially surrounding groups of a-z in (). Google is your friend, but chances are you should just leave this alone if you don't understand interface.",
+            "text": "replace <string> <search> <replacement>\n\n\nReplaces \n in \n with \n, now with extra regexp flavour.\n\n\nExamples\n\n\ninput\n\n\n{replace;kittens are the best;kittens;puppies}\n\n\noutput\n\n\npuppies are the best\n\n\ninput\n\n\n{replace;Kittens are the best;kittens;puppies}\n\n\noutput\n\n\npuppies are the best\n\n\n\n\nNote\nNote the capitalized \"Kittens\". {replace} is case-insensitive.\n\n\n\n\n\n\ninput\n\n\n{replace;The quick brown fox jumped over the lazy fox;([A-z]+);($1)}\n\n\noutput\n\n\n(The) (quick) (brown) (fox) (jumped) (over) (the) (lazy) (fox)\n\n\n\n\nNote\nThis example uses regular expressions, essentially surrounding groups of a-z in (). Google is your friend, but chances are you should just leave this alone if you don't understand interface.",
             "title": "replace &lt;string&gt; &lt;search&gt; &lt;replacement&gt;"
         },
         {
             "location": "/Tags/Global/replace/#replace-string-search-replacement",
-            "text": "Returns a random argument, now with extra regexp flavour.",
+            "text": "Replaces   in   with  , now with extra regexp flavour.",
             "title": "replace &lt;string&gt; &lt;search&gt; &lt;replacement&gt;"
         },
         {
@@ -6498,6 +6558,46 @@
         {
             "location": "/Tags/User/user.removerole/#output",
             "text": "``````   Note The user would no longer have the role. Returns nothing on success.",
+            "title": "output"
+        },
+        {
+            "location": "/Tags/User/user.send/",
+            "text": "user.send [message] <user>\n\n\nDirect-messages a user a message.\n\n\nContext Requirements\n\n\n\n\nuser\n\n\n\n\nExamples\n\n\ninput\n\n\n{user.send;Hello :)}\n\n\noutput\n\n\n``````\n\n\n\n\nNote\nThis tag does not output anything on success.\n\n\n\n\n\n\ninput\n\n\n{user.send;Hello :)}\n\n\noutput\n\n\n{user.send-ERROR1}\n\n\n\n\nNote\nThis tag will throw an error if the user's direct-messages are not open.",
+            "title": "user.send [message] &lt;user&gt;"
+        },
+        {
+            "location": "/Tags/User/user.send/#usersend-message-user",
+            "text": "Direct-messages a user a message.",
+            "title": "user.send [message] &lt;user&gt;"
+        },
+        {
+            "location": "/Tags/User/user.send/#context-requirements",
+            "text": "user",
+            "title": "Context Requirements"
+        },
+        {
+            "location": "/Tags/User/user.send/#examples",
+            "text": "",
+            "title": "Examples"
+        },
+        {
+            "location": "/Tags/User/user.send/#input",
+            "text": "{user.send;Hello :)}",
+            "title": "input"
+        },
+        {
+            "location": "/Tags/User/user.send/#output",
+            "text": "``````   Note This tag does not output anything on success.",
+            "title": "output"
+        },
+        {
+            "location": "/Tags/User/user.send/#input_1",
+            "text": "{user.send;Hello :)}",
+            "title": "input"
+        },
+        {
+            "location": "/Tags/User/user.send/#output_1",
+            "text": "{user.send-ERROR1}   Note This tag will throw an error if the user's direct-messages are not open.",
             "title": "output"
         },
         {

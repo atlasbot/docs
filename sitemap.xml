@@ -831,6 +831,11 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://docs.atlasbot.xyz/Tags/Global/find/</loc>
+     <lastmod>2019-01-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://docs.atlasbot.xyz/Tags/Global/get/</loc>
      <lastmod>2019-01-01</lastmod>
      <changefreq>daily</changefreq>
@@ -1162,6 +1167,11 @@
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/User/user.removerole/</loc>
+     <lastmod>2019-01-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.atlasbot.xyz/Tags/User/user.send/</loc>
      <lastmod>2019-01-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
