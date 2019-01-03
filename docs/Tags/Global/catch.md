@@ -9,3 +9,13 @@ If an error occures on any of the subtags, it will retun [message] instead of th
 
 ##### output
 ```Something bad happened :c```
+
+
+##### input
+```{catch;{throw;test}}```
+
+##### output
+```Something bad happened :c```
+
+!!! note
+		The default message is "Something bad happened :c"

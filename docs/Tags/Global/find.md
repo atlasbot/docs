@@ -1,6 +1,6 @@
-# find &lt;string&gt; &lt;search&gt;
+# find &lt;target&gt; &lt;search&gt;
 		
-Finds <search> in <string>, now with extra regexp flavour.
+Finds <search> in <target>, now with extra regexp flavour.
 
 ### Examples
 
