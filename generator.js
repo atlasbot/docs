@@ -49,6 +49,10 @@ for (const tag of tags.filter(t => !['index.js', 'middleware.js'].some(x => t.in
 	try {
 		const { info } = require(tag);
 
+		if (info.private) {
+			continue;
+		}
+
 		if (info.args && info.args.includes('see examples')) {
 			// looking at you {if}
 			info.args = null;
