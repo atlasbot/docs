@@ -9,6 +9,12 @@ If you've never used Atlas before, you should probably take a look at our [quick
 ## Open Source 
 If you're too impatient to wait for us to fix it or if you found something we missed, then lucky for you, this documentation is open source! Just head on over to our [GitHub repository](https://github.com/get-atlas/docs/) to suggest a revision.
 
+## Community Actions
+Some members of the community have made a repository of custom commands that everyone is free to use and add to! You can check it out by [clicking here.](https://github.com/itsdoddsy/atlas-custom-commands)
+
+!!! warning
+    This repository is recognised by the Atlas staff but does not officially belong to them (however it is run by some support staff). While every attempt is made to test commands and remove malicious material, moderation is not always possible. Use caution when using anything taken from this repository.
+
 ## Need Help?
 Have you read through the documentation and still can't figure out whats wrong? Luckily, we have a dedicated support server to assist you. Keep in mind though, that our support staff are real humans that may not be able to help to you instantly - that said, we'll try our best.
 
