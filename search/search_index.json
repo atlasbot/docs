@@ -776,6 +776,26 @@
             "title": "Bot Permissions"
         },
         {
+            "location": "/Commands/Fun/lmgtfy/",
+            "text": "lmgtfy <search>\n\n\nLet me google that for you :^)\n\n\nAliases\n\n\n\n\na!letmegooglethatforyou\n\n\n\n\nPlugin\n\n\nFun",
+            "title": "lmgtfy &lt;search&gt;"
+        },
+        {
+            "location": "/Commands/Fun/lmgtfy/#lmgtfy-search",
+            "text": "Let me google that for you :^)",
+            "title": "lmgtfy &lt;search&gt;"
+        },
+        {
+            "location": "/Commands/Fun/lmgtfy/#aliases",
+            "text": "a!letmegooglethatforyou",
+            "title": "Aliases"
+        },
+        {
+            "location": "/Commands/Fun/lmgtfy/#plugin",
+            "text": "Fun",
+            "title": "Plugin"
+        },
+        {
             "location": "/Commands/Fun/meme/",
             "text": "meme\n\n\ndank me-mes\n\n\nAliases\n\n\n\n\na!meyme\n\n\na!me-me\n\n\na!mmmlol\n\n\n\n\nPlugin\n\n\nFun\n\n\nBot Permissions\n\n\nEmbed Links",
             "title": "meme"
@@ -4287,7 +4307,7 @@
         },
         {
             "location": "/Tags/Global/catch/",
-            "text": "catch [subtag(s)] [message]\n\n\nIf an error occures on any of the subtags, it will retun [message] instead of throwing an error. Please keep in mind this will still report the error as usual.\n\n\nExamples\n\n\ninput\n\n\n{catch;{throw;test};Something bad happened :c}\n\n\noutput\n\n\nSomething bad happened :c",
+            "text": "catch [subtag(s)] [message]\n\n\nIf an error occures on any of the subtags, it will retun [message] instead of throwing an error. Please keep in mind this will still report the error as usual.\n\n\nExamples\n\n\ninput\n\n\n{catch;{throw;test};Something bad happened :c}\n\n\noutput\n\n\nSomething bad happened :c\n\n\ninput\n\n\n{catch;{throw;test}}\n\n\noutput\n\n\nSomething bad happened :c\n\n\n\n\nNote\nThe default message is \"Something bad happened :c\"",
             "title": "catch [subtag(s)] [message]"
         },
         {
@@ -4308,6 +4328,16 @@
         {
             "location": "/Tags/Global/catch/#output",
             "text": "Something bad happened :c",
+            "title": "output"
+        },
+        {
+            "location": "/Tags/Global/catch/#input_1",
+            "text": "{catch;{throw;test}}",
+            "title": "input"
+        },
+        {
+            "location": "/Tags/Global/catch/#output_1",
+            "text": "Something bad happened :c   Note The default message is \"Something bad happened :c\"",
             "title": "output"
         },
         {
@@ -4356,14 +4386,44 @@
             "title": "output"
         },
         {
-            "location": "/Tags/Global/find/",
-            "text": "find <string> <search>\n\n\nFinds \n in \n, now with extra regexp flavour.\n\n\nExamples\n\n\ninput\n\n\n{find;This is a test;test}\n\n\noutput\n\n\ntest\n\n\ninput\n\n\n{find;This does not include the forbidden word;test}\n\n\noutput\n\n\n``````\n\n\ninput\n\n\n{find;This does not include the forbidden word;[d]+}\n\n\noutput\n\n\nd d dd d\n\n\n\n\nNote\nThis will return all \"d\" characters in the string using regex.",
-            "title": "find &lt;string&gt; &lt;search&gt;"
+            "location": "/Tags/Global/delete/",
+            "text": "delete\n\n\nDeletes the message in context.\n\n\nContext Requirements\n\n\n\n\nmessage\n\n\n\n\nExamples\n\n\ninput\n\n\n{delete}\n\n\noutput\n\n\n``````\n\n\n\n\nNote\nThe invocation message would have been deleted if we had permission to.",
+            "title": "delete"
         },
         {
-            "location": "/Tags/Global/find/#find-string-search",
+            "location": "/Tags/Global/delete/#delete",
+            "text": "Deletes the message in context.",
+            "title": "delete"
+        },
+        {
+            "location": "/Tags/Global/delete/#context-requirements",
+            "text": "message",
+            "title": "Context Requirements"
+        },
+        {
+            "location": "/Tags/Global/delete/#examples",
+            "text": "",
+            "title": "Examples"
+        },
+        {
+            "location": "/Tags/Global/delete/#input",
+            "text": "{delete}",
+            "title": "input"
+        },
+        {
+            "location": "/Tags/Global/delete/#output",
+            "text": "``````   Note The invocation message would have been deleted if we had permission to.",
+            "title": "output"
+        },
+        {
+            "location": "/Tags/Global/find/",
+            "text": "find <target> <search>\n\n\nFinds \n in \n, now with extra regexp flavour.\n\n\nExamples\n\n\ninput\n\n\n{find;This is a test;test}\n\n\noutput\n\n\ntest\n\n\ninput\n\n\n{find;This does not include the forbidden word;test}\n\n\noutput\n\n\n``````\n\n\ninput\n\n\n{find;This does not include the forbidden word;[d]+}\n\n\noutput\n\n\nd d dd d\n\n\n\n\nNote\nThis will return all \"d\" characters in the string using regex.",
+            "title": "find &lt;target&gt; &lt;search&gt;"
+        },
+        {
+            "location": "/Tags/Global/find/#find-target-search",
             "text": "Finds   in  , now with extra regexp flavour.",
-            "title": "find &lt;string&gt; &lt;search&gt;"
+            "title": "find &lt;target&gt; &lt;search&gt;"
         },
         {
             "location": "/Tags/Global/find/#examples",
@@ -4588,6 +4648,31 @@
         {
             "location": "/Tags/Global/math/#output",
             "text": "21",
+            "title": "output"
+        },
+        {
+            "location": "/Tags/Global/note/",
+            "text": "note *\n\n\nReturns nothing, useful for notes.\n\n\nExamples\n\n\ninput\n\n\n{note;Wew some super secret text :)}\n\n\noutput\n\n\n``````",
+            "title": "note *"
+        },
+        {
+            "location": "/Tags/Global/note/#note",
+            "text": "Returns nothing, useful for notes.",
+            "title": "note *"
+        },
+        {
+            "location": "/Tags/Global/note/#examples",
+            "text": "",
+            "title": "Examples"
+        },
+        {
+            "location": "/Tags/Global/note/#input",
+            "text": "{note;Wew some super secret text :)}",
+            "title": "input"
+        },
+        {
+            "location": "/Tags/Global/note/#output",
+            "text": "``````",
             "title": "output"
         },
         {
@@ -4863,6 +4948,46 @@
         {
             "location": "/Tags/Global/set/#output_1",
             "text": "value",
+            "title": "output"
+        },
+        {
+            "location": "/Tags/Global/settings/",
+            "text": "settings <key>\n\n\nGets a raw setting value. This is an advanced command, if you don't understand how to use it or what it does, then you probably shouldn't be using it.\n\n\nContext Requirements\n\n\n\n\nsettings\n\n\n\n\nExamples\n\n\ninput\n\n\n{settings;prefix}\n\n\noutput\n\n\na!\n\n\ninput\n\n\n{settings;plugins.moderation.state}\n\n\noutput\n\n\nenabled",
+            "title": "settings &lt;key&gt;"
+        },
+        {
+            "location": "/Tags/Global/settings/#settings-key",
+            "text": "Gets a raw setting value. This is an advanced command, if you don't understand how to use it or what it does, then you probably shouldn't be using it.",
+            "title": "settings &lt;key&gt;"
+        },
+        {
+            "location": "/Tags/Global/settings/#context-requirements",
+            "text": "settings",
+            "title": "Context Requirements"
+        },
+        {
+            "location": "/Tags/Global/settings/#examples",
+            "text": "",
+            "title": "Examples"
+        },
+        {
+            "location": "/Tags/Global/settings/#input",
+            "text": "{settings;prefix}",
+            "title": "input"
+        },
+        {
+            "location": "/Tags/Global/settings/#output",
+            "text": "a!",
+            "title": "output"
+        },
+        {
+            "location": "/Tags/Global/settings/#input_1",
+            "text": "{settings;plugins.moderation.state}",
+            "title": "input"
+        },
+        {
+            "location": "/Tags/Global/settings/#output_1",
+            "text": "enabled",
             "title": "output"
         },
         {
