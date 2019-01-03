@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/",
-            "text": "Home\n\n\nWelcome to the official documentation for \nAtlas Version 8\n. This resource site is here to help you learn how to use Atlas and all of it's awesome features! We've tried to make everything as easy as possible to follow, so just sit back, relax, and let us do the explaining!\n\n\nIf you've never used Atlas before, you should probably take a look at our \nquick start\n guide. \n\n\n\n\nNote\n\n\nAtlas version 8 is a brand spankin' new update to the \nAtlas bot\n - that means that the documentation or information found within may be incomplete or somewhat unclear. \nPlease give us some time to fix these mistakes.\n \n\n\n\n\nOpen Source\n\n\nIf you're too impatient to wait for us to fix it or if you found something we missed, then lucky for you, this documentation is open source! Just head on over to our \nGitHub repository\n to suggest a revision.\n\n\nNeed Help?\n\n\nHave you read through the documentation and still can't figure out whats wrong? Luckily, we have a dedicated support server to assist you. Keep in mind though, that our support staff are real humans that may not be able to help to you instantly - that said, we'll try our best.",
+            "text": "Home\n\n\nWelcome to the official documentation for \nAtlas Version 8\n. This resource site is here to help you learn how to use Atlas and all of it's awesome features! We've tried to make everything as easy as possible to follow, so just sit back, relax, and let us do the explaining!\n\n\nIf you've never used Atlas before, you should probably take a look at our \nquick start\n guide. \n\n\n\n\nNote\n\n\nAtlas version 8 is a brand spankin' new update to the \nAtlas bot\n - that means that the documentation or information found within may be incomplete or somewhat unclear. \nPlease give us some time to fix these mistakes.\n \n\n\n\n\nOpen Source\n\n\nIf you're too impatient to wait for us to fix it or if you found something we missed, then lucky for you, this documentation is open source! Just head on over to our \nGitHub repository\n to suggest a revision.\n\n\nCommunity Actions\n\n\nSome members of the community have made a repository of custom commands that everyone is free to use and add to! You can check it out by \nclicking here.\n\n\n\n\nWarning\n\n\nThis repository is recognised by the Atlas staff but does not officially belong to them (however it is run by some support staff). While every attempt is made to test commands and remove malicious material, moderation is not always possible. Use caution when using anything taken from this repository.\n\n\n\n\nNeed Help?\n\n\nHave you read through the documentation and still can't figure out whats wrong? Luckily, we have a dedicated support server to assist you. Keep in mind though, that our support staff are real humans that may not be able to help to you instantly - that said, we'll try our best.",
             "title": "Home"
         },
         {
@@ -14,6 +14,11 @@
             "location": "/#open-source",
             "text": "If you're too impatient to wait for us to fix it or if you found something we missed, then lucky for you, this documentation is open source! Just head on over to our  GitHub repository  to suggest a revision.",
             "title": "Open Source"
+        },
+        {
+            "location": "/#community-actions",
+            "text": "Some members of the community have made a repository of custom commands that everyone is free to use and add to! You can check it out by  clicking here.   Warning  This repository is recognised by the Atlas staff but does not officially belong to them (however it is run by some support staff). While every attempt is made to test commands and remove malicious material, moderation is not always possible. Use caution when using anything taken from this repository.",
+            "title": "Community Actions"
         },
         {
             "location": "/#need-help",
