@@ -4251,6 +4251,51 @@
             "title": "output"
         },
         {
+            "location": "/Tags/Global/and/",
+            "text": "and *\n\n\nReturns \"true\" if all args are present, or \"false\" in any other circumstance.\n\n\nExamples\n\n\ninput\n\n\n{and;; ;test}\n\n\noutput\n\n\nfalse\n\n\ninput\n\n\n{or;first;second}\n\n\noutput\n\n\ntrue\n\n\ninput\n\n\n{and;false;false}\n\n\noutput\n\n\ntrue\n\n\n\n\nNote\nBooleans are not parsed.",
+            "title": "and *"
+        },
+        {
+            "location": "/Tags/Global/and/#and",
+            "text": "Returns \"true\" if all args are present, or \"false\" in any other circumstance.",
+            "title": "and *"
+        },
+        {
+            "location": "/Tags/Global/and/#examples",
+            "text": "",
+            "title": "Examples"
+        },
+        {
+            "location": "/Tags/Global/and/#input",
+            "text": "{and;; ;test}",
+            "title": "input"
+        },
+        {
+            "location": "/Tags/Global/and/#output",
+            "text": "false",
+            "title": "output"
+        },
+        {
+            "location": "/Tags/Global/and/#input_1",
+            "text": "{or;first;second}",
+            "title": "input"
+        },
+        {
+            "location": "/Tags/Global/and/#output_1",
+            "text": "true",
+            "title": "output"
+        },
+        {
+            "location": "/Tags/Global/and/#input_2",
+            "text": "{and;false;false}",
+            "title": "input"
+        },
+        {
+            "location": "/Tags/Global/and/#output_2",
+            "text": "true   Note Booleans are not parsed.",
+            "title": "output"
+        },
+        {
             "location": "/Tags/Global/args/",
             "text": "args <index> <range=1>\n\n\nReturns a random argument.\n\n\nContext Requirements\n\n\n\n\nmessage\n\n\n\n\nExamples\n\n\ninput\n\n\n{args;1}\n\n\noutput\n\n\narg1\n\n\n\n\nNote\nInput would be \"a!actionlabel arg1 arg2\".\n\n\n\n\n\n\ninput\n\n\n{args;2}\n\n\noutput\n\n\narg2\n\n\n\n\nNote\nInput would be \"a!actionlabel arg1 arg2\".\n\n\n\n\n\n\ninput\n\n\n{args}\n\n\noutput\n\n\narg1 arg2\n\n\n\n\nNote\nInput would be \"a!actionlabel arg1 arg2\".\n\n\n\n\n\n\ninput\n\n\n{args;2;2}\n\n\noutput\n\n\narg2 arg3\n\n\n\n\nNote\nInput would be \"a!actionlabel arg1 arg2 arg3 arg4",
             "title": "args &lt;index&gt; &lt;range=1&gt;"
@@ -4422,13 +4467,13 @@
         },
         {
             "location": "/Tags/Global/find/",
-            "text": "find <target> <search>\n\n\nFinds \n in \n, now with extra regexp flavour.\n\n\nExamples\n\n\ninput\n\n\n{find;This is a test;test}\n\n\noutput\n\n\ntest\n\n\ninput\n\n\n{find;This does not include the forbidden word;test}\n\n\noutput\n\n\n``````\n\n\ninput\n\n\n{find;This does not include the forbidden word;[d]+}\n\n\noutput\n\n\nd d dd d\n\n\n\n\nNote\nThis will return all \"d\" characters in the string using regex.",
-            "title": "find &lt;target&gt; &lt;search&gt;"
+            "text": "find <target> <search> <group> <flags=i>\n\n\nFinds \n in \n, now with extra regexp flavour. \n is an optional capture group to return when using regex. \n are any regex flags like \"g\" or \"i\", you can mix and match groups like \"gi\".\n\n\nExamples\n\n\ninput\n\n\n{find;This is a test;test}\n\n\noutput\n\n\ntest\n\n\ninput\n\n\n{find;This does not include the forbidden word;test}\n\n\noutput\n\n\n``````\n\n\ninput\n\n\n{find;The date is 07-08-2018;([0-9]{1,2})(?:/|-)([0-9]{1,2})(?:/|-)([0-9]{2,4});3}\n\n\noutput\n\n\n2018\n\n\n\n\nNote\nUsing some regex magic, this will match dates and return the year using the third capture group. This is an advanced example.",
+            "title": "find &lt;target&gt; &lt;search&gt; &lt;group&gt; &lt;flags=i&gt;"
         },
         {
-            "location": "/Tags/Global/find/#find-target-search",
-            "text": "Finds   in  , now with extra regexp flavour.",
-            "title": "find &lt;target&gt; &lt;search&gt;"
+            "location": "/Tags/Global/find/#find-target-search-group-flagsi",
+            "text": "Finds   in  , now with extra regexp flavour.   is an optional capture group to return when using regex.   are any regex flags like \"g\" or \"i\", you can mix and match groups like \"gi\".",
+            "title": "find &lt;target&gt; &lt;search&gt; &lt;group&gt; &lt;flags=i&gt;"
         },
         {
             "location": "/Tags/Global/find/#examples",
@@ -4457,12 +4502,12 @@
         },
         {
             "location": "/Tags/Global/find/#input_2",
-            "text": "{find;This does not include the forbidden word;[d]+}",
+            "text": "{find;The date is 07-08-2018;([0-9]{1,2})(?:/|-)([0-9]{1,2})(?:/|-)([0-9]{2,4});3}",
             "title": "input"
         },
         {
             "location": "/Tags/Global/find/#output_2",
-            "text": "d d dd d   Note This will return all \"d\" characters in the string using regex.",
+            "text": "2018   Note Using some regex magic, this will match dates and return the year using the third capture group. This is an advanced example.",
             "title": "output"
         },
         {
@@ -4682,7 +4727,7 @@
         },
         {
             "location": "/Tags/Global/or/",
-            "text": "or *\n\n\nReturns the first argument that exist and is not empty.\n\n\nExamples\n\n\ninput\n\n\n{or;; ;test}\n\n\noutput\n\n\ntest",
+            "text": "or *\n\n\nReturns the first argument that exist and is not empty.\n\n\nExamples\n\n\ninput\n\n\n{or;; ;test}\n\n\noutput\n\n\ntest\n\n\ninput\n\n\n{or;first;second}\n\n\noutput\n\n\nfirst",
             "title": "or *"
         },
         {
@@ -4703,6 +4748,16 @@
         {
             "location": "/Tags/Global/or/#output",
             "text": "test",
+            "title": "output"
+        },
+        {
+            "location": "/Tags/Global/or/#input_1",
+            "text": "{or;first;second}",
+            "title": "input"
+        },
+        {
+            "location": "/Tags/Global/or/#output_1",
+            "text": "first",
             "title": "output"
         },
         {
@@ -4957,12 +5012,12 @@
         },
         {
             "location": "/Tags/Global/settings/",
-            "text": "settings <key>\n\n\nGets a raw setting value. This is an advanced command, if you don't understand how to use it or what it does, then you probably shouldn't be using it.\n\n\nContext Requirements\n\n\n\n\nsettings\n\n\n\n\nExamples\n\n\ninput\n\n\n{settings;prefix}\n\n\noutput\n\n\na!\n\n\ninput\n\n\n{settings;plugins.moderation.state}\n\n\noutput\n\n\nenabled",
+            "text": "settings <key>\n\n\nGets a raw setting value. This is an advanced tag, if you don't understand how to use it or what it does, then you probably shouldn't be using it.\n\n\nContext Requirements\n\n\n\n\nsettings\n\n\n\n\nExamples\n\n\ninput\n\n\n{settings;prefix}\n\n\noutput\n\n\na!\n\n\ninput\n\n\n{settings;plugins.moderation.state}\n\n\noutput\n\n\nenabled",
             "title": "settings &lt;key&gt;"
         },
         {
             "location": "/Tags/Global/settings/#settings-key",
-            "text": "Gets a raw setting value. This is an advanced command, if you don't understand how to use it or what it does, then you probably shouldn't be using it.",
+            "text": "Gets a raw setting value. This is an advanced tag, if you don't understand how to use it or what it does, then you probably shouldn't be using it.",
             "title": "settings &lt;key&gt;"
         },
         {
@@ -6688,6 +6743,36 @@
         {
             "location": "/Tags/User/user.removerole/#output",
             "text": "``````   Note The user would no longer have the role. Returns nothing on success.",
+            "title": "output"
+        },
+        {
+            "location": "/Tags/User/user.roles/",
+            "text": "user.roles <user>\n\n\nReturns a list of the members roles.\n\n\nContext Requirements\n\n\n\n\nuser\n\n\nguild\n\n\n\n\nExamples\n\n\ninput\n\n\n{user.roles}\n\n\noutput\n\n\n340583469149192204 442989971020840960",
+            "title": "user.roles &lt;user&gt;"
+        },
+        {
+            "location": "/Tags/User/user.roles/#userroles-user",
+            "text": "Returns a list of the members roles.",
+            "title": "user.roles &lt;user&gt;"
+        },
+        {
+            "location": "/Tags/User/user.roles/#context-requirements",
+            "text": "user  guild",
+            "title": "Context Requirements"
+        },
+        {
+            "location": "/Tags/User/user.roles/#examples",
+            "text": "",
+            "title": "Examples"
+        },
+        {
+            "location": "/Tags/User/user.roles/#input",
+            "text": "{user.roles}",
+            "title": "input"
+        },
+        {
+            "location": "/Tags/User/user.roles/#output",
+            "text": "340583469149192204 442989971020840960",
             "title": "output"
         },
         {
