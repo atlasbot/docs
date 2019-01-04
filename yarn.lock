@@ -403,8 +403,8 @@ asynckit@^0.4.0:
   integrity sha1-x57Zf380y48robyXkLzDZkdLS3k=
 
 "atlas-bot@https://github.com/get-atlas/bot.git":
-  version "8.0.46"
-  resolved "https://github.com/get-atlas/bot.git#e73bd4d5648928c9a5479bb992f2300ebe75c933"
+  version "8.0.47"
+  resolved "https://github.com/get-atlas/bot.git#85e2066b0212200219aaf5d7e83224a810e8f975"
   dependencies:
     agenda "^2.0.2"
     atlas-lib "https://github.com/get-atlas/lib.git"

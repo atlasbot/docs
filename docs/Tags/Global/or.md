@@ -9,3 +9,10 @@ Returns the first argument that exist and is not empty.
 
 ##### output
 ```test```
+
+
+##### input
+```{or;first;second}```
+
+##### output
+```first```

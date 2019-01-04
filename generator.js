@@ -13,8 +13,8 @@ const rimraf = require('rimraf');
 const mergedirs = require('merge-dirs').default;
 
 const commandInfo = require('atlas-bot/locales/en/info.json');
-const capitalize = require('atlas-bot/lib/utils/capitalize');
-const walkSync = require('atlas-bot/lib/utils/walkSync');
+const capitalize = require('atlas-lib/lib/utils/capitalize');
+const walkSync = require('atlas-lib/lib/utils/walkSync');
 
 const tags = walkSync(path.join(__dirname, 'node_modules/atlas-bot/src/tagengine/tags'));
 const commands = walkSync(path.join(__dirname, 'node_modules/atlas-bot/src/commands'));

@@ -1,6 +1,6 @@
-# find &lt;target&gt; &lt;search&gt;
+# find &lt;target&gt; &lt;search&gt; &lt;group&gt; &lt;flags=i&gt;
 		
-Finds <search> in <target>, now with extra regexp flavour.
+Finds <search> in <target>, now with extra regexp flavour. <group> is an optional capture group to return when using regex. <flags> are any regex flags like "g" or "i", you can mix and match groups like "gi".
 
 ### Examples
 
@@ -19,10 +19,10 @@ Finds <search> in <target>, now with extra regexp flavour.
 
 
 ##### input
-```{find;This does not include the forbidden word;[d]+}```
+```{find;The date is 07-08-2018;([0-9]{1,2})(?:/|-)([0-9]{1,2})(?:/|-)([0-9]{2,4});3}```
 
 ##### output
-```d d dd d```
+```2018```
 
 !!! note
-		This will return all "d" characters in the string using regex.
+		Using some regex magic, this will match dates and return the year using the third capture group. This is an advanced example.

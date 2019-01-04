@@ -20,6 +20,7 @@
 	},
 	"dependencies": {
 		"atlas-bot": "https://github.com/get-atlas/bot.git",
+		"atlas-lib": "https://github.com/get-atlas/lib.git",
 		"merge-dirs": "^0.2.1",
 		"rimraf": "^2.6.2"
 	}
