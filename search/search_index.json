@@ -162,13 +162,18 @@
         },
         {
             "location": "/Commands/Configuration/locale/",
-            "text": "locale [language]\n\n\nChanges what language Atlas uses in your server.\n\n\nAliases\n\n\n\n\na!translate\n\n\na!lang\n\n\na!language\n\n\n\n\nPlugin\n\n\nConfiguration\n\n\nUser Permissions\n\n\nManage Guild\n\n\nBot Permissions\n\n\nEmbed Links",
+            "text": "locale [language]\n\n\nChanges what language Atlas uses in your server.\n\n\nExamples\n\n\n\n\na!locale [language] english\n\n\na!locale [language] pirate english\n\n\n\n\nAliases\n\n\n\n\na!translate\n\n\na!lang\n\n\na!language\n\n\n\n\nPlugin\n\n\nConfiguration\n\n\nUser Permissions\n\n\nManage Guild\n\n\nBot Permissions\n\n\nEmbed Links",
             "title": "locale [language]"
         },
         {
             "location": "/Commands/Configuration/locale/#locale-language",
             "text": "Changes what language Atlas uses in your server.",
             "title": "locale [language]"
+        },
+        {
+            "location": "/Commands/Configuration/locale/#examples",
+            "text": "a!locale [language] english  a!locale [language] pirate english",
+            "title": "Examples"
         },
         {
             "location": "/Commands/Configuration/locale/#aliases",
@@ -192,13 +197,18 @@
         },
         {
             "location": "/Commands/Configuration/togglecommand/",
-            "text": "togglecommand [command]\n\n\nToggle a command on/off.\n\n\nAliases\n\n\n\n\na!tc\n\n\n\n\nPlugin\n\n\nConfiguration\n\n\nUser Permissions\n\n\nManage Guild",
+            "text": "togglecommand [command]\n\n\nToggle a command on/off.\n\n\nExamples\n\n\n\n\na!togglecommand [command] urban\n\n\na!togglecommand [command] ping\n\n\na!togglecommand [command] needsmorejpeg\n\n\na!togglecommand [command] dadjoke\n\n\n\n\nAliases\n\n\n\n\na!tc\n\n\n\n\nPlugin\n\n\nConfiguration\n\n\nUser Permissions\n\n\nManage Guild",
             "title": "togglecommand [command]"
         },
         {
             "location": "/Commands/Configuration/togglecommand/#togglecommand-command",
             "text": "Toggle a command on/off.",
             "title": "togglecommand [command]"
+        },
+        {
+            "location": "/Commands/Configuration/togglecommand/#examples",
+            "text": "a!togglecommand [command] urban  a!togglecommand [command] ping  a!togglecommand [command] needsmorejpeg  a!togglecommand [command] dadjoke",
+            "title": "Examples"
         },
         {
             "location": "/Commands/Configuration/togglecommand/#aliases",
@@ -217,13 +227,18 @@
         },
         {
             "location": "/Commands/Configuration/toggleplugin/",
-            "text": "toggleplugin [plugin]\n\n\nToggle a plugin on or off.\n\n\nAliases\n\n\n\n\na!tp\n\n\na!tm\n\n\na!togglemodule\n\n\n\n\nPlugin\n\n\nConfiguration\n\n\nUser Permissions\n\n\nManage Guild",
+            "text": "toggleplugin [plugin]\n\n\nToggle a plugin on or off.\n\n\nExamples\n\n\n\n\na!toggleplugin [plugin] fun\n\n\na!toggleplugin [plugin] configuration\n\n\n\n\nAliases\n\n\n\n\na!tp\n\n\na!tm\n\n\na!togglemodule\n\n\n\n\nPlugin\n\n\nConfiguration\n\n\nUser Permissions\n\n\nManage Guild",
             "title": "toggleplugin [plugin]"
         },
         {
             "location": "/Commands/Configuration/toggleplugin/#toggleplugin-plugin",
             "text": "Toggle a plugin on or off.",
             "title": "toggleplugin [plugin]"
+        },
+        {
+            "location": "/Commands/Configuration/toggleplugin/#examples",
+            "text": "a!toggleplugin [plugin] fun  a!toggleplugin [plugin] configuration",
+            "title": "Examples"
         },
         {
             "location": "/Commands/Configuration/toggleplugin/#aliases",
@@ -272,13 +287,18 @@
         },
         {
             "location": "/Commands/Configuration/Filters/filters/",
-            "text": "filters filters <subcommand>\n\n\nControls chat filters.\n\n\nAliases\n\n\n\n\na!filter\n\n\n\n\nPlugin\n\n\nConfiguration\n\n\nUser Permissions\n\n\nManage Messages\n\n\nBot Permissions\n\n\nEmbed Links\n, \nManage Messages",
+            "text": "filters filters <subcommand>\n\n\nControls chat filters.\n\n\nExamples\n\n\n\n\na!filters filters <subcommand> list\n\n\na!filters filters <subcommand> action capitalization disabled\n\n\n\n\nAliases\n\n\n\n\na!filter\n\n\n\n\nPlugin\n\n\nConfiguration\n\n\nUser Permissions\n\n\nManage Messages\n\n\nBot Permissions\n\n\nEmbed Links\n, \nManage Messages",
             "title": "filters filters &lt;subcommand&gt;"
         },
         {
             "location": "/Commands/Configuration/Filters/filters/#filters-filters-subcommand",
             "text": "Controls chat filters.",
             "title": "filters filters &lt;subcommand&gt;"
+        },
+        {
+            "location": "/Commands/Configuration/Filters/filters/#examples",
+            "text": "a!filters filters <subcommand> list  a!filters filters <subcommand> action capitalization disabled",
+            "title": "Examples"
         },
         {
             "location": "/Commands/Configuration/Filters/filters/#aliases",
@@ -327,13 +347,18 @@
         },
         {
             "location": "/Commands/Configuration/Log/actions/",
-            "text": "log actions [channel]\n\n\nSets where action logs are logged to. Run with no args to reset.\n\n\nAliases\n\n\n\n\na!action\n\n\n\n\nPlugin\n\n\nConfiguration\n\n\nUser Permissions\n\n\nManage Guild\n\n\nBot Permissions\n\n\nManage Webhooks",
+            "text": "log actions [channel]\n\n\nSets where action logs are logged to. Run with no args to reset.\n\n\nExamples\n\n\n\n\na!log actions [channel] #channel\n\n\na!log actions [channel] off\n\n\n\n\nAliases\n\n\n\n\na!action\n\n\n\n\nPlugin\n\n\nConfiguration\n\n\nUser Permissions\n\n\nManage Guild\n\n\nBot Permissions\n\n\nManage Webhooks",
             "title": "log actions [channel]"
         },
         {
             "location": "/Commands/Configuration/Log/actions/#log-actions-channel",
             "text": "Sets where action logs are logged to. Run with no args to reset.",
             "title": "log actions [channel]"
+        },
+        {
+            "location": "/Commands/Configuration/Log/actions/#examples",
+            "text": "a!log actions [channel] #channel  a!log actions [channel] off",
+            "title": "Examples"
         },
         {
             "location": "/Commands/Configuration/Log/actions/#aliases",
@@ -357,13 +382,18 @@
         },
         {
             "location": "/Commands/Configuration/Log/errors/",
-            "text": "log errors [subcommand]\n\n\nControls where certain messages are logged in your guild.\n\n\nAliases\n\n\n\n\na!error\n\n\n\n\nPlugin\n\n\nConfiguration\n\n\nUser Permissions\n\n\nManage Guild\n\n\nBot Permissions\n\n\nManage Webhooks",
+            "text": "log errors [subcommand]\n\n\nControls where certain messages are logged in your guild.\n\n\nExamples\n\n\n\n\na!log errors [subcommand] #channel\n\n\na!log errors [subcommand] off\n\n\n\n\nAliases\n\n\n\n\na!error\n\n\n\n\nPlugin\n\n\nConfiguration\n\n\nUser Permissions\n\n\nManage Guild\n\n\nBot Permissions\n\n\nManage Webhooks",
             "title": "log errors [subcommand]"
         },
         {
             "location": "/Commands/Configuration/Log/errors/#log-errors-subcommand",
             "text": "Controls where certain messages are logged in your guild.",
             "title": "log errors [subcommand]"
+        },
+        {
+            "location": "/Commands/Configuration/Log/errors/#examples",
+            "text": "a!log errors [subcommand] #channel  a!log errors [subcommand] off",
+            "title": "Examples"
         },
         {
             "location": "/Commands/Configuration/Log/errors/#aliases",
@@ -387,13 +417,18 @@
         },
         {
             "location": "/Commands/Configuration/Log/log/",
-            "text": "log log [subcommand]\n\n\nControls where certain messages are logged in your guild.\n\n\nAliases\n\n\n\n\na!logs\n\n\n\n\nPlugin\n\n\nConfiguration\n\n\nUser Permissions\n\n\nManage Guild\n\n\nBot Permissions\n\n\nEmbed Links\n, \nManage Webhooks",
+            "text": "log log [subcommand]\n\n\nControls where certain messages are logged in your guild.\n\n\nExamples\n\n\n\n\na!log log [subcommand] actions #channel\n\n\na!log log [subcommand] mod #channel\n\n\na!log log [subcommand] mod off\n\n\n\n\nAliases\n\n\n\n\na!logs\n\n\n\n\nPlugin\n\n\nConfiguration\n\n\nUser Permissions\n\n\nManage Guild\n\n\nBot Permissions\n\n\nEmbed Links\n, \nManage Webhooks",
             "title": "log log [subcommand]"
         },
         {
             "location": "/Commands/Configuration/Log/log/#log-log-subcommand",
             "text": "Controls where certain messages are logged in your guild.",
             "title": "log log [subcommand]"
+        },
+        {
+            "location": "/Commands/Configuration/Log/log/#examples",
+            "text": "a!log log [subcommand] actions #channel  a!log log [subcommand] mod #channel  a!log log [subcommand] mod off",
+            "title": "Examples"
         },
         {
             "location": "/Commands/Configuration/Log/log/#aliases",
@@ -417,13 +452,18 @@
         },
         {
             "location": "/Commands/Configuration/Log/moderation/",
-            "text": "log moderation [subcommand]\n\n\nControls where certain messages are logged in your guild.\n\n\nAliases\n\n\n\n\na!mod\n\n\na!mods\n\n\na!moderations\n\n\n\n\nPlugin\n\n\nConfiguration\n\n\nUser Permissions\n\n\nManage Guild\n\n\nBot Permissions\n\n\nManage Webhooks",
+            "text": "log moderation [subcommand]\n\n\nControls where certain messages are logged in your guild.\n\n\nExamples\n\n\n\n\na!log moderation [subcommand] #channel\n\n\na!log moderation [subcommand] off\n\n\n\n\nAliases\n\n\n\n\na!mod\n\n\na!mods\n\n\na!moderations\n\n\n\n\nPlugin\n\n\nConfiguration\n\n\nUser Permissions\n\n\nManage Guild\n\n\nBot Permissions\n\n\nManage Webhooks",
             "title": "log moderation [subcommand]"
         },
         {
             "location": "/Commands/Configuration/Log/moderation/#log-moderation-subcommand",
             "text": "Controls where certain messages are logged in your guild.",
             "title": "log moderation [subcommand]"
+        },
+        {
+            "location": "/Commands/Configuration/Log/moderation/#examples",
+            "text": "a!log moderation [subcommand] #channel  a!log moderation [subcommand] off",
+            "title": "Examples"
         },
         {
             "location": "/Commands/Configuration/Log/moderation/#aliases",
@@ -627,13 +667,18 @@
         },
         {
             "location": "/Commands/Fun/discrim/",
-            "text": "discrim <discriminator>\n\n\nGets users with a discriminator that matches yours.\n\n\nAliases\n\n\n\n\na!discriminator\n\n\n\n\nPlugin\n\n\nFun",
+            "text": "discrim <discriminator>\n\n\nGets users with a discriminator that matches yours.\n\n\nExamples\n\n\n\n\na!discrim <discriminator> \n\n\na!discrim <discriminator> 0001\n\n\na!discrim <discriminator> 1337\n\n\na!discrim <discriminator> 1058\n\n\n\n\nAliases\n\n\n\n\na!discriminator\n\n\n\n\nPlugin\n\n\nFun",
             "title": "discrim &lt;discriminator&gt;"
         },
         {
             "location": "/Commands/Fun/discrim/#discrim-discriminator",
             "text": "Gets users with a discriminator that matches yours.",
             "title": "discrim &lt;discriminator&gt;"
+        },
+        {
+            "location": "/Commands/Fun/discrim/#examples",
+            "text": "a!discrim <discriminator>   a!discrim <discriminator> 0001  a!discrim <discriminator> 1337  a!discrim <discriminator> 1058",
+            "title": "Examples"
         },
         {
             "location": "/Commands/Fun/discrim/#aliases",
@@ -732,13 +777,18 @@
         },
         {
             "location": "/Commands/Fun/gotcharacter/",
-            "text": "gotcharacter <character name>\n\n\nGets information about a Game of Thrones character. Run without args to get a random character.\n\n\nAliases\n\n\n\n\na!gotc\n\n\n\n\nPlugin\n\n\nFun\n\n\nBot Permissions\n\n\nEmbed Links",
+            "text": "gotcharacter <character name>\n\n\nGets information about a Game of Thrones character. Run without args to get a random character.\n\n\nExamples\n\n\n\n\na!gotcharacter <character name> jon snow\n\n\na!gotcharacter <character name> patchface\n\n\n\n\nAliases\n\n\n\n\na!gotc\n\n\n\n\nPlugin\n\n\nFun\n\n\nBot Permissions\n\n\nEmbed Links",
             "title": "gotcharacter &lt;character name&gt;"
         },
         {
             "location": "/Commands/Fun/gotcharacter/#gotcharacter-character-name",
             "text": "Gets information about a Game of Thrones character. Run without args to get a random character.",
             "title": "gotcharacter &lt;character name&gt;"
+        },
+        {
+            "location": "/Commands/Fun/gotcharacter/#examples",
+            "text": "a!gotcharacter <character name> jon snow  a!gotcharacter <character name> patchface",
+            "title": "Examples"
         },
         {
             "location": "/Commands/Fun/gotcharacter/#aliases",
@@ -757,13 +807,18 @@
         },
         {
             "location": "/Commands/Fun/gothouse/",
-            "text": "gothouse <house name>\n\n\nGets information about a Game of Thrones house. Run without args to get a random house.\n\n\nAliases\n\n\n\n\na!goth\n\n\n\n\nPlugin\n\n\nFun\n\n\nBot Permissions\n\n\nEmbed Links",
+            "text": "gothouse <house name>\n\n\nGets information about a Game of Thrones house. Run without args to get a random house.\n\n\nExamples\n\n\n\n\na!gothouse <house name> lannisters\n\n\na!gothouse <house name> starks of winterfell\n\n\n\n\nAliases\n\n\n\n\na!goth\n\n\n\n\nPlugin\n\n\nFun\n\n\nBot Permissions\n\n\nEmbed Links",
             "title": "gothouse &lt;house name&gt;"
         },
         {
             "location": "/Commands/Fun/gothouse/#gothouse-house-name",
             "text": "Gets information about a Game of Thrones house. Run without args to get a random house.",
             "title": "gothouse &lt;house name&gt;"
+        },
+        {
+            "location": "/Commands/Fun/gothouse/#examples",
+            "text": "a!gothouse <house name> lannisters  a!gothouse <house name> starks of winterfell",
+            "title": "Examples"
         },
         {
             "location": "/Commands/Fun/gothouse/#aliases",
@@ -782,13 +837,18 @@
         },
         {
             "location": "/Commands/Fun/lmgtfy/",
-            "text": "lmgtfy <search>\n\n\nLet me google that for you :^)\n\n\nAliases\n\n\n\n\na!letmegooglethatforyou\n\n\n\n\nPlugin\n\n\nFun",
+            "text": "lmgtfy <search>\n\n\nLet me google that for you :^)\n\n\nExamples\n\n\n\n\na!lmgtfy <search> sarcastic search\n\n\n\n\nAliases\n\n\n\n\na!letmegooglethatforyou\n\n\n\n\nPlugin\n\n\nFun",
             "title": "lmgtfy &lt;search&gt;"
         },
         {
             "location": "/Commands/Fun/lmgtfy/#lmgtfy-search",
             "text": "Let me google that for you :^)",
             "title": "lmgtfy &lt;search&gt;"
+        },
+        {
+            "location": "/Commands/Fun/lmgtfy/#examples",
+            "text": "a!lmgtfy <search> sarcastic search",
+            "title": "Examples"
         },
         {
             "location": "/Commands/Fun/lmgtfy/#aliases",
@@ -852,13 +912,18 @@
         },
         {
             "location": "/Commands/Fun/needsmorejpeg/",
-            "text": "needsmorejpeg <image url> <quality=2.5>\n\n\nFucks up your image with JPEG compression. There is no such thing as too much jpeg.\n\n\nAliases\n\n\n\n\na!jpeg\n\n\na!jpg\n\n\na!needsmorejpg\n\n\na!justfuckmyshitup\n\n\n\n\nPlugin\n\n\nFun\n\n\nBot Permissions\n\n\nAttach Files",
+            "text": "needsmorejpeg <image url> <quality=2.5>\n\n\nFucks up your image with JPEG compression. There is no such thing as too much jpeg.\n\n\nExamples\n\n\n\n\na!needsmorejpeg <image url> <quality=2.5> https://i.imgur.com/6zaldnc.jpg\n\n\n\n\nAliases\n\n\n\n\na!jpeg\n\n\na!jpg\n\n\na!needsmorejpg\n\n\na!justfuckmyshitup\n\n\n\n\nPlugin\n\n\nFun\n\n\nBot Permissions\n\n\nAttach Files",
             "title": "needsmorejpeg &lt;image url&gt; &lt;quality=2.5&gt;"
         },
         {
             "location": "/Commands/Fun/needsmorejpeg/#needsmorejpeg-image-url-quality25",
             "text": "Fucks up your image with JPEG compression. There is no such thing as too much jpeg.",
             "title": "needsmorejpeg &lt;image url&gt; &lt;quality=2.5&gt;"
+        },
+        {
+            "location": "/Commands/Fun/needsmorejpeg/#examples",
+            "text": "a!needsmorejpeg <image url> <quality=2.5> https://i.imgur.com/6zaldnc.jpg",
+            "title": "Examples"
         },
         {
             "location": "/Commands/Fun/needsmorejpeg/#aliases",
@@ -877,13 +942,18 @@
         },
         {
             "location": "/Commands/Fun/randomcase/",
-            "text": "randomcase [TeXt]\n\n\nraNdomIsEs uppERcASE aNd lOwerCASe LETTeRS\n\n\nAliases\n\n\n\n\na!rc\n\n\n\n\nPlugin\n\n\nFun\n\n\nBot Permissions\n\n\nEmbed Links",
+            "text": "randomcase [TeXt]\n\n\nraNdomIsEs uppERcASE aNd lOwerCASe LETTeRS\n\n\nExamples\n\n\n\n\na!randomcase [TeXt] insert something funny here\n\n\n\n\nAliases\n\n\n\n\na!rc\n\n\n\n\nPlugin\n\n\nFun\n\n\nBot Permissions\n\n\nEmbed Links",
             "title": "randomcase [TeXt]"
         },
         {
             "location": "/Commands/Fun/randomcase/#randomcase-text",
             "text": "raNdomIsEs uppERcASE aNd lOwerCASe LETTeRS",
             "title": "randomcase [TeXt]"
+        },
+        {
+            "location": "/Commands/Fun/randomcase/#examples",
+            "text": "a!randomcase [TeXt] insert something funny here",
+            "title": "Examples"
         },
         {
             "location": "/Commands/Fun/randomcase/#aliases",
@@ -957,13 +1027,18 @@
         },
         {
             "location": "/Commands/Fun/smalltext/",
-            "text": "smalltext [text]\n\n\nMakes text smaller.\n\n\nAliases\n\n\n\n\na!superscript\n\n\n\n\nPlugin\n\n\nFun",
+            "text": "smalltext [text]\n\n\nMakes text smaller.\n\n\nExamples\n\n\n\n\na!smalltext [text] oh hey im still a piece of garbage\n\n\n\n\nAliases\n\n\n\n\na!superscript\n\n\n\n\nPlugin\n\n\nFun",
             "title": "smalltext [text]"
         },
         {
             "location": "/Commands/Fun/smalltext/#smalltext-text",
             "text": "Makes text smaller.",
             "title": "smalltext [text]"
+        },
+        {
+            "location": "/Commands/Fun/smalltext/#examples",
+            "text": "a!smalltext [text] oh hey im still a piece of garbage",
+            "title": "Examples"
         },
         {
             "location": "/Commands/Fun/smalltext/#aliases",
@@ -1052,13 +1127,18 @@
         },
         {
             "location": "/Commands/Fun/urban/",
-            "text": "urban [search]\n\n\nGets the definition for a word.\n\n\nAliases\n\n\n\n\na!dictionary\n\n\na!define\n\n\n\n\nPlugin\n\n\nFun\n\n\nBot Permissions\n\n\nEmbed Links",
+            "text": "urban [search]\n\n\nGets the definition for a word.\n\n\nExamples\n\n\n\n\na!urban [search] chungus\n\n\na!urban [search] epic\n\n\n\n\nAliases\n\n\n\n\na!dictionary\n\n\na!define\n\n\n\n\nPlugin\n\n\nFun\n\n\nBot Permissions\n\n\nEmbed Links",
             "title": "urban [search]"
         },
         {
             "location": "/Commands/Fun/urban/#urban-search",
             "text": "Gets the definition for a word.",
             "title": "urban [search]"
+        },
+        {
+            "location": "/Commands/Fun/urban/#examples",
+            "text": "a!urban [search] chungus  a!urban [search] epic",
+            "title": "Examples"
         },
         {
             "location": "/Commands/Fun/urban/#aliases",
@@ -1077,13 +1157,18 @@
         },
         {
             "location": "/Commands/Fun/vaporwave/",
-            "text": "vaporwave [text]\n\n\nConverts text to \uff56\uff41\uff50\uff4f\uff52\uff57\uff41\uff56\uff45\n\n\nAliases\n\n\n\n\na!edgyaesthetic\n\n\na!aesthetic\n\n\n\n\nPlugin\n\n\nFun",
+            "text": "vaporwave [text]\n\n\nConverts text to \uff56\uff41\uff50\uff4f\uff52\uff57\uff41\uff56\uff45\n\n\nExamples\n\n\n\n\na!vaporwave [text] now this is epic\n\n\n\n\nAliases\n\n\n\n\na!edgyaesthetic\n\n\na!aesthetic\n\n\n\n\nPlugin\n\n\nFun",
             "title": "vaporwave [text]"
         },
         {
             "location": "/Commands/Fun/vaporwave/#vaporwave-text",
             "text": "Converts text to \uff56\uff41\uff50\uff4f\uff52\uff57\uff41\uff56\uff45",
             "title": "vaporwave [text]"
+        },
+        {
+            "location": "/Commands/Fun/vaporwave/#examples",
+            "text": "a!vaporwave [text] now this is epic",
+            "title": "Examples"
         },
         {
             "location": "/Commands/Fun/vaporwave/#aliases",
@@ -1142,13 +1227,18 @@
         },
         {
             "location": "/Commands/Fun/xkcd/",
-            "text": "xkcd <comic number>\n\n\nGets a random (or not) XKCD comic.\n\n\nPlugin\n\n\nFun\n\n\nBot Permissions\n\n\nEmbed Links",
+            "text": "xkcd <comic number>\n\n\nGets a random (or not) XKCD comic.\n\n\nExamples\n\n\n\n\na!xkcd <comic number> \n\n\na!xkcd <comic number> 23\n\n\n\n\nPlugin\n\n\nFun\n\n\nBot Permissions\n\n\nEmbed Links",
             "title": "xkcd &lt;comic number&gt;"
         },
         {
             "location": "/Commands/Fun/xkcd/#xkcd-comic-number",
             "text": "Gets a random (or not) XKCD comic.",
             "title": "xkcd &lt;comic number&gt;"
+        },
+        {
+            "location": "/Commands/Fun/xkcd/#examples",
+            "text": "a!xkcd <comic number>   a!xkcd <comic number> 23",
+            "title": "Examples"
         },
         {
             "location": "/Commands/Fun/xkcd/#plugin",
@@ -1204,26 +1294,6 @@
             "location": "/Commands/Info/dashboard/#user-permissions",
             "text": "Manage Guild",
             "title": "User Permissions"
-        },
-        {
-            "location": "/Commands/Info/donate/",
-            "text": "donate\n\n\nDonate to support Atlas and get awesome perks!\n\n\nAliases\n\n\n\n\na!patreon\n\n\na!patron\n\n\na!pledge\n\n\n\n\nPlugin\n\n\nInfo",
-            "title": "donate"
-        },
-        {
-            "location": "/Commands/Info/donate/#donate",
-            "text": "Donate to support Atlas and get awesome perks!",
-            "title": "donate"
-        },
-        {
-            "location": "/Commands/Info/donate/#aliases",
-            "text": "a!patreon  a!patron  a!pledge",
-            "title": "Aliases"
-        },
-        {
-            "location": "/Commands/Info/donate/#plugin",
-            "text": "Info",
-            "title": "Plugin"
         },
         {
             "location": "/Commands/Info/help/",
@@ -1306,6 +1376,26 @@
             "title": "Plugin"
         },
         {
+            "location": "/Commands/Info/patreon/",
+            "text": "patreon\n\n\nSupport Atlas on Patreon and get awesome perks!\n\n\nAliases\n\n\n\n\na!donate\n\n\na!patron\n\n\na!pledge\n\n\n\n\nPlugin\n\n\nInfo",
+            "title": "patreon"
+        },
+        {
+            "location": "/Commands/Info/patreon/#patreon",
+            "text": "Support Atlas on Patreon and get awesome perks!",
+            "title": "patreon"
+        },
+        {
+            "location": "/Commands/Info/patreon/#aliases",
+            "text": "a!donate  a!patron  a!pledge",
+            "title": "Aliases"
+        },
+        {
+            "location": "/Commands/Info/patreon/#plugin",
+            "text": "Info",
+            "title": "Plugin"
+        },
+        {
             "location": "/Commands/Info/ping/",
             "text": "ping\n\n\nCheck the time Atlas takes to reply to you!\n\n\nPlugin\n\n\nInfo",
             "title": "ping"
@@ -1351,6 +1441,21 @@
             "title": "Plugin"
         },
         {
+            "location": "/Commands/Info/version/",
+            "text": "version\n\n\nCheck which version of Atlas this instance is running.\n\n\nPlugin\n\n\nInfo",
+            "title": "version"
+        },
+        {
+            "location": "/Commands/Info/version/#version",
+            "text": "Check which version of Atlas this instance is running.",
+            "title": "version"
+        },
+        {
+            "location": "/Commands/Info/version/#plugin",
+            "text": "Info",
+            "title": "Plugin"
+        },
+        {
             "location": "/Commands/Levels/leaderboard/",
             "text": "leaderboard\n\n\nGets the leaderboard link for Levels.\n\n\nAliases\n\n\n\n\na!leveltop\n\n\na!lvltop\n\n\na!leaderboards\n\n\na!scoreboard\n\n\na!lb\n\n\na!xptop\n\n\na!xpleaderboard\n\n\n\n\nPlugin\n\n\nLevels",
             "title": "leaderboard"
@@ -1372,13 +1477,18 @@
         },
         {
             "location": "/Commands/Levels/level/",
-            "text": "level <user>\n\n\nGets your or another users level.\n\n\nAliases\n\n\n\n\na!levels\n\n\na!score\n\n\n\n\nPlugin\n\n\nLevels",
+            "text": "level <user>\n\n\nGets your or another users level.\n\n\nExamples\n\n\n\n\na!level <user> @user\n\n\na!level <user> \n\n\n\n\nAliases\n\n\n\n\na!levels\n\n\na!score\n\n\n\n\nPlugin\n\n\nLevels",
             "title": "level &lt;user&gt;"
         },
         {
             "location": "/Commands/Levels/level/#level-user",
             "text": "Gets your or another users level.",
             "title": "level &lt;user&gt;"
+        },
+        {
+            "location": "/Commands/Levels/level/#examples",
+            "text": "a!level <user> @user  a!level <user>",
+            "title": "Examples"
         },
         {
             "location": "/Commands/Levels/level/#aliases",
@@ -1673,6 +1783,41 @@
         {
             "location": "/Commands/Moderation/slowmode/#bot-permissions",
             "text": "Embed Links ,  Manage Channels",
+            "title": "Bot Permissions"
+        },
+        {
+            "location": "/Commands/Moderation/togglementionable/",
+            "text": "togglementionable [role] <autoToggle=false>\n\n\nToggle role mentionability. If autoToggle is true, once you mention the role it will be set to unmentionable.\n\n\nExamples\n\n\n\n\na!togglementionable [role] <autoToggle=false> @role true\n\n\na!togglementionable [role] <autoToggle=false> role\n\n\na!togglementionable [role] <autoToggle=false> @role\n\n\n\n\nAliases\n\n\n\n\na!togglemention\n\n\na!tment\n\n\n\n\nPlugin\n\n\nModeration\n\n\nUser Permissions\n\n\nManage Roles\n\n\nBot Permissions\n\n\nManage Roles",
+            "title": "togglementionable [role] &lt;autoToggle=false&gt;"
+        },
+        {
+            "location": "/Commands/Moderation/togglementionable/#togglementionable-role-autotogglefalse",
+            "text": "Toggle role mentionability. If autoToggle is true, once you mention the role it will be set to unmentionable.",
+            "title": "togglementionable [role] &lt;autoToggle=false&gt;"
+        },
+        {
+            "location": "/Commands/Moderation/togglementionable/#examples",
+            "text": "a!togglementionable [role] <autoToggle=false> @role true  a!togglementionable [role] <autoToggle=false> role  a!togglementionable [role] <autoToggle=false> @role",
+            "title": "Examples"
+        },
+        {
+            "location": "/Commands/Moderation/togglementionable/#aliases",
+            "text": "a!togglemention  a!tment",
+            "title": "Aliases"
+        },
+        {
+            "location": "/Commands/Moderation/togglementionable/#plugin",
+            "text": "Moderation",
+            "title": "Plugin"
+        },
+        {
+            "location": "/Commands/Moderation/togglementionable/#user-permissions",
+            "text": "Manage Roles",
+            "title": "User Permissions"
+        },
+        {
+            "location": "/Commands/Moderation/togglementionable/#bot-permissions",
+            "text": "Manage Roles",
             "title": "Bot Permissions"
         },
         {
@@ -2017,7 +2162,7 @@
         },
         {
             "location": "/Commands/Moderation/Purge/purge/",
-            "text": "purge purge <amount>\n\n\nPurge messages from a channel.\n\n\nExamples\n\n\n\n\na!purge purge <amount> 10\n\n\na!purge purge <amount> \n\n\n\n\nAliases\n\n\n\n\na!clean\n\n\na!prune\n\n\na!clear\n\n\n\n\nPlugin\n\n\nModeration\n\n\nUser Permissions\n\n\nEmbed Links\n, \nManage Messages\n\n\nBot Permissions\n\n\nManage Messages",
+            "text": "purge purge <amount>\n\n\nPurge messages from a channel.\n\n\nExamples\n\n\n\n\na!purge purge <amount> 10\n\n\na!purge purge <amount> \n\n\n\n\nAliases\n\n\n\n\na!clean\n\n\na!prune\n\n\na!clear\n\n\n\n\nPlugin\n\n\nModeration\n\n\nUser Permissions\n\n\nManage Messages\n\n\nBot Permissions\n\n\nManage Messages",
             "title": "purge purge &lt;amount&gt;"
         },
         {
@@ -2042,7 +2187,7 @@
         },
         {
             "location": "/Commands/Moderation/Purge/purge/#user-permissions",
-            "text": "Embed Links ,  Manage Messages",
+            "text": "Manage Messages",
             "title": "User Permissions"
         },
         {
@@ -2542,13 +2687,18 @@
         },
         {
             "location": "/Commands/Music/Playlist/addqueue/",
-            "text": "playlist addqueue [playlist name/id]\n\n\nAdds the current queue to an existing playlist.\n\n\nAliases\n\n\n\n\na!add\n\n\n\n\nPlugin\n\n\nMusic",
+            "text": "playlist addqueue [playlist name/id]\n\n\nAdds the current queue to an existing playlist.\n\n\nExamples\n\n\n\n\na!playlist addqueue [playlist name/id] my epic playlist\n\n\n\n\nAliases\n\n\n\n\na!add\n\n\n\n\nPlugin\n\n\nMusic",
             "title": "playlist addqueue [playlist name/id]"
         },
         {
             "location": "/Commands/Music/Playlist/addqueue/#playlist-addqueue-playlist-nameid",
             "text": "Adds the current queue to an existing playlist.",
             "title": "playlist addqueue [playlist name/id]"
+        },
+        {
+            "location": "/Commands/Music/Playlist/addqueue/#examples",
+            "text": "a!playlist addqueue [playlist name/id] my epic playlist",
+            "title": "Examples"
         },
         {
             "location": "/Commands/Music/Playlist/addqueue/#aliases",
@@ -2562,7 +2712,7 @@
         },
         {
             "location": "/Commands/Music/Playlist/create/",
-            "text": "playlist create [name]\n\n\nCreates a playlist from the current queue.\n\n\nPlugin\n\n\nMusic",
+            "text": "playlist create [name]\n\n\nCreates a playlist from the current queue.\n\n\nExamples\n\n\n\n\na!playlist create [name] my epic playlist\n\n\n\n\nPlugin\n\n\nMusic",
             "title": "playlist create [name]"
         },
         {
@@ -2571,19 +2721,29 @@
             "title": "playlist create [name]"
         },
         {
+            "location": "/Commands/Music/Playlist/create/#examples",
+            "text": "a!playlist create [name] my epic playlist",
+            "title": "Examples"
+        },
+        {
             "location": "/Commands/Music/Playlist/create/#plugin",
             "text": "Music",
             "title": "Plugin"
         },
         {
             "location": "/Commands/Music/Playlist/delete/",
-            "text": "playlist delete [playlist name/id]\n\n\nDelete one of your existing playlists.\n\n\nAliases\n\n\n\n\na!gtfo\n\n\n\n\nPlugin\n\n\nMusic",
+            "text": "playlist delete [playlist name/id]\n\n\nDelete one of your existing playlists.\n\n\nExamples\n\n\n\n\na!playlist delete [playlist name/id] my not so epic playlist\n\n\n\n\nAliases\n\n\n\n\na!gtfo\n\n\n\n\nPlugin\n\n\nMusic",
             "title": "playlist delete [playlist name/id]"
         },
         {
             "location": "/Commands/Music/Playlist/delete/#playlist-delete-playlist-nameid",
             "text": "Delete one of your existing playlists.",
             "title": "playlist delete [playlist name/id]"
+        },
+        {
+            "location": "/Commands/Music/Playlist/delete/#examples",
+            "text": "a!playlist delete [playlist name/id] my not so epic playlist",
+            "title": "Examples"
         },
         {
             "location": "/Commands/Music/Playlist/delete/#aliases",
@@ -2597,13 +2757,18 @@
         },
         {
             "location": "/Commands/Music/Playlist/list/",
-            "text": "playlist list <playlist name/id>\n\n\nLists all your existing playlists.\n\n\nAliases\n\n\n\n\na!view\n\n\n\n\nPlugin\n\n\nMusic",
+            "text": "playlist list <playlist name/id>\n\n\nLists all your existing playlists.\n\n\nExamples\n\n\n\n\na!playlist list <playlist name/id> my epic playlist\n\n\n\n\nAliases\n\n\n\n\na!view\n\n\n\n\nPlugin\n\n\nMusic",
             "title": "playlist list &lt;playlist name/id&gt;"
         },
         {
             "location": "/Commands/Music/Playlist/list/#playlist-list-playlist-nameid",
             "text": "Lists all your existing playlists.",
             "title": "playlist list &lt;playlist name/id&gt;"
+        },
+        {
+            "location": "/Commands/Music/Playlist/list/#examples",
+            "text": "a!playlist list <playlist name/id> my epic playlist",
+            "title": "Examples"
         },
         {
             "location": "/Commands/Music/Playlist/list/#aliases",
@@ -2617,13 +2782,18 @@
         },
         {
             "location": "/Commands/Music/Playlist/play/",
-            "text": "playlist play [playlist name/id]\n\n\nPlays a playlist.\n\n\nAliases\n\n\n\n\na!queue\n\n\na!p\n\n\n\n\nPlugin\n\n\nMusic",
+            "text": "playlist play [playlist name/id]\n\n\nPlays a playlist.\n\n\nExamples\n\n\n\n\na!playlist play [playlist name/id] my epic playlist\n\n\na!playlist play [playlist name/id] epic songs\n\n\n\n\nAliases\n\n\n\n\na!queue\n\n\na!p\n\n\n\n\nPlugin\n\n\nMusic",
             "title": "playlist play [playlist name/id]"
         },
         {
             "location": "/Commands/Music/Playlist/play/#playlist-play-playlist-nameid",
             "text": "Plays a playlist.",
             "title": "playlist play [playlist name/id]"
+        },
+        {
+            "location": "/Commands/Music/Playlist/play/#examples",
+            "text": "a!playlist play [playlist name/id] my epic playlist  a!playlist play [playlist name/id] epic songs",
+            "title": "Examples"
         },
         {
             "location": "/Commands/Music/Playlist/play/#aliases",
@@ -2657,13 +2827,18 @@
         },
         {
             "location": "/Commands/Music/Playlist/removetrack/",
-            "text": "playlist removetrack [playlist name/id] [track]\n\n\nRemove a track from your playlist.\n\n\nAliases\n\n\n\n\na!remove\n\n\na!deltrack\n\n\n\n\nPlugin\n\n\nMusic",
+            "text": "playlist removetrack [playlist name/id] [track]\n\n\nRemove a track from your playlist.\n\n\nExamples\n\n\n\n\na!playlist removetrack [playlist name/id] [track] never gonna give you up\n\n\n\n\nAliases\n\n\n\n\na!remove\n\n\na!deltrack\n\n\n\n\nPlugin\n\n\nMusic",
             "title": "playlist removetrack [playlist name/id] [track]"
         },
         {
             "location": "/Commands/Music/Playlist/removetrack/#playlist-removetrack-playlist-nameid-track",
             "text": "Remove a track from your playlist.",
             "title": "playlist removetrack [playlist name/id] [track]"
+        },
+        {
+            "location": "/Commands/Music/Playlist/removetrack/#examples",
+            "text": "a!playlist removetrack [playlist name/id] [track] never gonna give you up",
+            "title": "Examples"
         },
         {
             "location": "/Commands/Music/Playlist/removetrack/#aliases",
@@ -2677,13 +2852,18 @@
         },
         {
             "location": "/Commands/Roles/iam/",
-            "text": "iam <role>\n\n\nGive yourself a role that server admins have published.\n\n\nAliases\n\n\n\n\na!giveme\n\n\na!roleme\n\n\na!iamnot\n\n\n\n\nPlugin\n\n\nRoles",
+            "text": "iam <role>\n\n\nGive yourself a role that server admins have published.\n\n\nExamples\n\n\n\n\na!iam <role> \n\n\na!iam <role> @role\n\n\n\n\nAliases\n\n\n\n\na!giveme\n\n\na!roleme\n\n\na!iamnot\n\n\n\n\nPlugin\n\n\nRoles",
             "title": "iam &lt;role&gt;"
         },
         {
             "location": "/Commands/Roles/iam/#iam-role",
             "text": "Give yourself a role that server admins have published.",
             "title": "iam &lt;role&gt;"
+        },
+        {
+            "location": "/Commands/Roles/iam/#examples",
+            "text": "a!iam <role>   a!iam <role> @role",
+            "title": "Examples"
         },
         {
             "location": "/Commands/Roles/iam/#aliases",
@@ -2756,14 +2936,49 @@
             "title": "Bot Permissions"
         },
         {
+            "location": "/Commands/Utilities/channelinfo/",
+            "text": "channelinfo <query>\n\n\nGet information about a specific channel.\n\n\nExamples\n\n\n\n\na!channelinfo <query> #general\n\n\na!channelinfo <query> general\n\n\na!channelinfo <query> my-epic-vc\n\n\n\n\nAliases\n\n\n\n\na!cinfo\n\n\na!ci\n\n\n\n\nPlugin\n\n\nUtilities\n\n\nBot Permissions\n\n\nEmbed Links",
+            "title": "channelinfo &lt;query&gt;"
+        },
+        {
+            "location": "/Commands/Utilities/channelinfo/#channelinfo-query",
+            "text": "Get information about a specific channel.",
+            "title": "channelinfo &lt;query&gt;"
+        },
+        {
+            "location": "/Commands/Utilities/channelinfo/#examples",
+            "text": "a!channelinfo <query> #general  a!channelinfo <query> general  a!channelinfo <query> my-epic-vc",
+            "title": "Examples"
+        },
+        {
+            "location": "/Commands/Utilities/channelinfo/#aliases",
+            "text": "a!cinfo  a!ci",
+            "title": "Aliases"
+        },
+        {
+            "location": "/Commands/Utilities/channelinfo/#plugin",
+            "text": "Utilities",
+            "title": "Plugin"
+        },
+        {
+            "location": "/Commands/Utilities/channelinfo/#bot-permissions",
+            "text": "Embed Links",
+            "title": "Bot Permissions"
+        },
+        {
             "location": "/Commands/Utilities/channelspaces/",
-            "text": "channelspaces <channel>\n\n\nReplaces hyphens in channel names with real fake spaces! Seriously though, this is more of a hack and could be patched at any time.\n\n\nAliases\n\n\n\n\na!channelspace\n\n\n\n\nPlugin\n\n\nUtilities\n\n\nUser Permissions\n\n\nManage Channels\n\n\nBot Permissions\n\n\nManage Channels",
+            "text": "channelspaces <channel>\n\n\nReplaces hyphens in channel names with real fake spaces! Seriously though, this is more of a hack and could be patched at any time.\n\n\nExamples\n\n\n\n\na!channelspaces <channel> \n\n\na!channelspaces <channel> #channel\n\n\n\n\nAliases\n\n\n\n\na!channelspace\n\n\n\n\nPlugin\n\n\nUtilities\n\n\nUser Permissions\n\n\nManage Channels\n\n\nBot Permissions\n\n\nManage Channels",
             "title": "channelspaces &lt;channel&gt;"
         },
         {
             "location": "/Commands/Utilities/channelspaces/#channelspaces-channel",
             "text": "Replaces hyphens in channel names with real fake spaces! Seriously though, this is more of a hack and could be patched at any time.",
             "title": "channelspaces &lt;channel&gt;"
+        },
+        {
+            "location": "/Commands/Utilities/channelspaces/#examples",
+            "text": "a!channelspaces <channel>   a!channelspaces <channel> #channel",
+            "title": "Examples"
         },
         {
             "location": "/Commands/Utilities/channelspaces/#aliases",
@@ -2897,7 +3112,7 @@
         },
         {
             "location": "/Commands/Utilities/id/",
-            "text": "id [channel/role/user/\"guild\"]\n\n\nGets the ID of a channel, role, user, guild, etc...\n\n\nExamples\n\n\n\n\na!id [channel/role/user/\"guild\"] @role\n\n\na!id [channel/role/user/\"guild\"] #channel\n\n\na!id [channel/role/user/\"guild\"] guild\n\n\na!id [channel/role/user/\"guild\"] @user\n\n\n\n\nAliases\n\n\n\n\na!roleid\n\n\na!channelid\n\n\na!userid\n\n\n\n\nPlugin\n\n\nUtilities\n\n\nBot Permissions\n\n\nEmbed Links",
+            "text": "id [channel/role/user/\"guild\"]\n\n\nGets the ID of a channel, role, user, guild, etc...\n\n\nExamples\n\n\n\n\na!id [channel/role/user/\"guild\"] @role\n\n\na!id [channel/role/user/\"guild\"] #channel\n\n\na!id [channel/role/user/\"guild\"] guild\n\n\na!id [channel/role/user/\"guild\"] @user\n\n\n\n\nAliases\n\n\n\n\na!roleid\n\n\na!channelid\n\n\na!userid\n\n\na!snowflake\n\n\n\n\nPlugin\n\n\nUtilities",
             "title": "id [channel/role/user/\"guild\"]"
         },
         {
@@ -2912,18 +3127,13 @@
         },
         {
             "location": "/Commands/Utilities/id/#aliases",
-            "text": "a!roleid  a!channelid  a!userid",
+            "text": "a!roleid  a!channelid  a!userid  a!snowflake",
             "title": "Aliases"
         },
         {
             "location": "/Commands/Utilities/id/#plugin",
             "text": "Utilities",
             "title": "Plugin"
-        },
-        {
-            "location": "/Commands/Utilities/id/#bot-permissions",
-            "text": "Embed Links",
-            "title": "Bot Permissions"
         },
         {
             "location": "/Commands/Utilities/inrole/",
@@ -3082,17 +3292,17 @@
         },
         {
             "location": "/Commands/Utilities/quote/",
-            "text": "quote [message id / message share link]\n\n\nQuote a message by a user.\n\n\nExamples\n\n\n\n\na!quote [message id / message share link] https://discordapp.com/channels/340583394192916492/433991387483209739/490622984256618516\n\n\na!quote [message id / message share link] 490622984256618516\n\n\n\n\nPlugin\n\n\nUtilities\n\n\nBot Permissions\n\n\nEmbed Links",
-            "title": "quote [message id / message share link]"
+            "text": "quote [message id / message share link] <channel id>\n\n\nQuote a message by a user. \n is only required if the message is in another guild or the message isn't in your current channel and isn't cached.\n\n\nExamples\n\n\n\n\na!quote [message id / message share link] <channel id> https://discordapp.com/channels/340583394192916492/433991387483209739/490622984256618516\n\n\na!quote [message id / message share link] <channel id> 490622984256618516\n\n\n\n\nPlugin\n\n\nUtilities\n\n\nBot Permissions\n\n\nEmbed Links",
+            "title": "quote [message id / message share link] &lt;channel id&gt;"
         },
         {
-            "location": "/Commands/Utilities/quote/#quote-message-id-message-share-link",
-            "text": "Quote a message by a user.",
-            "title": "quote [message id / message share link]"
+            "location": "/Commands/Utilities/quote/#quote-message-id-message-share-link-channel-id",
+            "text": "Quote a message by a user.   is only required if the message is in another guild or the message isn't in your current channel and isn't cached.",
+            "title": "quote [message id / message share link] &lt;channel id&gt;"
         },
         {
             "location": "/Commands/Utilities/quote/#examples",
-            "text": "a!quote [message id / message share link] https://discordapp.com/channels/340583394192916492/433991387483209739/490622984256618516  a!quote [message id / message share link] 490622984256618516",
+            "text": "a!quote [message id / message share link] <channel id> https://discordapp.com/channels/340583394192916492/433991387483209739/490622984256618516  a!quote [message id / message share link] <channel id> 490622984256618516",
             "title": "Examples"
         },
         {
@@ -3186,6 +3396,31 @@
             "title": "Bot Permissions"
         },
         {
+            "location": "/Commands/Utilities/resolveid/",
+            "text": "resolveid [id]\n\n\nResolve a Discord ID to a role, channel, message, user, etc...\n\n\nExamples\n\n\n\n\na!resolveid [id] 111372124383428608\n\n\na!resolveid [id] 345177567541723137\n\n\n\n\nAliases\n\n\n\n\na!whatis\n\n\na!resolvesnowflake\n\n\n\n\nPlugin\n\n\nUtilities",
+            "title": "resolveid [id]"
+        },
+        {
+            "location": "/Commands/Utilities/resolveid/#resolveid-id",
+            "text": "Resolve a Discord ID to a role, channel, message, user, etc...",
+            "title": "resolveid [id]"
+        },
+        {
+            "location": "/Commands/Utilities/resolveid/#examples",
+            "text": "a!resolveid [id] 111372124383428608  a!resolveid [id] 345177567541723137",
+            "title": "Examples"
+        },
+        {
+            "location": "/Commands/Utilities/resolveid/#aliases",
+            "text": "a!whatis  a!resolvesnowflake",
+            "title": "Aliases"
+        },
+        {
+            "location": "/Commands/Utilities/resolveid/#plugin",
+            "text": "Utilities",
+            "title": "Plugin"
+        },
+        {
             "location": "/Commands/Utilities/roleinfo/",
             "text": "roleinfo [role]\n\n\nGets information about a server role.\n\n\nExamples\n\n\n\n\na!roleinfo [role] @role\n\n\n\n\nAliases\n\n\n\n\na!rinfo\n\n\n\n\nPlugin\n\n\nUtilities\n\n\nBot Permissions\n\n\nEmbed Links",
             "title": "roleinfo [role]"
@@ -3262,13 +3497,18 @@
         },
         {
             "location": "/Commands/Utilities/shorten/",
-            "text": "shorten [url]\n\n\nShortens a URL via is.gd.\n\n\nPlugin\n\n\nUtilities",
+            "text": "shorten [url]\n\n\nShortens a URL via is.gd.\n\n\nExamples\n\n\n\n\na!shorten [url] https://www.youtube.com/watch?v=dQw4w9WgXcQ\n\n\n\n\nPlugin\n\n\nUtilities",
             "title": "shorten [url]"
         },
         {
             "location": "/Commands/Utilities/shorten/#shorten-url",
             "text": "Shortens a URL via is.gd.",
             "title": "shorten [url]"
+        },
+        {
+            "location": "/Commands/Utilities/shorten/#examples",
+            "text": "a!shorten [url] https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "title": "Examples"
         },
         {
             "location": "/Commands/Utilities/shorten/#plugin",
@@ -3442,13 +3682,18 @@
         },
         {
             "location": "/Commands/Utilities/Avatar/avatar/",
-            "text": "avatar avatar <mention>\n\n\nGets (the servers)/(a users) avatar.\n\n\nAliases\n\n\n\n\na!icon\n\n\n\n\nPlugin\n\n\nUtilities\n\n\nBot Permissions\n\n\nEmbed Links",
+            "text": "avatar avatar <mention>\n\n\nGets (the servers)/(a users) avatar.\n\n\nExamples\n\n\n\n\na!avatar avatar <mention> \n\n\na!avatar avatar <mention> @user\n\n\n\n\nAliases\n\n\n\n\na!icon\n\n\n\n\nPlugin\n\n\nUtilities\n\n\nBot Permissions\n\n\nEmbed Links",
             "title": "avatar avatar &lt;mention&gt;"
         },
         {
             "location": "/Commands/Utilities/Avatar/avatar/#avatar-avatar-mention",
             "text": "Gets (the servers)/(a users) avatar.",
             "title": "avatar avatar &lt;mention&gt;"
+        },
+        {
+            "location": "/Commands/Utilities/Avatar/avatar/#examples",
+            "text": "a!avatar avatar <mention>   a!avatar avatar <mention> @user",
+            "title": "Examples"
         },
         {
             "location": "/Commands/Utilities/Avatar/avatar/#aliases",
@@ -3492,13 +3737,18 @@
         },
         {
             "location": "/Commands/Utilities/Avatar/user/",
-            "text": "avatar user <mention>\n\n\nGets the avatar of a user.\n\n\nAliases\n\n\n\n\na!member\n\n\n\n\nPlugin\n\n\nUtilities",
+            "text": "avatar user <mention>\n\n\nGets the avatar of a user.\n\n\nExamples\n\n\n\n\na!avatar user <mention> \n\n\na!avatar user <mention> @user\n\n\n\n\nAliases\n\n\n\n\na!member\n\n\n\n\nPlugin\n\n\nUtilities",
             "title": "avatar user &lt;mention&gt;"
         },
         {
             "location": "/Commands/Utilities/Avatar/user/#avatar-user-mention",
             "text": "Gets the avatar of a user.",
             "title": "avatar user &lt;mention&gt;"
+        },
+        {
+            "location": "/Commands/Utilities/Avatar/user/#examples",
+            "text": "a!avatar user <mention>   a!avatar user <mention> @user",
+            "title": "Examples"
         },
         {
             "location": "/Commands/Utilities/Avatar/user/#aliases",
@@ -3856,36 +4106,6 @@
             "title": "output"
         },
         {
-            "location": "/Tags/Channel/channel.cleanType/",
-            "text": "channel.cleanType <channel>\n\n\nGets the name of the type of the channel.\n\n\nContext Requirements\n\n\n\n\nchannel\n\n\n\n\nExamples\n\n\ninput\n\n\n{channel.cleanType}\n\n\noutput\n\n\ntext",
-            "title": "channel.cleanType &lt;channel&gt;"
-        },
-        {
-            "location": "/Tags/Channel/channel.cleanType/#channelcleantype-channel",
-            "text": "Gets the name of the type of the channel.",
-            "title": "channel.cleanType &lt;channel&gt;"
-        },
-        {
-            "location": "/Tags/Channel/channel.cleanType/#context-requirements",
-            "text": "channel",
-            "title": "Context Requirements"
-        },
-        {
-            "location": "/Tags/Channel/channel.cleanType/#examples",
-            "text": "",
-            "title": "Examples"
-        },
-        {
-            "location": "/Tags/Channel/channel.cleanType/#input",
-            "text": "{channel.cleanType}",
-            "title": "input"
-        },
-        {
-            "location": "/Tags/Channel/channel.cleanType/#output",
-            "text": "text",
-            "title": "output"
-        },
-        {
             "location": "/Tags/Channel/channel.createdAt/",
             "text": "channel.createdAt <exact> <channel>\n\n\nReturns the date the channel was created. \"exact\" is a true/false value on whether to include hours/minutes.\n\n\nContext Requirements\n\n\n\n\nchannel\n\n\n\n\nExamples\n\n\ninput\n\n\n{channel.createdAt;general}\n\n\noutput\n\n\nJul 31, 2018\n\n\ninput\n\n\n{channel.createdAt;general;true}\n\n\noutput\n\n\nJul 31, 2018, 9:19 PM",
             "title": "channel.createdAt &lt;exact&gt; &lt;channel&gt;"
@@ -4147,7 +4367,7 @@
         },
         {
             "location": "/Tags/Channel/channel.type/",
-            "text": "channel.type <channel>\n\n\nGets the type of the channel.\n\n\nContext Requirements\n\n\n\n\nchannel\n\n\n\n\nExamples\n\n\ninput\n\n\n{channel.type}\n\n\noutput\n\n\n0\n\n\n\n\nNote\nFull list of types available here: https://discordapp.com/developers/docs/resources/channel#channel-object-channel-types",
+            "text": "channel.type <channel>\n\n\nGets the type of the channel.\n\n\nContext Requirements\n\n\n\n\nchannel\n\n\n\n\nExamples\n\n\ninput\n\n\n{channel.type}\n\n\noutput\n\n\ntext\n\n\ninput\n\n\n{channel.type;vc-1}\n\n\noutput\n\n\nvoice",
             "title": "channel.type &lt;channel&gt;"
         },
         {
@@ -4172,7 +4392,17 @@
         },
         {
             "location": "/Tags/Channel/channel.type/#output",
-            "text": "0   Note Full list of types available here: https://discordapp.com/developers/docs/resources/channel#channel-object-channel-types",
+            "text": "text",
+            "title": "output"
+        },
+        {
+            "location": "/Tags/Channel/channel.type/#input_1",
+            "text": "{channel.type;vc-1}",
+            "title": "input"
+        },
+        {
+            "location": "/Tags/Channel/channel.type/#output_1",
+            "text": "voice",
             "title": "output"
         },
         {
@@ -5153,6 +5383,46 @@
         {
             "location": "/Tags/Guild/guild.channelCount/#output",
             "text": "11",
+            "title": "output"
+        },
+        {
+            "location": "/Tags/Guild/guild.createdAt/",
+            "text": "guild.createdAt <exact>\n\n\nReturns the date the guild was created. \"exact\" is a true/false value on whether to include hours/minutes.\n\n\nContext Requirements\n\n\n\n\nguild\n\n\n\n\nExamples\n\n\ninput\n\n\n{guild.createdAt}\n\n\noutput\n\n\nJul 31, 2018\n\n\ninput\n\n\n{guild.createdAt;true}\n\n\noutput\n\n\nJul 31, 2018, 9:19 PM",
+            "title": "guild.createdAt &lt;exact&gt;"
+        },
+        {
+            "location": "/Tags/Guild/guild.createdAt/#guildcreatedat-exact",
+            "text": "Returns the date the guild was created. \"exact\" is a true/false value on whether to include hours/minutes.",
+            "title": "guild.createdAt &lt;exact&gt;"
+        },
+        {
+            "location": "/Tags/Guild/guild.createdAt/#context-requirements",
+            "text": "guild",
+            "title": "Context Requirements"
+        },
+        {
+            "location": "/Tags/Guild/guild.createdAt/#examples",
+            "text": "",
+            "title": "Examples"
+        },
+        {
+            "location": "/Tags/Guild/guild.createdAt/#input",
+            "text": "{guild.createdAt}",
+            "title": "input"
+        },
+        {
+            "location": "/Tags/Guild/guild.createdAt/#output",
+            "text": "Jul 31, 2018",
+            "title": "output"
+        },
+        {
+            "location": "/Tags/Guild/guild.createdAt/#input_1",
+            "text": "{guild.createdAt;true}",
+            "title": "input"
+        },
+        {
+            "location": "/Tags/Guild/guild.createdAt/#output_1",
+            "text": "Jul 31, 2018, 9:19 PM",
             "title": "output"
         },
         {
@@ -6157,7 +6427,7 @@
         },
         {
             "location": "/Tags/User/user.addrole/",
-            "text": "user.addrole [role id/name/mention] <user>\n\n\nGives a user a role. Role is matched using a fuzzy matcher.\n\n\nContext Requirements\n\n\n\n\nuser\n\n\nguild\n\n\n\n\nExamples\n\n\ninput\n\n\n{user.addrole;Humans}\n\n\noutput\n\n\n!!! note\n        The user would have the role. Returns nothing on success.\n\n\n##### input\n```{user.addrole;Humans;Sylver}```\n\n##### output\n\n\n\n\n\n\n\nNote\nSylver would now have the \"Humans\" role.",
+            "text": "user.addrole [role id/name/mention] <user>\n\n\nGives a user a role. Role is matched using a fuzzy matcher.\n\n\nContext Requirements\n\n\n\n\nuser\n\n\nguild\n\n\nsettings\n\n\n\n\nExamples\n\n\ninput\n\n\n{user.addrole;Humans}\n\n\noutput\n\n\n!!! note\n        The user would have the role. Returns nothing on success.\n\n\n##### input\n```{user.addrole;Humans;Sylver}```\n\n##### output\n\n\n\n\n\n\n\nNote\nSylver would now have the \"Humans\" role.",
             "title": "user.addrole [role id/name/mention] &lt;user&gt;"
         },
         {
@@ -6167,7 +6437,7 @@
         },
         {
             "location": "/Tags/User/user.addrole/#context-requirements",
-            "text": "user  guild",
+            "text": "user  guild  settings",
             "title": "Context Requirements"
         },
         {
@@ -6257,7 +6527,7 @@
         },
         {
             "location": "/Tags/User/user.color/",
-            "text": "user.color <hex=true> <user>\n\n\nGets the user's color, based on their highest role. If \n, the output will be in hex (#ffffff).\n\n\nContext Requirements\n\n\n\n\nuser\n\n\nguild\n\n\n\n\nExamples\n\n\ninput\n\n\n{user.color}\n\n\noutput\n\n\n#95a5a6\n\n\ninput\n\n\n{user.color;true}\n\n\noutput\n\n\n9807270\n\n\ninput\n\n\n{user.color;true;Atlas}\n\n\noutput\n\n\n#03a9f4",
+            "text": "user.color <hex=true> <user>\n\n\nGets the user's color, based on their highest role. If \n, the output will be in hex (#ffffff).\n\n\nContext Requirements\n\n\n\n\nuser\n\n\nsettings\n\n\n\n\nExamples\n\n\ninput\n\n\n{user.color}\n\n\noutput\n\n\n#95a5a6\n\n\ninput\n\n\n{user.color;true}\n\n\noutput\n\n\n9807270\n\n\ninput\n\n\n{user.color;true;Atlas}\n\n\noutput\n\n\n#03a9f4",
             "title": "user.color &lt;hex=true&gt; &lt;user&gt;"
         },
         {
@@ -6267,7 +6537,7 @@
         },
         {
             "location": "/Tags/User/user.color/#context-requirements",
-            "text": "user  guild",
+            "text": "user  settings",
             "title": "Context Requirements"
         },
         {
@@ -6407,7 +6677,7 @@
         },
         {
             "location": "/Tags/User/user.joinedAt/",
-            "text": "user.joinedAt <exact> <user>\n\n\nReturns the date the user joined the server at. \"exact\" is a true/false value on whether to include hours/minutes.\n\n\nContext Requirements\n\n\n\n\nuser\n\n\nguild\n\n\n\n\nExamples\n\n\ninput\n\n\n{user.joinedAt}\n\n\noutput\n\n\nJul 28, 2017\n\n\ninput\n\n\n{user.joinedAt;true}\n\n\noutput\n\n\nJul 28, 2017, 7:56 PM",
+            "text": "user.joinedAt <exact> <user>\n\n\nReturns the date the user joined the server at. \"exact\" is a true/false value on whether to include hours/minutes.\n\n\nContext Requirements\n\n\n\n\nuser\n\n\nsettings\n\n\n\n\nExamples\n\n\ninput\n\n\n{user.joinedAt}\n\n\noutput\n\n\nJul 28, 2017\n\n\ninput\n\n\n{user.joinedAt;true}\n\n\noutput\n\n\nJul 28, 2017, 7:56 PM",
             "title": "user.joinedAt &lt;exact&gt; &lt;user&gt;"
         },
         {
@@ -6417,7 +6687,7 @@
         },
         {
             "location": "/Tags/User/user.joinedAt/#context-requirements",
-            "text": "user  guild",
+            "text": "user  settings",
             "title": "Context Requirements"
         },
         {
@@ -6607,7 +6877,7 @@
         },
         {
             "location": "/Tags/User/user.nickname/",
-            "text": "user.nickname <user>\n\n\nThe nickname of the user. \n\n\nContext Requirements\n\n\n\n\nuser\n\n\nguild\n\n\n\n\nExamples\n\n\ninput\n\n\n{user.nickname}\n\n\noutput\n\n\nsylver",
+            "text": "user.nickname <user>\n\n\nThe nickname of the user. \n\n\nContext Requirements\n\n\n\n\nuser\n\n\nsettings\n\n\n\n\nExamples\n\n\ninput\n\n\n{user.nickname}\n\n\noutput\n\n\nsylver",
             "title": "user.nickname &lt;user&gt;"
         },
         {
@@ -6617,7 +6887,7 @@
         },
         {
             "location": "/Tags/User/user.nickname/#context-requirements",
-            "text": "user  guild",
+            "text": "user  settings",
             "title": "Context Requirements"
         },
         {
@@ -6717,7 +6987,7 @@
         },
         {
             "location": "/Tags/User/user.removerole/",
-            "text": "user.removerole [role id/name/mention] <user>\n\n\nRemoves a role from the user. Role is matched using a fuzzy matcher.\n\n\nContext Requirements\n\n\n\n\nuser\n\n\nguild\n\n\n\n\nExamples\n\n\ninput\n\n\n{user.removerole;Humans}\n\n\noutput\n\n\n``````\n\n\n\n\nNote\nThe user would no longer have the role. Returns nothing on success.",
+            "text": "user.removerole [role id/name/mention] <user>\n\n\nRemoves a role from the user. Role is matched using a fuzzy matcher.\n\n\nContext Requirements\n\n\n\n\nuser\n\n\nguild\n\n\nsettings\n\n\n\n\nExamples\n\n\ninput\n\n\n{user.removerole;Humans}\n\n\noutput\n\n\n``````\n\n\n\n\nNote\nThe user would no longer have the role. Returns nothing on success.",
             "title": "user.removerole [role id/name/mention] &lt;user&gt;"
         },
         {
@@ -6727,7 +6997,7 @@
         },
         {
             "location": "/Tags/User/user.removerole/#context-requirements",
-            "text": "user  guild",
+            "text": "user  guild  settings",
             "title": "Context Requirements"
         },
         {
@@ -6747,7 +7017,7 @@
         },
         {
             "location": "/Tags/User/user.roles/",
-            "text": "user.roles <user>\n\n\nReturns a list of the members roles.\n\n\nContext Requirements\n\n\n\n\nuser\n\n\nguild\n\n\n\n\nExamples\n\n\ninput\n\n\n{user.roles}\n\n\noutput\n\n\n340583469149192204 442989971020840960",
+            "text": "user.roles <user>\n\n\nReturns a list of the members roles.\n\n\nContext Requirements\n\n\n\n\nuser\n\n\nsettings\n\n\n\n\nExamples\n\n\ninput\n\n\n{user.roles}\n\n\noutput\n\n\n340583469149192204 442989971020840960",
             "title": "user.roles &lt;user&gt;"
         },
         {
@@ -6757,7 +7027,7 @@
         },
         {
             "location": "/Tags/User/user.roles/#context-requirements",
-            "text": "user  guild",
+            "text": "user  settings",
             "title": "Context Requirements"
         },
         {
@@ -6777,12 +7047,12 @@
         },
         {
             "location": "/Tags/User/user.send/",
-            "text": "user.send [message] <user>\n\n\nDirect-messages a user a message.\n\n\nContext Requirements\n\n\n\n\nuser\n\n\n\n\nExamples\n\n\ninput\n\n\n{user.send;Hello :)}\n\n\noutput\n\n\n``````\n\n\n\n\nNote\nThis tag does not output anything on success.\n\n\n\n\n\n\ninput\n\n\n{user.send;Hello :)}\n\n\noutput\n\n\n{user.send-ERROR1}\n\n\n\n\nNote\nThis tag will throw an error if the user's direct-messages are not open.",
+            "text": "user.send [message] <user>\n\n\nDirect-messages a user a message. If the user does not allow direct-messages from guild members, this will throw an error.\n\n\nContext Requirements\n\n\n\n\nuser\n\n\n\n\nExamples\n\n\ninput\n\n\n{user.send;Hello :)}\n\n\noutput\n\n\n``````\n\n\n\n\nNote\nThis tag does not output anything on success.\n\n\n\n\n\n\ninput\n\n\n{user.send;Hello :)}\n\n\noutput\n\n\n{user.send-ERROR1}\n\n\n\n\nNote\nThis tag will throw an error if the user's direct-messages are not open.",
             "title": "user.send [message] &lt;user&gt;"
         },
         {
             "location": "/Tags/User/user.send/#usersend-message-user",
-            "text": "Direct-messages a user a message.",
+            "text": "Direct-messages a user a message. If the user does not allow direct-messages from guild members, this will throw an error.",
             "title": "user.send [message] &lt;user&gt;"
         },
         {

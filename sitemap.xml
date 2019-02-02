@@ -2,1272 +2,1292 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://docs.atlasbot.xyz/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/quick_start/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Actions/basic_action/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Actions/quick_start/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Configuration/locale/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Configuration/togglecommand/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Configuration/toggleplugin/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Configuration/Filters/action/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Configuration/Filters/filters/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Configuration/Filters/list/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Configuration/Log/actions/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Configuration/Log/errors/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Configuration/Log/log/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Configuration/Log/moderation/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/8ball/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/achievement/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/advice/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/captcha/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/cat/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/catfact/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/chucknorris/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/coinflip/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/dadjoke/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/discrim/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/dog/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/emojify/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/fact/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/genavatar/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/gotcharacter/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/gothouse/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/lmgtfy/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/meme/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/neat/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/needsmorejpeg/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/randomcase/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/randomurban/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/ship/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/smalltext/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/starterpack/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/texttoemoji/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/trumpgen/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/urban/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/vaporwave/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/wiki/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/wouldyourather/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/xkcd/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Fun/yesno/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Info/dashboard/</loc>
-     <lastmod>2019-01-04</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://docs.atlasbot.xyz/Commands/Info/donate/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Info/help/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Info/info/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Info/invite/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Info/nodes/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.atlasbot.xyz/Commands/Info/patreon/</loc>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Info/ping/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Info/support/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Info/uptime/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.atlasbot.xyz/Commands/Info/version/</loc>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Levels/leaderboard/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Levels/level/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Moderation/ban/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Moderation/funban/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Moderation/inviteinfo/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Moderation/kick/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Moderation/move/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Moderation/mute/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Moderation/purgeban/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Moderation/resetlevel/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Moderation/slowmode/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.atlasbot.xyz/Commands/Moderation/togglementionable/</loc>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Moderation/unban/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Moderation/unmute/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Moderation/warnings/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Moderation/Purge/any/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Moderation/Purge/endswith/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Moderation/Purge/files/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Moderation/Purge/images/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Moderation/Purge/includes/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Moderation/Purge/invites/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Moderation/Purge/links/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Moderation/Purge/not/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Moderation/Purge/purge/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Moderation/Purge/startswith/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Moderation/Purge/user/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Moderation/Warn/add/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Moderation/Warn/remove/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Moderation/Warn/view/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Moderation/Warn/warn/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Music/autoplay/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Music/join/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Music/leave/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Music/next/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Music/nowplaying/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Music/pause/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Music/play/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Music/queue/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Music/remove/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Music/repeat/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Music/resume/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Music/seek/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Music/shift/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Music/shuffle/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Music/stop/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Music/volume/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Music/Playlist/addqueue/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Music/Playlist/create/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Music/Playlist/delete/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Music/Playlist/list/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Music/Playlist/play/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Music/Playlist/playlist/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Music/Playlist/removetrack/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Roles/iam/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/advancedembed/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/botinfo/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.atlasbot.xyz/Commands/Utilities/channelinfo/</loc>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/channelspaces/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/convert/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/embed/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/eval/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/google/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/haveibeenpwned/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/id/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/inrole/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/isspass/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/joined/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/membercount/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/minecraft/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/movie/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/quote/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/randomcolor/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/reddit/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/remindme/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.atlasbot.xyz/Commands/Utilities/resolveid/</loc>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/roleinfo/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/say/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/serverinfo/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/shorten/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/show/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/someone/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/tageval/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/time/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/weather/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/whois/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/Avatar/avatar/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/Avatar/server/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/Avatar/user/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/Spacex/dragons/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/Spacex/launches/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/Spacex/rockets/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/Spacex/ships/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Commands/Utilities/Spacex/spacex/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Levels/quick_start/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/quick_start/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/running_commands/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/sending_embeds/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Channel/channel.awaitmessage/</loc>
-     <lastmod>2019-01-04</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://docs.atlasbot.xyz/Tags/Channel/channel.cleanType/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Channel/channel.createdAt/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Channel/channel.id/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Channel/channel.lastMessageID/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Channel/channel.mention/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Channel/channel.name/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Channel/channel.nsfw/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Channel/channel.send/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Channel/channel.topic/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Channel/channel.type/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Emoji/emoji.category/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Emoji/emoji.char/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Emoji/emoji.name/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Global/and/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Global/args/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Global/catch/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Global/choose/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Global/delete/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Global/find/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Global/get/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Global/if/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Global/l/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Global/length/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Global/lower/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Global/math/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Global/note/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Global/or/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Global/perget/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Global/perset/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Global/r/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Global/randstr/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Global/range/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Global/replace/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Global/semi/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Global/set/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Global/settings/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Global/sleep/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Global/throw/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Global/upper/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Guild/guild.channelCount/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.atlasbot.xyz/Tags/Guild/guild.createdAt/</loc>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Guild/guild.defaultNotifications/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Guild/guild.icon/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Guild/guild.iconURL/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Guild/guild.id/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Guild/guild.memberCount/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Guild/guild.name/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Guild/guild.ownerID/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Guild/guild.prefix/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Guild/guild.region/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Guild/guild.roleCount/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Guild/guild.shard/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Message/message.authorID/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Message/message.cleanContent/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Message/message.content/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Message/message.delete/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Message/message.hasEmbed/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Message/message.id/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Message/message.label/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Message/message.pinned/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Message/message.react/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Message/message.tts/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Role/role.color/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Role/role.createdAt/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Role/role.hoist/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Role/role.id/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Role/role.managed/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Role/role.memberCount/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Role/role.mention/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Role/role.mentionable/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Role/role.name/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Role/role.position/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/User/user.addrole/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/User/user.avatarURL/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/User/user.bot/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/User/user.color/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/User/user.createdAt/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/User/user.discriminator/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/User/user.id/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/User/user.joinedAt/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/User/user.level/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/User/user.levelXP/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/User/user.mention/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/User/user.nextLevel/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/User/user.nextLevelXP/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/User/user.nickname/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/User/user.random/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/User/user.remainingXP/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/User/user.removerole/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/User/user.roles/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/User/user.send/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/User/user.tag/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/User/user.username/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Utils/utils.calcLevel/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Utils/utils.calcLevelXP/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Utils/utils.calcNextLevel/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Utils/utils.calcNextLevelXP/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Utils/utils.calcRemainingXP/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Utils/utils.capitalize/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Utils/utils.includes/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Utils/utils.isSnowflake/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Utils/utils.isUrl/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Utils/utils.prettyMs/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.atlasbot.xyz/Tags/Utils/utils.time/</loc>
-     <lastmod>2019-01-04</lastmod>
+     <lastmod>2019-02-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
