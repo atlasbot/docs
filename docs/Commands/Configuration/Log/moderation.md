@@ -3,6 +3,12 @@
 Controls where certain messages are logged in your guild.
 			
 
+##### Examples
+
+* a!log moderation [subcommand] #channel
+* a!log moderation [subcommand] off
+
+
 ##### Aliases
 
 * a!mod

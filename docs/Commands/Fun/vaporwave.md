@@ -3,6 +3,11 @@
 Converts text to ｖａｐｏｒｗａｖｅ
 			
 
+##### Examples
+
+* a!vaporwave [text] now this is epic
+
+
 ##### Aliases
 
 * a!edgyaesthetic

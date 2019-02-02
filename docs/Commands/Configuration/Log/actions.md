@@ -3,6 +3,12 @@
 Sets where action logs are logged to. Run with no args to reset.
 			
 
+##### Examples
+
+* a!log actions [channel] #channel
+* a!log actions [channel] off
+
+
 ##### Aliases
 
 * a!action

@@ -5,7 +5,7 @@ Returns the date the user joined the server at. "exact" is a true/false value on
 ### Context Requirements
 
 * user
-* guild
+* settings
 
 
 ### Examples

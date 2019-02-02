@@ -16,11 +16,8 @@ Gets the ID of a channel, role, user, guild, etc...
 * a!roleid
 * a!channelid
 * a!userid
+* a!snowflake
 
 
 ##### Plugin
 Utilities
-
-
-##### Bot Permissions
-`Embed Links`

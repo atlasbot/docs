@@ -6,6 +6,7 @@ Gives a user a role. Role is matched using a fuzzy matcher.
 
 * user
 * guild
+* settings
 
 
 ### Examples

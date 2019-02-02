@@ -5,7 +5,7 @@ Gets the user's color, based on their highest role. If <hex=true>, the output wi
 ### Context Requirements
 
 * user
-* guild
+* settings
 
 
 ### Examples

@@ -3,6 +3,11 @@
 raNdomIsEs uppERcASE aNd lOwerCASe LETTeRS
 			
 
+##### Examples
+
+* a!randomcase [TeXt] insert something funny here
+
+
 ##### Aliases
 
 * a!rc

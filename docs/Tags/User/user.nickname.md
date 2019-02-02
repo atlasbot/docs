@@ -5,7 +5,7 @@ The nickname of the user.
 ### Context Requirements
 
 * user
-* guild
+* settings
 
 
 ### Examples

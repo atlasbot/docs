@@ -13,7 +13,11 @@ Gets the type of the channel.
 ```{channel.type}```
 
 ##### output
-```0```
+```text```
 
-!!! note
-		Full list of types available here: https://discordapp.com/developers/docs/resources/channel#channel-object-channel-types
+
+##### input
+```{channel.type;vc-1}```
+
+##### output
+```voice```

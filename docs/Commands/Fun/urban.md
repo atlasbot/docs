@@ -3,6 +3,12 @@
 Gets the definition for a word.
 			
 
+##### Examples
+
+* a!urban [search] chungus
+* a!urban [search] epic
+
+
 ##### Aliases
 
 * a!dictionary

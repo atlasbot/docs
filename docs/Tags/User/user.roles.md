@@ -5,7 +5,7 @@ Returns a list of the members roles.
 ### Context Requirements
 
 * user
-* guild
+* settings
 
 
 ### Examples

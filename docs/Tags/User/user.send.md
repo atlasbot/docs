@@ -1,6 +1,6 @@
 # user.send [message] &lt;user&gt;
 		
-Direct-messages a user a message.
+Direct-messages a user a message. If the user does not allow direct-messages from guild members, this will throw an error.
 
 ### Context Requirements
 

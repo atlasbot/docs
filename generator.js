@@ -12,7 +12,7 @@ const fs = require('fs');
 const rimraf = require('rimraf');
 const mergedirs = require('merge-dirs').default;
 
-const commandInfo = require('atlas-bot/locales/en/info.json');
+const commandInfo = require('atlas-bot/locales/source/info.json');
 const capitalize = require('atlas-lib/lib/utils/capitalize');
 const walkSync = require('atlas-lib/lib/utils/walkSync');
 

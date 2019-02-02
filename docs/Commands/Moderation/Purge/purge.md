@@ -21,7 +21,7 @@ Moderation
 
 
 ##### User Permissions
-`Embed Links`, `Manage Messages`
+`Manage Messages`
 
 
 ##### Bot Permissions

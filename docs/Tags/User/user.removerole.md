@@ -6,6 +6,7 @@ Removes a role from the user. Role is matched using a fuzzy matcher.
 
 * user
 * guild
+* settings
 
 
 ### Examples

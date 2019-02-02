@@ -3,6 +3,12 @@
 Gets (the servers)/(a users) avatar.
 			
 
+##### Examples
+
+* a!avatar avatar &lt;mention&gt; 
+* a!avatar avatar &lt;mention&gt; @user
+
+
 ##### Aliases
 
 * a!icon

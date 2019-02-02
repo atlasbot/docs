@@ -3,6 +3,12 @@
 Toggle a plugin on or off.
 			
 
+##### Examples
+
+* a!toggleplugin [plugin] fun
+* a!toggleplugin [plugin] configuration
+
+
 ##### Aliases
 
 * a!tp
