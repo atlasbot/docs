@@ -1,4 +1,4 @@
-# Quick Start
+# Actions Quick Start
 
 Actions are like custom commands on steroids. Actions allow you to do something every `x` minutes, or create a custom command, or a do a ton of other things *relatively easily.*
 
