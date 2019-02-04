@@ -1,4 +1,4 @@
-# Quick Start
+# Levels Quick Start
 Levels allow you to keep track of who is most active on your server by distributing experience points to everyone who sends messages in your server; the more active you are, the more XP you gain.
 
 ## Setting Up
