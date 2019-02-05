@@ -16,6 +16,6 @@ Some members of the community have made a repository of custom commands that eve
     This repository is recognised by the Atlas staff but does not officially belong to them (however it is run by some support staff). While every attempt is made to test commands and remove malicious material, moderation is not always possible. Use caution when using anything taken from this repository.
 
 ## Need Help?
-Have you read through the documentation and still can't figure out whats wrong? Luckily, we have a dedicated support server to assist you. Keep in mind though, that our support staff are real humans that may not be able to help to you instantly - that said, we'll try our best.
+Have you read through the documentation and still can't figure out what's wrong? Luckily, we have a dedicated support server to assist you. Keep in mind, though, that our support staff are real humans that may not be able to help to you instantly - that said, we'll try our best.
 
 [<img src="https://discordapp.com/api/guilds/345177567541723137/embed.png?style=banner2">](https://atlasbot.xyz/support)
