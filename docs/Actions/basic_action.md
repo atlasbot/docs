@@ -1,6 +1,6 @@
 # Basic Action
 
-This is a basic example for an action. It will get the topic for a channel, with an optional argument to say which channel.
+This is a basic example of an action. It will get the topic for a channel, with an optional argument to say which channel.
 
 ## Sub-action content
 
