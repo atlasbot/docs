@@ -1,6 +1,6 @@
 # utils.calcLevelXP &lt;number&gt;
 		
-Gets a level from an amount of XP.
+Gets the amount of XP required for a level.
 
 ### Examples
 

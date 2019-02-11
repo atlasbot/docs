@@ -1,12 +1,12 @@
-# toggleplugin [plugin]
+# toggleplugin [plugin/"all"]
 
 Toggle a plugin on or off.
 			
 
 ##### Examples
 
-* a!toggleplugin [plugin] fun
-* a!toggleplugin [plugin] configuration
+* a!toggleplugin [plugin/"all"] fun
+* a!toggleplugin [plugin/"all"] configuration
 
 
 ##### Aliases
