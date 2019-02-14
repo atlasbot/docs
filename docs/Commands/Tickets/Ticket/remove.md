@@ -1,4 +1,7 @@
-# ticket remove 
+# ticket remove [user]
+
+Remove a user from the ticket
+			
 
 ##### Plugin
 Tickets

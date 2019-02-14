@@ -18,6 +18,6 @@ I am not a writer. I'm bad at explaining things in a meaningful way. If you find
 6. ???
 7. Profit
 
-**DO NOT EDIT `docs/Commands/*` OR `docs/Tags/*`** - these files are automatically generated via `generator.js`, if you want changes to these files, edit `generator.js` or submit a pull request at [get-atlas/bot](https://github.com/get-atlas/bot) for the relevant files. If you want to edit files not automatically generated, look in `templates/Tags` or `templates/Commands`.
+**DO NOT EDIT `docs/Commands/*` OR `docs/Tags/*`** - these files are automatically generated via `generator.js`.
 
 [<img src="https://discordapp.com/api/guilds/345177567541723137/embed.png?style=banner3">](https://atlasbot.xyz/support)

@@ -10,6 +10,11 @@ Bans a user, exactly what it says on the tin.
 * a!ban [user] &lt;reason&gt; undefined being too cool
 
 
+##### Aliases
+
+* a!hackban
+
+
 ##### Plugin
 Moderation
 

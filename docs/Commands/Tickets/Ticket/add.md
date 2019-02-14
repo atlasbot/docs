@@ -1,4 +1,7 @@
-# ticket add 
+# ticket add [user]
+
+Add a user to the ticket
+			
 
 ##### Plugin
 Tickets

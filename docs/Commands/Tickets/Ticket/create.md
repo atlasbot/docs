@@ -1,8 +1,11 @@
-# ticket create 
+# ticket create &lt;description&gt;
+
+Create a new ticket
+			
 
 ##### Examples
 
-* a!ticket create  Hi, I'm having trouble with my chicken nuggets. pls assist thank u
+* a!ticket create &lt;description&gt; Hi, I'm having trouble with my chicken nuggets. pls assist thank u
 
 
 ##### Plugin

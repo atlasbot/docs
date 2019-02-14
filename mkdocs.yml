@@ -1,13 +1,12 @@
 site_name: Atlas Documentation
 site_url: "https://docs.atlasbot.xyz"
 site_author: "Sylver"
-repo_url: "https://github.com/get-atlas/bot"
-edit_uri: https://github.com/get-atlas/docs/edit/master/docs/
+edit_uri: https://github.com/atlasbot/docs/edit/master/docs/
 
 extra:
   social:
     - type: "github"
-      link: "https://github.com/get-atlas"
+      link: "https://github.com/atlasbot"
 
 theme:
   name: "material"
