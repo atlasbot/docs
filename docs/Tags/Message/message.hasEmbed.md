@@ -10,7 +10,7 @@ Returns true if the message has an embed, false in any other circumstance.
 ### Examples
 
 ##### input
-```{message.embed}```
+```{message.hasEmbed}```
 
 ##### output
 ```false```

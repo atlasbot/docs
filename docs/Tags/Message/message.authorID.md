@@ -1,6 +1,6 @@
 # message.authorID 
 		
-Gets the channel ID the message was sent to.
+Gets the message author's ID.
 
 ### Context Requirements
 
@@ -10,7 +10,7 @@ Gets the channel ID the message was sent to.
 ### Examples
 
 ##### input
-```{message.channelID}```
+```{message.authorID}```
 
 ##### output
-```473962909765206016```
+```111372124383428608```

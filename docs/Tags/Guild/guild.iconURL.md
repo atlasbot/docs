@@ -1,6 +1,6 @@
 # guild.iconURL 
 		
-Gets a total count of all the channels in the guild.
+Gets the guild's icon URL.
 
 ### Context Requirements
 
@@ -10,7 +10,7 @@ Gets a total count of all the channels in the guild.
 ### Examples
 
 ##### input
-```{guild.channelCount}```
+```{guild.iconURL}```
 
 ##### output
-```11```
+```https://cdn.discordapp.com/icons/345177567541723137/8e5eb93c35dae44f15c4efe2c4563918.png?size=256```

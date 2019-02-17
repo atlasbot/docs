@@ -12,7 +12,7 @@ Deletes the message.
 ### Examples
 
 ##### input
-```{message.embed}```
+```{message.delete}```
 
 ##### output
-```false```
+``````
