@@ -1,11 +1,11 @@
 # Home
 
-Welcome to the official documentation for **Atlas Version 8**. This resource site is here to help you learn how to use Atlas and all of it's awesome features! We've tried to make everything as easy as possible to follow, so just sit back, relax, and let us do the explaining!
+Welcome to the official documentation for **Atlas Version 8**. This resource site is here to help you learn how to use Atlas and all of its awesome features! We've tried to make everything as easy as possible to follow, so just sit back, relax, and let us do the explaining!
 
 If you've never used Atlas before, you should probably take a look at our [quick start](/quick_start) guide.
 
 !!! note
-Atlas version 8 is a brand spankin' new update to the [Atlas bot](https://atlasbot.xyz/) - that means that the documentation or information found within may be incomplete or somewhat unclear. _Please give us some time to fix these mistakes._
+Atlas Version 8 is a brand spankin' new update to the [Atlas bot](https://atlasbot.xyz/) - that means that the documentation or information found within may be incomplete or somewhat unclear. _Please give us some time to fix these mistakes._
 
 ## Open Source
 
