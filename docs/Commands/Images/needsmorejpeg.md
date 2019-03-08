@@ -1,6 +1,6 @@
 # needsmorejpeg &lt;image url&gt; &lt;quality=2.5&gt;
 
-Fucks up your image with JPEG compression. There is no such thing as too much jpeg.
+Deepfry an image. There is no such thing as too much jpeg.
 			
 
 ##### Examples
@@ -14,10 +14,11 @@ Fucks up your image with JPEG compression. There is no such thing as too much jp
 * a!jpg
 * a!needsmorejpg
 * a!justfuckmyshitup
+* a!deepfry
 
 
 ##### Plugin
-Fun
+Images
 
 
 ##### Bot Permissions

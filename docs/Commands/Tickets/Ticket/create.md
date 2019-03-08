@@ -8,6 +8,11 @@ Create a new ticket
 * a!ticket create &lt;description&gt; Hi, I'm having trouble with my chicken nuggets. pls assist thank u
 
 
+##### Aliases
+
+* a!new
+
+
 ##### Plugin
 Tickets
 

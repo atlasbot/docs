@@ -14,7 +14,7 @@ Gets information about a server role.
 
 
 ##### Plugin
-Utilities
+Roles
 
 
 ##### Bot Permissions

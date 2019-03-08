@@ -8,13 +8,8 @@ Lists users in a role.
 * a!inrole [role] @role
 
 
-##### Aliases
-
-* a!rolecount
-
-
 ##### Plugin
-Utilities
+Roles
 
 
 ##### Bot Permissions

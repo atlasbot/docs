@@ -3,6 +3,11 @@
 Add a user to the ticket
 			
 
+##### Examples
+
+* a!ticket add [user] @user
+
+
 ##### Plugin
 Tickets
 
