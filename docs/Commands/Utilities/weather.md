@@ -6,7 +6,6 @@ Get weather information from anywhere in the world.
 ##### Examples
 
 * a!weather [location] perth
-* a!weather [location] america
 * a!weather [location] new york
 
 

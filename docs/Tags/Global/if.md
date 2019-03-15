@@ -2,6 +2,8 @@
 		
 Compares values. Unlike most other tags, conditional parsing is enabled, meaning yes will be parsed and no will not in {if;true;===;true;yes;no}.
 
+Available operators are `==`, `!=`, `>=`, `>`, `<=`, `<`, `!==`, `===`, `startswith`, `endswith`, `includes`.
+
 ### Examples
 
 ##### input

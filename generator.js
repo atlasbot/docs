@@ -120,6 +120,8 @@ for (let { loc, info } of commands.map(c => ({ // eslint-disable-line prefer-con
 })).filter(c => c.info)) {
 	const [parentOne, parentTwo, parentThree] = path.dirname(loc).split('\\').reverse();
 
+	info.name = loc.endsWith('index.js') ? path.basename(path.dirname(loc)) : path.basename(loc).split('.')[0];
+
 	let dirname;
 	let subDirectory;
 	if (parentThree !== 'commands') {
