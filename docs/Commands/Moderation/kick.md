@@ -13,6 +13,7 @@ Removes a member from the server.
 ##### Aliases
 
 * a!punt
+* a!k
 
 
 ##### Plugin

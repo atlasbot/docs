@@ -10,6 +10,11 @@ Stops a user sending messages while they're muted.
 * a!mute [user] &lt;duration&gt; | &lt;reason&gt; undefined 10 hours | stop being mean
 
 
+##### Aliases
+
+* a!m
+
+
 ##### Plugin
 Moderation
 

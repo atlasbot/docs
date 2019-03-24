@@ -13,6 +13,8 @@ Bans a user, exactly what it says on the tin.
 ##### Aliases
 
 * a!hackban
+* a!b
+* a!hb
 
 
 ##### Plugin

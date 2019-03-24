@@ -47,3 +47,13 @@ Returns a random argument.
 
 !!! note
 		Input would be "a!actionlabel arg1 arg2 arg3 arg4
+
+
+##### input
+```{args;2;infinity}```
+
+##### output
+```arg2 arg3```
+
+!!! note
+		This would return all args at index 2 to infinity.
