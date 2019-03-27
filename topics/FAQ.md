@@ -1,7 +1,7 @@
 So many questions, so little patience! You don't have time to ask your questions to a live human being! You want instant, accurate answers. That's where the frequently asked questions comes into play. A list of our most commonly asked questions.
 
 **Q**: Atlas isn't responding to commands, what do I do?
-**A:** Make sure Atlas has the proper permissions in the channel you are executing the command. Atlas needs **Read Messages** and **Send Messages** permissions to respond to you. You'd be surprised how often this is these permissions are disabled.
+**A:** Make sure Atlas has the proper permissions in the channel you are executing the command. Atlas needs **Read Messages** and **Send Messages** permissions to respond to you. You'd be surprised at how often these permissions are disabled.
 
 **Q**: My server isn't showing up on the dashboard, what’s going on?
 **A:** Ensure you are logged in on the correct account. Next, ensure you have **Manage Server** or **Administrator** permissions in the guild you are trying to access. If you are sure you have these permissions, refresh the website.
@@ -22,16 +22,16 @@ So many questions, so little patience! You don't have time to ask your questions
 **A:** Join our [support server](https://atlasbot.xyz/support)! Drop your ideas in the #suggestions channel and if they're accepted, they will be voted on by other Atlas users. If you're lucky, your idea might find its way into Atlas.
 
 **Q**: I need help creating an action. What do I do?
-**A:** If you've checked out our [basic action tutorial](https://atlasbot.xyz/documentation/tutorials/Actions/Basic_Action) and think its just barely out of your comfort zone to try it yourself, [let us help](https://atlasbot.xyz/support)! We have an experienced support team that would be happy to assist you.
+**A:** If you've checked out our [basic action tutorial](https://atlasbot.xyz/documentation/tutorials/Actions/Basic_Action) and think it's just barely out of your comfort zone to try it yourself, [let us help](https://atlasbot.xyz/support)! We have an experienced support team that would be happy to assist you.
 
 **Q**: Why is Atlas saying "That command has been disabled" or "That plugin has been disabled"?
-**A:** Plugins and command can be manually disabled by anyone with access to your dashboard. Chances are, if you didn't disable it, one of your staff members did. You can navigate to your dashboard and manually re-enable it or simply type `a!tp <plugin name>` for plugins or `a!tc <command name>` for commands.
+**A:** Plugins and commands can be manually disabled by anyone with access to your dashboard. Chances are: if you didn't disable it, one of your staff members did. You can navigate to your dashboard and manually re-enable it or simply type `a!tp <plugin name>` for plugins or `a!tc <command name>` for commands.
 
 **Q**: I like what you guys are doing, how do I support Atlas?
 **A:** Atlas is entirely supported by user-purchased premium memberships. Visit the [developer's Patreon](https://www.patreon.com/NotSylver) to sign up to be a premium member. Your generous proceeds are what helps keep Atlas awesome!
 
 **Q**: How do I use `a!<command>`? or, alternatively: How do I use a subcommand of `a!<command>`?
-**A**: `a!help <command>` has all your answers. If you can’t find what you’re looking for, feel free to ask in our [support server](https://atlasbot.xyz/support).
+**A:** `a!help <command>` has all your answers. If you can’t find what you’re looking for, feel free to ask in our [support server](https://atlasbot.xyz/support).
 
 **Q**: I did `a!role addall` but it only gave some people the role?
 **A:** For performance reasons, in large servers, `a!role addall` takes a bit of time to give everyone the role.
