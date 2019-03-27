@@ -20,3 +20,8 @@ Since `a!ticket new` has the option to provide a description for a ticket, we're
 ## Breakdown
 
 Like we learned earlier, for a command to be executed in an action, it would have to be wrapped in curly brackets, like so: `{a!ticket}`. In actions, we replace spaces with semi-colons so, `a!ticket new` would look like this in an action: `{a!ticket;new}`.
+
+___
+
+##### Note:
+Normal users can only create a maximum of 25 actions. Use them sparingly!
