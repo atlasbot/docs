@@ -8,7 +8,7 @@ Atlas has a lot of stuff going on. Sometimes it's hard to keep up with the Jones
 
 - [Support Server](https://atlasbot.xyz/support)
 
-Sometimes a tutorial just doesn't help, sometimes you need one-on-one help. Maybe you need help creating a custom action tailored to your specific needs or maybe you just can't quite figure out how to set command restrictions. Luckily, we have a dedicated support team ready to assist you with anything Atlas.
+Sometimes a tutorial just doesn't help, sometimes you need one-on-one help. Maybe you need help creating a custom action tailored to your specific needs or maybe you just can't quite figure out how to set command restrictions. Luckily, we have a dedicated support team ready to assist you with anything Atlas. Also get notified of Atlas' latest and greatest features through our changelogs channel.
 
 - [Trello Board](https://trello.com/b/8Otuk5R1)
 
