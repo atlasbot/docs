@@ -1,8 +1,8 @@
-Plugins are what makes Atlas so hot and spicy! This is a brief introduction to each plugin currently available. Here you’ll learn what they do and how you can use them.
+Plugins are what makes Atlas so hot and spicy! This is a brief introduction to each plugin currently available. Here, you’ll learn what they do and how you can use them.
 
 ## Actions
 
-The actions plugin is the pièce de résistance of Atlas; think custom commands… on Russian steroids. With over 100 specialized tags, the only limit to creating your very own action, is your imagination! Just check out [what other people have made](https://github.com/doddsy/atlas-custom-actions) with actions!
+The actions plugin is the pièce de résistance of Atlas; think custom commands… on Russian steroids. With over 100 specialized tags, the only limit to creating your very own action is your imagination! Just check out [what other people have made](https://github.com/doddsy/atlas-custom-actions) with actions!
 
 Ready to try it out? Check out [our guides](Hyperlink to guides) for creating your own actions. If you aren’t very code-savvy, don’t worry! We have the solution! Just visit our [support server](https://atlasbot.xyz/support) and let our experienced team assist you.
 
@@ -20,7 +20,7 @@ Your very own meme generator! Who hasn’t ever wanted that?! Impress all your f
 
 ## Info 
 
-General help centre, responsible for commands like `a!help`, the general help command that can provide additional information and usage for any command Atlas has, and `a!ping`, the command used to check if Atlas is online and the ms delay between Atlas and your server.
+General help centre, responsible for commands like `a!help` - the general help command that can provide additional information and usage for any command Atlas has - and `a!ping` - the command used to check if Atlas is online and the millisecond delay between Atlas and your server.
 
 ## Levels
 
@@ -28,15 +28,15 @@ The levels plugin allows you create a balanced tier reward system for the most a
 
 ## Moderation
 
-Whip those pesky troublemakers into shape with the raw might of the moderation plugin! Set customized chat filters for thing like links, cursing, mass-mentions, and more. We also have a helpful action log that keeps an eye on everything that you can’t. Easy-to-use commands simplify the moderation process; ban, kick, mute, and warn with ease!
+Whip those pesky troublemakers into shape with the raw might of the moderation plugin! Set customized chat filters for things like links, cursing, mass-mentions, and more. We also have a helpful action log that keeps an eye on everything that you can’t. Easy-to-use commands simplify the moderation process; ban, kick, mute, and warn with ease!
 
 ## Music
 
-Ever wanted to listen to your favourite music while chatting with friends? Well, then this plugin is for you. From playing any song of your choice to rick-rolling your friends, the music plugin has it all. *Psst wanna play a song from your spotify playlist?* Good news, If you're a [Patreon](https://patreon.com/NotSylver) supporter, Atlas can do that too!
+Ever wanted to listen to your favourite music while chatting with friends? Well, this plugin is for you. From playing any song of your choice to rick-rolling your friends, the music plugin has it all. *Psst, wanna play a song from your spotify playlist?* Good news, If you're a [Patreon](https://patreon.com/NotSylver) supporter, Atlas can do that too!
 
 ## Roles
 
-Anything roles related is located here. Easily assign `Join Roles`, `Reaction Roles` and `I Am Roles`. Manage your server's roles and get more information about them straight from any text channel.
+Anything roles related is located here. Easily assign `Join Roles`, `Reaction Roles`, and `I Am Roles`. Manage your server's roles and get more information about them straight from any text channel.
 
 ## Tickets 
 
@@ -44,4 +44,4 @@ Allow members to easily create private channels to have one-on-one conversations
 
 ## Utilities
 
-The most useful commands of all usefulness. Create sexy embeds to your heart's desire, search terms on Google, get information about your favourite games, shows, minecraft servers and movies, strip spoilers from any message, or learn all about what SpaceX is up to and more! 
+The most useful commands of all usefulness. Create sexy embeds to your heart's desire; search terms on Google; get information about your favourite games, shows, minecraft servers, and movies; strip spoilers from any message; or learn all about what SpaceX is up to and more! 

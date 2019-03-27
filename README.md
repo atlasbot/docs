@@ -13,4 +13,4 @@ Writing Tutorials & General Cleanup
 - **Cykreet - Cykreet#1234 (Atlas Support Staff)**
 Writing Tutorials & General Cleanup
 - **doddsy - node#2153 (Atlas Support Staff)**
-Proofreading
+Proofreading and repository management
