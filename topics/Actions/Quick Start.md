@@ -34,6 +34,14 @@ Triggers when a member joins your server.
 
 Triggers when a member leaves your server.
 
+## Member Role Add
+
+Triggers when a member is given a role in your server.
+
+## Member Role Remove
+
+Triggers when a member's role is removed in your server.
+
 ## Restrictions
 
 Most triggers support role and channel restrictions. These allow you to prevent users with a role or in a channel from using your action or whitelist your action so only a group or channel can use your action.
