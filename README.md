@@ -10,7 +10,7 @@ See [contributing.md](CONTRIBUTING.md)
 
 - **JaMcSu - JaMcSu#8608 (Atlas Support Staff)**
 Writing Tutorials & General Cleanup
-- **Cykreet - Cykreet#1234 (Atlas Support Staff)**
+- **Cykreet - Cykreet#5758 (Atlas Support Staff)**
 Writing Tutorials & General Cleanup
 - **doddsy - node#2153 (Atlas Support Staff)**
 Proofreading & Repository Management
