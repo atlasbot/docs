@@ -38,6 +38,12 @@ Ever wanted to listen to your favourite music while chatting with friends? Well,
 
 Anything roles related is located here. Easily assign `Join Roles`, `Reaction Roles`, and `I Am Roles`. Manage your server's roles and get more information about them straight from any text channel.
 
+## Suggestions
+
+Open up a public feedback system to your users by enabling user created suggestions. Complete with optional staff-member verification, customizable vote emojis, and customizable message formatting.
+
+Get it now by becoming a [Premium](https://www.patreon.com/NotSylver) user.
+
 ## Tickets 
 
 Allow members to easily create private channels to have one-on-one conversations with your server's staff team.
