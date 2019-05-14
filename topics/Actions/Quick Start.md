@@ -34,13 +34,13 @@ Triggers when a member joins your server.
 
 Triggers when a member leaves your server.
 
-## Member Role Add
+### Member Role Add
 
 Triggers when a member is given a role in your server.
 
-## Member Role Remove
+### Member Role Remove
 
-Triggers when a member's role is removed in your server.
+Triggers when a member has a role taken away in your server.
 
 ## Restrictions
 
