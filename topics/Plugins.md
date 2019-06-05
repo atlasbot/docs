@@ -24,7 +24,7 @@ General help centre, responsible for commands like `a!help` - the general help c
 
 ## Levels
 
-The levels plugin allows you create a balanced tier reward system for the most active members of your server. Create level rewards for achieving specified levels, customize level-up messages, and view your server’s very own leaderboard.
+The levels plugin allows you to create a balanced tier reward system for the most active members of your server. Create level rewards for achieving specified levels, customize level-up messages, and view your server’s very own leaderboard.
 
 ## Moderation
 
